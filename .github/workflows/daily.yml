@@ -1,0 +1,50 @@
+name: NPB 선수 프로필·시즌 일정 (공간분석용)
+
+# 하루 1회: 12개 구단 시즌 전 경기(원정 거리 분석용) 갱신
+# 선수 프로필은 6일이 지났을 때만 다시 수집 (구단당 약 100명 → 시간이 오래 걸림)
+on:
+  schedule:
+    - cron: "37 19 * * *"     # 한국/일본시간 04:37
+  workflow_dispatch:
+    inputs:
+      profiles:
+        description: "선수 프로필 강제 갱신"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: npb-daily
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: 수집
+        run: |
+          if [ "${{ github.event.inputs.profiles }}" = "true" ]; then
+            python collect_profiles.py --profiles
+          else
+            python collect_profiles.py
+          fi
+      - name: 커밋 & 푸시
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then echo "변경 없음"; exit 0; fi
+          git commit -m "chore: 선수 프로필·시즌 일정 갱신 ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+          for i in 1 2 3; do
+            git pull --rebase -q origin main && git push -q origin HEAD:main && exit 0
+            echo "푸시 충돌, 재시도 $i"; sleep 5
+          done
+          exit 1
