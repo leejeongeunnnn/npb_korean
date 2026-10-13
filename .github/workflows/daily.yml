@@ -5,6 +5,8 @@ name: NPB 선수 프로필·시즌 일정 (공간분석용)
 on:
   schedule:
     - cron: "37 19 * * *"     # 한국/일본시간 04:37
+    - cron: "37 1 * * *"      # 10:37  (예약이 빠졌을 때 대비, 프로필은 6일이 지났을 때만 다시 받음)
+    - cron: "37 7 * * *"      # 16:37
   workflow_dispatch:
     inputs:
       profiles:
