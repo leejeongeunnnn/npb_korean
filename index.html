@@ -35,10 +35,14 @@
         <p class="brand-sub">NPB 2026 · 센트럴 &amp; 퍼시픽 리그</p>
       </div>
     </div>
-    <div class="updated" id="updated-at">갱신: —</div>
+    <div class="top-right">
+      <button class="myteam-chip" id="myteam-chip">⭐ 마이팀 설정</button>
+      <div class="updated" id="updated-at">갱신: —</div>
+    </div>
   </header>
 
   <nav class="tabs" id="tabs">
+    <button class="tab" data-tab="myteam">⭐ 마이팀</button>
     <button class="tab active" data-tab="schedule">🔥 경기 일정</button>
     <button class="tab" data-tab="standings">🏆 순위</button>
     <button class="tab" data-tab="postseason">🍁 포스트시즌</button>
@@ -49,6 +53,7 @@
   </nav>
 
   <main class="container">
+    <section id="panel-myteam" class="panel"></section>
     <section id="panel-schedule" class="panel active"></section>
     <section id="panel-standings" class="panel"></section>
     <section id="panel-postseason" class="panel"></section>

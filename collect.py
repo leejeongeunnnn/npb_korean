@@ -766,8 +766,9 @@ def media_kr(name):
     return translate_text_kr(name) if JP_RE.search(name) else name
 
 
-def fetch_news(limit=30):
-    q = urllib.parse.quote("プロ野球 OR NPB when:2d")
+def fetch_news(limit=30, query="プロ野球 OR NPB when:2d", force_team=None):
+    """Google 뉴스(일본) RSS → 한국어 기사 목록. force_team=(한국어팀명, 색) 이면 구단 고정."""
+    q = urllib.parse.quote(query)
     url = f"https://news.google.com/rss/search?q={q}&hl=ja&gl=JP&ceid=JP:ja"
     raw, seen = [], set()
     try:
@@ -815,7 +816,7 @@ def fetch_news(limit=30):
         else:
             time_disp = f"{dt.month}/{dt.day} {dt:%H:%M}"
 
-        t_kr, color = detect_team(clean_t)
+        t_kr, color = force_team or detect_team(clean_t)
         cat = detect_category(clean_t)
         subject = t_kr if t_kr != "NPB 종합" else "일본 프로야구"
         out.append({
@@ -825,6 +826,18 @@ def fetch_news(limit=30):
             "media": media_kr(media),
             "team": t_kr, "color": color, "category": cat,
         })
+    return out
+
+
+def fetch_team_news(per_team=5):
+    """12개 구단별 최신 기사 (마이팀 탭용)."""
+    out = {}
+    for info in TEAM_INFO.values():
+        kr = info["kr"]
+        jp_full = TEAM_SEARCH_KEYWORDS.get(kr, kr)
+        out[kr] = fetch_news(limit=per_team, query=f"{jp_full} when:3d",
+                             force_team=(kr, info["color"]))
+        print(f"[OK] {kr} 기사 {len(out[kr])}건")
     return out
 
 
@@ -855,6 +868,7 @@ def main():
     save("batters.json", fetch_batters())
     save("pitchers.json", fetch_pitchers())
     save("news.json", fetch_news())
+    save("news_teams.json", fetch_team_news())
     save("meta.json", {
         "updated_at_jst": now_jst().strftime("%Y-%m-%d %H:%M"),
         "updated_at_kst": now_jst().strftime("%Y-%m-%d %H:%M"),  # JST=KST

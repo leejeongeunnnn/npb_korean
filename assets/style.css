@@ -185,3 +185,50 @@ table.stats td.pteam { text-align:left; color:var(--muted); font-size:.76rem; }
   .topbar h1 { font-size:1rem; }
   .game-grid, .stadium-grid, .team-grid { grid-template-columns: 1fr; }
 }
+
+/* ---------- 마이팀 ---------- */
+:root { --mine: var(--accent); }
+.top-right { display:flex; flex-direction:column; align-items:flex-end; gap:4px; }
+.myteam-chip { background: var(--card); border:1px solid var(--mine); color: var(--text); border-radius:999px; padding:5px 11px; font-size:.75rem; font-weight:700; cursor:pointer; font-family:inherit; white-space:nowrap; max-width: 46vw; overflow:hidden; text-overflow:ellipsis; }
+.game.is-mine { border-left: 4px solid var(--mine); }
+.mine-star { font-size:.75rem; }
+table.rank tr.mine-row td, table.stats tr.mine-row td { background: color-mix(in srgb, var(--mine) 14%, transparent) !important; }
+table.rank tr.mine-row td.team, table.stats tr.mine-row td.pname { color: var(--mine); }
+
+.pick-grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(200px,1fr)); gap:8px; }
+.pick-team { display:flex; align-items:center; gap:8px; background:var(--card); border:1px solid var(--border); color:var(--text); border-radius:12px; padding:12px 14px; font-family:inherit; font-size:.88rem; font-weight:600; cursor:pointer; text-align:left; transition:.15s; }
+.pick-team:hover { border-color: var(--tc); }
+.pick-team.active { border-color: var(--tc); box-shadow: 0 0 0 1px var(--tc) inset; }
+.btn-ghost { background:transparent; border:1px solid var(--border); color:var(--text); border-radius:10px; padding:7px 12px; font-family:inherit; font-size:.8rem; font-weight:600; cursor:pointer; }
+.btn-ghost:hover { border-color:#3b465c; }
+.btn-ghost.danger { color:#fca5a5; }
+
+.mt-hero { background: linear-gradient(135deg, color-mix(in srgb, var(--tc) 22%, var(--card)), var(--card)); border:1px solid color-mix(in srgb, var(--tc) 45%, var(--border)); border-radius: var(--radius); padding:16px; margin-bottom:6px; }
+.mt-top { display:flex; justify-content:space-between; align-items:flex-start; gap:10px; }
+.mt-league { font-size:.75rem; color:var(--muted); font-weight:600; }
+.mt-name { font-size:1.3rem; font-weight:800; margin-top:2px; color: var(--tc); }
+.mt-stats { display:grid; grid-template-columns: repeat(4,1fr); gap:8px; margin-top:14px; }
+.mt-stats div { background: rgba(0,0,0,.22); border-radius:10px; padding:9px 4px; text-align:center; }
+.mt-stats b { display:block; font-size:1.05rem; font-variant-numeric: tabular-nums; }
+.mt-stats span { font-size:.68rem; color:var(--muted); }
+.mt-sub { font-size:.78rem; color:var(--text); font-weight:600; margin-left:6px; }
+.mt-next .game { margin-top:8px; }
+.mt-next-date { font-size:.8rem; color:var(--muted); font-weight:600; }
+.form-row { display:flex; gap:5px; flex-wrap:wrap; margin-bottom:10px; }
+.form-chip { display:inline-flex; align-items:center; justify-content:center; width:30px; height:30px; border-radius:8px; font-size:.78rem; font-weight:800; }
+.form-chip.sm { width:24px; height:22px; font-size:.7rem; border-radius:6px; }
+.form-chip.W { background: rgba(34,197,94,.18); color: #4ade80; }
+.form-chip.L { background: rgba(239,68,68,.16); color: #f87171; }
+.form-chip.D { background: rgba(148,163,184,.18); color: #cbd5e1; }
+table.mt-results td { text-align:left; }
+table.mt-results tr:first-child td { background: transparent; }
+table.mt-results td.num { text-align:right; }
+.mt-date { color:var(--muted); font-size:.76rem; white-space:nowrap; }
+.mt-players { display:grid; grid-template-columns: 1fr; gap:10px; }
+@media (min-width: 640px){ .mt-players { grid-template-columns: 1fr 1fr; } }
+.mt-ph { font-weight:700; font-size:.85rem; margin-bottom:8px; }
+.mt-pl { display:flex; justify-content:space-between; gap:8px; font-size:.82rem; padding:6px 0; border-top:1px solid var(--border); }
+.mt-pl:first-of-type { border-top:none; }
+.mt-pl .num { color:var(--muted); white-space:nowrap; }
+.mt-pl b { color:var(--text); }
+@media (max-width: 520px){ .mt-stats b { font-size:.92rem; } .brand-sub { display:none; } }
