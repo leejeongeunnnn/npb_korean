@@ -100,6 +100,18 @@ html, body {
 .status-live { color: var(--loss); font-weight:700; }
 .winner { color: var(--win); }
 
+.home-tag { font-size:.62rem; color:var(--muted); border:1px solid var(--border); border-radius:4px; padding:0 4px; font-weight:600; }
+.game.is-live { border-color: rgba(239,68,68,.55); box-shadow: 0 0 0 1px rgba(239,68,68,.25) inset; }
+.live-pill { background: var(--loss); color:#fff; font-size:.62rem; font-weight:800; padding:1px 6px; border-radius:4px; letter-spacing:.5px; }
+.live-banner { display:flex; flex-wrap:wrap; align-items:center; gap:6px 12px; background:var(--card); border:1px solid var(--border); border-radius:12px; padding:10px 14px; margin-bottom:16px; font-size:.85rem; font-weight:700; }
+.live-banner.on { border-color: rgba(239,68,68,.5); background: rgba(239,68,68,.08); }
+.live-banner .lb-time { font-weight:500; color:var(--muted); font-size:.75rem; }
+.live-dot { width:9px; height:9px; border-radius:50%; background:var(--loss); display:inline-block; animation: pulse 1.4s infinite; }
+@keyframes pulse { 0%{box-shadow:0 0 0 0 rgba(239,68,68,.6)} 70%{box-shadow:0 0 0 8px rgba(239,68,68,0)} 100%{box-shadow:0 0 0 0 rgba(239,68,68,0)} }
+.sched-sub { font-size:.9rem; color:var(--muted); font-weight:700; margin:22px 0 12px; border-left:3px solid var(--accent); padding-left:8px; }
+.sched-sub:first-of-type { margin-top: 4px; }
+.rank-no { color: var(--muted); font-size:.74rem; }
+
 /* ---------- 순위표 ---------- */
 .standings-wrap { display: grid; grid-template-columns: 1fr; gap: 18px; }
 @media (min-width: 820px){ .standings-wrap { grid-template-columns: 1fr 1fr; } }

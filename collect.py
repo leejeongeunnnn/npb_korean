@@ -299,6 +299,18 @@ def venue_kr(name):
     return translate_text_kr(name) if JP_RE.search(name) else name
 
 
+def game_state(label):
+    """경기 상태 코드: live(진행 중) / final(종료) / cancel(취소) / pre(시작 전)."""
+    label = (label or "").strip()
+    if "試合終了" in label or label == "終了":
+        return "final"
+    if any(k in label for k in ("中止", "ノーゲーム", "サスペンデッド")):
+        return "cancel"
+    if re.search(r"\d+回", label) or "試合中" in label:
+        return "live"
+    return "pre"
+
+
 def status_kr(label):
     """'試合終了' → '경기 종료', '7回表' → '7회초', '18:00' 그대로."""
     if not label:
@@ -405,12 +417,20 @@ def fetch_games_by_date(date_str):
             label_raw = link_el.text.strip() if link_el else ""
             if not label_raw and status_el:
                 label_raw = status_el.text.strip()
+            state = game_state(label_raw)
+            t_m = re.search(r"\b(\d{1,2}:\d{2})\b", item.get_text(" "))
+            start = t_m.group(1) if t_m else ""
+            status = status_kr(label_raw)
+            if state == "pre" and start:
+                status = f"{start} 시작" + (" · 선발 예고" if "予告先発" in label_raw else "")
             games.append({
                 "home": team_kr(home_el.text.strip()) if home_el else "미정",
                 "away": team_kr(away_el.text.strip()) if away_el else "미정",
                 "score_home": sc_l.text.strip() if sc_l else "",
                 "score_away": sc_r.text.strip() if sc_r else "",
-                "status": status_kr(label_raw),
+                "status": status,
+                "state": state,
+                "start": start,
                 "venue": venue_kr(desc_el.text.strip()) if desc_el else "",
                 "series": series,
             })
@@ -519,15 +539,26 @@ POSTSEASON_MASTER = [
 # ----------------------------------------------------------------------------
 # 4) 규정타석 타자 성적
 # ----------------------------------------------------------------------------
+TEAM_ABBR = {
+    "神": ("한신 타이거스", "#EAB308"), "広": ("히로시마 도요 카프", "#EF4444"),
+    "デ": ("요코하마 DeNA 베이스타스", "#2563EB"), "巨": ("요미우리 자이언츠", "#F97316"),
+    "ヤ": ("야쿠르트 스왈로스", "#475569"), "中": ("주니치 드래곤즈", "#3B82F6"),
+    "ソ": ("소프트뱅크 호크스", "#FBBF24"), "日": ("니혼햄 파이터즈", "#06B6D4"),
+    "ロ": ("지바 롯데 마린스", "#94A3B8"), "楽": ("라쿠텐 골든이글스", "#991B1B"),
+    "西": ("세이부 라이온즈", "#2563EB"), "オ": ("오릭스 버팔로즈", "#1E293B"),
+}
+
+
+def player_name_kr(name):
+    """번역 사전 우선, 없으면 번역기로라도 한국어화."""
+    kr = translate_player_name(name)
+    if kr == name and JP_RE.search(name):
+        kr = translate_text_kr(name)
+    return kr
+
+
 def fetch_batters():
-    abbr = {
-        "神": ("한신 타이거스", "#EAB308"), "広": ("히로시마 도요 카프", "#EF4444"),
-        "デ": ("요코하마 DeNA 베이스타스", "#2563EB"), "巨": ("요미우리 자이언츠", "#F97316"),
-        "ヤ": ("야쿠르트 스왈로스", "#475569"), "中": ("주니치 드래곤즈", "#3B82F6"),
-        "ソ": ("소프트뱅크 호크스", "#FBBF24"), "日": ("니혼햄 파이터즈", "#06B6D4"),
-        "ロ": ("지바 롯데 마린스", "#94A3B8"), "楽": ("라쿠텐 골든이글스", "#991B1B"),
-        "西": ("세이부 라이온즈", "#2563EB"), "オ": ("오릭스 버팔로즈", "#1E293B"),
-    }
+    abbr = TEAM_ABBR
     urls = [
         f"https://npb.jp/bis/{SEASON}/stats/bat_c.html",
         f"https://npb.jp/bis/{SEASON}/stats/bat_p.html",
@@ -569,7 +600,7 @@ def fetch_batters():
                         return 0
 
                 out.append({
-                    "name": translate_player_name(name),
+                    "name": player_name_kr(name),
                     "name_jp": name,
                     "team": team_kr, "color": color,
                     "avg": f(2), "hr": n(10), "sb": n(13),
@@ -577,6 +608,89 @@ def fetch_batters():
                 })
         except Exception as e:
             print(f"[ERROR] batters {url}: {e}")
+    return out
+
+
+# ----------------------------------------------------------------------------
+# 4-2) 규정투구회 투수 성적
+#   npb.jp 표 열: 0순위 1투수 2방어율 3등판 4승 5패 6세이브 7홀드 8HP 9완투 10완봉
+#   11무사구 12승률 13타자 14투구회(소수부가 별도 칸일 수 있음) ... 안타 본루타 사구
+#   고의사구 사구 삼진 폭투 보크 실점 자책점  → 투구회 이후 열은 끝에서부터 센다.
+# ----------------------------------------------------------------------------
+def _innings_to_float(whole, frac):
+    """'180' + '.1' → 180.333 (일본식 1/3 이닝 표기)."""
+    try:
+        w = int(re.sub(r"\D", "", whole) or 0)
+    except ValueError:
+        w = 0
+    f = re.sub(r"\D", "", frac or "")
+    thirds = int(f[0]) if f else 0
+    return w + thirds / 3.0
+
+
+def fetch_pitchers():
+    urls = [
+        f"https://npb.jp/bis/{SEASON}/stats/pit_c.html",
+        f"https://npb.jp/bis/{SEASON}/stats/pit_p.html",
+    ]
+    out = []
+    for url in urls:
+        try:
+            res = requests.get(url, headers=HEADERS, timeout=15)
+            if res.status_code != 200:
+                print(f"[WARN] pitchers {url}: HTTP {res.status_code}")
+                continue
+            soup = BeautifulSoup(res.content.decode("utf-8", errors="ignore"), "html.parser")
+            table = soup.find("table")
+            if not table:
+                continue
+            for r in table.find_all("tr")[1:]:
+                cells = [c.text.strip().replace("　", " ")
+                         for c in r.find_all(["td", "th"])]
+                if len(cells) < 25:
+                    continue
+                raw = cells[1]
+                if "(" in raw and ")" in raw:
+                    name, ab = raw.split("(", 1)
+                    ab, name = ab.replace(")", "").strip(), name.strip()
+                else:
+                    name, ab = raw.strip(), ""
+                team, color = TEAM_ABBR.get(ab, ("기타", "#9ca3af"))
+
+                def num(v, cast=int):
+                    try:
+                        return cast(v) if v not in ("", ".", "-") else cast(0)
+                    except ValueError:
+                        return cast(0)
+
+                # 투구회: 14번 칸부터 (끝-10)번 칸 직전까지 (1칸 또는 2칸)
+                ip_cells = cells[14:len(cells) - 10]
+                if len(ip_cells) >= 2:
+                    ip = _innings_to_float(ip_cells[0], ip_cells[1])
+                elif ip_cells:
+                    parts = ip_cells[0].split(".")
+                    ip = _innings_to_float(parts[0], parts[1] if len(parts) > 1 else "")
+                else:
+                    ip = 0.0
+                hits, walks, hbp = num(cells[-10]), num(cells[-8]), num(cells[-6])
+                so, er = num(cells[-5]), num(cells[-1])
+                whole = int(ip)
+                ip_disp = f"{whole}" + (f" {round((ip - whole) * 3)}/3" if ip - whole > 0.01 else "")
+
+                out.append({
+                    "name": player_name_kr(name),
+                    "name_jp": name,
+                    "team": team, "color": color,
+                    "era": num(cells[2], float),
+                    "g": num(cells[3]), "w": num(cells[4]), "l": num(cells[5]),
+                    "sv": num(cells[6]), "hld": num(cells[7]),
+                    "pct": num(cells[12], float),
+                    "ip": round(ip, 3), "ip_disp": ip_disp,
+                    "so": so, "bb": walks, "hbp": hbp, "h": hits, "er": er,
+                    "whip": round((hits + walks) / ip, 2) if ip else 0.0,
+                })
+        except Exception as e:
+            print(f"[ERROR] pitchers {url}: {e}")
     return out
 
 
@@ -739,6 +853,7 @@ def main():
         "live": fetch_postseason_live(),
     })
     save("batters.json", fetch_batters())
+    save("pitchers.json", fetch_pitchers())
     save("news.json", fetch_news())
     save("meta.json", {
         "updated_at_jst": now_jst().strftime("%Y-%m-%d %H:%M"),
@@ -749,5 +864,63 @@ def main():
     print("=== 수집 완료 ===")
 
 
+# ----------------------------------------------------------------------------
+# 실시간 모드: 오늘 경기 점수만 빠르게 수집 → data/live.json
+#   live.yml 워크플로가 경기 시간대에 1~2분 간격으로 반복 호출한다.
+#   마지막 줄에 CONTINUE / STOP 을 출력해 반복 여부를 알려준다.
+# ----------------------------------------------------------------------------
+LIVE_LOOKAHEAD_MIN = 75   # 다음 경기 시작이 이보다 멀면 일단 종료 (다음 예약 실행이 이어받음)
+
+
+def live_decision(games, now):
+    """반복 수집을 계속할지 결정."""
+    if not games:
+        return "STOP", "오늘 경기 없음"
+    if any(g["state"] == "live" for g in games):
+        return "CONTINUE", "진행 중 경기 있음"
+    pending = [g for g in games if g["state"] == "pre"]
+    if not pending:
+        return "STOP", "오늘 경기 모두 종료"
+    starts = []
+    for g in pending:
+        try:
+            h, m = map(int, g["start"].split(":"))
+            starts.append(now.replace(hour=h, minute=m, second=0, microsecond=0))
+        except Exception:
+            pass
+    if starts:
+        nxt = min(starts)
+        mins = (nxt - now).total_seconds() / 60
+        if mins > LIVE_LOOKAHEAD_MIN:
+            return "STOP", f"다음 경기까지 {int(mins)}분 남음"
+        if mins < -60:
+            # 시작 시각이 한참 지났는데 아직 '경기 전' → 지연/중단 가능성, 밤 늦게까지만 대기
+            return ("CONTINUE", "개시 지연 대기") if now.hour < 23 else ("STOP", "늦은 시각")
+        return "CONTINUE", f"곧 경기 시작 ({int(mins)}분 후)"
+    return ("CONTINUE", "시작 시각 미확인") if now.hour < 22 else ("STOP", "늦은 시각")
+
+
+def run_live():
+    now = now_jst()
+    today = now.strftime("%Y-%m-%d")
+    games = fetch_games_by_date(today)
+    ps_live = fetch_postseason_live()
+    decision, reason = live_decision(games, now)
+    save("live.json", {
+        "date": today,
+        "updated_at": now.strftime("%Y-%m-%d %H:%M:%S"),
+        "any_live": any(g["state"] == "live" for g in games),
+        "games": games,
+        "postseason": ps_live,
+        "note": reason,
+    })
+    print(f"[LIVE] {len(games)}경기 · {reason}")
+    print(decision)
+
+
 if __name__ == "__main__":
-    main()
+    import sys
+    if "--live" in sys.argv:
+        run_live()
+    else:
+        main()

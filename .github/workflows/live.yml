@@ -1,0 +1,75 @@
+name: NPB 실시간 점수
+
+# 경기 시간대에 켜져서 1~2분 간격으로 오늘 경기 점수를 수집한다.
+# 결과(live.json)는 GitHub Pages가 다시 빌드되지 않도록 별도 'live' 브랜치에 올리고,
+# 사이트는 GitHub API로 그 파일을 읽어 75초마다 자동 갱신한다.
+on:
+  schedule:
+    # UTC 기준 (KST/JST = UTC+9)
+    - cron: "47 3 * * *"    # 12:47  낮 경기(13:00~14:00 시작) 대비
+    - cron: "47 8 * * *"    # 17:47  야간 경기(18:00 시작) 대비
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: npb-live
+  cancel-in-progress: false
+
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      INTERVAL_SEC: "90"       # 수집 간격(초)
+      MAX_MINUTES: "330"       # 한 번 켜지면 최대 실행 시간(분)
+      HEARTBEAT_SEC: "600"     # 점수 변화가 없어도 이 간격마다 갱신 시각을 올림
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: 의존성 설치
+        run: pip install -r requirements.txt
+
+      - name: 실시간 수집 루프
+        env:
+          PUSH_URL: https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
+        run: |
+          publish() {
+            rm -rf /tmp/pub && mkdir -p /tmp/pub && cp data/live.json /tmp/pub/
+            cd /tmp/pub
+            git init -q -b live
+            git -c user.name="github-actions[bot]" -c user.email="github-actions[bot]@users.noreply.github.com" \
+                add live.json
+            git -c user.name="github-actions[bot]" -c user.email="github-actions[bot]@users.noreply.github.com" \
+                commit -q -m "live: $(date -u +'%H:%M:%S UTC')"
+            git push -q -f "$PUSH_URL" live:live || echo "[WARN] push 실패, 다음 회차에 재시도"
+            cd - >/dev/null
+          }
+
+          end=$(( SECONDS + MAX_MINUTES * 60 ))
+          last_hash=""
+          last_pub=0
+          while [ $SECONDS -lt $end ]; do
+            out=$(python collect.py --live 2>&1) || true
+            echo "$out" | tail -3
+            decision=$(echo "$out" | tail -1)
+
+            # 갱신 시각을 뺀 경기 내용만 비교해서 바뀌었을 때만 게시
+            hash=$(python -c "import json,hashlib;d=json.load(open('data/live.json'));d.pop('updated_at',None);print(hashlib.md5(json.dumps(d,sort_keys=True).encode()).hexdigest())" 2>/dev/null || echo x)
+            if [ "$hash" != "$last_hash" ] || [ $(( SECONDS - last_pub )) -ge $HEARTBEAT_SEC ] || [ "$decision" = "STOP" ]; then
+              publish
+              last_hash="$hash"; last_pub=$SECONDS
+              echo "→ 게시 완료"
+            fi
+
+            if [ "$decision" = "STOP" ]; then
+              echo "반복 종료: 더 수집할 경기가 없습니다."
+              break
+            fi
+            sleep "$INTERVAL_SEC"
+          done

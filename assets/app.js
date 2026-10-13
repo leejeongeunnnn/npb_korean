@@ -1,7 +1,46 @@
 /* NPB 정적 대시보드 - data/*.json 을 읽어 7개 탭을 렌더링 */
 
 const DATA = {};
-const FILES = ["meta", "standings", "schedule", "postseason", "batters", "news", "teams"];
+const FILES = ["meta", "standings", "schedule", "postseason", "batters", "pitchers", "news", "teams"];
+
+/* ---------- 실시간 점수 (live 브랜치의 live.json) ----------
+   GitHub Pages 주소(아이디.github.io/저장소)에서 저장소를 알아내 GitHub API로 읽는다.
+   API 한도(IP당 시간당 60회)를 넘으면 raw.githubusercontent.com(약 5분 캐시)으로 대체. */
+const FALLBACK_REPO = "leejeongeunnnn/npb_korean";
+const LIVE_POLL_MS = 75 * 1000;
+function repoSlug() {
+  const h = location.hostname;
+  if (h.endsWith(".github.io")) {
+    const owner = h.split(".")[0];
+    const repo = location.pathname.split("/").filter(Boolean)[0];
+    if (repo) return `${owner}/${repo}`;
+  }
+  return FALLBACK_REPO;
+}
+async function fetchLive() {
+  const slug = repoSlug();
+  const tries = [
+    () => fetch(`https://api.github.com/repos/${slug}/contents/live.json?ref=live`,
+                { cache: "no-store", headers: { Accept: "application/vnd.github.raw+json" } }),
+    () => fetch(`https://raw.githubusercontent.com/${slug}/live/live.json?t=${Date.now()}`, { cache: "no-store" }),
+  ];
+  for (const t of tries) {
+    try {
+      const r = await t();
+      if (r.ok) return await r.json();
+    } catch (e) { /* 다음 방법 시도 */ }
+  }
+  return null;
+}
+/* 일본/한국 기준 오늘 날짜 (YYYY-MM-DD) */
+function todayStr() {
+  return new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Tokyo", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
+}
+/* live.json 이 오늘 것이면 그 경기 목록 반환 */
+function liveGamesToday() {
+  const L = DATA.live;
+  return (L && L.date === todayStr() && Array.isArray(L.games)) ? L.games : null;
+}
 
 async function loadAll() {
   await Promise.all(FILES.map(async (f) => {
@@ -30,44 +69,80 @@ function buildTeamColorMap() {
 const colorOf = (name) => TEAM_COLOR[name] || "#64748b";
 
 /* ---------- 1. 경기 일정 ---------- */
+function gameCard(g) {
+  const live = g.state === "live" || (g.status && g.status.includes("진행 중"));
+  const showScore = g.state === "final" || live || (g.state === undefined && g.score_home !== "" && g.score_away !== "");
+  let hw = "", aw = "";
+  if (g.state === "final") {
+    const sh = parseInt(g.score_home), sa = parseInt(g.score_away);
+    if (sh > sa) hw = "winner"; else if (sa > sh) aw = "winner";
+  }
+  const sc = (v) => showScore && v !== "" ? esc(v) : "-";
+  return `<div class="game ${live ? "is-live" : ""}">
+    ${(g.series || live) ? `<div class="series">${live ? '<span class="live-pill">LIVE</span> ' : ""}${esc(g.series || "")}</div>` : ""}
+    <div class="game-row">
+      <span class="game-team"><span class="dot" style="background:${colorOf(g.away)}"></span>${esc(g.away)}</span>
+      <span class="game-score ${aw}">${sc(g.score_away)}</span>
+    </div>
+    <div class="game-row">
+      <span class="game-team"><span class="dot" style="background:${colorOf(g.home)}"></span>${esc(g.home)} <span class="home-tag">홈</span></span>
+      <span class="game-score ${hw}">${sc(g.score_home)}</span>
+    </div>
+    <div class="game-meta">
+      <span>${esc(g.venue || "")}</span>
+      <span class="${live ? "status-live" : ""}">${esc(g.status || "")}</span>
+    </div>
+  </div>`;
+}
+
 function renderSchedule() {
   const p = document.getElementById("panel-schedule");
   const data = DATA.schedule;
-  let html = `<h2 class="section-title">🔥 최근 30일 경기 일정 &amp; 결과</h2>`;
-  html += `<p class="hint">야후 재팬 스포츠 기준으로 수집된 최근 약 30일간의 경기 결과와 예정 경기입니다. 최신순으로 정렬됩니다.</p>`;
+  const today = todayStr();
+  let html = `<h2 class="section-title">🔥 경기 일정 &amp; 결과 (30일)</h2>`;
 
-  const days = (data && data.days) ? data.days.filter(d => d.games && d.games.length) : [];
+  const days = (data && data.days) ? data.days.filter(d => d.games && d.games.length).map(d => ({ ...d })) : [];
+
+  // 오늘 경기는 실시간 데이터가 있으면 그것으로 교체
+  const liveGames = liveGamesToday();
+  let todayDay = days.find(d => d.date === today);
+  if (liveGames && liveGames.length) {
+    if (todayDay) todayDay.games = liveGames;
+    else {
+      const d = new Date(today + "T00:00:00+09:00");
+      todayDay = { date: today, display: `${d.getMonth() + 1}월 ${d.getDate()}일`, games: liveGames };
+      days.push(todayDay);
+    }
+  }
   if (!days.length) { p.innerHTML = html + emptyBox(SEED_MSG); return; }
 
-  days.sort((a, b) => b.date.localeCompare(a.date));
-  days.forEach(day => {
-    html += `<div class="day-group"><div class="day-head">${esc(day.display)} ${day.is_today ? '<span class="today-badge">오늘</span>' : ""}</div><div class="game-grid">`;
-    day.games.forEach(g => {
-      const live = g.status && g.status.includes("진행 중");
-      const done = g.score_home !== "" && g.score_away !== "";
-      let hw = "", aw = "";
-      if (done) {
-        const sh = parseInt(g.score_home), sa = parseInt(g.score_away);
-        if (sh > sa) hw = "winner"; else if (sa > sh) aw = "winner";
-      }
-      html += `<div class="game">
-        ${g.series ? `<div class="series">${esc(g.series)}</div>` : ""}
-        <div class="game-row">
-          <span class="game-team"><span class="dot" style="background:${colorOf(g.away)}"></span>${esc(g.away)}</span>
-          <span class="game-score ${aw}">${esc(g.score_away || "-")}</span>
-        </div>
-        <div class="game-row">
-          <span class="game-team"><span class="dot" style="background:${colorOf(g.home)}"></span>${esc(g.home)}</span>
-          <span class="game-score ${hw}">${esc(g.score_home || "-")}</span>
-        </div>
-        <div class="game-meta">
-          <span>${esc(g.venue || "")}</span>
-          <span class="${live ? "status-live" : ""}">${esc(g.status || "")}</span>
-        </div>
-      </div>`;
+  // 실시간 상태 안내
+  const L = DATA.live;
+  const anyLive = liveGames && liveGames.some(g => g.state === "live");
+  if (liveGames) {
+    const t = (L.updated_at || "").slice(11, 16);
+    html += `<div class="live-banner ${anyLive ? "on" : ""}">
+      ${anyLive ? '<span class="live-dot"></span> 경기 진행 중 · 점수 실시간 반영' : "📡 오늘 경기 실시간 정보"}
+      <span class="lb-time">마지막 갱신 ${esc(t)} · 화면은 75초마다 자동 새로고침</span></div>`;
+  } else {
+    html += `<p class="hint">경기가 있는 시간대에는 점수가 1~2분 간격으로 자동 반영됩니다.</p>`;
+  }
+
+  const group = (title, list, cls = "") => {
+    if (!list.length) return "";
+    let h = `<h3 class="sched-sub ${cls}">${title}</h3>`;
+    list.forEach(day => {
+      h += `<div class="day-group"><div class="day-head">${esc(day.display)} ${day.date === today ? '<span class="today-badge">오늘</span>' : ""}</div><div class="game-grid">`;
+      day.games.forEach(g => h += gameCard(g));
+      h += `</div></div>`;
     });
-    html += `</div></div>`;
-  });
+    return h;
+  };
+  const upcoming = days.filter(d => d.date > today).sort((a, b) => a.date.localeCompare(b.date));
+  const past = days.filter(d => d.date < today).sort((a, b) => b.date.localeCompare(a.date));
+  html += group("📍 오늘 경기", todayDay && todayDay.games.length ? [todayDay] : []);
+  html += group("🗓️ 예정 경기", upcoming);
+  html += group("✅ 지난 경기 결과", past);
   p.innerHTML = html;
 }
 
@@ -106,7 +181,9 @@ function renderPostseason() {
   let html = `<h2 class="section-title">🍁 포스트시즌 (클라이맥스 시리즈 &amp; 일본시리즈)</h2>`;
   html += `<p class="hint">2026 시즌 포스트시즌 전체 일정입니다. 진행 중인 경기 스코어는 자동 갱신됩니다.</p>`;
 
-  const live = (ps && ps.live) ? ps.live : [];
+  const L = DATA.live;
+  const live = (L && L.date === todayStr() && L.postseason && L.postseason.length) ? L.postseason
+             : (ps && ps.live) ? ps.live : [];
   if (live.length) {
     html += `<div class="card"><h3 style="margin-bottom:10px;font-size:.92rem">🔴 실시간 / 최근 경기</h3>`;
     live.forEach(g => {
@@ -151,56 +228,76 @@ function renderPostseason() {
   }));
 }
 
-/* ---------- 4. 선수 성적 ---------- */
-let playerSort = { key: "avg", dir: -1 };
+/* ---------- 4. 선수 성적 (타자 / 투수) ---------- */
+const PLAYER_MODES = {
+  bat: {
+    label: "🏏 타자", file: "batters", title: "규정타석 타자 성적",
+    sort: { key: "avg", dir: -1 },
+    cols: [
+      { k: "avg", label: "타율", f: "rate" }, { k: "hr", label: "홈런" },
+      { k: "obp", label: "출루율", f: "rate" }, { k: "slg", label: "장타율", f: "rate" }, { k: "sb", label: "도루" },
+    ],
+  },
+  pit: {
+    label: "⚾ 투수", file: "pitchers", title: "규정투구회 투수 성적",
+    sort: { key: "era", dir: 1 },
+    cols: [
+      { k: "era", label: "평균자책", f: "f2", asc: 1 }, { k: "g", label: "경기" }, { k: "w", label: "승" }, { k: "l", label: "패" },
+      { k: "sv", label: "세이브" }, { k: "hld", label: "홀드" }, { k: "ip", label: "이닝", show: "ip_disp" },
+      { k: "so", label: "탈삼진" }, { k: "whip", label: "WHIP", f: "f2", asc: 1 }, { k: "pct", label: "승률", f: "rate" },
+    ],
+  },
+};
+let playerMode = "bat";
+const playerSorts = { bat: { ...PLAYER_MODES.bat.sort }, pit: { ...PLAYER_MODES.pit.sort } };
+
 function renderPlayers() {
   const p = document.getElementById("panel-players");
-  const batters = DATA.batters || [];
-  let html = `<h2 class="section-title">🏃 규정타석 타자 성적</h2>`;
-  html += `<p class="hint">NPB 공식(npb.jp) 규정타석 타자 기록입니다. 구단으로 필터링하거나, 표 머리글을 눌러 정렬할 수 있습니다.</p>`;
-  if (!batters.length) { p.innerHTML = html + emptyBox(SEED_MSG); return; }
+  const M = PLAYER_MODES[playerMode];
+  const rowsAll = DATA[M.file] || [];
+  let html = `<h2 class="section-title">🏃 선수 성적</h2>
+    <div class="stage-tabs">${Object.entries(PLAYER_MODES).map(([k, m]) =>
+      `<button class="stage-chip ${k === playerMode ? "active" : ""}" data-mode="${k}">${m.label}</button>`).join("")}</div>
+    <p class="hint">NPB 공식(npb.jp) ${M.title}입니다. 구단으로 거르거나 표 머리글을 눌러 정렬할 수 있어요.${playerMode === "pit" ? " 평균자책점·WHIP는 낮을수록 좋습니다." : ""}</p>`;
 
-  const teams = [...new Set(batters.map(b => b.team))].sort();
-  html += `<div class="controls">
-    <select id="pteam"><option value="">전체 구단</option>${teams.map(t => `<option value="${esc(t)}">${esc(t)}</option>`).join("")}</select>
-  </div><div class="table-scroll"><div id="ptable"></div></div>`;
-  p.innerHTML = html;
+  if (!rowsAll.length) {
+    p.innerHTML = html + emptyBox(SEED_MSG);
+  } else {
+    const teams = [...new Set(rowsAll.map(b => b.team))].sort();
+    html += `<div class="controls"><select id="pteam"><option value="">전체 구단</option>${teams.map(t => `<option value="${esc(t)}">${esc(t)}</option>`).join("")}</select></div>
+      <div class="table-scroll"><div id="ptable"></div></div>`;
+    p.innerHTML = html;
+  }
+  p.querySelectorAll("[data-mode]").forEach(b => b.addEventListener("click", () => { playerMode = b.dataset.mode; renderPlayers(); }));
+  if (!rowsAll.length) return;
 
-  const cols = [
-    { k: "name", label: "선수", cls: "pname" }, { k: "team", label: "구단", cls: "pteam" },
-    { k: "avg", label: "타율", num: 1 }, { k: "hr", label: "홈런", num: 1 },
-    { k: "obp", label: "출루율", num: 1 }, { k: "slg", label: "장타율", num: 1 }, { k: "sb", label: "도루", num: 1 },
-  ];
-
+  const fmt = (c, r) => {
+    const v = r[c.show || c.k];
+    if (c.f === "rate") return Number(v).toFixed(3).replace(/^0/, "");
+    if (c.f === "f2") return Number(v).toFixed(2);
+    return esc(v);
+  };
   const draw = () => {
+    const S = playerSorts[playerMode];
     const filter = p.querySelector("#pteam").value;
-    let rows = batters.filter(b => !filter || b.team === filter);
-    rows.sort((a, b) => {
-      const va = a[playerSort.key], vb = b[playerSort.key];
-      if (typeof va === "string") return playerSort.dir * va.localeCompare(vb);
-      return playerSort.dir * (va - vb);
+    const rows = rowsAll.filter(b => !filter || b.team === filter).sort((a, b) => {
+      const va = a[S.key], vb = b[S.key];
+      return typeof va === "string" ? S.dir * va.localeCompare(vb) : S.dir * (va - vb);
     });
-    const fmt = (k, v) => (["avg", "obp", "slg"].includes(k)) ? Number(v).toFixed(3).replace(/^0/, "") : v;
-    let t = `<table class="stats"><thead><tr>`;
-    cols.forEach(c => {
-      const arrow = playerSort.key === c.k ? (playerSort.dir < 0 ? " ▼" : " ▲") : "";
-      t += `<th data-k="${c.k}">${esc(c.label)}${arrow}</th>`;
-    });
+    const head = [{ k: "name", label: "선수" }, { k: "team", label: "구단" }, ...M.cols];
+    let t = `<table class="stats"><thead><tr><th>#</th>`;
+    head.forEach(c => t += `<th data-k="${c.k}">${esc(c.label)}${S.key === c.k ? (S.dir < 0 ? " ▼" : " ▲") : ""}</th>`);
     t += `</tr></thead><tbody>`;
-    rows.forEach(b => {
-      t += `<tr>
-        <td class="pname">${esc(b.name)}</td>
-        <td class="pteam"><span class="dot" style="display:inline-block;background:${esc(b.color)};margin-right:5px"></span>${esc(b.team)}</td>
-        <td class="num">${fmt("avg", b.avg)}</td><td class="num">${esc(b.hr)}</td>
-        <td class="num">${fmt("obp", b.obp)}</td><td class="num">${fmt("slg", b.slg)}</td><td class="num">${esc(b.sb)}</td>
-      </tr>`;
+    rows.forEach((r, i) => {
+      t += `<tr><td class="num rank-no">${i + 1}</td><td class="pname">${esc(r.name)}</td>
+        <td class="pteam"><span class="dot" style="display:inline-block;background:${esc(r.color)};margin-right:5px"></span>${esc(r.team)}</td>
+        ${M.cols.map(c => `<td class="num">${fmt(c, r)}</td>`).join("")}</tr>`;
     });
-    t += `</tbody></table>`;
-    p.querySelector("#ptable").innerHTML = t;
+    p.querySelector("#ptable").innerHTML = t + `</tbody></table>`;
     p.querySelectorAll("th[data-k]").forEach(th => th.addEventListener("click", () => {
-      const k = th.dataset.k;
-      if (playerSort.key === k) playerSort.dir *= -1;
-      else { playerSort.key = k; playerSort.dir = (k === "name" || k === "team") ? 1 : -1; }
+      const k = th.dataset.k, col = head.find(c => c.k === k);
+      if (S.key === k) S.dir *= -1;
+      else { S.key = k; S.dir = (k === "name" || k === "team" || (col && col.asc)) ? 1 : -1; }
       draw();
     }));
   };
@@ -324,9 +421,29 @@ function activate(tab) {
 }
 
 /* ---------- 시작 ---------- */
+/* 실시간 점수 주기적 갱신: 화면이 보일 때만, 오늘 경기가 다 끝나면 10분 간격으로 느리게 */
+function liveFinishedToday() {
+  const g = liveGamesToday();
+  return !g || !g.length || g.every(x => x.state === "final" || x.state === "cancel");
+}
+async function pollLive() {
+  if (!document.hidden) {
+    const L = await fetchLive();
+    if (L && (!DATA.live || L.updated_at !== DATA.live.updated_at)) {
+      DATA.live = L;
+      rendered.schedule = false; rendered.postseason = false;
+      const active = document.querySelector(".tab.active");
+      if (active && (active.dataset.tab === "schedule" || active.dataset.tab === "postseason")) activate(active.dataset.tab);
+    }
+  }
+  setTimeout(pollLive, liveFinishedToday() ? 10 * 60 * 1000 : LIVE_POLL_MS);
+}
+
 (async function init() {
-  await loadAll();
+  const [, live] = await Promise.all([loadAll(), fetchLive()]);
+  DATA.live = live;
   buildTeamColorMap();
+  setTimeout(pollLive, liveFinishedToday() ? 10 * 60 * 1000 : LIVE_POLL_MS);
 
   const meta = DATA.meta;
   document.getElementById("updated-at").textContent =
