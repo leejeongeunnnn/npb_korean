@@ -13,6 +13,8 @@
           "score_home": "3",
           "score_away": "2",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "도쿄 돔",
           "series": ""
         },
@@ -22,6 +24,8 @@
           "score_home": "8",
           "score_away": "5",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "반테린 돔 나고야",
           "series": ""
         },
@@ -31,6 +35,8 @@
           "score_home": "8",
           "score_away": "1",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "한신 고시엔 구장",
           "series": ""
         },
@@ -40,6 +46,8 @@
           "score_home": "6",
           "score_away": "9",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "에스콘 필드 홋카이도",
           "series": ""
         },
@@ -49,6 +57,8 @@
           "score_home": "5",
           "score_away": "3",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "라쿠텐 모바일 파크",
           "series": ""
         },
@@ -58,6 +68,8 @@
           "score_home": "",
           "score_away": "",
           "status": "경기 취소(우천 등)",
+          "state": "cancel",
+          "start": "",
           "venue": "조조 마린 스타디움",
           "series": ""
         }
@@ -74,6 +86,8 @@
           "score_home": "10",
           "score_away": "0",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "반테린 돔 나고야",
           "series": ""
         },
@@ -83,6 +97,8 @@
           "score_home": "3",
           "score_away": "2",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "한신 고시엔 구장",
           "series": ""
         },
@@ -92,6 +108,8 @@
           "score_home": "",
           "score_away": "",
           "status": "경기 취소(우천 등)",
+          "state": "cancel",
+          "start": "",
           "venue": "라쿠텐 모바일 파크",
           "series": ""
         },
@@ -101,6 +119,8 @@
           "score_home": "5",
           "score_away": "3",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "에스콘 필드 홋카이도",
           "series": ""
         },
@@ -110,6 +130,8 @@
           "score_home": "",
           "score_away": "",
           "status": "경기 취소(우천 등)",
+          "state": "cancel",
+          "start": "",
           "venue": "조조 마린 스타디움",
           "series": ""
         }
@@ -126,6 +148,8 @@
           "score_home": "2",
           "score_away": "1",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "마쓰다 스타디움",
           "series": ""
         },
@@ -135,6 +159,8 @@
           "score_home": "7",
           "score_away": "9",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "메이지 진구 야구장",
           "series": ""
         },
@@ -144,6 +170,8 @@
           "score_home": "7",
           "score_away": "3",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "요코하마 스타디움",
           "series": ""
         },
@@ -153,6 +181,8 @@
           "score_home": "6",
           "score_away": "5",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "에스콘 필드 홋카이도",
           "series": ""
         },
@@ -162,6 +192,8 @@
           "score_home": "6",
           "score_away": "5",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "미즈호 PayPay 돔",
           "series": ""
         },
@@ -171,6 +203,8 @@
           "score_home": "4",
           "score_away": "6",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "조조 마린 스타디움",
           "series": ""
         }
@@ -187,6 +221,8 @@
           "score_home": "4",
           "score_away": "8",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "메이지 진구 야구장",
           "series": ""
         },
@@ -196,6 +232,8 @@
           "score_home": "1",
           "score_away": "2",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "마쓰다 스타디움",
           "series": ""
         },
@@ -205,6 +243,8 @@
           "score_home": "4",
           "score_away": "3",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "요코하마 스타디움",
           "series": ""
         },
@@ -214,6 +254,8 @@
           "score_home": "10",
           "score_away": "3",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "미즈호 PayPay 돔",
           "series": ""
         },
@@ -223,6 +265,8 @@
           "score_home": "0",
           "score_away": "1",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "조조 마린 스타디움",
           "series": ""
         },
@@ -232,6 +276,8 @@
           "score_home": "3",
           "score_away": "5",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "에스콘 필드 홋카이도",
           "series": ""
         }
@@ -248,6 +294,8 @@
           "score_home": "3",
           "score_away": "1",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "마쓰다 스타디움",
           "series": ""
         },
@@ -257,6 +305,8 @@
           "score_home": "0",
           "score_away": "6",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "에스콘 필드 홋카이도",
           "series": ""
         }
@@ -273,6 +323,8 @@
           "score_home": "5",
           "score_away": "4",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "메이지 진구 야구장",
           "series": ""
         },
@@ -282,6 +334,8 @@
           "score_home": "2",
           "score_away": "1",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "요코하마 스타디움",
           "series": ""
         },
@@ -291,6 +345,8 @@
           "score_home": "3",
           "score_away": "2",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "마쓰다 스타디움",
           "series": ""
         },
@@ -300,6 +356,8 @@
           "score_home": "2",
           "score_away": "6",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "벨루나 돔",
           "series": ""
         },
@@ -309,6 +367,8 @@
           "score_home": "0",
           "score_away": "9",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "교세라 돔 오사카",
           "series": ""
         }
@@ -325,6 +385,8 @@
           "score_home": "3",
           "score_away": "8",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "요코하마 스타디움",
           "series": ""
         },
@@ -334,6 +396,8 @@
           "score_home": "5",
           "score_away": "3",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "메이지 진구 야구장",
           "series": ""
         },
@@ -343,6 +407,8 @@
           "score_home": "5",
           "score_away": "4",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "벨루나 돔",
           "series": ""
         },
@@ -352,6 +418,8 @@
           "score_home": "0",
           "score_away": "2",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "교세라 돔 오사카",
           "series": ""
         },
@@ -361,6 +429,8 @@
           "score_home": "4",
           "score_away": "0",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "미즈호 PayPay 돔",
           "series": ""
         }
@@ -377,6 +447,8 @@
           "score_home": "3",
           "score_away": "5",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "요코하마 스타디움",
           "series": ""
         },
@@ -386,6 +458,8 @@
           "score_home": "11",
           "score_away": "0",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "도쿄 돔",
           "series": ""
         },
@@ -395,6 +469,8 @@
           "score_home": "12",
           "score_away": "5",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "미즈호 PayPay 돔",
           "series": ""
         },
@@ -404,6 +480,8 @@
           "score_home": "3",
           "score_away": "2",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "벨루나 돔",
           "series": ""
         },
@@ -413,6 +491,8 @@
           "score_home": "6",
           "score_away": "1",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "조조 마린 스타디움",
           "series": ""
         }
@@ -429,6 +509,8 @@
           "score_home": "3",
           "score_away": "4",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "요코하마 스타디움",
           "series": ""
         },
@@ -438,6 +520,8 @@
           "score_home": "2",
           "score_away": "4",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "벨루나 돔",
           "series": ""
         },
@@ -447,6 +531,8 @@
           "score_home": "3",
           "score_away": "8",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "조조 마린 스타디움",
           "series": ""
         }
@@ -463,6 +549,8 @@
           "score_home": "3",
           "score_away": "1",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "도쿄 돔",
           "series": ""
         },
@@ -472,6 +560,8 @@
           "score_home": "",
           "score_away": "",
           "status": "경기 취소(우천 등)",
+          "state": "cancel",
+          "start": "",
           "venue": "한신 고시엔 구장",
           "series": ""
         },
@@ -481,6 +571,8 @@
           "score_home": "3",
           "score_away": "6",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "라쿠텐 모바일 파크",
           "series": ""
         },
@@ -490,6 +582,8 @@
           "score_home": "2",
           "score_away": "1",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "벨루나 돔",
           "series": ""
         }
@@ -506,6 +600,8 @@
           "score_home": "5",
           "score_away": "0",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "한신 고시엔 구장",
           "series": ""
         },
@@ -515,6 +611,8 @@
           "score_home": "3",
           "score_away": "0",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "라쿠텐 모바일 파크",
           "series": ""
         }
@@ -531,6 +629,8 @@
           "score_home": "2",
           "score_away": "2",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "한신 고시엔 구장",
           "series": ""
         },
@@ -540,6 +640,8 @@
           "score_home": "5",
           "score_away": "1",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "마쓰다 스타디움",
           "series": ""
         },
@@ -549,6 +651,8 @@
           "score_home": "2",
           "score_away": "8",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "라쿠텐 모바일 파크",
           "series": ""
         },
@@ -558,6 +662,8 @@
           "score_home": "1",
           "score_away": "3",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "조조 마린 스타디움",
           "series": ""
         }
@@ -574,6 +680,8 @@
           "score_home": "5",
           "score_away": "1",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "메이지 진구 야구장",
           "series": ""
         },
@@ -583,6 +691,8 @@
           "score_home": "3",
           "score_away": "4",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "조조 마린 스타디움",
           "series": ""
         }
@@ -599,6 +709,8 @@
           "score_home": "6",
           "score_away": "4",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "마쓰다 스타디움",
           "series": ""
         },
@@ -608,6 +720,8 @@
           "score_home": "2",
           "score_away": "5",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "도쿄 돔",
           "series": ""
         },
@@ -617,6 +731,8 @@
           "score_home": "1",
           "score_away": "3",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "메이지 진구 야구장",
           "series": ""
         },
@@ -626,6 +742,8 @@
           "score_home": "6",
           "score_away": "0",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "라쿠텐 모바일 파크",
           "series": ""
         },
@@ -635,6 +753,8 @@
           "score_home": "2",
           "score_away": "1",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "조조 마린 스타디움",
           "series": ""
         }
@@ -651,6 +771,8 @@
           "score_home": "4",
           "score_away": "7",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "메이지 진구 야구장",
           "series": ""
         },
@@ -660,6 +782,8 @@
           "score_home": "2",
           "score_away": "1",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "요코하마 스타디움",
           "series": ""
         },
@@ -669,6 +793,8 @@
           "score_home": "3",
           "score_away": "2",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "조조 마린 스타디움",
           "series": ""
         }
@@ -685,6 +811,8 @@
           "score_home": "3",
           "score_away": "1",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "라쿠텐 모바일 파크",
           "series": ""
         },
@@ -694,6 +822,8 @@
           "score_home": "1",
           "score_away": "7",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "조조 마린 스타디움",
           "series": ""
         }
@@ -710,6 +840,8 @@
           "score_home": "2",
           "score_away": "1",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "한신 고시엔 구장",
           "series": ""
         },
@@ -719,6 +851,8 @@
           "score_home": "0",
           "score_away": "3",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "조조 마린 스타디움",
           "series": ""
         }
@@ -735,6 +869,8 @@
           "score_home": "2",
           "score_away": "1",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "한신 고시엔 구장",
           "series": ""
         }
@@ -751,6 +887,8 @@
           "score_home": "0",
           "score_away": "4",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "한신 고시엔 구장",
           "series": ""
         }
@@ -773,6 +911,8 @@
           "score_home": "1",
           "score_away": "2",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "도쿄 돔",
           "series": "🍁 CS 퍼스트 스테이지"
         },
@@ -782,6 +922,8 @@
           "score_home": "3",
           "score_away": "2",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "벨루나 돔",
           "series": "🍁 CS 퍼스트 스테이지"
         }
@@ -798,6 +940,8 @@
           "score_home": "1",
           "score_away": "4",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "도쿄 돔",
           "series": "🍁 CS 퍼스트 스테이지"
         },
@@ -807,6 +951,8 @@
           "score_home": "0",
           "score_away": "1",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "벨루나 돔",
           "series": "🍁 CS 퍼스트 스테이지"
         }
@@ -823,6 +969,8 @@
           "score_home": "1",
           "score_away": "4",
           "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "벨루나 돔",
           "series": "🍁 CS 퍼스트 스테이지"
         }
@@ -844,7 +992,9 @@
           "away": "요코하마 DeNA 베이스타스",
           "score_home": "",
           "score_away": "",
-          "status": "선발 예고",
+          "status": "18:00 시작 · 선발 예고",
+          "state": "pre",
+          "start": "18:00",
           "venue": "한신 고시엔 구장",
           "series": "🔥 CS 파이널 스테이지"
         },
@@ -853,7 +1003,9 @@
           "away": "니혼햄 파이터즈",
           "score_home": "",
           "score_away": "",
-          "status": "선발 예고",
+          "status": "18:00 시작 · 선발 예고",
+          "state": "pre",
+          "start": "18:00",
           "venue": "미즈호 PayPay 돔",
           "series": "🔥 CS 파이널 스테이지"
         }
@@ -869,7 +1021,9 @@
           "away": "요코하마 DeNA 베이스타스",
           "score_home": "",
           "score_away": "",
-          "status": "경기 전",
+          "status": "18:00 시작",
+          "state": "pre",
+          "start": "18:00",
           "venue": "한신 고시엔 구장",
           "series": "🔥 CS 파이널 스테이지"
         },
@@ -878,7 +1032,9 @@
           "away": "니혼햄 파이터즈",
           "score_home": "",
           "score_away": "",
-          "status": "경기 전",
+          "status": "18:00 시작",
+          "state": "pre",
+          "start": "18:00",
           "venue": "미즈호 PayPay 돔",
           "series": "🔥 CS 파이널 스테이지"
         }
@@ -894,7 +1050,9 @@
           "away": "요코하마 DeNA 베이스타스",
           "score_home": "",
           "score_away": "",
-          "status": "경기 전",
+          "status": "18:00 시작",
+          "state": "pre",
+          "start": "18:00",
           "venue": "한신 고시엔 구장",
           "series": "🔥 CS 파이널 스테이지"
         },
@@ -903,7 +1061,9 @@
           "away": "니혼햄 파이터즈",
           "score_home": "",
           "score_away": "",
-          "status": "경기 전",
+          "status": "18:00 시작",
+          "state": "pre",
+          "start": "18:00",
           "venue": "미즈호 PayPay 돔",
           "series": "🔥 CS 파이널 스테이지"
         }
@@ -919,7 +1079,9 @@
           "away": "요코하마 DeNA 베이스타스",
           "score_home": "",
           "score_away": "",
-          "status": "경기 전",
+          "status": "14:00 시작",
+          "state": "pre",
+          "start": "14:00",
           "venue": "한신 고시엔 구장",
           "series": "🔥 CS 파이널 스테이지"
         },
@@ -928,7 +1090,9 @@
           "away": "니혼햄 파이터즈",
           "score_home": "",
           "score_away": "",
-          "status": "경기 전",
+          "status": "18:00 시작",
+          "state": "pre",
+          "start": "18:00",
           "venue": "미즈호 PayPay 돔",
           "series": "🔥 CS 파이널 스테이지"
         }
@@ -944,7 +1108,9 @@
           "away": "요코하마 DeNA 베이스타스",
           "score_home": "",
           "score_away": "",
-          "status": "경기 전",
+          "status": "14:00 시작",
+          "state": "pre",
+          "start": "14:00",
           "venue": "한신 고시엔 구장",
           "series": "🔥 CS 파이널 스테이지"
         },
@@ -953,7 +1119,9 @@
           "away": "니혼햄 파이터즈",
           "score_home": "",
           "score_away": "",
-          "status": "경기 전",
+          "status": "18:00 시작",
+          "state": "pre",
+          "start": "18:00",
           "venue": "미즈호 PayPay 돔",
           "series": "🔥 CS 파이널 스테이지"
         }
@@ -969,7 +1137,9 @@
           "away": "요코하마 DeNA 베이스타스",
           "score_home": "",
           "score_away": "",
-          "status": "경기 전",
+          "status": "18:00 시작",
+          "state": "pre",
+          "start": "18:00",
           "venue": "한신 고시엔 구장",
           "series": "🔥 CS 파이널 스테이지"
         },
@@ -978,7 +1148,9 @@
           "away": "니혼햄 파이터즈",
           "score_home": "",
           "score_away": "",
-          "status": "경기 전",
+          "status": "18:00 시작",
+          "state": "pre",
+          "start": "18:00",
           "venue": "미즈호 PayPay 돔",
           "series": "🔥 CS 파이널 스테이지"
         }
