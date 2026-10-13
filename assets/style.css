@@ -138,7 +138,7 @@ table.rank .num { font-variant-numeric: tabular-nums; }
 .controls select { background: var(--card); color: var(--text); border:1px solid var(--border); border-radius:10px; padding:9px 12px; font-family:inherit; font-size:.85rem; }
 table.stats { width:100%; border-collapse:collapse; font-size:.82rem; }
 table.stats th, table.stats td { padding:9px 8px; border-bottom:1px solid var(--border); text-align:center; white-space:nowrap; }
-table.stats th { color:var(--muted); font-weight:600; font-size:.74rem; cursor:pointer; user-select:none; position: sticky; top: 108px; background: var(--bg); }
+table.stats th { color:var(--muted); font-weight:600; font-size:.74rem; cursor:pointer; user-select:none; background: var(--bg); }
 table.stats th:hover { color: var(--text); }
 table.stats td.pname { text-align:left; font-weight:600; }
 table.stats td.pteam { text-align:left; color:var(--muted); font-size:.76rem; }
