@@ -8,6 +8,7 @@
       "is_today": false,
       "games": [
         {
+          "gid": "2021039437",
           "home": "요미우리 자이언츠",
           "away": "야쿠르트 스왈로스",
           "score_home": "3",
@@ -16,9 +17,11 @@
           "state": "final",
           "start": "",
           "venue": "도쿄 돔",
+          "venue_jp": "東京ドーム",
           "series": ""
         },
         {
+          "gid": "2021039438",
           "home": "주니치 드래곤즈",
           "away": "히로시마 도요 카프",
           "score_home": "8",
@@ -27,9 +30,11 @@
           "state": "final",
           "start": "",
           "venue": "반테린 돔 나고야",
+          "venue_jp": "バンテリンドーム",
           "series": ""
         },
         {
+          "gid": "2021039439",
           "home": "한신 타이거스",
           "away": "요코하마 DeNA 베이스타스",
           "score_home": "8",
@@ -38,9 +43,11 @@
           "state": "final",
           "start": "",
           "venue": "한신 고시엔 구장",
+          "venue_jp": "甲子園",
           "series": ""
         },
         {
+          "gid": "2021039440",
           "home": "니혼햄 파이터즈",
           "away": "오릭스 버팔로즈",
           "score_home": "6",
@@ -49,9 +56,11 @@
           "state": "final",
           "start": "",
           "venue": "에스콘 필드 홋카이도",
+          "venue_jp": "エスコンF",
           "series": ""
         },
         {
+          "gid": "2021039441",
           "home": "라쿠텐 골든이글스",
           "away": "소프트뱅크 호크스",
           "score_home": "5",
@@ -60,9 +69,11 @@
           "state": "final",
           "start": "",
           "venue": "라쿠텐 모바일 파크",
+          "venue_jp": "楽天モバイル",
           "series": ""
         },
         {
+          "gid": "2021039442",
           "home": "지바 롯데 마린스",
           "away": "세이부 라이온즈",
           "score_home": "",
@@ -71,6 +82,7 @@
           "state": "cancel",
           "start": "",
           "venue": "조조 마린 스타디움",
+          "venue_jp": "ZOZOマリン",
           "series": ""
         }
       ]
@@ -81,6 +93,7 @@
       "is_today": false,
       "games": [
         {
+          "gid": "2021039443",
           "home": "주니치 드래곤즈",
           "away": "히로시마 도요 카프",
           "score_home": "10",
@@ -89,9 +102,11 @@
           "state": "final",
           "start": "",
           "venue": "반테린 돔 나고야",
+          "venue_jp": "バンテリンドーム",
           "series": ""
         },
         {
+          "gid": "2021039444",
           "home": "한신 타이거스",
           "away": "요코하마 DeNA 베이스타스",
           "score_home": "3",
@@ -100,9 +115,11 @@
           "state": "final",
           "start": "",
           "venue": "한신 고시엔 구장",
+          "venue_jp": "甲子園",
           "series": ""
         },
         {
+          "gid": "2021039446",
           "home": "라쿠텐 골든이글스",
           "away": "소프트뱅크 호크스",
           "score_home": "",
@@ -111,9 +128,11 @@
           "state": "cancel",
           "start": "",
           "venue": "라쿠텐 모바일 파크",
+          "venue_jp": "楽天モバイル",
           "series": ""
         },
         {
+          "gid": "2021039445",
           "home": "니혼햄 파이터즈",
           "away": "오릭스 버팔로즈",
           "score_home": "5",
@@ -122,9 +141,11 @@
           "state": "final",
           "start": "",
           "venue": "에스콘 필드 홋카이도",
+          "venue_jp": "エスコンF",
           "series": ""
         },
         {
+          "gid": "2021039447",
           "home": "지바 롯데 마린스",
           "away": "세이부 라이온즈",
           "score_home": "",
@@ -133,6 +154,7 @@
           "state": "cancel",
           "start": "",
           "venue": "조조 마린 스타디움",
+          "venue_jp": "ZOZOマリン",
           "series": ""
         }
       ]
@@ -143,6 +165,7 @@
       "is_today": false,
       "games": [
         {
+          "gid": "2021039450",
           "home": "히로시마 도요 카프",
           "away": "요미우리 자이언츠",
           "score_home": "2",
@@ -151,9 +174,11 @@
           "state": "final",
           "start": "",
           "venue": "마쓰다 스타디움",
+          "venue_jp": "マツダスタジアム",
           "series": ""
         },
         {
+          "gid": "2021039448",
           "home": "야쿠르트 스왈로스",
           "away": "한신 타이거스",
           "score_home": "7",
@@ -162,9 +187,11 @@
           "state": "final",
           "start": "",
           "venue": "메이지 진구 야구장",
+          "venue_jp": "神宮",
           "series": ""
         },
         {
+          "gid": "2021039449",
           "home": "요코하마 DeNA 베이스타스",
           "away": "주니치 드래곤즈",
           "score_home": "7",
@@ -173,9 +200,11 @@
           "state": "final",
           "start": "",
           "venue": "요코하마 스타디움",
+          "venue_jp": "横浜",
           "series": ""
         },
         {
+          "gid": "2021039451",
           "home": "니혼햄 파이터즈",
           "away": "라쿠텐 골든이글스",
           "score_home": "6",
@@ -184,9 +213,11 @@
           "state": "final",
           "start": "",
           "venue": "에스콘 필드 홋카이도",
+          "venue_jp": "エスコンF",
           "series": ""
         },
         {
+          "gid": "2021039452",
           "home": "소프트뱅크 호크스",
           "away": "세이부 라이온즈",
           "score_home": "6",
@@ -195,9 +226,11 @@
           "state": "final",
           "start": "",
           "venue": "미즈호 PayPay 돔",
+          "venue_jp": "みずほPayPay",
           "series": ""
         },
         {
+          "gid": "2021043588",
           "home": "지바 롯데 마린스",
           "away": "오릭스 버팔로즈",
           "score_home": "4",
@@ -206,6 +239,7 @@
           "state": "final",
           "start": "",
           "venue": "조조 마린 스타디움",
+          "venue_jp": "ZOZOマリン",
           "series": ""
         }
       ]
@@ -216,6 +250,7 @@
       "is_today": false,
       "games": [
         {
+          "gid": "2021039453",
           "home": "야쿠르트 스왈로스",
           "away": "한신 타이거스",
           "score_home": "4",
@@ -224,9 +259,11 @@
           "state": "final",
           "start": "",
           "venue": "메이지 진구 야구장",
+          "venue_jp": "神宮",
           "series": ""
         },
         {
+          "gid": "2021039455",
           "home": "히로시마 도요 카프",
           "away": "요미우리 자이언츠",
           "score_home": "1",
@@ -235,9 +272,11 @@
           "state": "final",
           "start": "",
           "venue": "마쓰다 스타디움",
+          "venue_jp": "マツダスタジアム",
           "series": ""
         },
         {
+          "gid": "2021039454",
           "home": "요코하마 DeNA 베이스타스",
           "away": "주니치 드래곤즈",
           "score_home": "4",
@@ -246,9 +285,11 @@
           "state": "final",
           "start": "",
           "venue": "요코하마 스타디움",
+          "venue_jp": "横浜",
           "series": ""
         },
         {
+          "gid": "2021039458",
           "home": "소프트뱅크 호크스",
           "away": "세이부 라이온즈",
           "score_home": "10",
@@ -257,9 +298,11 @@
           "state": "final",
           "start": "",
           "venue": "미즈호 PayPay 돔",
+          "venue_jp": "みずほPayPay",
           "series": ""
         },
         {
+          "gid": "2021039457",
           "home": "지바 롯데 마린스",
           "away": "오릭스 버팔로즈",
           "score_home": "0",
@@ -268,9 +311,11 @@
           "state": "final",
           "start": "",
           "venue": "조조 마린 스타디움",
+          "venue_jp": "ZOZOマリン",
           "series": ""
         },
         {
+          "gid": "2021039456",
           "home": "니혼햄 파이터즈",
           "away": "라쿠텐 골든이글스",
           "score_home": "3",
@@ -279,6 +324,7 @@
           "state": "final",
           "start": "",
           "venue": "에스콘 필드 홋카이도",
+          "venue_jp": "エスコンF",
           "series": ""
         }
       ]
@@ -289,6 +335,7 @@
       "is_today": false,
       "games": [
         {
+          "gid": "2021047475",
           "home": "히로시마 도요 카프",
           "away": "요미우리 자이언츠",
           "score_home": "3",
@@ -297,9 +344,11 @@
           "state": "final",
           "start": "",
           "venue": "마쓰다 스타디움",
+          "venue_jp": "マツダスタジアム",
           "series": ""
         },
         {
+          "gid": "2021039459",
           "home": "니혼햄 파이터즈",
           "away": "라쿠텐 골든이글스",
           "score_home": "0",
@@ -308,6 +357,7 @@
           "state": "final",
           "start": "",
           "venue": "에스콘 필드 홋카이도",
+          "venue_jp": "エスコンF",
           "series": ""
         }
       ]
@@ -318,6 +368,7 @@
       "is_today": false,
       "games": [
         {
+          "gid": "2021048556",
           "home": "야쿠르트 스왈로스",
           "away": "주니치 드래곤즈",
           "score_home": "5",
@@ -326,9 +377,11 @@
           "state": "final",
           "start": "",
           "venue": "메이지 진구 야구장",
+          "venue_jp": "神宮",
           "series": ""
         },
         {
+          "gid": "2021048557",
           "home": "요코하마 DeNA 베이스타스",
           "away": "한신 타이거스",
           "score_home": "2",
@@ -337,9 +390,11 @@
           "state": "final",
           "start": "",
           "venue": "요코하마 스타디움",
+          "venue_jp": "横浜",
           "series": ""
         },
         {
+          "gid": "2021048558",
           "home": "히로시마 도요 카프",
           "away": "요미우리 자이언츠",
           "score_home": "3",
@@ -348,9 +403,11 @@
           "state": "final",
           "start": "",
           "venue": "마쓰다 스타디움",
+          "venue_jp": "マツダスタジアム",
           "series": ""
         },
         {
+          "gid": "2021039460",
           "home": "세이부 라이온즈",
           "away": "지바 롯데 마린스",
           "score_home": "2",
@@ -359,9 +416,11 @@
           "state": "final",
           "start": "",
           "venue": "벨루나 돔",
+          "venue_jp": "ベルーナドーム",
           "series": ""
         },
         {
+          "gid": "2021039461",
           "home": "오릭스 버팔로즈",
           "away": "소프트뱅크 호크스",
           "score_home": "0",
@@ -370,6 +429,7 @@
           "state": "final",
           "start": "",
           "venue": "교세라 돔 오사카",
+          "venue_jp": "京セラD大阪",
           "series": ""
         }
       ]
@@ -380,6 +440,7 @@
       "is_today": false,
       "games": [
         {
+          "gid": "2021048560",
           "home": "요코하마 DeNA 베이스타스",
           "away": "한신 타이거스",
           "score_home": "3",
@@ -388,9 +449,11 @@
           "state": "final",
           "start": "",
           "venue": "요코하마 스타디움",
+          "venue_jp": "横浜",
           "series": ""
         },
         {
+          "gid": "2021048559",
           "home": "야쿠르트 스왈로스",
           "away": "주니치 드래곤즈",
           "score_home": "5",
@@ -399,9 +462,11 @@
           "state": "final",
           "start": "",
           "venue": "메이지 진구 야구장",
+          "venue_jp": "神宮",
           "series": ""
         },
         {
+          "gid": "2021039462",
           "home": "세이부 라이온즈",
           "away": "지바 롯데 마린스",
           "score_home": "5",
@@ -410,9 +475,11 @@
           "state": "final",
           "start": "",
           "venue": "벨루나 돔",
+          "venue_jp": "ベルーナドーム",
           "series": ""
         },
         {
+          "gid": "2021039463",
           "home": "오릭스 버팔로즈",
           "away": "니혼햄 파이터즈",
           "score_home": "0",
@@ -421,9 +488,11 @@
           "state": "final",
           "start": "",
           "venue": "교세라 돔 오사카",
+          "venue_jp": "京セラD大阪",
           "series": ""
         },
         {
+          "gid": "2021039464",
           "home": "소프트뱅크 호크스",
           "away": "라쿠텐 골든이글스",
           "score_home": "4",
@@ -432,6 +501,7 @@
           "state": "final",
           "start": "",
           "venue": "미즈호 PayPay 돔",
+          "venue_jp": "みずほPayPay",
           "series": ""
         }
       ]
@@ -442,6 +512,7 @@
       "is_today": false,
       "games": [
         {
+          "gid": "2021048562",
           "home": "요코하마 DeNA 베이스타스",
           "away": "히로시마 도요 카프",
           "score_home": "3",
@@ -450,9 +521,11 @@
           "state": "final",
           "start": "",
           "venue": "요코하마 스타디움",
+          "venue_jp": "横浜",
           "series": ""
         },
         {
+          "gid": "2021048561",
           "home": "요미우리 자이언츠",
           "away": "야쿠르트 스왈로스",
           "score_home": "11",
@@ -461,9 +534,11 @@
           "state": "final",
           "start": "",
           "venue": "도쿄 돔",
+          "venue_jp": "東京ドーム",
           "series": ""
         },
         {
+          "gid": "2021039467",
           "home": "소프트뱅크 호크스",
           "away": "오릭스 버팔로즈",
           "score_home": "12",
@@ -472,9 +547,11 @@
           "state": "final",
           "start": "",
           "venue": "미즈호 PayPay 돔",
+          "venue_jp": "みずほPayPay",
           "series": ""
         },
         {
+          "gid": "2021039465",
           "home": "세이부 라이온즈",
           "away": "라쿠텐 골든이글스",
           "score_home": "3",
@@ -483,9 +560,11 @@
           "state": "final",
           "start": "",
           "venue": "벨루나 돔",
+          "venue_jp": "ベルーナドーム",
           "series": ""
         },
         {
+          "gid": "2021039466",
           "home": "지바 롯데 마린스",
           "away": "니혼햄 파이터즈",
           "score_home": "6",
@@ -494,6 +573,7 @@
           "state": "final",
           "start": "",
           "venue": "조조 마린 스타디움",
+          "venue_jp": "ZOZOマリン",
           "series": ""
         }
       ]
@@ -504,6 +584,7 @@
       "is_today": false,
       "games": [
         {
+          "gid": "2021048563",
           "home": "요코하마 DeNA 베이스타스",
           "away": "히로시마 도요 카프",
           "score_home": "3",
@@ -512,9 +593,11 @@
           "state": "final",
           "start": "",
           "venue": "요코하마 스타디움",
+          "venue_jp": "横浜",
           "series": ""
         },
         {
+          "gid": "2021039468",
           "home": "세이부 라이온즈",
           "away": "라쿠텐 골든이글스",
           "score_home": "2",
@@ -523,9 +606,11 @@
           "state": "final",
           "start": "",
           "venue": "벨루나 돔",
+          "venue_jp": "ベルーナドーム",
           "series": ""
         },
         {
+          "gid": "2021039469",
           "home": "지바 롯데 마린스",
           "away": "니혼햄 파이터즈",
           "score_home": "3",
@@ -534,6 +619,7 @@
           "state": "final",
           "start": "",
           "venue": "조조 마린 스타디움",
+          "venue_jp": "ZOZOマリン",
           "series": ""
         }
       ]
@@ -544,6 +630,7 @@
       "is_today": false,
       "games": [
         {
+          "gid": "2021048564",
           "home": "요미우리 자이언츠",
           "away": "히로시마 도요 카프",
           "score_home": "3",
@@ -552,9 +639,11 @@
           "state": "final",
           "start": "",
           "venue": "도쿄 돔",
+          "venue_jp": "東京ドーム",
           "series": ""
         },
         {
+          "gid": "2021048565",
           "home": "한신 타이거스",
           "away": "야쿠르트 스왈로스",
           "score_home": "",
@@ -563,9 +652,11 @@
           "state": "cancel",
           "start": "",
           "venue": "한신 고시엔 구장",
+          "venue_jp": "甲子園",
           "series": ""
         },
         {
+          "gid": "2021039470",
           "home": "라쿠텐 골든이글스",
           "away": "지바 롯데 마린스",
           "score_home": "3",
@@ -574,9 +665,11 @@
           "state": "final",
           "start": "",
           "venue": "라쿠텐 모바일 파크",
+          "venue_jp": "楽天モバイル",
           "series": ""
         },
         {
+          "gid": "2021039471",
           "home": "세이부 라이온즈",
           "away": "오릭스 버팔로즈",
           "score_home": "2",
@@ -585,6 +678,7 @@
           "state": "final",
           "start": "",
           "venue": "벨루나 돔",
+          "venue_jp": "ベルーナドーム",
           "series": ""
         }
       ]
@@ -595,6 +689,7 @@
       "is_today": false,
       "games": [
         {
+          "gid": "2021048566",
           "home": "한신 타이거스",
           "away": "야쿠르트 스왈로스",
           "score_home": "5",
@@ -603,9 +698,11 @@
           "state": "final",
           "start": "",
           "venue": "한신 고시엔 구장",
+          "venue_jp": "甲子園",
           "series": ""
         },
         {
+          "gid": "2021039472",
           "home": "라쿠텐 골든이글스",
           "away": "지바 롯데 마린스",
           "score_home": "3",
@@ -614,6 +711,7 @@
           "state": "final",
           "start": "",
           "venue": "라쿠텐 모바일 파크",
+          "venue_jp": "楽天モバイル",
           "series": ""
         }
       ]
@@ -624,6 +722,7 @@
       "is_today": false,
       "games": [
         {
+          "gid": "2021048567",
           "home": "한신 타이거스",
           "away": "요미우리 자이언츠",
           "score_home": "2",
@@ -632,9 +731,11 @@
           "state": "final",
           "start": "",
           "venue": "한신 고시엔 구장",
+          "venue_jp": "甲子園",
           "series": ""
         },
         {
+          "gid": "2021048568",
           "home": "히로시마 도요 카프",
           "away": "주니치 드래곤즈",
           "score_home": "5",
@@ -643,9 +744,11 @@
           "state": "final",
           "start": "",
           "venue": "마쓰다 스타디움",
+          "venue_jp": "マツダスタジアム",
           "series": ""
         },
         {
+          "gid": "2021048601",
           "home": "라쿠텐 골든이글스",
           "away": "소프트뱅크 호크스",
           "score_home": "2",
@@ -654,9 +757,11 @@
           "state": "final",
           "start": "",
           "venue": "라쿠텐 모바일 파크",
+          "venue_jp": "楽天モバイル",
           "series": ""
         },
         {
+          "gid": "2021049817",
           "home": "지바 롯데 마린스",
           "away": "니혼햄 파이터즈",
           "score_home": "1",
@@ -665,6 +770,7 @@
           "state": "final",
           "start": "",
           "venue": "조조 마린 스타디움",
+          "venue_jp": "ZOZOマリン",
           "series": ""
         }
       ]
@@ -675,6 +781,7 @@
       "is_today": false,
       "games": [
         {
+          "gid": "2021048569",
           "home": "야쿠르트 스왈로스",
           "away": "요미우리 자이언츠",
           "score_home": "5",
@@ -683,9 +790,11 @@
           "state": "final",
           "start": "",
           "venue": "메이지 진구 야구장",
+          "venue_jp": "神宮",
           "series": ""
         },
         {
+          "gid": "2021048602",
           "home": "지바 롯데 마린스",
           "away": "소프트뱅크 호크스",
           "score_home": "3",
@@ -694,6 +803,7 @@
           "state": "final",
           "start": "",
           "venue": "조조 마린 스타디움",
+          "venue_jp": "ZOZOマリン",
           "series": ""
         }
       ]
@@ -704,6 +814,7 @@
       "is_today": false,
       "games": [
         {
+          "gid": "2021048571",
           "home": "히로시마 도요 카프",
           "away": "한신 타이거스",
           "score_home": "6",
@@ -712,9 +823,11 @@
           "state": "final",
           "start": "",
           "venue": "마쓰다 스타디움",
+          "venue_jp": "マツダスタジアム",
           "series": ""
         },
         {
+          "gid": "2021048570",
           "home": "요미우리 자이언츠",
           "away": "요코하마 DeNA 베이스타스",
           "score_home": "2",
@@ -723,9 +836,11 @@
           "state": "final",
           "start": "",
           "venue": "도쿄 돔",
+          "venue_jp": "東京ドーム",
           "series": ""
         },
         {
+          "gid": "2021049818",
           "home": "야쿠르트 스왈로스",
           "away": "주니치 드래곤즈",
           "score_home": "1",
@@ -734,9 +849,11 @@
           "state": "final",
           "start": "",
           "venue": "메이지 진구 야구장",
+          "venue_jp": "神宮",
           "series": ""
         },
         {
+          "gid": "2021048603",
           "home": "라쿠텐 골든이글스",
           "away": "오릭스 버팔로즈",
           "score_home": "6",
@@ -745,9 +862,11 @@
           "state": "final",
           "start": "",
           "venue": "라쿠텐 모바일 파크",
+          "venue_jp": "楽天モバイル",
           "series": ""
         },
         {
+          "gid": "2021048604",
           "home": "지바 롯데 마린스",
           "away": "소프트뱅크 호크스",
           "score_home": "2",
@@ -756,6 +875,7 @@
           "state": "final",
           "start": "",
           "venue": "조조 마린 스타디움",
+          "venue_jp": "ZOZOマリン",
           "series": ""
         }
       ]
@@ -766,6 +886,7 @@
       "is_today": false,
       "games": [
         {
+          "gid": "2021049625",
           "home": "야쿠르트 스왈로스",
           "away": "히로시마 도요 카프",
           "score_home": "4",
@@ -774,9 +895,11 @@
           "state": "final",
           "start": "",
           "venue": "메이지 진구 야구장",
+          "venue_jp": "神宮",
           "series": ""
         },
         {
+          "gid": "2021049648",
           "home": "요코하마 DeNA 베이스타스",
           "away": "한신 타이거스",
           "score_home": "2",
@@ -785,9 +908,11 @@
           "state": "final",
           "start": "",
           "venue": "요코하마 스타디움",
+          "venue_jp": "横浜",
           "series": ""
         },
         {
+          "gid": "2021048606",
           "home": "지바 롯데 마린스",
           "away": "라쿠텐 골든이글스",
           "score_home": "3",
@@ -796,6 +921,7 @@
           "state": "final",
           "start": "",
           "venue": "조조 마린 스타디움",
+          "venue_jp": "ZOZOマリン",
           "series": ""
         }
       ]
@@ -806,6 +932,7 @@
       "is_today": false,
       "games": [
         {
+          "gid": "2021051118",
           "home": "라쿠텐 골든이글스",
           "away": "소프트뱅크 호크스",
           "score_home": "3",
@@ -814,9 +941,11 @@
           "state": "final",
           "start": "",
           "venue": "라쿠텐 모바일 파크",
+          "venue_jp": "楽天モバイル",
           "series": ""
         },
         {
+          "gid": "2021051119",
           "home": "지바 롯데 마린스",
           "away": "세이부 라이온즈",
           "score_home": "1",
@@ -825,6 +954,7 @@
           "state": "final",
           "start": "",
           "venue": "조조 마린 스타디움",
+          "venue_jp": "ZOZOマリン",
           "series": ""
         }
       ]
@@ -835,6 +965,7 @@
       "is_today": false,
       "games": [
         {
+          "gid": "2021051133",
           "home": "한신 타이거스",
           "away": "히로시마 도요 카프",
           "score_home": "2",
@@ -843,9 +974,11 @@
           "state": "final",
           "start": "",
           "venue": "한신 고시엔 구장",
+          "venue_jp": "甲子園",
           "series": ""
         },
         {
+          "gid": "2021051120",
           "home": "지바 롯데 마린스",
           "away": "세이부 라이온즈",
           "score_home": "0",
@@ -854,6 +987,7 @@
           "state": "final",
           "start": "",
           "venue": "조조 마린 스타디움",
+          "venue_jp": "ZOZOマリン",
           "series": ""
         }
       ]
@@ -864,6 +998,7 @@
       "is_today": false,
       "games": [
         {
+          "gid": "2021051134",
           "home": "한신 타이거스",
           "away": "히로시마 도요 카프",
           "score_home": "2",
@@ -872,6 +1007,7 @@
           "state": "final",
           "start": "",
           "venue": "한신 고시엔 구장",
+          "venue_jp": "甲子園",
           "series": ""
         }
       ]
@@ -882,6 +1018,7 @@
       "is_today": false,
       "games": [
         {
+          "gid": "2021051699",
           "home": "한신 타이거스",
           "away": "야쿠르트 스왈로스",
           "score_home": "0",
@@ -890,6 +1027,7 @@
           "state": "final",
           "start": "",
           "venue": "한신 고시엔 구장",
+          "venue_jp": "甲子園",
           "series": ""
         }
       ]
@@ -906,6 +1044,7 @@
       "is_today": false,
       "games": [
         {
+          "gid": "2021039474",
           "home": "요미우리 자이언츠",
           "away": "요코하마 DeNA 베이스타스",
           "score_home": "1",
@@ -914,9 +1053,11 @@
           "state": "final",
           "start": "",
           "venue": "도쿄 돔",
+          "venue_jp": "東京ドーム",
           "series": "🍁 CS 퍼스트 스테이지"
         },
         {
+          "gid": "2021039477",
           "home": "세이부 라이온즈",
           "away": "니혼햄 파이터즈",
           "score_home": "3",
@@ -925,6 +1066,7 @@
           "state": "final",
           "start": "",
           "venue": "벨루나 돔",
+          "venue_jp": "ベルーナドーム",
           "series": "🍁 CS 퍼스트 스테이지"
         }
       ]
@@ -935,6 +1077,7 @@
       "is_today": false,
       "games": [
         {
+          "gid": "2021039475",
           "home": "요미우리 자이언츠",
           "away": "요코하마 DeNA 베이스타스",
           "score_home": "1",
@@ -943,9 +1086,11 @@
           "state": "final",
           "start": "",
           "venue": "도쿄 돔",
+          "venue_jp": "東京ドーム",
           "series": "🍁 CS 퍼스트 스테이지"
         },
         {
+          "gid": "2021039478",
           "home": "세이부 라이온즈",
           "away": "니혼햄 파이터즈",
           "score_home": "0",
@@ -954,6 +1099,7 @@
           "state": "final",
           "start": "",
           "venue": "벨루나 돔",
+          "venue_jp": "ベルーナドーム",
           "series": "🍁 CS 퍼스트 스테이지"
         }
       ]
@@ -964,6 +1110,7 @@
       "is_today": false,
       "games": [
         {
+          "gid": "2021039479",
           "home": "세이부 라이온즈",
           "away": "니혼햄 파이터즈",
           "score_home": "1",
@@ -972,6 +1119,7 @@
           "state": "final",
           "start": "",
           "venue": "벨루나 돔",
+          "venue_jp": "ベルーナドーム",
           "series": "🍁 CS 퍼스트 스테이지"
         }
       ]
@@ -988,25 +1136,29 @@
       "is_today": false,
       "games": [
         {
+          "gid": "2021039480",
           "home": "한신 타이거스",
           "away": "요코하마 DeNA 베이스타스",
           "score_home": "",
           "score_away": "",
-          "status": "18:00 시작 · 선발 예고",
+          "status": "18:00 시작",
           "state": "pre",
           "start": "18:00",
           "venue": "한신 고시엔 구장",
+          "venue_jp": "甲子園",
           "series": "🔥 CS 파이널 스테이지"
         },
         {
+          "gid": "2021039486",
           "home": "소프트뱅크 호크스",
           "away": "니혼햄 파이터즈",
           "score_home": "",
           "score_away": "",
-          "status": "18:00 시작 · 선발 예고",
+          "status": "18:00 시작",
           "state": "pre",
           "start": "18:00",
           "venue": "미즈호 PayPay 돔",
+          "venue_jp": "みずほPayPay",
           "series": "🔥 CS 파이널 스테이지"
         }
       ]
@@ -1017,6 +1169,7 @@
       "is_today": false,
       "games": [
         {
+          "gid": "2021039481",
           "home": "한신 타이거스",
           "away": "요코하마 DeNA 베이스타스",
           "score_home": "",
@@ -1025,9 +1178,11 @@
           "state": "pre",
           "start": "18:00",
           "venue": "한신 고시엔 구장",
+          "venue_jp": "甲子園",
           "series": "🔥 CS 파이널 스테이지"
         },
         {
+          "gid": "2021039487",
           "home": "소프트뱅크 호크스",
           "away": "니혼햄 파이터즈",
           "score_home": "",
@@ -1036,6 +1191,7 @@
           "state": "pre",
           "start": "18:00",
           "venue": "미즈호 PayPay 돔",
+          "venue_jp": "みずほPayPay",
           "series": "🔥 CS 파이널 스테이지"
         }
       ]
@@ -1046,6 +1202,7 @@
       "is_today": false,
       "games": [
         {
+          "gid": "2021039482",
           "home": "한신 타이거스",
           "away": "요코하마 DeNA 베이스타스",
           "score_home": "",
@@ -1054,9 +1211,11 @@
           "state": "pre",
           "start": "18:00",
           "venue": "한신 고시엔 구장",
+          "venue_jp": "甲子園",
           "series": "🔥 CS 파이널 스테이지"
         },
         {
+          "gid": "2021039488",
           "home": "소프트뱅크 호크스",
           "away": "니혼햄 파이터즈",
           "score_home": "",
@@ -1065,6 +1224,7 @@
           "state": "pre",
           "start": "18:00",
           "venue": "미즈호 PayPay 돔",
+          "venue_jp": "みずほPayPay",
           "series": "🔥 CS 파이널 스테이지"
         }
       ]
@@ -1075,6 +1235,7 @@
       "is_today": false,
       "games": [
         {
+          "gid": "2021039483",
           "home": "한신 타이거스",
           "away": "요코하마 DeNA 베이스타스",
           "score_home": "",
@@ -1083,9 +1244,11 @@
           "state": "pre",
           "start": "14:00",
           "venue": "한신 고시엔 구장",
+          "venue_jp": "甲子園",
           "series": "🔥 CS 파이널 스테이지"
         },
         {
+          "gid": "2021039489",
           "home": "소프트뱅크 호크스",
           "away": "니혼햄 파이터즈",
           "score_home": "",
@@ -1094,6 +1257,7 @@
           "state": "pre",
           "start": "18:00",
           "venue": "미즈호 PayPay 돔",
+          "venue_jp": "みずほPayPay",
           "series": "🔥 CS 파이널 스테이지"
         }
       ]
@@ -1104,6 +1268,7 @@
       "is_today": false,
       "games": [
         {
+          "gid": "2021039484",
           "home": "한신 타이거스",
           "away": "요코하마 DeNA 베이스타스",
           "score_home": "",
@@ -1112,9 +1277,11 @@
           "state": "pre",
           "start": "14:00",
           "venue": "한신 고시엔 구장",
+          "venue_jp": "甲子園",
           "series": "🔥 CS 파이널 스테이지"
         },
         {
+          "gid": "2021039490",
           "home": "소프트뱅크 호크스",
           "away": "니혼햄 파이터즈",
           "score_home": "",
@@ -1123,6 +1290,7 @@
           "state": "pre",
           "start": "18:00",
           "venue": "미즈호 PayPay 돔",
+          "venue_jp": "みずほPayPay",
           "series": "🔥 CS 파이널 스테이지"
         }
       ]
@@ -1133,6 +1301,7 @@
       "is_today": false,
       "games": [
         {
+          "gid": "2021039485",
           "home": "한신 타이거스",
           "away": "요코하마 DeNA 베이스타스",
           "score_home": "",
@@ -1141,9 +1310,11 @@
           "state": "pre",
           "start": "18:00",
           "venue": "한신 고시엔 구장",
+          "venue_jp": "甲子園",
           "series": "🔥 CS 파이널 스테이지"
         },
         {
+          "gid": "2021039491",
           "home": "소프트뱅크 호크스",
           "away": "니혼햄 파이터즈",
           "score_home": "",
@@ -1152,6 +1323,7 @@
           "state": "pre",
           "start": "18:00",
           "venue": "미즈호 PayPay 돔",
+          "venue_jp": "みずほPayPay",
           "series": "🔥 CS 파이널 스테이지"
         }
       ]
