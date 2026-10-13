@@ -88,11 +88,34 @@ TEAM_SEARCH_KEYWORDS = {
 }
 
 
+# 앞 음절 모음(ㅗ ㅛ ㅜ ㅠ) → 장음으로 볼 다음 음절.  'ㅣ+이'는 넣지 않음: 藤井(후지이)·石井(이시이)의 '이'는 장음이 아님
+_LONG_PREV = {8: "오우", 12: "오우", 13: "우", 17: "우"}
+
+
+def drop_long_vowels(name):
+    """일본 인명의 장음 표기 제거: 슈우토→슈토, 유우다이→유다이, 오오타→오타, 코우노→코노.
+    (앞 음절이 받침 없는 ㅗ/ㅛ 모음이면 '오'·'우', ㅜ/ㅠ면 '우'를 뺀다)"""
+    if not name:
+        return name
+    out = []
+    for ch in name:
+        if out and ch in "오우":
+            code = ord(out[-1]) - 0xAC00
+            if ch == "오":
+                if out[-1] == "오":          # 大(おお) → 오오타·오오시마만 장음으로 처리 (요코오 등은 그대로)
+                    continue
+            elif 0 <= code < 11172 and code % 28 == 0 and ch in _LONG_PREV.get((code // 28) % 21, ""):
+                continue
+        out.append(ch)
+    return "".join(out)
+
+
 def translate_player_name(jp_name):
     if not jp_name:
         return jp_name
-    clean = jp_name.replace(" ", "").replace("　", "").replace("\xa0", "")
-    return PLAYER_NAME_TRANSLATION.get(clean, jp_name)
+    clean = re.sub(r"[\s\u3000\xa0]", "", jp_name)
+    hit = PLAYER_NAME_TRANSLATION.get(clean)
+    return drop_long_vowels(hit) if hit else jp_name
 
 
 # ----------------------------------------------------------------------------

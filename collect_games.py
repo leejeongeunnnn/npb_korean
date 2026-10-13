@@ -44,7 +44,7 @@ def pid_of(el):
 
 def name_ko(jp, pid=""):
     if pid and pid in NAME_BY_ID:
-        return NAME_BY_ID[pid]
+        return C.drop_long_vowels(NAME_BY_ID[pid])
     clean = re.sub(r"[\s　]", "", jp or "")
     hit = C.PLAYER_NAME_TRANSLATION.get(clean)
     if hit:

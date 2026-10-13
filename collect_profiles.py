@@ -418,8 +418,80 @@ def _school_ko(stem, suf, translated):
     return t + suf if t else ""
 
 
+# ----------------------------------------------------------------------------
+# 학교명: 뜻 번역 대신 일본어 발음을 한글로 (慶應義塾 → 게이오기주쿠)
+#   읽기는 형태소 분석기 MeCab(unidic-lite)으로, 사전에 없는 말은 pykakasi로 보완
+# ----------------------------------------------------------------------------
+READING_OVERRIDE = {"智辯": "ちべん", "智弁": "ちべん", "社": "やしろ", "付": "ふ", "附": "ふ", "大付": "だいふ"}
+_TAGGER, _KAKASI = None, None
+
+
+def _reading_tools():
+    global _TAGGER, _KAKASI
+    if _TAGGER is None:
+        try:
+            from fugashi import Tagger
+            import pykakasi
+            _TAGGER, _KAKASI = Tagger(), pykakasi.kakasi()
+        except Exception as e:
+            print(f"[WARN] 읽기 분석기 없음 ({e}) → 학교명은 번역으로 대체")
+            _TAGGER = False
+    return _TAGGER, _KAKASI
+
+
+def _kakasi(text):
+    return "".join(x["hira"] for x in _KAKASI.convert(text))
+
+
+def reading_of(text):
+    """일본어 고유명사 → 히라가나 읽기 (실패하면 '')."""
+    tagger, _ = _reading_tools()
+    if not tagger:
+        return ""
+    if text in READING_OVERRIDE:
+        return READING_OVERRIDE[text]
+    out = []
+    for w in tagger(text):
+        surf = w.surface
+        if surf in READING_OVERRIDE:
+            out.append(READING_OVERRIDE[surf]); continue
+        if not C.JP_RE.search(surf):          # 영문·숫자는 그대로
+            out.append(surf); continue
+        kana = getattr(w.feature, "kana", None)
+        out.append(kana if kana and kana != "*" else _kakasi(surf))
+    return "".join(out)
+
+
+def school_ko(stem, suf):
+    """학교명 어간의 일본어 발음 한글 표기 + 학교 종류. 예) 慶應義塾 + 대 → 게이오기주쿠대"""
+    key = "R:" + stem
+    if key not in TRANS:
+        r = reading_of(stem)
+        if not r:
+            return ""
+        latin = re.findall(r"[A-Za-z0-9]+", r)
+        TRANS[key] = kana_to_hangul(re.sub(r"[A-Za-z0-9]+", " ", r)).replace(" ", "") if not latin else \
+            re.sub(r"\s+", "", kana_to_hangul(r))
+    return TRANS[key] + suf if TRANS[key] else ""
+
+
 def fill_career_ko(players):
-    """경력 구간 한국어화: '학교명+학교 종류'로 번역한 뒤 한국어 접미사를 짧게 정리. 실패한 것은 다음 실행에서 재시도."""
+    """경력 구간 한국어화: 학교는 일본어 발음 그대로 한글로(+고/대), 그 밖의 소속은 팀명 변환·번역. 실패한 것은 다음 실행에서 재시도."""
+    for p in players:
+        for c in p.get("career", []):
+            stem, suf, koshien = split_school(c["ja"])
+            c["koshien"] = koshien
+            if suf and C.JP_RE.search(stem):
+                ko = school_ko(stem, suf)
+                if ko:
+                    c["ko"] = ko
+                    c["school"] = True
+    _fill_career_translate([c for p in players for c in p.get("career", []) if not c.get("school")])
+
+
+def _fill_career_translate(items):
+    """학교가 아닌 경력(구단·실업팀 등): 번역 캐시 사용."""
+    players = [{"career": items}]
     queries = {}
     for p in players:
         for c in p.get("career", []):
@@ -437,13 +509,12 @@ def fill_career_ko(players):
         print(f"[TR] 학교·소속 {len(queries)}개 중 {len(got)}개 번역")
     for p in players:
         for c in p.get("career", []):
-            stem, suf, koshien = split_school(c["ja"])
+            stem, suf, _ = split_school(c["ja"])
             base = C._replace_teams(stem)
             if C.JP_RE.search(base):
-                c["ko"] = TRANS.get("S2:" + _school_query(stem, suf), "")
+                c["ko"] = TRANS.get("S2:" + _school_query(stem, suf), "") or c.get("ko", "")
             else:
                 c["ko"] = base + suf
-            c["koshien"] = koshien
 
 
 KANA_RUN = re.compile(r"[぀-ヿー・]+")
@@ -452,7 +523,8 @@ KANA_RUN = re.compile(r"[぀-ヿー・]+")
 def clean_name(name):
     """사전 항목에 섞여 있는 가나(예: '린 쿠ァ첸')를 한글로 정리."""
     name = (name or "").replace("・", " ").replace("･", " ")
-    return re.sub(r"\s{2,}", " ", KANA_RUN.sub(lambda m: kana_to_hangul(m.group(0)).replace(" ", ""), name)).strip()
+    name = re.sub(r"\s{2,}", " ", KANA_RUN.sub(lambda m: kana_to_hangul(m.group(0)).replace(" ", ""), name)).strip()
+    return C.drop_long_vowels(name)
 
 
 def refresh_translations():
