@@ -86,6 +86,8 @@ async function teamProfiles(teamName) {
   return d ? { ...d, updated_at: idx.updated_at } : null;
 }
 const normName = (s) => (s || "").replace(/[\s　]/g, "");
+const PLAYER_POS = ["투수", "포수", "내야수", "외야수"];
+const isPlayer = (p) => PLAYER_POS.includes(p.pos);   // 감독·코치 등 스태프 제외
 
 /* ============================================================
    1) 선수 프로필
