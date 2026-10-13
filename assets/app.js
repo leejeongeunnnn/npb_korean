@@ -467,6 +467,8 @@ function renderTeamPicker(p, current) {
   const x = p.querySelector("#pick-clear"); if (x) x.addEventListener("click", () => setMyTeam(null));
 }
 
+const MT_SUBS = [["overview", "📋 개요"], ["profiles", "👤 선수 프로필"], ["origin", "🗾 출신지 지도"], ["travel", "✈️ 원정 거리"], ["weather", "🌤️ 구장 날씨"]];
+let MT_SUB = "overview";
 function renderMyTeam(forcePicker = false) {
   const p = document.getElementById("panel-myteam");
   const team = allTeams().find(t => t.name === MY_TEAM);
@@ -507,6 +509,20 @@ function renderMyTeam(forcePicker = false) {
       <div><b>${esc(st.gb)}</b><span>1위와 차</span></div>
     </div>` : `<div class="hint" style="margin:8px 0 0">순위 데이터 수집 전입니다.</div>`}
   </div>`;
+
+  // 하위 탭 (개요 / 선수 프로필 / 출신지 지도 / 원정 거리 / 구장 날씨)
+  html += `<div class="mt-subnav">${MT_SUBS.map(([k, label]) =>
+    `<button class="stage-chip ${k === MT_SUB ? "active" : ""}" data-sub="${k}">${label}</button>`).join("")}</div>`;
+  const bindCommon = () => {
+    p.querySelector("#mt-change").addEventListener("click", () => renderMyTeam(true));
+    p.querySelectorAll("[data-sub]").forEach(b => b.addEventListener("click", () => { MT_SUB = b.dataset.sub; renderMyTeam(); }));
+  };
+  if (MT_SUB !== "overview" && window.MT_GEO && MT_GEO[MT_SUB]) {
+    p.innerHTML = html + `<div id="mt-body"></div>`;
+    bindCommon();
+    MT_GEO[MT_SUB](p.querySelector("#mt-body"), team);
+    return;
+  }
 
   // 다음 경기 카드
   html += `<h3 class="sched-sub">📍 ${nextGame && nextGame.date === today ? "오늘 경기" : "다음 경기"}</h3>`;
@@ -588,7 +604,7 @@ function renderMyTeam(forcePicker = false) {
       <a href="${esc(team.website)}" target="_blank" rel="noopener" style="color:var(--accent-2)">공식 홈페이지 →</a></div></div>`;
 
   p.innerHTML = html;
-  p.querySelector("#mt-change").addEventListener("click", () => renderMyTeam(true));
+  bindCommon();
 }
 
 function applyMyTeamTheme() {

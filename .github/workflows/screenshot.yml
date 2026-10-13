@@ -1,0 +1,29 @@
+name: 화면 점검 캡처 (수동)
+on:
+  workflow_dispatch:
+    inputs:
+      team:
+        description: "마이팀"
+        default: "한신 타이거스"
+permissions:
+  contents: write
+jobs:
+  shot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with: { python-version: "3.12" }
+      - run: pip install playwright && python -m playwright install --with-deps chromium
+      - name: 캡처
+        run: |
+          mkdir -p shots
+          (python -m http.server 8000 >/dev/null 2>&1 &) && sleep 2
+          python tools/screenshot.py "${{ github.event.inputs.team }}"
+      - name: shots 브랜치에 저장
+        env:
+          PUSH_URL: https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
+        run: |
+          cd shots && git init -q -b shots && git add . 
+          git -c user.name=bot -c user.email=bot@x commit -q -m shots
+          git push -q -f "$PUSH_URL" shots:shots
