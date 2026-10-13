@@ -189,7 +189,16 @@ TEAM_NAME_REPLACE = [
 def _replace_teams(text):
     for jp, ko in TEAM_NAME_REPLACE:
         text = text.replace(jp, ko)
+    # 기사에서 소프트뱅크를 'ソフト'로 줄여 쓰는 경우 (소프트웨어로 오역 방지)
+    text = re.sub(r"ソフト(?!ウェア|ボール|クリーム)", "소프트뱅크", text)
+    # 일본 기사식 괄호 【구단】 → [구단]
+    text = text.replace("【", "[").replace("】", "] ")
     return text
+
+
+def _tidy(text):
+    text = re.sub(r"\[\s*\]|\(\s*\)|「\s*」", "", text)
+    return re.sub(r"\s{2,}", " ", text).strip()
 
 
 def _google_translate(text):
@@ -236,6 +245,7 @@ def translate_text_kr(text, use_api=True):
         for jp, ko in BASEBALL_TERMS.items():
             clean = clean.replace(jp, ko)
 
+    clean = _tidy(clean)
     _TRANS_CACHE[text] = clean
     return clean
 
