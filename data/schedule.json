@@ -8,63 +8,57 @@
       "is_today": false,
       "games": [
         {
-          "home": "巨人",
-          "away": "ヤクルト",
+          "home": "요미우리 자이언츠",
+          "away": "야쿠르트 스왈로스",
           "score_home": "3",
           "score_away": "2",
-          "status": "3\n-\n2",
-          "label": "試合終了",
-          "venue": "東京ドーム",
+          "status": "경기 종료",
+          "venue": "도쿄 돔",
           "series": ""
         },
         {
-          "home": "中日",
-          "away": "広島",
+          "home": "주니치 드래곤즈",
+          "away": "히로시마 도요 카프",
           "score_home": "8",
           "score_away": "5",
-          "status": "8\n-\n5",
-          "label": "試合終了",
-          "venue": "バンテリンドーム",
+          "status": "경기 종료",
+          "venue": "반테린 돔 나고야",
           "series": ""
         },
         {
-          "home": "阪神",
-          "away": "DeNA",
+          "home": "한신 타이거스",
+          "away": "요코하마 DeNA 베이스타스",
           "score_home": "8",
           "score_away": "1",
-          "status": "8\n-\n1",
-          "label": "試合終了",
-          "venue": "甲子園",
+          "status": "경기 종료",
+          "venue": "한신 고시엔 구장",
           "series": ""
         },
         {
-          "home": "日本ハム",
-          "away": "オリックス",
+          "home": "니혼햄 파이터즈",
+          "away": "오릭스 버팔로즈",
           "score_home": "6",
           "score_away": "9",
-          "status": "6\n-\n9",
-          "label": "試合終了",
-          "venue": "エスコンF",
+          "status": "경기 종료",
+          "venue": "에스콘 필드 홋카이도",
           "series": ""
         },
         {
-          "home": "楽天",
-          "away": "ソフトバンク",
+          "home": "라쿠텐 골든이글스",
+          "away": "소프트뱅크 호크스",
           "score_home": "5",
           "score_away": "3",
-          "status": "5\n-\n3",
-          "label": "試合終了",
-          "venue": "楽天モバイル",
+          "status": "경기 종료",
+          "venue": "라쿠텐 모바일 파크",
           "series": ""
         },
         {
-          "home": "ロッテ",
-          "away": "西武",
+          "home": "지바 롯데 마린스",
+          "away": "세이부 라이온즈",
           "score_home": "",
           "score_away": "",
-          "status": "-",
-          "label": "試合中止",
-          "venue": "ZOZOマリン",
+          "status": "경기 취소(우천 등)",
+          "venue": "조조 마린 스타디움",
           "series": ""
         }
       ]
@@ -75,53 +69,48 @@
       "is_today": false,
       "games": [
         {
-          "home": "中日",
-          "away": "広島",
+          "home": "주니치 드래곤즈",
+          "away": "히로시마 도요 카프",
           "score_home": "10",
           "score_away": "0",
-          "status": "10\n-\n0",
-          "label": "試合終了",
-          "venue": "バンテリンドーム",
+          "status": "경기 종료",
+          "venue": "반테린 돔 나고야",
           "series": ""
         },
         {
-          "home": "阪神",
-          "away": "DeNA",
+          "home": "한신 타이거스",
+          "away": "요코하마 DeNA 베이스타스",
           "score_home": "3",
           "score_away": "2",
-          "status": "3\n-\n2",
-          "label": "試合終了",
-          "venue": "甲子園",
+          "status": "경기 종료",
+          "venue": "한신 고시엔 구장",
           "series": ""
         },
         {
-          "home": "楽天",
-          "away": "ソフトバンク",
+          "home": "라쿠텐 골든이글스",
+          "away": "소프트뱅크 호크스",
           "score_home": "",
           "score_away": "",
-          "status": "-",
-          "label": "試合中止",
-          "venue": "楽天モバイル",
+          "status": "경기 취소(우천 등)",
+          "venue": "라쿠텐 모바일 파크",
           "series": ""
         },
         {
-          "home": "日本ハム",
-          "away": "オリックス",
+          "home": "니혼햄 파이터즈",
+          "away": "오릭스 버팔로즈",
           "score_home": "5",
           "score_away": "3",
-          "status": "5\n-\n3",
-          "label": "試合終了",
-          "venue": "エスコンF",
+          "status": "경기 종료",
+          "venue": "에스콘 필드 홋카이도",
           "series": ""
         },
         {
-          "home": "ロッテ",
-          "away": "西武",
+          "home": "지바 롯데 마린스",
+          "away": "세이부 라이온즈",
           "score_home": "",
           "score_away": "",
-          "status": "-",
-          "label": "試合中止",
-          "venue": "ZOZOマリン",
+          "status": "경기 취소(우천 등)",
+          "venue": "조조 마린 스타디움",
           "series": ""
         }
       ]
@@ -132,63 +121,57 @@
       "is_today": false,
       "games": [
         {
-          "home": "広島",
-          "away": "巨人",
+          "home": "히로시마 도요 카프",
+          "away": "요미우리 자이언츠",
           "score_home": "2",
           "score_away": "1",
-          "status": "2\n-\n1",
-          "label": "試合終了",
-          "venue": "マツダスタジアム",
+          "status": "경기 종료",
+          "venue": "마쓰다 스타디움",
           "series": ""
         },
         {
-          "home": "ヤクルト",
-          "away": "阪神",
+          "home": "야쿠르트 스왈로스",
+          "away": "한신 타이거스",
           "score_home": "7",
           "score_away": "9",
-          "status": "7\n-\n9",
-          "label": "試合終了",
-          "venue": "神宮",
+          "status": "경기 종료",
+          "venue": "메이지 진구 야구장",
           "series": ""
         },
         {
-          "home": "DeNA",
-          "away": "中日",
+          "home": "요코하마 DeNA 베이스타스",
+          "away": "주니치 드래곤즈",
           "score_home": "7",
           "score_away": "3",
-          "status": "7\n-\n3",
-          "label": "試合終了",
-          "venue": "横浜",
+          "status": "경기 종료",
+          "venue": "요코하마 스타디움",
           "series": ""
         },
         {
-          "home": "日本ハム",
-          "away": "楽天",
+          "home": "니혼햄 파이터즈",
+          "away": "라쿠텐 골든이글스",
           "score_home": "6",
           "score_away": "5",
-          "status": "6\n-\n5",
-          "label": "試合終了",
-          "venue": "エスコンF",
+          "status": "경기 종료",
+          "venue": "에스콘 필드 홋카이도",
           "series": ""
         },
         {
-          "home": "ソフトバンク",
-          "away": "西武",
+          "home": "소프트뱅크 호크스",
+          "away": "세이부 라이온즈",
           "score_home": "6",
           "score_away": "5",
-          "status": "6\n-\n5",
-          "label": "試合終了",
-          "venue": "みずほPayPay",
+          "status": "경기 종료",
+          "venue": "미즈호 PayPay 돔",
           "series": ""
         },
         {
-          "home": "ロッテ",
-          "away": "オリックス",
+          "home": "지바 롯데 마린스",
+          "away": "오릭스 버팔로즈",
           "score_home": "4",
           "score_away": "6",
-          "status": "4\n-\n6",
-          "label": "試合終了",
-          "venue": "ZOZOマリン",
+          "status": "경기 종료",
+          "venue": "조조 마린 스타디움",
           "series": ""
         }
       ]
@@ -199,63 +182,57 @@
       "is_today": false,
       "games": [
         {
-          "home": "ヤクルト",
-          "away": "阪神",
+          "home": "야쿠르트 스왈로스",
+          "away": "한신 타이거스",
           "score_home": "4",
           "score_away": "8",
-          "status": "4\n-\n8",
-          "label": "試合終了",
-          "venue": "神宮",
+          "status": "경기 종료",
+          "venue": "메이지 진구 야구장",
           "series": ""
         },
         {
-          "home": "広島",
-          "away": "巨人",
+          "home": "히로시마 도요 카프",
+          "away": "요미우리 자이언츠",
           "score_home": "1",
           "score_away": "2",
-          "status": "1\n-\n2",
-          "label": "試合終了",
-          "venue": "マツダスタジアム",
+          "status": "경기 종료",
+          "venue": "마쓰다 스타디움",
           "series": ""
         },
         {
-          "home": "DeNA",
-          "away": "中日",
+          "home": "요코하마 DeNA 베이스타스",
+          "away": "주니치 드래곤즈",
           "score_home": "4",
           "score_away": "3",
-          "status": "4\n-\n3",
-          "label": "試合終了",
-          "venue": "横浜",
+          "status": "경기 종료",
+          "venue": "요코하마 스타디움",
           "series": ""
         },
         {
-          "home": "ソフトバンク",
-          "away": "西武",
+          "home": "소프트뱅크 호크스",
+          "away": "세이부 라이온즈",
           "score_home": "10",
           "score_away": "3",
-          "status": "10\n-\n3",
-          "label": "試合終了",
-          "venue": "みずほPayPay",
+          "status": "경기 종료",
+          "venue": "미즈호 PayPay 돔",
           "series": ""
         },
         {
-          "home": "ロッテ",
-          "away": "オリックス",
+          "home": "지바 롯데 마린스",
+          "away": "오릭스 버팔로즈",
           "score_home": "0",
           "score_away": "1",
-          "status": "0\n-\n1",
-          "label": "試合終了",
-          "venue": "ZOZOマリン",
+          "status": "경기 종료",
+          "venue": "조조 마린 스타디움",
           "series": ""
         },
         {
-          "home": "日本ハム",
-          "away": "楽天",
+          "home": "니혼햄 파이터즈",
+          "away": "라쿠텐 골든이글스",
           "score_home": "3",
           "score_away": "5",
-          "status": "3\n-\n5",
-          "label": "試合終了",
-          "venue": "エスコンF",
+          "status": "경기 종료",
+          "venue": "에스콘 필드 홋카이도",
           "series": ""
         }
       ]
@@ -266,23 +243,21 @@
       "is_today": false,
       "games": [
         {
-          "home": "広島",
-          "away": "巨人",
+          "home": "히로시마 도요 카프",
+          "away": "요미우리 자이언츠",
           "score_home": "3",
           "score_away": "1",
-          "status": "3\n-\n1",
-          "label": "試合終了",
-          "venue": "マツダスタジアム",
+          "status": "경기 종료",
+          "venue": "마쓰다 스타디움",
           "series": ""
         },
         {
-          "home": "日本ハム",
-          "away": "楽天",
+          "home": "니혼햄 파이터즈",
+          "away": "라쿠텐 골든이글스",
           "score_home": "0",
           "score_away": "6",
-          "status": "0\n-\n6",
-          "label": "試合終了",
-          "venue": "エスコンF",
+          "status": "경기 종료",
+          "venue": "에스콘 필드 홋카이도",
           "series": ""
         }
       ]
@@ -293,53 +268,48 @@
       "is_today": false,
       "games": [
         {
-          "home": "ヤクルト",
-          "away": "中日",
+          "home": "야쿠르트 스왈로스",
+          "away": "주니치 드래곤즈",
           "score_home": "5",
           "score_away": "4",
-          "status": "5\n-\n4",
-          "label": "試合終了",
-          "venue": "神宮",
+          "status": "경기 종료",
+          "venue": "메이지 진구 야구장",
           "series": ""
         },
         {
-          "home": "DeNA",
-          "away": "阪神",
+          "home": "요코하마 DeNA 베이스타스",
+          "away": "한신 타이거스",
           "score_home": "2",
           "score_away": "1",
-          "status": "2\n-\n1",
-          "label": "試合終了",
-          "venue": "横浜",
+          "status": "경기 종료",
+          "venue": "요코하마 스타디움",
           "series": ""
         },
         {
-          "home": "広島",
-          "away": "巨人",
+          "home": "히로시마 도요 카프",
+          "away": "요미우리 자이언츠",
           "score_home": "3",
           "score_away": "2",
-          "status": "3\n-\n2",
-          "label": "試合終了",
-          "venue": "マツダスタジアム",
+          "status": "경기 종료",
+          "venue": "마쓰다 스타디움",
           "series": ""
         },
         {
-          "home": "西武",
-          "away": "ロッテ",
+          "home": "세이부 라이온즈",
+          "away": "지바 롯데 마린스",
           "score_home": "2",
           "score_away": "6",
-          "status": "2\n-\n6",
-          "label": "試合終了",
-          "venue": "ベルーナドーム",
+          "status": "경기 종료",
+          "venue": "벨루나 돔",
           "series": ""
         },
         {
-          "home": "オリックス",
-          "away": "ソフトバンク",
+          "home": "오릭스 버팔로즈",
+          "away": "소프트뱅크 호크스",
           "score_home": "0",
           "score_away": "9",
-          "status": "0\n-\n9",
-          "label": "試合終了",
-          "venue": "京セラD大阪",
+          "status": "경기 종료",
+          "venue": "교세라 돔 오사카",
           "series": ""
         }
       ]
@@ -350,53 +320,48 @@
       "is_today": false,
       "games": [
         {
-          "home": "DeNA",
-          "away": "阪神",
+          "home": "요코하마 DeNA 베이스타스",
+          "away": "한신 타이거스",
           "score_home": "3",
           "score_away": "8",
-          "status": "3\n-\n8",
-          "label": "試合終了",
-          "venue": "横浜",
+          "status": "경기 종료",
+          "venue": "요코하마 스타디움",
           "series": ""
         },
         {
-          "home": "ヤクルト",
-          "away": "中日",
+          "home": "야쿠르트 스왈로스",
+          "away": "주니치 드래곤즈",
           "score_home": "5",
           "score_away": "3",
-          "status": "5\n-\n3",
-          "label": "試合終了",
-          "venue": "神宮",
+          "status": "경기 종료",
+          "venue": "메이지 진구 야구장",
           "series": ""
         },
         {
-          "home": "西武",
-          "away": "ロッテ",
+          "home": "세이부 라이온즈",
+          "away": "지바 롯데 마린스",
           "score_home": "5",
           "score_away": "4",
-          "status": "5\n-\n4",
-          "label": "試合終了",
-          "venue": "ベルーナドーム",
+          "status": "경기 종료",
+          "venue": "벨루나 돔",
           "series": ""
         },
         {
-          "home": "オリックス",
-          "away": "日本ハム",
+          "home": "오릭스 버팔로즈",
+          "away": "니혼햄 파이터즈",
           "score_home": "0",
           "score_away": "2",
-          "status": "0\n-\n2",
-          "label": "試合終了",
-          "venue": "京セラD大阪",
+          "status": "경기 종료",
+          "venue": "교세라 돔 오사카",
           "series": ""
         },
         {
-          "home": "ソフトバンク",
-          "away": "楽天",
+          "home": "소프트뱅크 호크스",
+          "away": "라쿠텐 골든이글스",
           "score_home": "4",
           "score_away": "0",
-          "status": "4\n-\n0",
-          "label": "試合終了",
-          "venue": "みずほPayPay",
+          "status": "경기 종료",
+          "venue": "미즈호 PayPay 돔",
           "series": ""
         }
       ]
@@ -407,53 +372,48 @@
       "is_today": false,
       "games": [
         {
-          "home": "DeNA",
-          "away": "広島",
+          "home": "요코하마 DeNA 베이스타스",
+          "away": "히로시마 도요 카프",
           "score_home": "3",
           "score_away": "5",
-          "status": "3\n-\n5",
-          "label": "試合終了",
-          "venue": "横浜",
+          "status": "경기 종료",
+          "venue": "요코하마 스타디움",
           "series": ""
         },
         {
-          "home": "巨人",
-          "away": "ヤクルト",
+          "home": "요미우리 자이언츠",
+          "away": "야쿠르트 스왈로스",
           "score_home": "11",
           "score_away": "0",
-          "status": "11\n-\n0",
-          "label": "試合終了",
-          "venue": "東京ドーム",
+          "status": "경기 종료",
+          "venue": "도쿄 돔",
           "series": ""
         },
         {
-          "home": "ソフトバンク",
-          "away": "オリックス",
+          "home": "소프트뱅크 호크스",
+          "away": "오릭스 버팔로즈",
           "score_home": "12",
           "score_away": "5",
-          "status": "12\n-\n5",
-          "label": "試合終了",
-          "venue": "みずほPayPay",
+          "status": "경기 종료",
+          "venue": "미즈호 PayPay 돔",
           "series": ""
         },
         {
-          "home": "西武",
-          "away": "楽天",
+          "home": "세이부 라이온즈",
+          "away": "라쿠텐 골든이글스",
           "score_home": "3",
           "score_away": "2",
-          "status": "3\n-\n2",
-          "label": "試合終了",
-          "venue": "ベルーナドーム",
+          "status": "경기 종료",
+          "venue": "벨루나 돔",
           "series": ""
         },
         {
-          "home": "ロッテ",
-          "away": "日本ハム",
+          "home": "지바 롯데 마린스",
+          "away": "니혼햄 파이터즈",
           "score_home": "6",
           "score_away": "1",
-          "status": "6\n-\n1",
-          "label": "試合終了",
-          "venue": "ZOZOマリン",
+          "status": "경기 종료",
+          "venue": "조조 마린 스타디움",
           "series": ""
         }
       ]
@@ -464,33 +424,30 @@
       "is_today": false,
       "games": [
         {
-          "home": "DeNA",
-          "away": "広島",
+          "home": "요코하마 DeNA 베이스타스",
+          "away": "히로시마 도요 카프",
           "score_home": "3",
           "score_away": "4",
-          "status": "3\n-\n4",
-          "label": "試合終了",
-          "venue": "横浜",
+          "status": "경기 종료",
+          "venue": "요코하마 스타디움",
           "series": ""
         },
         {
-          "home": "西武",
-          "away": "楽天",
+          "home": "세이부 라이온즈",
+          "away": "라쿠텐 골든이글스",
           "score_home": "2",
           "score_away": "4",
-          "status": "2\n-\n4",
-          "label": "試合終了",
-          "venue": "ベルーナドーム",
+          "status": "경기 종료",
+          "venue": "벨루나 돔",
           "series": ""
         },
         {
-          "home": "ロッテ",
-          "away": "日本ハム",
+          "home": "지바 롯데 마린스",
+          "away": "니혼햄 파이터즈",
           "score_home": "3",
           "score_away": "8",
-          "status": "3\n-\n8",
-          "label": "試合終了",
-          "venue": "ZOZOマリン",
+          "status": "경기 종료",
+          "venue": "조조 마린 스타디움",
           "series": ""
         }
       ]
@@ -501,43 +458,39 @@
       "is_today": false,
       "games": [
         {
-          "home": "巨人",
-          "away": "広島",
+          "home": "요미우리 자이언츠",
+          "away": "히로시마 도요 카프",
           "score_home": "3",
           "score_away": "1",
-          "status": "3\n-\n1",
-          "label": "試合終了",
-          "venue": "東京ドーム",
+          "status": "경기 종료",
+          "venue": "도쿄 돔",
           "series": ""
         },
         {
-          "home": "阪神",
-          "away": "ヤクルト",
+          "home": "한신 타이거스",
+          "away": "야쿠르트 스왈로스",
           "score_home": "",
           "score_away": "",
-          "status": "-",
-          "label": "試合中止",
-          "venue": "甲子園",
+          "status": "경기 취소(우천 등)",
+          "venue": "한신 고시엔 구장",
           "series": ""
         },
         {
-          "home": "楽天",
-          "away": "ロッテ",
+          "home": "라쿠텐 골든이글스",
+          "away": "지바 롯데 마린스",
           "score_home": "3",
           "score_away": "6",
-          "status": "3\n-\n6",
-          "label": "試合終了",
-          "venue": "楽天モバイル",
+          "status": "경기 종료",
+          "venue": "라쿠텐 모바일 파크",
           "series": ""
         },
         {
-          "home": "西武",
-          "away": "オリックス",
+          "home": "세이부 라이온즈",
+          "away": "오릭스 버팔로즈",
           "score_home": "2",
           "score_away": "1",
-          "status": "2\n-\n1",
-          "label": "試合終了",
-          "venue": "ベルーナドーム",
+          "status": "경기 종료",
+          "venue": "벨루나 돔",
           "series": ""
         }
       ]
@@ -548,23 +501,21 @@
       "is_today": false,
       "games": [
         {
-          "home": "阪神",
-          "away": "ヤクルト",
+          "home": "한신 타이거스",
+          "away": "야쿠르트 스왈로스",
           "score_home": "5",
           "score_away": "0",
-          "status": "5\n-\n0",
-          "label": "試合終了",
-          "venue": "甲子園",
+          "status": "경기 종료",
+          "venue": "한신 고시엔 구장",
           "series": ""
         },
         {
-          "home": "楽天",
-          "away": "ロッテ",
+          "home": "라쿠텐 골든이글스",
+          "away": "지바 롯데 마린스",
           "score_home": "3",
           "score_away": "0",
-          "status": "3\n-\n0",
-          "label": "試合終了",
-          "venue": "楽天モバイル",
+          "status": "경기 종료",
+          "venue": "라쿠텐 모바일 파크",
           "series": ""
         }
       ]
@@ -575,43 +526,39 @@
       "is_today": false,
       "games": [
         {
-          "home": "阪神",
-          "away": "巨人",
+          "home": "한신 타이거스",
+          "away": "요미우리 자이언츠",
           "score_home": "2",
           "score_away": "2",
-          "status": "2\n-\n2",
-          "label": "試合終了",
-          "venue": "甲子園",
+          "status": "경기 종료",
+          "venue": "한신 고시엔 구장",
           "series": ""
         },
         {
-          "home": "広島",
-          "away": "中日",
+          "home": "히로시마 도요 카프",
+          "away": "주니치 드래곤즈",
           "score_home": "5",
           "score_away": "1",
-          "status": "5\n-\n1",
-          "label": "試合終了",
-          "venue": "マツダスタジアム",
+          "status": "경기 종료",
+          "venue": "마쓰다 스타디움",
           "series": ""
         },
         {
-          "home": "楽天",
-          "away": "ソフトバンク",
+          "home": "라쿠텐 골든이글스",
+          "away": "소프트뱅크 호크스",
           "score_home": "2",
           "score_away": "8",
-          "status": "2\n-\n8",
-          "label": "試合終了",
-          "venue": "楽天モバイル",
+          "status": "경기 종료",
+          "venue": "라쿠텐 모바일 파크",
           "series": ""
         },
         {
-          "home": "ロッテ",
-          "away": "日本ハム",
+          "home": "지바 롯데 마린스",
+          "away": "니혼햄 파이터즈",
           "score_home": "1",
           "score_away": "3",
-          "status": "1\n-\n3",
-          "label": "試合終了",
-          "venue": "ZOZOマリン",
+          "status": "경기 종료",
+          "venue": "조조 마린 스타디움",
           "series": ""
         }
       ]
@@ -622,23 +569,21 @@
       "is_today": false,
       "games": [
         {
-          "home": "ヤクルト",
-          "away": "巨人",
+          "home": "야쿠르트 스왈로스",
+          "away": "요미우리 자이언츠",
           "score_home": "5",
           "score_away": "1",
-          "status": "5\n-\n1",
-          "label": "試合終了",
-          "venue": "神宮",
+          "status": "경기 종료",
+          "venue": "메이지 진구 야구장",
           "series": ""
         },
         {
-          "home": "ロッテ",
-          "away": "ソフトバンク",
+          "home": "지바 롯데 마린스",
+          "away": "소프트뱅크 호크스",
           "score_home": "3",
           "score_away": "4",
-          "status": "3\n-\n4",
-          "label": "試合終了",
-          "venue": "ZOZOマリン",
+          "status": "경기 종료",
+          "venue": "조조 마린 스타디움",
           "series": ""
         }
       ]
@@ -649,53 +594,48 @@
       "is_today": false,
       "games": [
         {
-          "home": "広島",
-          "away": "阪神",
+          "home": "히로시마 도요 카프",
+          "away": "한신 타이거스",
           "score_home": "6",
           "score_away": "4",
-          "status": "6\n-\n4",
-          "label": "試合終了",
-          "venue": "マツダスタジアム",
+          "status": "경기 종료",
+          "venue": "마쓰다 스타디움",
           "series": ""
         },
         {
-          "home": "巨人",
-          "away": "DeNA",
+          "home": "요미우리 자이언츠",
+          "away": "요코하마 DeNA 베이스타스",
           "score_home": "2",
           "score_away": "5",
-          "status": "2\n-\n5",
-          "label": "試合終了",
-          "venue": "東京ドーム",
+          "status": "경기 종료",
+          "venue": "도쿄 돔",
           "series": ""
         },
         {
-          "home": "ヤクルト",
-          "away": "中日",
+          "home": "야쿠르트 스왈로스",
+          "away": "주니치 드래곤즈",
           "score_home": "1",
           "score_away": "3",
-          "status": "1\n-\n3",
-          "label": "試合終了",
-          "venue": "神宮",
+          "status": "경기 종료",
+          "venue": "메이지 진구 야구장",
           "series": ""
         },
         {
-          "home": "楽天",
-          "away": "オリックス",
+          "home": "라쿠텐 골든이글스",
+          "away": "오릭스 버팔로즈",
           "score_home": "6",
           "score_away": "0",
-          "status": "6\n-\n0",
-          "label": "試合終了",
-          "venue": "楽天モバイル",
+          "status": "경기 종료",
+          "venue": "라쿠텐 모바일 파크",
           "series": ""
         },
         {
-          "home": "ロッテ",
-          "away": "ソフトバンク",
+          "home": "지바 롯데 마린스",
+          "away": "소프트뱅크 호크스",
           "score_home": "2",
           "score_away": "1",
-          "status": "2\n-\n1",
-          "label": "試合終了",
-          "venue": "ZOZOマリン",
+          "status": "경기 종료",
+          "venue": "조조 마린 스타디움",
           "series": ""
         }
       ]
@@ -706,33 +646,30 @@
       "is_today": false,
       "games": [
         {
-          "home": "ヤクルト",
-          "away": "広島",
+          "home": "야쿠르트 스왈로스",
+          "away": "히로시마 도요 카프",
           "score_home": "4",
           "score_away": "7",
-          "status": "4\n-\n7",
-          "label": "試合終了",
-          "venue": "神宮",
+          "status": "경기 종료",
+          "venue": "메이지 진구 야구장",
           "series": ""
         },
         {
-          "home": "DeNA",
-          "away": "阪神",
+          "home": "요코하마 DeNA 베이스타스",
+          "away": "한신 타이거스",
           "score_home": "2",
           "score_away": "1",
-          "status": "2\n-\n1",
-          "label": "試合終了",
-          "venue": "横浜",
+          "status": "경기 종료",
+          "venue": "요코하마 스타디움",
           "series": ""
         },
         {
-          "home": "ロッテ",
-          "away": "楽天",
+          "home": "지바 롯데 마린스",
+          "away": "라쿠텐 골든이글스",
           "score_home": "3",
           "score_away": "2",
-          "status": "3\n-\n2",
-          "label": "試合終了",
-          "venue": "ZOZOマリン",
+          "status": "경기 종료",
+          "venue": "조조 마린 스타디움",
           "series": ""
         }
       ]
@@ -743,23 +680,21 @@
       "is_today": false,
       "games": [
         {
-          "home": "楽天",
-          "away": "ソフトバンク",
+          "home": "라쿠텐 골든이글스",
+          "away": "소프트뱅크 호크스",
           "score_home": "3",
           "score_away": "1",
-          "status": "3\n-\n1",
-          "label": "試合終了",
-          "venue": "楽天モバイル",
+          "status": "경기 종료",
+          "venue": "라쿠텐 모바일 파크",
           "series": ""
         },
         {
-          "home": "ロッテ",
-          "away": "西武",
+          "home": "지바 롯데 마린스",
+          "away": "세이부 라이온즈",
           "score_home": "1",
           "score_away": "7",
-          "status": "1\n-\n7",
-          "label": "試合終了",
-          "venue": "ZOZOマリン",
+          "status": "경기 종료",
+          "venue": "조조 마린 스타디움",
           "series": ""
         }
       ]
@@ -770,23 +705,21 @@
       "is_today": false,
       "games": [
         {
-          "home": "阪神",
-          "away": "広島",
+          "home": "한신 타이거스",
+          "away": "히로시마 도요 카프",
           "score_home": "2",
           "score_away": "1",
-          "status": "2\n-\n1",
-          "label": "試合終了",
-          "venue": "甲子園",
+          "status": "경기 종료",
+          "venue": "한신 고시엔 구장",
           "series": ""
         },
         {
-          "home": "ロッテ",
-          "away": "西武",
+          "home": "지바 롯데 마린스",
+          "away": "세이부 라이온즈",
           "score_home": "0",
           "score_away": "3",
-          "status": "0\n-\n3",
-          "label": "試合終了",
-          "venue": "ZOZOマリン",
+          "status": "경기 종료",
+          "venue": "조조 마린 스타디움",
           "series": ""
         }
       ]
@@ -797,13 +730,12 @@
       "is_today": false,
       "games": [
         {
-          "home": "阪神",
-          "away": "広島",
+          "home": "한신 타이거스",
+          "away": "히로시마 도요 카프",
           "score_home": "2",
           "score_away": "1",
-          "status": "2\n-\n1",
-          "label": "試合終了",
-          "venue": "甲子園",
+          "status": "경기 종료",
+          "venue": "한신 고시엔 구장",
           "series": ""
         }
       ]
@@ -814,13 +746,12 @@
       "is_today": false,
       "games": [
         {
-          "home": "阪神",
-          "away": "ヤクルト",
+          "home": "한신 타이거스",
+          "away": "야쿠르트 스왈로스",
           "score_home": "0",
           "score_away": "4",
-          "status": "0\n-\n4",
-          "label": "試合終了",
-          "venue": "甲子園",
+          "status": "경기 종료",
+          "venue": "한신 고시엔 구장",
           "series": ""
         }
       ]
@@ -837,23 +768,21 @@
       "is_today": false,
       "games": [
         {
-          "home": "巨人",
-          "away": "DeNA",
+          "home": "요미우리 자이언츠",
+          "away": "요코하마 DeNA 베이스타스",
           "score_home": "1",
           "score_away": "2",
-          "status": "1\n-\n2",
-          "label": "試合終了",
-          "venue": "東京ドーム",
+          "status": "경기 종료",
+          "venue": "도쿄 돔",
           "series": "🍁 CS 퍼스트 스테이지"
         },
         {
-          "home": "西武",
-          "away": "日本ハム",
+          "home": "세이부 라이온즈",
+          "away": "니혼햄 파이터즈",
           "score_home": "3",
           "score_away": "2",
-          "status": "3\n-\n2",
-          "label": "試合終了",
-          "venue": "ベルーナドーム",
+          "status": "경기 종료",
+          "venue": "벨루나 돔",
           "series": "🍁 CS 퍼스트 스테이지"
         }
       ]
@@ -864,23 +793,21 @@
       "is_today": false,
       "games": [
         {
-          "home": "巨人",
-          "away": "DeNA",
+          "home": "요미우리 자이언츠",
+          "away": "요코하마 DeNA 베이스타스",
           "score_home": "1",
           "score_away": "4",
-          "status": "1\n-\n4",
-          "label": "試合終了",
-          "venue": "東京ドーム",
+          "status": "경기 종료",
+          "venue": "도쿄 돔",
           "series": "🍁 CS 퍼스트 스테이지"
         },
         {
-          "home": "西武",
-          "away": "日本ハム",
+          "home": "세이부 라이온즈",
+          "away": "니혼햄 파이터즈",
           "score_home": "0",
           "score_away": "1",
-          "status": "0\n-\n1",
-          "label": "試合終了",
-          "venue": "ベルーナドーム",
+          "status": "경기 종료",
+          "venue": "벨루나 돔",
           "series": "🍁 CS 퍼스트 스테이지"
         }
       ]
@@ -891,13 +818,12 @@
       "is_today": false,
       "games": [
         {
-          "home": "西武",
-          "away": "日本ハム",
+          "home": "세이부 라이온즈",
+          "away": "니혼햄 파이터즈",
           "score_home": "1",
           "score_away": "4",
-          "status": "1\n-\n4",
-          "label": "試合終了",
-          "venue": "ベルーナドーム",
+          "status": "경기 종료",
+          "venue": "벨루나 돔",
           "series": "🍁 CS 퍼스트 스테이지"
         }
       ]
@@ -914,23 +840,21 @@
       "is_today": false,
       "games": [
         {
-          "home": "阪神",
-          "away": "DeNA",
+          "home": "한신 타이거스",
+          "away": "요코하마 DeNA 베이스타스",
           "score_home": "",
           "score_away": "",
-          "status": "18:00",
-          "label": "予告先発",
-          "venue": "甲子園",
+          "status": "선발 예고",
+          "venue": "한신 고시엔 구장",
           "series": "🔥 CS 파이널 스테이지"
         },
         {
-          "home": "ソフトバンク",
-          "away": "日本ハム",
+          "home": "소프트뱅크 호크스",
+          "away": "니혼햄 파이터즈",
           "score_home": "",
           "score_away": "",
-          "status": "18:00",
-          "label": "予告先発",
-          "venue": "みずほPayPay",
+          "status": "선발 예고",
+          "venue": "미즈호 PayPay 돔",
           "series": "🔥 CS 파이널 스테이지"
         }
       ]
@@ -941,23 +865,21 @@
       "is_today": false,
       "games": [
         {
-          "home": "阪神",
-          "away": "DeNA",
+          "home": "한신 타이거스",
+          "away": "요코하마 DeNA 베이스타스",
           "score_home": "",
           "score_away": "",
-          "status": "18:00",
-          "label": "試合前",
-          "venue": "甲子園",
+          "status": "경기 전",
+          "venue": "한신 고시엔 구장",
           "series": "🔥 CS 파이널 스테이지"
         },
         {
-          "home": "ソフトバンク",
-          "away": "日本ハム",
+          "home": "소프트뱅크 호크스",
+          "away": "니혼햄 파이터즈",
           "score_home": "",
           "score_away": "",
-          "status": "18:00",
-          "label": "試合前",
-          "venue": "みずほPayPay",
+          "status": "경기 전",
+          "venue": "미즈호 PayPay 돔",
           "series": "🔥 CS 파이널 스테이지"
         }
       ]
@@ -968,23 +890,21 @@
       "is_today": false,
       "games": [
         {
-          "home": "阪神",
-          "away": "DeNA",
+          "home": "한신 타이거스",
+          "away": "요코하마 DeNA 베이스타스",
           "score_home": "",
           "score_away": "",
-          "status": "18:00",
-          "label": "試合前",
-          "venue": "甲子園",
+          "status": "경기 전",
+          "venue": "한신 고시엔 구장",
           "series": "🔥 CS 파이널 스테이지"
         },
         {
-          "home": "ソフトバンク",
-          "away": "日本ハム",
+          "home": "소프트뱅크 호크스",
+          "away": "니혼햄 파이터즈",
           "score_home": "",
           "score_away": "",
-          "status": "18:00",
-          "label": "試合前",
-          "venue": "みずほPayPay",
+          "status": "경기 전",
+          "venue": "미즈호 PayPay 돔",
           "series": "🔥 CS 파이널 스테이지"
         }
       ]
@@ -995,23 +915,21 @@
       "is_today": false,
       "games": [
         {
-          "home": "阪神",
-          "away": "DeNA",
+          "home": "한신 타이거스",
+          "away": "요코하마 DeNA 베이스타스",
           "score_home": "",
           "score_away": "",
-          "status": "14:00",
-          "label": "試合前",
-          "venue": "甲子園",
+          "status": "경기 전",
+          "venue": "한신 고시엔 구장",
           "series": "🔥 CS 파이널 스테이지"
         },
         {
-          "home": "ソフトバンク",
-          "away": "日本ハム",
+          "home": "소프트뱅크 호크스",
+          "away": "니혼햄 파이터즈",
           "score_home": "",
           "score_away": "",
-          "status": "18:00",
-          "label": "試合前",
-          "venue": "みずほPayPay",
+          "status": "경기 전",
+          "venue": "미즈호 PayPay 돔",
           "series": "🔥 CS 파이널 스테이지"
         }
       ]
@@ -1022,23 +940,21 @@
       "is_today": false,
       "games": [
         {
-          "home": "阪神",
-          "away": "DeNA",
+          "home": "한신 타이거스",
+          "away": "요코하마 DeNA 베이스타스",
           "score_home": "",
           "score_away": "",
-          "status": "14:00",
-          "label": "試合前",
-          "venue": "甲子園",
+          "status": "경기 전",
+          "venue": "한신 고시엔 구장",
           "series": "🔥 CS 파이널 스테이지"
         },
         {
-          "home": "ソフトバンク",
-          "away": "日本ハム",
+          "home": "소프트뱅크 호크스",
+          "away": "니혼햄 파이터즈",
           "score_home": "",
           "score_away": "",
-          "status": "18:00",
-          "label": "試合前",
-          "venue": "みずほPayPay",
+          "status": "경기 전",
+          "venue": "미즈호 PayPay 돔",
           "series": "🔥 CS 파이널 스테이지"
         }
       ]
@@ -1049,23 +965,21 @@
       "is_today": false,
       "games": [
         {
-          "home": "阪神",
-          "away": "DeNA",
+          "home": "한신 타이거스",
+          "away": "요코하마 DeNA 베이스타스",
           "score_home": "",
           "score_away": "",
-          "status": "18:00",
-          "label": "試合前",
-          "venue": "甲子園",
+          "status": "경기 전",
+          "venue": "한신 고시엔 구장",
           "series": "🔥 CS 파이널 스테이지"
         },
         {
-          "home": "ソフトバンク",
-          "away": "日本ハム",
+          "home": "소프트뱅크 호크스",
+          "away": "니혼햄 파이터즈",
           "score_home": "",
           "score_away": "",
-          "status": "18:00",
-          "label": "試合前",
-          "venue": "みずほPayPay",
+          "status": "경기 전",
+          "venue": "미즈호 PayPay 돔",
           "series": "🔥 CS 파이널 스테이지"
         }
       ]
