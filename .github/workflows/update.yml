@@ -32,6 +32,9 @@ jobs:
       - name: 데이터 수집 실행
         run: python collect.py
 
+      - name: 새로 끝난 경기 상세 수집
+        run: python collect_games.py --minutes 6 --max 40
+
       - name: 변경사항 커밋 & 푸시
         run: |
           git config user.name  "github-actions[bot]"

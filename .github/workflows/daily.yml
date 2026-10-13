@@ -22,7 +22,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 110
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
@@ -31,11 +31,15 @@ jobs:
       - run: pip install -r requirements.txt
       - name: 수집
         run: |
+          export TIME_BUDGET_MIN=60
           if [ "${{ github.event.inputs.profiles }}" = "true" ]; then
             python collect_profiles.py --profiles
           else
             python collect_profiles.py
           fi
+      - name: 지난 경기 상세 (밀린 경기 채우기)
+        run: python collect_games.py --minutes 30 --max 1200
+
       - name: 커밋 & 푸시
         run: |
           git config user.name  "github-actions[bot]"
