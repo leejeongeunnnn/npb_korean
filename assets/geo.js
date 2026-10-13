@@ -130,7 +130,7 @@ async function renderProfiles(el, team) {
         <div class="pf-row"><span>🎂</span>${esc(p.birth || "-")}${p.age ? ` (만 ${p.age}세)` : ""}</div>
         <div class="pf-row"><span>📍</span>${esc(p.bp_ko || "미상")}${p.region ? ` <em>${esc(p.region)}</em>` : ""}</div>
         <div class="pf-row"><span>📏</span>${p.height ? `${p.height}cm` : "-"} / ${p.weight ? `${p.weight}kg` : "-"} · ${esc(p.hand || "-")}${p.blood ? ` · ${esc(p.blood)}형` : ""}</div>
-        <div class="pf-row"><span>🏫</span><span class="pf-career">${(p.career || []).map(c => `<span title="${esc(c.ja)}">${esc(c.ko)}</span>`).join(" → ") || "-"}</span></div>
+        <div class="pf-row"><span>🏫</span><span class="pf-career">${(p.career || []).map(c => `<span title="${esc(c.ja)}">${esc(c.ko || c.ja)}</span>${c.koshien ? '<i class="pf-koshien" title="고시엔(전국고교야구) 출전">고시엔</i>' : ""}`).join(" → ") || "-"}</span></div>
         <div class="pf-row"><span>📝</span>${esc(p.draft || "드래프트 정보 없음")}${p.years ? ` · 프로 ${p.years}년차` : ""}</div>
       </div>`;
     });

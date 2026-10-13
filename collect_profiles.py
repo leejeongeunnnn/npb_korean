@@ -132,6 +132,8 @@ _COMBO = {
     "てぃ": "티", "でぃ": "디", "とぅ": "투", "どぅ": "두", "でゅ": "듀", "てゅ": "튜",
     "うぃ": "위", "うぇ": "웨", "うぉ": "워", "いぇ": "예", "すぃ": "시", "つぁ": "차",
     "ゔぁ": "바", "ゔぃ": "비", "ゔぇ": "베", "ゔぉ": "보",
+    "くぁ": "콰", "くぃ": "퀴", "くぇ": "퀘", "くぉ": "쿼", "ぐぁ": "과", "ぐぃ": "귀", "ぐぇ": "궤", "ぐぉ": "궈",
+    "つぃ": "치", "つぇ": "체", "つぉ": "초", "わぉ": "와오", "ゆぇ": "유에",
 }
 _O_ROW = set("おこごそぞとどのほぼぽもよろをょ")
 _U_ROW = set("うくぐすずつづぬふぶぷむゆるゅ")
@@ -239,15 +241,47 @@ def geocode_venue(name):
 # ----------------------------------------------------------------------------
 # 1) 시즌 일정 (구단별 월간 달력)
 # ----------------------------------------------------------------------------
+GAMEKIND_PATH = os.path.join(CACHE_DIR, "game_kind.json")
+GAMEKIND = load_json(GAMEKIND_PATH, {})
+RESULT_LABEL = {"勝利": "W", "敗戦": "L", "引分": "D", "引き分け": "D"}
+
+
+def classify_game(gid):
+    """경기 페이지 제목으로 경기 종류 판별 (오픈전/포스트시즌/정규시즌). 한 번 판별하면 캐시."""
+    if not gid:
+        return "regular"
+    if gid in GAMEKIND:
+        return GAMEKIND[gid]
+    kind = "regular"
+    try:
+        r = get(f"https://baseball.yahoo.co.jp/npb/game/{gid}/index")
+        soup = BeautifulSoup(r.text, "html.parser")
+        head = (soup.title.get_text() if soup.title else "") + " " + soup.get_text(" ", strip=True)[:1500]
+        if "オープン戦" in head:
+            kind = "exhibition"
+        elif "日本シリーズ" in head:
+            kind = "japan_series"
+        elif "クライマックス" in head:
+            kind = "cs"
+    except Exception as e:
+        print(f"[WARN] classify {gid}: {e}")
+        return "regular"          # 실패는 캐시하지 않음
+    GAMEKIND[gid] = kind
+    return kind
+
+
 def parse_month(team_kr, yid, year, month):
     r = get(f"https://baseball.yahoo.co.jp/npb/teams/{yid}/schedule", params={"month": f"{year}-{month:02d}"})
     if r.status_code != 200:
         return []
     soup = BeautifulSoup(r.text, "html.parser")
+    sel = soup.select_one(".bb-scheduleNavi__item--selected")
+    if not sel or sel.get_text(strip=True) != f"{month}月":
+        return []                 # 없는 달을 요청하면 Yahoo가 다른 달을 보여줌 → 무시
     games = []
     for td in soup.select("td.bb-calendarTable__data"):
         d_el = td.select_one(".bb-calendarTable__date")
-        opp_a = td.select_one(".bb-calendarTable__versusTeam a, .bb-calendarTable__teamName a")
+        opp_a = td.select_one(".bb-calendarTable__teamName a")
         if not d_el or not opp_a:
             continue
         try:
@@ -255,26 +289,29 @@ def parse_month(team_kr, yid, year, month):
         except ValueError:
             continue
         m = re.search(r"/npb/teams/(\d+)/", opp_a.get("href", ""))
-        opp = YAHOO_ID_TO_KR.get(m.group(1)) if m else None
-        opp = opp or C.team_kr(opp_a.get_text(strip=True))
-        classes = " ".join(td.get("class", []))
-        is_home = "--home" in classes
-        venue_raw = (td.select_one(".bb-calendarTable__venue") or BeautifulSoup("", "html.parser")).get_text(strip=True)
-        status_raw = (td.select_one(".bb-calendarTable__status") or BeautifulSoup("", "html.parser")).get_text(strip=True)
-        score_el = td.select_one(".bb-calendarTable__score")
-        nums = re.findall(r"\d+", score_el.get_text(" ")) if score_el else []
+        opp = (YAHOO_ID_TO_KR.get(m.group(1)) if m else None) or C.team_kr(opp_a.get_text(strip=True))
+        is_home = "--home" in " ".join(td.get("class", []))
+        venue = (td.select_one(".bb-calendarTable__venue") or BeautifulSoup("", "html.parser")).get_text(strip=True)
+        st_a = td.select_one("a.bb-calendarTable__status")
+        status_raw = st_a.get_text(strip=True) if st_a else ""
+        gm = re.search(r"/npb/game/(\d+)/", st_a.get("href", "")) if st_a else None
+        gid = gm.group(1) if gm else ""
+        sc = td.select_one(".bb-calendarTable__score")
+        # 점수는 '홈팀 점수 - 원정팀 점수' 순서, 승패 아이콘(aria-label)은 이 팀 기준
+        h_el = sc.select_one(".bb-calendarTable__home") if sc else None
+        a_el = sc.select_one(".bb-calendarTable__away") if sc else None
+        hs = h_el.get_text(strip=True) if h_el else ""
+        as_ = a_el.get_text(strip=True) if a_el else ""
+        icon = sc.select_one("[aria-label]") if sc else None
+        label = icon.get("aria-label", "") if icon else ""
         state = C.game_state(status_raw)
-        if score_el and score_el.select_one(".bb-calendarTable__nogame"):
+        if label == "ノーゲーム" or (sc and sc.select_one(".bb-calendarTable__nogame")):
             state = "cancel"
-        # 달력 점수는 '내 팀 - 상대' 순서로 표기됨
-        my, op = (nums[0], nums[1]) if len(nums) >= 2 else ("", "")
-        result = ""
-        if state == "final" and my != "":
-            result = "W" if int(my) > int(op) else "L" if int(my) < int(op) else "D"
-        games.append({
-            "date": f"{year}-{month:02d}-{day:02d}", "opp": opp, "home": is_home,
-            "venue": venue_raw, "my": my, "op": op, "state": state, "result": result,
-        })
+        result = RESULT_LABEL.get(label, "") if state == "final" else ""
+        my, op = (hs, as_) if is_home else (as_, hs)
+        kind = classify_game(gid) if month in (2, 3, 10, 11) else "regular"
+        games.append({"date": f"{year}-{month:02d}-{day:02d}", "opp": opp, "home": is_home, "venue": venue,
+                      "my": my, "op": op, "state": state, "result": result, "kind": kind, "gid": gid})
     return games
 
 
@@ -289,8 +326,10 @@ def fetch_season():
             except Exception as e:
                 print(f"[ERROR] season {kr} {month}: {e}")
         seen, uniq = set(), []
-        for g in games:                      # 더블헤더·중복 제거 키
-            key = (g["date"], g["opp"], g["venue"], g["my"], g["op"])
+        for g in games:
+            if g["kind"] == "exhibition":     # 오픈전(시범경기)은 분석에서 제외
+                continue
+            key = g["gid"] or (g["date"], g["opp"], g["venue"])
             if key not in seen:
                 seen.add(key); uniq.append(g)
         uniq.sort(key=lambda g: g["date"])
@@ -300,6 +339,7 @@ def fetch_season():
                 venues[g["venue"]] = geocode_venue(g["venue"])
         print(f"[OK] {kr} 시즌 {len(uniq)}경기")
     save_json(VENUE_CACHE_PATH, VENUE_CACHE)
+    save_json(GAMEKIND_PATH, GAMEKIND, compact=True)
     return {"season": year, "updated_at": C.now_jst().strftime("%Y-%m-%d %H:%M"),
             "venues": venues, "teams": teams}
 
@@ -330,22 +370,80 @@ def draft_kr(s):
     return tr(s)
 
 
+SCHOOL_SUFFIX = [            # (일본어 접미사, 한국어) - 긴 것부터
+    ("高等学校", "고"), ("高校", "고"), ("短期大学", "단대"), ("短大", "단대"), ("大学院", "대학원"),
+    ("大学", "대"), ("専門学校", "전문학교"), ("高専", "고전"), ("中学校", "중"), ("大", "대"), ("高", "고"),
+]
+
+
+def split_school(seg):
+    """'東海大相模高（甲）' → ('東海大相模', '고', True)  /  'トヨタ自動車' → ('トヨタ自動車', '', False)"""
+    koshien = bool(re.search(r"[（(]甲[）)]", seg))
+    core = re.sub(r"[（(][^）)]*[）)]", "", seg).strip()
+    for ja, ko in SCHOOL_SUFFIX:
+        if core.endswith(ja) and len(core) > len(ja):
+            return core[:-len(ja)], ko, koshien
+    return core, "", koshien
+
+
 def career_kr(s):
     """경력 구간만 나눠 두고, 번역은 fill_career_ko()에서 구단 단위로 일괄 처리."""
     segs = [x.strip() for x in re.split(r"[－\-–—]", s or "") if x.strip()]
-    return [{"ja": x, "ko": TRANS.get(x, "")} for x in segs]
+    return [{"ja": x, "ko": ""} for x in segs]
+
+
+def _seg_key(seg):
+    stem, _, _ = split_school(seg)
+    return "S:" + stem          # 번역 캐시 키 (학교명 어간)
 
 
 def fill_career_ko(players):
-    missing = sorted({c["ja"] for p in players for c in p.get("career", []) if not c["ko"] and C.JP_RE.search(c["ja"])})
-    if missing:
-        got = C.translate_batch_kr(missing)
-        TRANS.update(got)
-        print(f"[TR] 경력 {len(missing)}개 중 {len(got)}개 번역")
+    """경력 구간을 '어간 번역 + 학교 종류' 방식으로 한국어화. 실패한 것은 다음 실행에서 재시도."""
+    stems = set()
     for p in players:
         for c in p.get("career", []):
-            if not c["ko"]:
-                c["ko"] = TRANS.get(c["ja"]) or C._replace_teams(c["ja"])
+            stem, _, _ = split_school(c["ja"])
+            if C.JP_RE.search(C._replace_teams(stem)) and _seg_key(c["ja"]) not in TRANS:
+                stems.add(stem)
+    if stems:
+        got = C.translate_batch_kr(sorted(stems))
+        for k, v in got.items():
+            TRANS["S:" + k] = v.replace(" ", "") if len(v) <= 8 else v
+        print(f"[TR] 학교·소속 {len(stems)}개 중 {len(got)}개 번역")
+    for p in players:
+        for c in p.get("career", []):
+            stem, suf, koshien = split_school(c["ja"])
+            base = C._replace_teams(stem)
+            if C.JP_RE.search(base):
+                base = TRANS.get("S:" + stem, "")
+            c["ko"] = (base + suf) if base else ""
+            c["koshien"] = koshien
+
+
+KANA_RUN = re.compile(r"[぀-ヿー・]+")
+
+
+def clean_name(name):
+    """사전 항목에 섞여 있는 가나(예: '린 쿠ァ첸')를 한글로 정리."""
+    name = (name or "").replace("・", " ").replace("･", " ")
+    return re.sub(r"\s{2,}", " ", KANA_RUN.sub(lambda m: kana_to_hangul(m.group(0)).replace(" ", ""), name)).strip()
+
+
+def refresh_translations():
+    """이미 저장된 프로필의 이름·경력 번역을 보완 (새로 크롤링하지 않음)."""
+    idx = load_json(os.path.join(PROF_DIR, "index.json"), {"teams": {}})
+    for kr, t in idx.get("teams", {}).items():
+        path = os.path.join(PROF_DIR, f"{t['code']}.json")
+        d = load_json(path, None)
+        if not d:
+            continue
+        before = json.dumps(d, ensure_ascii=False)
+        for p in d["players"]:
+            if C.JP_RE.search(p.get("name", "")):
+                p["name"] = clean_name(p["name"])
+        fill_career_ko(d["players"])
+        if json.dumps(d, ensure_ascii=False) != before:
+            save_json(path, d, compact=True)
 
 
 def npb_kana_map(npb_code):
@@ -380,7 +478,7 @@ def name_kr(jp, npb_links):
     clean = re.sub(r"[\s　]", "", jp)
     hit = C.PLAYER_NAME_TRANSLATION.get(clean)
     if hit:
-        return re.sub(r"[（(].*?[)）]", "", hit).strip(), "dict"
+        return clean_name(re.sub(r"[（(].*?[)）]", "", hit).strip()), "dict"
     if KANA_ONLY.match(jp.replace(" ", "")):
         return kana_to_hangul(jp), "kana"
     url = npb_links.get(clean)
@@ -496,6 +594,7 @@ def main():
         save_json(os.path.join(DATA, "season.json"), fetch_season(), compact=True)
     if "--season-only" not in args:
         fetch_profiles(force="--profiles" in args)
+        refresh_translations()
     save_json(TRANS_PATH, TRANS, compact=True)
 
 

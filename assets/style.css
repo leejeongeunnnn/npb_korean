@@ -308,3 +308,4 @@ table.rank th, table.rank td { white-space: nowrap; }
 .wx-pin { display:flex !important; align-items:center; gap:2px; background:rgba(14,17,23,.85); border:1px solid #334155; border-radius:999px; padding:0 6px; font-size:.72rem; color:#fff; white-space:nowrap; }
 .wx-pin b { font-weight:700; }
 #wx-map { height:320px; margin-bottom:12px; }
+.pf-koshien { font-style:normal; font-size:.62rem; font-weight:700; color:#fca5a5; border:1px solid rgba(252,165,165,.45); border-radius:4px; padding:0 4px; margin-left:3px; vertical-align:1px; }
