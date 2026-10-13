@@ -100,7 +100,9 @@ function gameCard(g) {
   }
   const sc = (v) => showScore && v !== "" ? esc(v) : "-";
   const mine = isMine(g.home) || isMine(g.away);
-  return `<div class="game ${live ? "is-live" : ""} ${mine ? "is-mine" : ""}">
+  const canOpen = g.gid && g.state === "final";
+  const attrs = canOpen ? ` data-gid="${esc(g.gid)}" data-home="${esc(g.home)}" data-away="${esc(g.away)}" data-sh="${esc(g.score_home)}" data-sa="${esc(g.score_away)}" data-venue="${esc(g.venue || "")}" role="button" tabindex="0"` : "";
+  return `<div class="game ${live ? "is-live" : ""} ${mine ? "is-mine" : ""} ${canOpen ? "clickable" : ""}"${attrs}>
     ${(g.series || live || mine) ? `<div class="series">${mine ? '<span class="mine-star">⭐</span> ' : ""}${live ? '<span class="live-pill">LIVE</span> ' : ""}${esc(g.series || "")}</div>` : ""}
     <div class="game-row">
       <span class="game-team"><span class="dot" style="background:${colorOf(g.away)}"></span>${esc(g.away)}</span>
@@ -112,7 +114,7 @@ function gameCard(g) {
     </div>
     <div class="game-meta">
       <span>${esc(g.venue || "")}</span>
-      <span class="${live ? "status-live" : ""}">${esc(g.status || "")}</span>
+      <span class="${live ? "status-live" : ""}">${esc(g.status || "")}${canOpen ? ' <b class="more">상세 ›</b>' : ""}</span>
     </div>
   </div>`;
 }
@@ -541,8 +543,10 @@ function renderMyTeam(forcePicker = false) {
   // 최근 10경기
   html += `<h3 class="sched-sub">📈 최근 ${recent.length}경기 흐름 <span class="mt-sub">${w}승 ${l}패${d ? ` ${d}무` : ""}</span></h3>`;
   if (chips.length) {
-    html += `<div class="form-row">${chips.slice().reverse().map(c => `<span class="form-chip ${c.r}" title="${esc(c.g.display)} vs ${esc(c.s.opp)} ${esc(c.s.my)}:${esc(c.s.op)}">${c.r === "W" ? "승" : c.r === "L" ? "패" : "무"}</span>`).join("")}</div>
-      <div class="card"><table class="rank mt-results"><tbody>${chips.map(c => `<tr>
+    const ga = (c) => c.g.gid ? ` data-gid="${esc(c.g.gid)}" data-home="${esc(c.g.home)}" data-away="${esc(c.g.away)}" data-sh="${esc(c.g.score_home)}" data-sa="${esc(c.g.score_away)}" data-venue="${esc(c.g.venue || "")}" role="button" tabindex="0"` : "";
+    html += `<div class="form-row">${chips.slice().reverse().map(c => `<span class="form-chip ${c.r} ${c.g.gid ? "clickable" : ""}"${ga(c)} title="${esc(c.g.display)} vs ${esc(c.s.opp)} ${esc(c.s.my)}:${esc(c.s.op)}">${c.r === "W" ? "승" : c.r === "L" ? "패" : "무"}</span>`).join("")}</div>
+      <div class="hint" style="margin:-4px 0 8px">경기를 누르면 라인업·득점 장면 등 상세 기록이 열려요.</div>
+      <div class="card"><table class="rank mt-results"><tbody>${chips.map(c => `<tr class="${c.g.gid ? "clickable" : ""}"${ga(c)}>
         <td class="mt-date">${esc(c.g.display)}</td>
         <td><span class="form-chip sm ${c.r}">${c.r === "W" ? "승" : c.r === "L" ? "패" : "무"}</span></td>
         <td class="team">${c.s.where === "홈" ? "vs" : "@"} ${esc(c.s.opp)}</td>
