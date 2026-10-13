@@ -467,7 +467,10 @@ def fetch_games_by_date(date_str):
             status = status_kr(label_raw)
             if state == "pre" and start:
                 status = f"{start} 시작" + (" · 선발 예고" if "予告先発" in label_raw else "")
+            a_el = item.find("a", class_="bb-score__content") or item.find("a", href=re.compile(r"/npb/game/\d+/"))
+            gm = re.search(r"/npb/game/(\d+)/", a_el.get("href", "")) if a_el else None
             games.append({
+                "gid": gm.group(1) if gm else "",
                 "home": team_kr(home_el.text.strip()) if home_el else "미정",
                 "away": team_kr(away_el.text.strip()) if away_el else "미정",
                 "score_home": sc_l.text.strip() if sc_l else "",
