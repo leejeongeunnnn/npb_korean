@@ -16,7 +16,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"
           integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hqWz3eq7ykx0b8CbyDUfZuVVsjeHs8emIjZIDMjJRgS/GjXZcUjTNQoDwG68ug==" crossorigin="" referrerpolicy="no-referrer"></script>
 
-  <link rel="stylesheet" href="assets/style.css">
+  <!-- 캐시 무력화: GitHub Pages가 파일을 10분간 캐시하므로, 업데이트 직후 예전 JS/CSS가
+       섞여 버튼이 동작하지 않는 일을 막기 위해 매번 최신 파일을 받아 온다. -->
+  <script>window.__V = Date.now();</script>
+  <script>document.write('<link rel="stylesheet" href="assets/style.css?v=' + window.__V + '">');</script>
+  <noscript><link rel="stylesheet" href="assets/style.css"></noscript>
 </head>
 <body>
 
@@ -68,6 +72,6 @@
     GitHub Actions로 자동 수집되는 정적 대시보드
   </footer>
 
-  <script src="assets/app.js"></script>
+  <script>document.write('<script src="assets/app.js?v=' + window.__V + '"><\/script>');</script>
 </body>
 </html>

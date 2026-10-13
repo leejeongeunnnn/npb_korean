@@ -614,7 +614,17 @@ const rendered = {};
 function activate(tab) {
   document.querySelectorAll(".tab").forEach(t => t.classList.toggle("active", t.dataset.tab === tab));
   document.querySelectorAll(".panel").forEach(pn => pn.classList.toggle("active", pn.id === `panel-${tab}`));
-  if (!rendered[tab]) { RENDERERS[tab](); rendered[tab] = true; }
+  if (!rendered[tab]) {
+    try {
+      RENDERERS[tab]();
+      rendered[tab] = true;
+    } catch (e) {
+      // 한 탭에서 오류가 나도 다른 탭·버튼은 계속 동작하도록
+      console.error(`[${tab}] 표시 오류`, e);
+      const pn = document.getElementById(`panel-${tab}`);
+      if (pn) pn.innerHTML = emptyBox("이 화면을 표시하는 중 문제가 생겼습니다. 새로고침해 보세요.");
+    }
+  }
   if (tab === "stadiums") setTimeout(() => window.dispatchEvent(new Event("resize")), 250);
 }
 
