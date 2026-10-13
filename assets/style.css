@@ -309,3 +309,6 @@ table.rank th, table.rank td { white-space: nowrap; }
 .wx-pin b { font-weight:700; }
 #wx-map { height:320px; margin-bottom:12px; }
 .pf-koshien { font-style:normal; font-size:.62rem; font-weight:700; color:#fca5a5; border:1px solid rgba(252,165,165,.45); border-radius:4px; padding:0 4px; margin-left:3px; vertical-align:1px; }
+/* 그리드 칸이 내용(가로 스크롤 영역)만큼 넓어져 화면 밖으로 넘치는 것 방지 */
+.card, .wx-grid > *, .geo-two > *, .geo-layout > *, .pf-grid > *, .game-grid > *, .team-grid > *, .stadium-grid > * { min-width: 0; }
+html, body { overflow-x: hidden; }
