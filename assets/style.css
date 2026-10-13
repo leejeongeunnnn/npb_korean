@@ -312,3 +312,5 @@ table.rank th, table.rank td { white-space: nowrap; }
 /* 그리드 칸이 내용(가로 스크롤 영역)만큼 넓어져 화면 밖으로 넘치는 것 방지 */
 .card, .wx-grid > *, .geo-two > *, .geo-layout > *, .pf-grid > *, .game-grid > *, .team-grid > *, .stadium-grid > * { min-width: 0; }
 html, body { overflow-x: hidden; }
+.mt-pl > span:first-child { flex-shrink: 0; }
+.mt-pl > .num { text-align: right; }

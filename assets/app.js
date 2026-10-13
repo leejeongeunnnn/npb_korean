@@ -352,8 +352,8 @@ function renderStadiums() {
 
   if (typeof L !== "undefined" && all.length) {
     const map = L.map("map").setView([36.2, 138.3], 5);
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
-      attribution: "&copy; OpenStreetMap &copy; CARTO", maxZoom: 18,
+    L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}", {
+      attribution: "Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ", maxZoom: 16,
     }).addTo(map);
     all.forEach(tm => {
       L.circleMarker([tm.lat, tm.lon], { radius: 9, color: "#fff", weight: 2, fillColor: tm.color, fillOpacity: .95 })

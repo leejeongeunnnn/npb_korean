@@ -60,15 +60,18 @@ const median = (arr) => { if (!arr.length) return 0; const s = [...arr].sort((a,
 const km = (v) => `${Math.round(v).toLocaleString("ko-KR")} km`;
 const pct = (a, b) => b ? `${Math.round(a / b * 100)}%` : "-";
 
-/* 지도 공통 */
+/* 지도 공통 - 배경지도: Esri 다크 그레이 (API 키 불필요) */
 const MAPS = {};
+function baseTiles() {
+  return L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}", {
+    attribution: "Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ", maxZoom: 16,
+  });
+}
 function makeMap(id, center = [36.5, 137.5], zoom = 5) {
   if (MAPS[id]) { MAPS[id].remove(); delete MAPS[id]; }
   if (typeof L === "undefined") return null;
   const m = L.map(id, { zoomSnap: 0.5, scrollWheelZoom: false }).setView(center, zoom);
-  L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
-    attribution: "&copy; OpenStreetMap &copy; CARTO", maxZoom: 18, subdomains: "abcd",
-  }).addTo(m);
+  baseTiles().addTo(m);
   MAPS[id] = m;
   setTimeout(() => m.invalidateSize(), 150);
   return m;
@@ -97,7 +100,7 @@ async function renderProfiles(el, team) {
   const pitMap = new Map((DATA.pitchers || []).map(b => [normName(b.name_jp), b]));
 
   const draw = () => {
-    let list = players.filter(p => (PF.pos === "전체" || p.pos === PF.pos) && (PF.ikusei || !p.ikusei)
+    let list = players.filter(p => (PF.pos === "전체" ? isPlayer(p) : PF.pos === "코칭스태프" ? !isPlayer(p) : p.pos === PF.pos) && (PF.ikusei || !p.ikusei)
       && (!PF.q || p.name.includes(PF.q) || p.name_jp.includes(PF.q) || (p.bp_ko || "").includes(PF.q)
           || (p.career || []).some(c => c.ko.includes(PF.q) || c.ja.includes(PF.q))));
     const num = (p) => parseInt(p.no) || 9999;
@@ -146,7 +149,7 @@ async function renderProfiles(el, team) {
       </select>
       <label class="pf-check"><input type="checkbox" id="pf-ik" ${PF.ikusei ? "checked" : ""}> 육성선수 포함</label>
     </div>
-    <div class="stage-tabs">${["전체", "투수", "포수", "내야수", "외야수"].map(x =>
+    <div class="stage-tabs">${["전체", "투수", "포수", "내야수", "외야수", "코칭스태프"].map(x =>
       `<button class="stage-chip ${PF.pos === x ? "active" : ""}" data-pos="${x}">${x}</button>`).join("")}</div>
     <div id="pf-list"></div>
     <p class="hint">출처: Yahoo! 재팬 스포츠 선수 정보 (갱신 ${esc(d.updated_at || "")}). 이름은 번역 사전 또는 일본어 읽기를 국립국어원 표기법으로 옮긴 것이고, 학교명은 기계 번역이라 어색할 수 있어요(학교명에 마우스를 올리면 원문).</p>`;
@@ -194,7 +197,7 @@ async function renderOrigin(el, team) {
 
   let map = null, layer = null;
   const draw = () => {
-    const ps = d.players.filter(p => (OG.ikusei || !p.ikusei) &&
+    const ps = d.players.filter(p => isPlayer(p) && (OG.ikusei || !p.ikusei) &&
       (OG.group === "전체" || (OG.group === "투수" ? p.pos === "투수" : p.pos !== "투수")));
     const jp = ps.filter(p => p.bp_type === "pref"), abroad = ps.filter(p => p.bp_type === "country");
     const byPref = new Map(); jp.forEach(p => { if (!byPref.has(p.pref_id)) byPref.set(p.pref_id, []); byPref.get(p.pref_id).push(p); });
@@ -281,7 +284,7 @@ async function compareLocal(box, gj, prefById) {
     const d = await teamProfiles(t.name);
     if (!d) continue;
     const hp = prefOfPoint(gj, [t.lat, t.lon]);
-    const jp = d.players.filter(p => p.bp_type === "pref");
+    const jp = d.players.filter(p => isPlayer(p) && p.bp_type === "pref");
     const local = hp ? jp.filter(p => p.pref_id === hp.id).length : 0;
     const region = hp ? prefById.get(hp.id).region : "";
     const reg = jp.filter(p => p.region === region).length;

@@ -398,31 +398,51 @@ def career_kr(s):
     return [{"ja": x, "ko": ""} for x in segs]
 
 
-def _seg_key(seg):
-    stem, _, _ = split_school(seg)
-    return "S:" + stem          # 번역 캐시 키 (학교명 어간)
+SUFFIX_FULL_JA = {"고": "高校", "대": "大学", "단대": "短期大学", "대학원": "大学院", "전문학교": "専門学校", "고전": "高専", "중": "中学校"}
+SUFFIX_KO_RE = {
+    "고": r"\s*(고등학교|고교|고)$", "대": r"\s*(대학교|대학|대)$", "단대": r"\s*(단기대학|단대)$",
+    "대학원": r"\s*대학원$", "전문학교": r"\s*전문학교$", "고전": r"\s*(고등전문학교|고전)$", "중": r"\s*(중학교|중)$",
+}
+
+
+def _school_query(stem, suf):
+    """번역기에 보낼 문구: 이름만 보내면 뜻으로 번역(白鴎→흰오리)되므로 '白鴎大学'처럼 학교 종류까지 붙여 고유명사로 인식시킴."""
+    return stem + SUFFIX_FULL_JA.get(suf, "")
+
+
+def _school_ko(stem, suf, translated):
+    t = (translated or "").strip()
+    if suf and suf in SUFFIX_KO_RE:
+        t = re.sub(SUFFIX_KO_RE[suf], "", t).strip()
+    t = t.replace(" ", "") if len(t) <= 10 else t
+    return t + suf if t else ""
 
 
 def fill_career_ko(players):
-    """경력 구간을 '어간 번역 + 학교 종류' 방식으로 한국어화. 실패한 것은 다음 실행에서 재시도."""
-    stems = set()
+    """경력 구간 한국어화: '학교명+학교 종류'로 번역한 뒤 한국어 접미사를 짧게 정리. 실패한 것은 다음 실행에서 재시도."""
+    queries = {}
     for p in players:
         for c in p.get("career", []):
-            stem, _, _ = split_school(c["ja"])
-            if C.JP_RE.search(C._replace_teams(stem)) and _seg_key(c["ja"]) not in TRANS:
-                stems.add(stem)
-    if stems:
-        got = C.translate_batch_kr(sorted(stems))
-        for k, v in got.items():
-            TRANS["S:" + k] = v.replace(" ", "") if len(v) <= 8 else v
-        print(f"[TR] 학교·소속 {len(stems)}개 중 {len(got)}개 번역")
+            stem, suf, _ = split_school(c["ja"])
+            if not C.JP_RE.search(C._replace_teams(stem)):
+                continue
+            q = _school_query(stem, suf)
+            if "S2:" + q not in TRANS:
+                queries[q] = (stem, suf)
+    if queries:
+        got = C.translate_batch_kr(sorted(queries))
+        for q, v in got.items():
+            stem, suf = queries[q]
+            TRANS["S2:" + q] = _school_ko(stem, suf, v)
+        print(f"[TR] 학교·소속 {len(queries)}개 중 {len(got)}개 번역")
     for p in players:
         for c in p.get("career", []):
             stem, suf, koshien = split_school(c["ja"])
             base = C._replace_teams(stem)
             if C.JP_RE.search(base):
-                base = TRANS.get("S:" + stem, "")
-            c["ko"] = (base + suf) if base else ""
+                c["ko"] = TRANS.get("S2:" + _school_query(stem, suf), "")
+            else:
+                c["ko"] = base + suf
             c["koshien"] = koshien
 
 
