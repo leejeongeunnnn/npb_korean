@@ -12,7 +12,7 @@ for t in s.find_all("table"):
     if len(rows) > 10:
         print("ROSTER TABLE class=", t.get("class"), "rows=", len(rows))
         for r in rows[:6]:
-            print("  ROW", [c.get_text(" ", strip=True) for c in r.find_all(["td", "th"])], r.find("a")["href"] if r.find("a") else "")
+            print("  ROW", [c.get_text(" ", strip=True) for c in r.find_all(["td", "th"])], [a.get("href") for a in r.find_all("a")])
         break
 for pid in ["31335139", "51355139"]:
     p = get(f"https://npb.jp/bis/players/{pid}.html")
