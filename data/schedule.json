@@ -1,5 +1,1074 @@
 {
   "days_back": 23,
   "days_fwd": 6,
-  "days": []
+  "days": [
+    {
+      "date": "2026-09-20",
+      "display": "9월 20일 (일)",
+      "is_today": false,
+      "games": [
+        {
+          "home": "巨人",
+          "away": "ヤクルト",
+          "score_home": "3",
+          "score_away": "2",
+          "status": "3\n-\n2",
+          "label": "試合終了",
+          "venue": "東京ドーム",
+          "series": ""
+        },
+        {
+          "home": "中日",
+          "away": "広島",
+          "score_home": "8",
+          "score_away": "5",
+          "status": "8\n-\n5",
+          "label": "試合終了",
+          "venue": "バンテリンドーム",
+          "series": ""
+        },
+        {
+          "home": "阪神",
+          "away": "DeNA",
+          "score_home": "8",
+          "score_away": "1",
+          "status": "8\n-\n1",
+          "label": "試合終了",
+          "venue": "甲子園",
+          "series": ""
+        },
+        {
+          "home": "日本ハム",
+          "away": "オリックス",
+          "score_home": "6",
+          "score_away": "9",
+          "status": "6\n-\n9",
+          "label": "試合終了",
+          "venue": "エスコンF",
+          "series": ""
+        },
+        {
+          "home": "楽天",
+          "away": "ソフトバンク",
+          "score_home": "5",
+          "score_away": "3",
+          "status": "5\n-\n3",
+          "label": "試合終了",
+          "venue": "楽天モバイル",
+          "series": ""
+        },
+        {
+          "home": "ロッテ",
+          "away": "西武",
+          "score_home": "",
+          "score_away": "",
+          "status": "-",
+          "label": "試合中止",
+          "venue": "ZOZOマリン",
+          "series": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "display": "9월 21일 (월)",
+      "is_today": false,
+      "games": [
+        {
+          "home": "中日",
+          "away": "広島",
+          "score_home": "10",
+          "score_away": "0",
+          "status": "10\n-\n0",
+          "label": "試合終了",
+          "venue": "バンテリンドーム",
+          "series": ""
+        },
+        {
+          "home": "阪神",
+          "away": "DeNA",
+          "score_home": "3",
+          "score_away": "2",
+          "status": "3\n-\n2",
+          "label": "試合終了",
+          "venue": "甲子園",
+          "series": ""
+        },
+        {
+          "home": "楽天",
+          "away": "ソフトバンク",
+          "score_home": "",
+          "score_away": "",
+          "status": "-",
+          "label": "試合中止",
+          "venue": "楽天モバイル",
+          "series": ""
+        },
+        {
+          "home": "日本ハム",
+          "away": "オリックス",
+          "score_home": "5",
+          "score_away": "3",
+          "status": "5\n-\n3",
+          "label": "試合終了",
+          "venue": "エスコンF",
+          "series": ""
+        },
+        {
+          "home": "ロッテ",
+          "away": "西武",
+          "score_home": "",
+          "score_away": "",
+          "status": "-",
+          "label": "試合中止",
+          "venue": "ZOZOマリン",
+          "series": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "display": "9월 22일 (화)",
+      "is_today": false,
+      "games": [
+        {
+          "home": "広島",
+          "away": "巨人",
+          "score_home": "2",
+          "score_away": "1",
+          "status": "2\n-\n1",
+          "label": "試合終了",
+          "venue": "マツダスタジアム",
+          "series": ""
+        },
+        {
+          "home": "ヤクルト",
+          "away": "阪神",
+          "score_home": "7",
+          "score_away": "9",
+          "status": "7\n-\n9",
+          "label": "試合終了",
+          "venue": "神宮",
+          "series": ""
+        },
+        {
+          "home": "DeNA",
+          "away": "中日",
+          "score_home": "7",
+          "score_away": "3",
+          "status": "7\n-\n3",
+          "label": "試合終了",
+          "venue": "横浜",
+          "series": ""
+        },
+        {
+          "home": "日本ハム",
+          "away": "楽天",
+          "score_home": "6",
+          "score_away": "5",
+          "status": "6\n-\n5",
+          "label": "試合終了",
+          "venue": "エスコンF",
+          "series": ""
+        },
+        {
+          "home": "ソフトバンク",
+          "away": "西武",
+          "score_home": "6",
+          "score_away": "5",
+          "status": "6\n-\n5",
+          "label": "試合終了",
+          "venue": "みずほPayPay",
+          "series": ""
+        },
+        {
+          "home": "ロッテ",
+          "away": "オリックス",
+          "score_home": "4",
+          "score_away": "6",
+          "status": "4\n-\n6",
+          "label": "試合終了",
+          "venue": "ZOZOマリン",
+          "series": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "display": "9월 23일 (수)",
+      "is_today": false,
+      "games": [
+        {
+          "home": "ヤクルト",
+          "away": "阪神",
+          "score_home": "4",
+          "score_away": "8",
+          "status": "4\n-\n8",
+          "label": "試合終了",
+          "venue": "神宮",
+          "series": ""
+        },
+        {
+          "home": "広島",
+          "away": "巨人",
+          "score_home": "1",
+          "score_away": "2",
+          "status": "1\n-\n2",
+          "label": "試合終了",
+          "venue": "マツダスタジアム",
+          "series": ""
+        },
+        {
+          "home": "DeNA",
+          "away": "中日",
+          "score_home": "4",
+          "score_away": "3",
+          "status": "4\n-\n3",
+          "label": "試合終了",
+          "venue": "横浜",
+          "series": ""
+        },
+        {
+          "home": "ソフトバンク",
+          "away": "西武",
+          "score_home": "10",
+          "score_away": "3",
+          "status": "10\n-\n3",
+          "label": "試合終了",
+          "venue": "みずほPayPay",
+          "series": ""
+        },
+        {
+          "home": "ロッテ",
+          "away": "オリックス",
+          "score_home": "0",
+          "score_away": "1",
+          "status": "0\n-\n1",
+          "label": "試合終了",
+          "venue": "ZOZOマリン",
+          "series": ""
+        },
+        {
+          "home": "日本ハム",
+          "away": "楽天",
+          "score_home": "3",
+          "score_away": "5",
+          "status": "3\n-\n5",
+          "label": "試合終了",
+          "venue": "エスコンF",
+          "series": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "display": "9월 24일 (목)",
+      "is_today": false,
+      "games": [
+        {
+          "home": "広島",
+          "away": "巨人",
+          "score_home": "3",
+          "score_away": "1",
+          "status": "3\n-\n1",
+          "label": "試合終了",
+          "venue": "マツダスタジアム",
+          "series": ""
+        },
+        {
+          "home": "日本ハム",
+          "away": "楽天",
+          "score_home": "0",
+          "score_away": "6",
+          "status": "0\n-\n6",
+          "label": "試合終了",
+          "venue": "エスコンF",
+          "series": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "display": "9월 25일 (금)",
+      "is_today": false,
+      "games": [
+        {
+          "home": "ヤクルト",
+          "away": "中日",
+          "score_home": "5",
+          "score_away": "4",
+          "status": "5\n-\n4",
+          "label": "試合終了",
+          "venue": "神宮",
+          "series": ""
+        },
+        {
+          "home": "DeNA",
+          "away": "阪神",
+          "score_home": "2",
+          "score_away": "1",
+          "status": "2\n-\n1",
+          "label": "試合終了",
+          "venue": "横浜",
+          "series": ""
+        },
+        {
+          "home": "広島",
+          "away": "巨人",
+          "score_home": "3",
+          "score_away": "2",
+          "status": "3\n-\n2",
+          "label": "試合終了",
+          "venue": "マツダスタジアム",
+          "series": ""
+        },
+        {
+          "home": "西武",
+          "away": "ロッテ",
+          "score_home": "2",
+          "score_away": "6",
+          "status": "2\n-\n6",
+          "label": "試合終了",
+          "venue": "ベルーナドーム",
+          "series": ""
+        },
+        {
+          "home": "オリックス",
+          "away": "ソフトバンク",
+          "score_home": "0",
+          "score_away": "9",
+          "status": "0\n-\n9",
+          "label": "試合終了",
+          "venue": "京セラD大阪",
+          "series": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "display": "9월 26일 (토)",
+      "is_today": false,
+      "games": [
+        {
+          "home": "DeNA",
+          "away": "阪神",
+          "score_home": "3",
+          "score_away": "8",
+          "status": "3\n-\n8",
+          "label": "試合終了",
+          "venue": "横浜",
+          "series": ""
+        },
+        {
+          "home": "ヤクルト",
+          "away": "中日",
+          "score_home": "5",
+          "score_away": "3",
+          "status": "5\n-\n3",
+          "label": "試合終了",
+          "venue": "神宮",
+          "series": ""
+        },
+        {
+          "home": "西武",
+          "away": "ロッテ",
+          "score_home": "5",
+          "score_away": "4",
+          "status": "5\n-\n4",
+          "label": "試合終了",
+          "venue": "ベルーナドーム",
+          "series": ""
+        },
+        {
+          "home": "オリックス",
+          "away": "日本ハム",
+          "score_home": "0",
+          "score_away": "2",
+          "status": "0\n-\n2",
+          "label": "試合終了",
+          "venue": "京セラD大阪",
+          "series": ""
+        },
+        {
+          "home": "ソフトバンク",
+          "away": "楽天",
+          "score_home": "4",
+          "score_away": "0",
+          "status": "4\n-\n0",
+          "label": "試合終了",
+          "venue": "みずほPayPay",
+          "series": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "display": "9월 27일 (일)",
+      "is_today": false,
+      "games": [
+        {
+          "home": "DeNA",
+          "away": "広島",
+          "score_home": "3",
+          "score_away": "5",
+          "status": "3\n-\n5",
+          "label": "試合終了",
+          "venue": "横浜",
+          "series": ""
+        },
+        {
+          "home": "巨人",
+          "away": "ヤクルト",
+          "score_home": "11",
+          "score_away": "0",
+          "status": "11\n-\n0",
+          "label": "試合終了",
+          "venue": "東京ドーム",
+          "series": ""
+        },
+        {
+          "home": "ソフトバンク",
+          "away": "オリックス",
+          "score_home": "12",
+          "score_away": "5",
+          "status": "12\n-\n5",
+          "label": "試合終了",
+          "venue": "みずほPayPay",
+          "series": ""
+        },
+        {
+          "home": "西武",
+          "away": "楽天",
+          "score_home": "3",
+          "score_away": "2",
+          "status": "3\n-\n2",
+          "label": "試合終了",
+          "venue": "ベルーナドーム",
+          "series": ""
+        },
+        {
+          "home": "ロッテ",
+          "away": "日本ハム",
+          "score_home": "6",
+          "score_away": "1",
+          "status": "6\n-\n1",
+          "label": "試合終了",
+          "venue": "ZOZOマリン",
+          "series": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "display": "9월 28일 (월)",
+      "is_today": false,
+      "games": [
+        {
+          "home": "DeNA",
+          "away": "広島",
+          "score_home": "3",
+          "score_away": "4",
+          "status": "3\n-\n4",
+          "label": "試合終了",
+          "venue": "横浜",
+          "series": ""
+        },
+        {
+          "home": "西武",
+          "away": "楽天",
+          "score_home": "2",
+          "score_away": "4",
+          "status": "2\n-\n4",
+          "label": "試合終了",
+          "venue": "ベルーナドーム",
+          "series": ""
+        },
+        {
+          "home": "ロッテ",
+          "away": "日本ハム",
+          "score_home": "3",
+          "score_away": "8",
+          "status": "3\n-\n8",
+          "label": "試合終了",
+          "venue": "ZOZOマリン",
+          "series": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "display": "9월 29일 (화)",
+      "is_today": false,
+      "games": [
+        {
+          "home": "巨人",
+          "away": "広島",
+          "score_home": "3",
+          "score_away": "1",
+          "status": "3\n-\n1",
+          "label": "試合終了",
+          "venue": "東京ドーム",
+          "series": ""
+        },
+        {
+          "home": "阪神",
+          "away": "ヤクルト",
+          "score_home": "",
+          "score_away": "",
+          "status": "-",
+          "label": "試合中止",
+          "venue": "甲子園",
+          "series": ""
+        },
+        {
+          "home": "楽天",
+          "away": "ロッテ",
+          "score_home": "3",
+          "score_away": "6",
+          "status": "3\n-\n6",
+          "label": "試合終了",
+          "venue": "楽天モバイル",
+          "series": ""
+        },
+        {
+          "home": "西武",
+          "away": "オリックス",
+          "score_home": "2",
+          "score_away": "1",
+          "status": "2\n-\n1",
+          "label": "試合終了",
+          "venue": "ベルーナドーム",
+          "series": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "display": "9월 30일 (수)",
+      "is_today": false,
+      "games": [
+        {
+          "home": "阪神",
+          "away": "ヤクルト",
+          "score_home": "5",
+          "score_away": "0",
+          "status": "5\n-\n0",
+          "label": "試合終了",
+          "venue": "甲子園",
+          "series": ""
+        },
+        {
+          "home": "楽天",
+          "away": "ロッテ",
+          "score_home": "3",
+          "score_away": "0",
+          "status": "3\n-\n0",
+          "label": "試合終了",
+          "venue": "楽天モバイル",
+          "series": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "display": "10월 1일 (목)",
+      "is_today": false,
+      "games": [
+        {
+          "home": "阪神",
+          "away": "巨人",
+          "score_home": "2",
+          "score_away": "2",
+          "status": "2\n-\n2",
+          "label": "試合終了",
+          "venue": "甲子園",
+          "series": ""
+        },
+        {
+          "home": "広島",
+          "away": "中日",
+          "score_home": "5",
+          "score_away": "1",
+          "status": "5\n-\n1",
+          "label": "試合終了",
+          "venue": "マツダスタジアム",
+          "series": ""
+        },
+        {
+          "home": "楽天",
+          "away": "ソフトバンク",
+          "score_home": "2",
+          "score_away": "8",
+          "status": "2\n-\n8",
+          "label": "試合終了",
+          "venue": "楽天モバイル",
+          "series": ""
+        },
+        {
+          "home": "ロッテ",
+          "away": "日本ハム",
+          "score_home": "1",
+          "score_away": "3",
+          "status": "1\n-\n3",
+          "label": "試合終了",
+          "venue": "ZOZOマリン",
+          "series": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "display": "10월 2일 (금)",
+      "is_today": false,
+      "games": [
+        {
+          "home": "ヤクルト",
+          "away": "巨人",
+          "score_home": "5",
+          "score_away": "1",
+          "status": "5\n-\n1",
+          "label": "試合終了",
+          "venue": "神宮",
+          "series": ""
+        },
+        {
+          "home": "ロッテ",
+          "away": "ソフトバンク",
+          "score_home": "3",
+          "score_away": "4",
+          "status": "3\n-\n4",
+          "label": "試合終了",
+          "venue": "ZOZOマリン",
+          "series": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "display": "10월 3일 (토)",
+      "is_today": false,
+      "games": [
+        {
+          "home": "広島",
+          "away": "阪神",
+          "score_home": "6",
+          "score_away": "4",
+          "status": "6\n-\n4",
+          "label": "試合終了",
+          "venue": "マツダスタジアム",
+          "series": ""
+        },
+        {
+          "home": "巨人",
+          "away": "DeNA",
+          "score_home": "2",
+          "score_away": "5",
+          "status": "2\n-\n5",
+          "label": "試合終了",
+          "venue": "東京ドーム",
+          "series": ""
+        },
+        {
+          "home": "ヤクルト",
+          "away": "中日",
+          "score_home": "1",
+          "score_away": "3",
+          "status": "1\n-\n3",
+          "label": "試合終了",
+          "venue": "神宮",
+          "series": ""
+        },
+        {
+          "home": "楽天",
+          "away": "オリックス",
+          "score_home": "6",
+          "score_away": "0",
+          "status": "6\n-\n0",
+          "label": "試合終了",
+          "venue": "楽天モバイル",
+          "series": ""
+        },
+        {
+          "home": "ロッテ",
+          "away": "ソフトバンク",
+          "score_home": "2",
+          "score_away": "1",
+          "status": "2\n-\n1",
+          "label": "試合終了",
+          "venue": "ZOZOマリン",
+          "series": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "display": "10월 4일 (일)",
+      "is_today": false,
+      "games": [
+        {
+          "home": "ヤクルト",
+          "away": "広島",
+          "score_home": "4",
+          "score_away": "7",
+          "status": "4\n-\n7",
+          "label": "試合終了",
+          "venue": "神宮",
+          "series": ""
+        },
+        {
+          "home": "DeNA",
+          "away": "阪神",
+          "score_home": "2",
+          "score_away": "1",
+          "status": "2\n-\n1",
+          "label": "試合終了",
+          "venue": "横浜",
+          "series": ""
+        },
+        {
+          "home": "ロッテ",
+          "away": "楽天",
+          "score_home": "3",
+          "score_away": "2",
+          "status": "3\n-\n2",
+          "label": "試合終了",
+          "venue": "ZOZOマリン",
+          "series": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "display": "10월 5일 (월)",
+      "is_today": false,
+      "games": [
+        {
+          "home": "楽天",
+          "away": "ソフトバンク",
+          "score_home": "3",
+          "score_away": "1",
+          "status": "3\n-\n1",
+          "label": "試合終了",
+          "venue": "楽天モバイル",
+          "series": ""
+        },
+        {
+          "home": "ロッテ",
+          "away": "西武",
+          "score_home": "1",
+          "score_away": "7",
+          "status": "1\n-\n7",
+          "label": "試合終了",
+          "venue": "ZOZOマリン",
+          "series": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "display": "10월 6일 (화)",
+      "is_today": false,
+      "games": [
+        {
+          "home": "阪神",
+          "away": "広島",
+          "score_home": "2",
+          "score_away": "1",
+          "status": "2\n-\n1",
+          "label": "試合終了",
+          "venue": "甲子園",
+          "series": ""
+        },
+        {
+          "home": "ロッテ",
+          "away": "西武",
+          "score_home": "0",
+          "score_away": "3",
+          "status": "0\n-\n3",
+          "label": "試合終了",
+          "venue": "ZOZOマリン",
+          "series": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "display": "10월 7일 (수)",
+      "is_today": false,
+      "games": [
+        {
+          "home": "阪神",
+          "away": "広島",
+          "score_home": "2",
+          "score_away": "1",
+          "status": "2\n-\n1",
+          "label": "試合終了",
+          "venue": "甲子園",
+          "series": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "display": "10월 8일 (목)",
+      "is_today": false,
+      "games": [
+        {
+          "home": "阪神",
+          "away": "ヤクルト",
+          "score_home": "0",
+          "score_away": "4",
+          "status": "0\n-\n4",
+          "label": "試合終了",
+          "venue": "甲子園",
+          "series": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "display": "10월 9일 (금)",
+      "is_today": false,
+      "games": []
+    },
+    {
+      "date": "2026-10-10",
+      "display": "10월 10일 (토)",
+      "is_today": false,
+      "games": [
+        {
+          "home": "巨人",
+          "away": "DeNA",
+          "score_home": "1",
+          "score_away": "2",
+          "status": "1\n-\n2",
+          "label": "試合終了",
+          "venue": "東京ドーム",
+          "series": "🍁 CS 퍼스트 스테이지"
+        },
+        {
+          "home": "西武",
+          "away": "日本ハム",
+          "score_home": "3",
+          "score_away": "2",
+          "status": "3\n-\n2",
+          "label": "試合終了",
+          "venue": "ベルーナドーム",
+          "series": "🍁 CS 퍼스트 스테이지"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "display": "10월 11일 (일)",
+      "is_today": false,
+      "games": [
+        {
+          "home": "巨人",
+          "away": "DeNA",
+          "score_home": "1",
+          "score_away": "4",
+          "status": "1\n-\n4",
+          "label": "試合終了",
+          "venue": "東京ドーム",
+          "series": "🍁 CS 퍼스트 스테이지"
+        },
+        {
+          "home": "西武",
+          "away": "日本ハム",
+          "score_home": "0",
+          "score_away": "1",
+          "status": "0\n-\n1",
+          "label": "試合終了",
+          "venue": "ベルーナドーム",
+          "series": "🍁 CS 퍼스트 스테이지"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "display": "10월 12일 (월)",
+      "is_today": false,
+      "games": [
+        {
+          "home": "西武",
+          "away": "日本ハム",
+          "score_home": "1",
+          "score_away": "4",
+          "status": "1\n-\n4",
+          "label": "試合終了",
+          "venue": "ベルーナドーム",
+          "series": "🍁 CS 퍼스트 스테이지"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "display": "10월 13일 (화)",
+      "is_today": true,
+      "games": []
+    },
+    {
+      "date": "2026-10-14",
+      "display": "10월 14일 (수)",
+      "is_today": false,
+      "games": [
+        {
+          "home": "阪神",
+          "away": "DeNA",
+          "score_home": "",
+          "score_away": "",
+          "status": "18:00",
+          "label": "予告先発",
+          "venue": "甲子園",
+          "series": "🔥 CS 파이널 스테이지"
+        },
+        {
+          "home": "ソフトバンク",
+          "away": "日本ハム",
+          "score_home": "",
+          "score_away": "",
+          "status": "18:00",
+          "label": "予告先発",
+          "venue": "みずほPayPay",
+          "series": "🔥 CS 파이널 스테이지"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "display": "10월 15일 (목)",
+      "is_today": false,
+      "games": [
+        {
+          "home": "阪神",
+          "away": "DeNA",
+          "score_home": "",
+          "score_away": "",
+          "status": "18:00",
+          "label": "試合前",
+          "venue": "甲子園",
+          "series": "🔥 CS 파이널 스테이지"
+        },
+        {
+          "home": "ソフトバンク",
+          "away": "日本ハム",
+          "score_home": "",
+          "score_away": "",
+          "status": "18:00",
+          "label": "試合前",
+          "venue": "みずほPayPay",
+          "series": "🔥 CS 파이널 스테이지"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "display": "10월 16일 (금)",
+      "is_today": false,
+      "games": [
+        {
+          "home": "阪神",
+          "away": "DeNA",
+          "score_home": "",
+          "score_away": "",
+          "status": "18:00",
+          "label": "試合前",
+          "venue": "甲子園",
+          "series": "🔥 CS 파이널 스테이지"
+        },
+        {
+          "home": "ソフトバンク",
+          "away": "日本ハム",
+          "score_home": "",
+          "score_away": "",
+          "status": "18:00",
+          "label": "試合前",
+          "venue": "みずほPayPay",
+          "series": "🔥 CS 파이널 스테이지"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "display": "10월 17일 (토)",
+      "is_today": false,
+      "games": [
+        {
+          "home": "阪神",
+          "away": "DeNA",
+          "score_home": "",
+          "score_away": "",
+          "status": "14:00",
+          "label": "試合前",
+          "venue": "甲子園",
+          "series": "🔥 CS 파이널 스테이지"
+        },
+        {
+          "home": "ソフトバンク",
+          "away": "日本ハム",
+          "score_home": "",
+          "score_away": "",
+          "status": "18:00",
+          "label": "試合前",
+          "venue": "みずほPayPay",
+          "series": "🔥 CS 파이널 스테이지"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "display": "10월 18일 (일)",
+      "is_today": false,
+      "games": [
+        {
+          "home": "阪神",
+          "away": "DeNA",
+          "score_home": "",
+          "score_away": "",
+          "status": "14:00",
+          "label": "試合前",
+          "venue": "甲子園",
+          "series": "🔥 CS 파이널 스테이지"
+        },
+        {
+          "home": "ソフトバンク",
+          "away": "日本ハム",
+          "score_home": "",
+          "score_away": "",
+          "status": "18:00",
+          "label": "試合前",
+          "venue": "みずほPayPay",
+          "series": "🔥 CS 파이널 스테이지"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "display": "10월 19일 (월)",
+      "is_today": false,
+      "games": [
+        {
+          "home": "阪神",
+          "away": "DeNA",
+          "score_home": "",
+          "score_away": "",
+          "status": "18:00",
+          "label": "試合前",
+          "venue": "甲子園",
+          "series": "🔥 CS 파이널 스테이지"
+        },
+        {
+          "home": "ソフトバンク",
+          "away": "日本ハム",
+          "score_home": "",
+          "score_away": "",
+          "status": "18:00",
+          "label": "試合前",
+          "venue": "みずほPayPay",
+          "series": "🔥 CS 파이널 스테이지"
+        }
+      ]
+    }
+  ]
 }
