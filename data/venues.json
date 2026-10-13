@@ -1,0 +1,241 @@
+{
+ "updated": "2026-10-13",
+ "venues": [
+  {
+   "short": "ZOZOマリン",
+   "lat": 35.64513,
+   "lon": 140.03079,
+   "name_ko": "조조 마린 스타디움",
+   "src": "teams.json"
+  },
+  {
+   "short": "いわき",
+   "lat": 39.54208,
+   "lon": 140.05683,
+   "src": "OSM Nominatim",
+   "name_ko": "이와키",
+   "name_jp": "ヨークいわきスタジアム"
+  },
+  {
+   "short": "ほっと神戸",
+   "lat": 34.68092,
+   "lon": 135.07352,
+   "src": "OSM Nominatim",
+   "name_ko": "홋토못토 필드 고베",
+   "name_jp": "ほっともっとフィールド神戸"
+  },
+  {
+   "short": "みずほPayPay",
+   "lat": 33.59539,
+   "lon": 130.36223,
+   "name_ko": "미즈호 PayPay 돔 후쿠오카",
+   "src": "teams.json"
+  },
+  {
+   "short": "エスコンF",
+   "lat": 42.99042,
+   "lon": 141.55442,
+   "name_ko": "에스콘 필드 홋카이도",
+   "src": "teams.json"
+  },
+  {
+   "short": "ハードオフ新潟",
+   "lat": 37.88658,
+   "lon": 139.03419,
+   "src": "OSM Nominatim",
+   "name_ko": "니가타",
+   "name_jp": "ハードオフ新潟"
+  },
+  {
+   "short": "バンテリンドーム",
+   "lat": 35.18595,
+   "lon": 136.94745,
+   "name_ko": "반테린 돔 나고야",
+   "src": "teams.json"
+  },
+  {
+   "short": "ベルーナドーム",
+   "lat": 35.76861,
+   "lon": 139.42052,
+   "name_ko": "벨루나 돔",
+   "src": "teams.json"
+  },
+  {
+   "short": "マツダスタジアム",
+   "lat": 34.39183,
+   "lon": 132.48472,
+   "name_ko": "마쓰다 줌줌 스타디움 히로시마",
+   "src": "teams.json"
+  },
+  {
+   "short": "京セラD大阪",
+   "lat": 34.66924,
+   "lon": 135.47615,
+   "name_ko": "교세라 돔 오사카",
+   "src": "teams.json"
+  },
+  {
+   "short": "倉敷",
+   "lat": 34.62036,
+   "lon": 133.80407,
+   "src": "OSM Nominatim",
+   "name_ko": "구라시키",
+   "name_jp": "倉敷マスカットスタジアム"
+  },
+  {
+   "short": "前橋",
+   "lat": 36.4143,
+   "lon": 139.05041,
+   "src": "OSM Nominatim",
+   "name_ko": "마에바시",
+   "name_jp": "上毛新聞敷島球場"
+  },
+  {
+   "short": "北九州",
+   "lat": 33.86864,
+   "lon": 130.88565,
+   "src": "OSM Nominatim",
+   "name_ko": "기타큐슈",
+   "name_jp": "北九州市民球場"
+  },
+  {
+   "short": "山形市",
+   "lat": 38.25534,
+   "lon": 140.34002,
+   "src": "OSM Nominatim",
+   "name_ko": "야마가타",
+   "name_jp": "山形市"
+  },
+  {
+   "short": "岐阜",
+   "lat": 31.46807,
+   "lon": 131.21873,
+   "src": "OSM Nominatim",
+   "name_ko": "기후",
+   "name_jp": "岐阜県営長良川球場"
+  },
+  {
+   "short": "東京ドーム",
+   "lat": 35.70562,
+   "lon": 139.75191,
+   "name_ko": "도쿄 돔",
+   "src": "teams.json"
+  },
+  {
+   "short": "松山",
+   "lat": 33.80977,
+   "lon": 132.74341,
+   "src": "OSM Nominatim",
+   "name_ko": "마쓰야마",
+   "name_jp": "坊っちゃんスタジアム"
+  },
+  {
+   "short": "楽天モバイル",
+   "lat": 38.25656,
+   "lon": 140.90253,
+   "name_ko": "라쿠텐 모바일 파크 미야기",
+   "src": "teams.json"
+  },
+  {
+   "short": "横浜",
+   "lat": 35.44332,
+   "lon": 139.6401,
+   "name_ko": "요코하마 스타디움",
+   "src": "teams.json"
+  },
+  {
+   "short": "熊本",
+   "lat": 32.80668,
+   "lon": 130.69794,
+   "src": "OSM Nominatim",
+   "name_ko": "구마모토",
+   "name_jp": "藤崎台県営野球場"
+  },
+  {
+   "short": "甲子園",
+   "lat": 34.72121,
+   "lon": 135.36162,
+   "name_ko": "한신 고시엔 구장",
+   "src": "teams.json"
+  },
+  {
+   "short": "盛岡",
+   "lat": 39.65001,
+   "lon": 141.13714,
+   "src": "OSM Nominatim",
+   "name_ko": "모리오카",
+   "name_jp": "きたぎんボールパーク"
+  },
+  {
+   "short": "県営大宮",
+   "lat": 35.99078,
+   "lon": 139.38323,
+   "src": "OSM Nominatim",
+   "name_ko": "현영 오미야 구장",
+   "name_jp": "埼玉県営大宮球場"
+  },
+  {
+   "short": "神宮",
+   "lat": 35.67437,
+   "lon": 139.71708,
+   "name_ko": "메이지 진구 야구장",
+   "src": "teams.json"
+  },
+  {
+   "short": "福井",
+   "lat": 36.06215,
+   "lon": 136.22398,
+   "src": "OSM Nominatim",
+   "name_ko": "후쿠이",
+   "name_jp": "福井"
+  },
+  {
+   "short": "秋田",
+   "lat": 39.72609,
+   "lon": 140.06956,
+   "src": "OSM Nominatim",
+   "name_ko": "아키타",
+   "name_jp": "こまちスタジアム"
+  },
+  {
+   "short": "豊橋",
+   "lat": 34.75735,
+   "lon": 137.42517,
+   "src": "OSM Nominatim",
+   "name_ko": "도요하시",
+   "name_jp": "豊橋市民球場"
+  },
+  {
+   "short": "那覇",
+   "lat": 26.20355,
+   "lon": 127.67306,
+   "src": "OSM Nominatim",
+   "name_ko": "나하",
+   "name_jp": "沖縄セルラースタジアム那覇"
+  },
+  {
+   "short": "郡山",
+   "lat": 37.3986,
+   "lon": 140.35888,
+   "src": "OSM Nominatim",
+   "name_ko": "고리야마",
+   "name_jp": "ヨーク開成山スタジアム"
+  },
+  {
+   "short": "長野",
+   "lat": 36.57988,
+   "lon": 138.16579,
+   "src": "OSM Nominatim",
+   "name_ko": "나가노",
+   "name_jp": "長野オリンピックスタジアム"
+  },
+  {
+   "short": "鹿児島",
+   "lat": 31.56452,
+   "lon": 130.5578,
+   "src": "OSM Nominatim",
+   "name_ko": "가고시마",
+   "name_jp": "鹿児島県立鴨池野球場"
+  }
+ ]
+}
