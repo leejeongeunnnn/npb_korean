@@ -451,38 +451,34 @@ def _kakasi(text):
 
 
 def reading_parts(text):
-    """일본어 고유명사 → 형태소별 읽기 목록. 분석기가 모르는 말이 섞이면 전체를 pykakasi로 읽는다."""
+    """일본어 고유명사 → [(표기, 읽기)] 형태소 목록. 분석기가 모르는 말이 섞이면 전체를 pykakasi로 읽는다."""
     tagger, _ = _reading_tools()
-    if not tagger:
+    if not tagger or not text:
         return []
     if text in STEM_READING:
-        return [STEM_READING[text]]
-    # 보정할 부분 문자열을 기준으로 나눠서 따로 읽기
+        return [(text, STEM_READING[text])]
     for part, rd in sorted(PART_READING.items(), key=lambda x: -len(x[0])):
-        if part in text and part != text:
+        if part in text:
             i = text.index(part)
-            return reading_parts(text[:i]) + [rd] + reading_parts(text[i + len(part):]) if text[:i] or text[i + len(part):] else [rd]
-    if text in PART_READING:
-        return [PART_READING[text]]
-    parts, unknown = [], False
+            return reading_parts(text[:i]) + [(part, rd)] + reading_parts(text[i + len(part):])
+    parts = []
     for w in tagger(text):
         surf = w.surface
         if surf in TOKEN_READING:
-            parts.append(TOKEN_READING[surf]); continue
+            parts.append((surf, TOKEN_READING[surf])); continue
         if not C.JP_RE.search(surf):
-            parts.append(surf); continue
+            parts.append((surf, surf)); continue
         kana = getattr(w.feature, "kana", None)
         if not kana or kana == "*":
-            unknown = True
-            break
-        parts.append(kana)
-    return [_kakasi(text)] if unknown else parts
+            return [(text, _kakasi(text))]
+        parts.append((surf, kana))
+    return parts
 
 
 def school_ko(stem, suf):
     """학교명 어간의 일본어 발음 한글 표기 + 학교 종류. 예) 慶應義塾 + 대 → 게이오기주쿠대, 大阪桐蔭 + 고 → 오사카도인고
-    형태소마다 따로 한글로 옮겨(각각 첫소리 규칙 적용) 붙여 쓴다."""
-    key = "R2:" + stem
+    낱말(형태소)마다 따로 한글로 옮겨 붙여 쓰되, 한 글자짜리 조각(舘·大·付 등)은 앞 낱말에 이어 붙인다."""
+    key = "R3:" + stem
     if key not in TRANS:
         if stem in HANGUL_OVERRIDE:
             TRANS[key] = HANGUL_OVERRIDE[stem]
@@ -490,7 +486,13 @@ def school_ko(stem, suf):
             parts = reading_parts(stem)
             if not parts:
                 return ""
-            TRANS[key] = "".join(p if not C.JP_RE.search(p) else kana_to_hangul(p).replace(" ", "") for p in parts)
+            chunks = []
+            for surf, rd in parts:
+                if chunks and len(surf) == 1 and C.JP_RE.search(surf):
+                    chunks[-1] += rd                 # 国士+舘 → こくしかん
+                else:
+                    chunks.append(rd)
+            TRANS[key] = "".join(c if not C.JP_RE.search(c) else kana_to_hangul(c).replace(" ", "") for c in chunks)
     return TRANS[key] + suf if TRANS[key] else ""
 
 
