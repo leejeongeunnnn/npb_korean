@@ -257,7 +257,7 @@ async function renderOrigin(el, team) {
       </div>
       <div class="card"><div class="mt-ph">🌏 해외 출신 (${abroad.length}명)</div>
         ${Object.keys(countries).length ? Object.entries(countries).sort((a, b) => b[1].length - a[1].length).map(([c, l]) =>
-          `<div class="mt-pl"><span>${esc(c)}</span><span class="num">${l.map(p => esc(p.name)).join(", ")}</span></div>`).join("") : '<div class="hint" style="margin:0">없음</div>'}
+          `<div class="mt-pl"><span>${esc(c)}</span><span class="num wrap">${l.map(p => esc(p.name)).join(", ")}</span></div>`).join("") : '<div class="hint" style="margin:0">없음</div>'}
       </div>
       <button class="btn-ghost" id="og-compare">📊 12개 구단 연고지 출신 비율 비교</button><div id="og-cmp"></div>`;
     el.querySelector("#og-compare").addEventListener("click", () => compareLocal(el.querySelector("#og-cmp"), gj, prefById));

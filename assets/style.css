@@ -314,3 +314,4 @@ table.rank th, table.rank td { white-space: nowrap; }
 html, body { overflow-x: hidden; }
 .mt-pl > span:first-child { flex-shrink: 0; }
 .mt-pl > .num { text-align: right; }
+.mt-pl .num.wrap { white-space: normal; min-width: 0; }
