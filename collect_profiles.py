@@ -241,28 +241,34 @@ def geocode_venue(name):
 # ----------------------------------------------------------------------------
 # 1) 시즌 일정 (구단별 월간 달력)
 # ----------------------------------------------------------------------------
-GAMEKIND_PATH = os.path.join(CACHE_DIR, "game_kind.json")
+GAMEKIND_PATH = os.path.join(CACHE_DIR, "game_kind_v2.json")
 GAMEKIND = load_json(GAMEKIND_PATH, {})
 RESULT_LABEL = {"勝利": "W", "敗戦": "L", "引分": "D", "引き分け": "D"}
+CS_RE = re.compile(r"CS([セパ])・(ファースト|ファイナル)ステージ")
+JS_RE = re.compile(r"日本シリーズ\s*\d+回戦|日本シリーズ\s*第\d+戦")
 
 
 def classify_game(gid):
-    """경기 페이지 제목으로 경기 종류 판별 (오픈전/포스트시즌/정규시즌). 한 번 판별하면 캐시."""
+    """경기 페이지로 경기 종류 판별: exhibition(오픈전) / cs / japan_series / regular. 한 번 판별하면 캐시.
+    포스트시즌은 페이지 상단의 'CSパ・ファーストステージ 1回戦' 같은 표기로 찾는다."""
     if not gid:
         return "regular"
     if gid in GAMEKIND:
         return GAMEKIND[gid]
-    kind = "regular"
     try:
         r = get(f"https://baseball.yahoo.co.jp/npb/game/{gid}/index")
         soup = BeautifulSoup(r.text, "html.parser")
-        head = (soup.title.get_text() if soup.title else "") + " " + soup.get_text(" ", strip=True)[:1500]
+        full = soup.get_text(" ", strip=True)
+        head = (soup.title.get_text() if soup.title else "") + " " + full[:1500]
+        m = CS_RE.search(full)
         if "オープン戦" in head:
             kind = "exhibition"
-        elif "日本シリーズ" in head:
+        elif JS_RE.search(full):
             kind = "japan_series"
-        elif "クライマックス" in head:
+        elif m:
             kind = "cs"
+        else:
+            kind = "regular"
     except Exception as e:
         print(f"[WARN] classify {gid}: {e}")
         return "regular"          # 실패는 캐시하지 않음

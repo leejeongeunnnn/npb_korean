@@ -375,7 +375,7 @@ async function renderTravel(el, team) {
       ${all.map(x => `<div class="bar-row ${x.t.name === team.name ? "mine" : ""}"><span>${esc(x.t.name)}</span>
         <div class="bar"><i style="width:${x.total / maxT * 100}%;background:${readable(x.t.color)}"></i></div><b>${km(x.total)}</b></div>`).join("")}
     </div>
-    <p class="hint">거리는 구장 좌표 사이의 대권거리(지구 반경 6,371km)이며 실제 이동 수단·경로와는 다릅니다. 시즌 이동거리는 시즌 시작 시 홈구장에서 출발해 경기 구장이 바뀔 때마다 직접 이동했다고 가정한 추정치예요. ≈ 표시는 지방 구장을 도시 위치로 근사한 경우입니다. (시즌 일정 갱신 ${esc(S.updated_at || "")})</p>`;
+    <p class="hint">거리는 구장 좌표 사이의 대권거리(지구 반경 6,371km)이며 실제 이동 수단·경로와는 다릅니다. 시즌 이동거리는 시즌 시작 시 홈구장에서 출발해 경기 구장이 바뀔 때마다 직접 이동했다고 가정한 추정치예요. 시범경기(오픈전)는 빼고, 정규시즌${A.withCoord.some(g => g.kind === "cs" || g.kind === "japan_series") ? `과 포스트시즌 ${A.withCoord.filter(g => g.kind === "cs" || g.kind === "japan_series").length}경기` : ""}를 포함합니다. ≈ 표시는 지방 구장을 도시 위치로 근사한 경우입니다. (시즌 일정 갱신 ${esc(S.updated_at || "")})</p>`;
 
   const map = makeMap("tv-map", home, 5);
   if (!map) { mapFallback(el.querySelector("#tv-map")); }
