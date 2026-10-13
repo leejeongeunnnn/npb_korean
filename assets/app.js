@@ -454,7 +454,7 @@ const isFinal = (g) => g.state ? g.state === "final" : (g.status === "경기 종
 function renderTeamPicker(p, current) {
   const block = (league) => allTeams().filter(t => t.league === league).map(t =>
     `<button class="pick-team ${t.name === current ? "active" : ""}" data-team="${esc(t.name)}" style="--tc:${readable(t.color)}">
-       <span class="dot" style="background:${esc(t.color)}"></span>${esc(t.name)}</button>`).join("");
+       <span class="dot" style="background:${readable(t.color)}"></span>${esc(t.name)}</button>`).join("");
   p.innerHTML = `<h2 class="section-title">⭐ 마이팀 설정</h2>
     <p class="hint">응원하는 구단을 고르면 이 탭에 순위·다음 경기·최근 경기 흐름·주요 선수·관련 기사가 모이고, 다른 탭에서도 내 팀이 ⭐로 강조됩니다. 선택은 이 브라우저에 저장돼요.</p>
     <div class="team-league-title">🔵 센트럴 리그</div><div class="pick-grid">${block("센트럴 리그")}</div>
@@ -518,7 +518,8 @@ function renderMyTeam(forcePicker = false) {
       <div class="hint" style="margin:8px 0 0">vs <b style="color:${readable(colorOf(s.opp))}">${esc(s.opp)}</b> · ${s.where} 경기 · 🏟️ ${esc(nextGame.venue || "")}</div>
     </div>`;
   } else {
-    html += emptyBox("수집 범위(30일) 안에 예정된 경기가 없습니다.");
+    const out = st && parseInt(st.rank) > 3;
+    html += emptyBox(out ? "정규시즌이 끝나 남은 경기가 없습니다. (포스트시즌 미진출)" : "가까운 시일 내 예정된 경기가 없습니다.");
   }
 
   // 최근 10경기
@@ -544,11 +545,18 @@ function renderMyTeam(forcePicker = false) {
 
   // 포스트시즌
   const token = team.name.split(" ")[0];
-  const psMine = ((DATA.postseason || {}).master || []).filter(m => (m.home || "").startsWith(token) || (m.away || "").startsWith(token));
-  if (psMine.length) {
-    html += `<h3 class="sched-sub">🍁 포스트시즌 일정</h3><div class="card"><table class="rank mt-results"><tbody>${psMine.map(m =>
-      `<tr><td class="mt-date">${esc(m.date_display)}</td><td class="team">${esc(m.stage)} ${esc(m.game_num)}</td><td>${esc(m.away)} @ ${esc(m.home)}</td></tr>`).join("")}</tbody></table>
-      <div class="hint" style="margin:8px 0 0">다음 단계 상대가 정해지면 위의 '다음 경기'와 '이후 일정'에 실제 대진이 표시됩니다.</div></div>`;
+  const psAll = ((DATA.postseason || {}).master || []).filter(m => (m.home || "").startsWith(token) || (m.away || "").startsWith(token));
+  if (psAll.length) {
+    const stages = [...new Set(psAll.map(m => m.stage))];
+    const known = new Set(games.map(g => g.display));
+    const extra = psAll.filter(m => !known.has(m.date_display));
+    const rule = (stage) => (psAll.find(m => m.stage === stage && /전 \d선승제/.test(m.rules)) || psAll.find(m => m.stage === stage)).rules;
+    html += `<h3 class="sched-sub">🍁 포스트시즌</h3><div class="card">
+      ${stages.map(sg => `<div class="mt-pl"><span>🏟️ <b>${esc(sg)}</b> 진출</span><span class="num">${esc(rule(sg))}</span></div>`).join("")}
+      ${extra.length ? `<div class="hint" style="margin:10px 0 4px">아직 대진이 확정되지 않은 경기</div>${extra.map(m =>
+        `<div class="mt-pl"><span>${esc(m.date_display)} · ${esc(m.game_num)}</span><span class="num">${esc(m.time)} · ${esc(m.venue)}</span></div>`).join("")}`
+        : `<div class="hint" style="margin:10px 0 0">경기별 실제 대진은 위의 '다음 경기'와 '이후 일정'에 나와 있어요.</div>`}
+    </div>`;
   } else if (st && parseInt(st.rank) > 3) {
     html += `<h3 class="sched-sub">🍁 포스트시즌</h3>${emptyBox(`리그 ${st.rank}로 이번 시즌 클라이맥스 시리즈에 진출하지 못했습니다.`)}`;
   }

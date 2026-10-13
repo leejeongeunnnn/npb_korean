@@ -232,3 +232,6 @@ table.mt-results td.num { text-align:right; }
 .mt-pl .num { color:var(--muted); white-space:nowrap; }
 .mt-pl b { color:var(--text); }
 @media (max-width: 520px){ .mt-stats b { font-size:.92rem; } .brand-sub { display:none; } }
+.league-card { overflow-x: auto; }
+table.rank th, table.rank td { white-space: nowrap; }
+@media (max-width: 520px){ table.rank th, table.rank td { padding: 8px 4px; } }
