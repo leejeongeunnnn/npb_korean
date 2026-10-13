@@ -432,6 +432,7 @@ def fetch_games_by_date(date_str):
                 "state": state,
                 "start": start,
                 "venue": venue_kr(desc_el.text.strip()) if desc_el else "",
+                "venue_jp": desc_el.text.strip() if desc_el else "",
                 "series": series,
             })
         return games

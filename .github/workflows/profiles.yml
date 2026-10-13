@@ -1,0 +1,45 @@
+name: NPB 선수 프로필·공간 데이터
+
+# 선수단·개인 프로필·출신지(위키데이터)·시즌 이동거리를 주 1회 갱신한다.
+# 선수 페이지 약 1,000개를 천천히 받으므로 20~30분 걸린다.
+on:
+  schedule:
+    - cron: "23 19 * * 0"   # 매주 월요일 04:23 (KST/JST)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: npb-profiles
+  cancel-in-progress: false
+
+jobs:
+  profiles:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: 의존성 설치
+        run: pip install -r requirements.txt
+
+      - name: 프로필·공간 데이터 수집
+        run: python collect_profiles.py
+
+      - name: 커밋 & 푸시
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/roster data/hometowns.json data/travel.json data/venues.json data/cache
+          if git diff --staged --quiet; then echo "변경 없음"; exit 0; fi
+          git commit -m "chore: 선수 프로필·공간 데이터 갱신 ($(date -u +'%Y-%m-%d'))"
+          for i in 1 2 3; do
+            git pull --rebase -q origin main && git push -q origin HEAD:main && exit 0
+            echo "푸시 충돌, 재시도 $i"; sleep 5
+          done
+          exit 1
