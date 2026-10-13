@@ -1,0 +1,11 @@
+name: 임시 점검 (선수 페이지 구조)
+on: workflow_dispatch
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with: { python-version: "3.12" }
+      - run: pip install -r requirements.txt
+      - run: python tools/probe.py
