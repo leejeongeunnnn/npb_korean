@@ -154,7 +154,7 @@ async function renderProfiles(el, team) {
     <div class="stage-tabs">${["전체", "투수", "포수", "내야수", "외야수", "코칭스태프"].map(x =>
       `<button class="stage-chip ${PF.pos === x ? "active" : ""}" data-pos="${x}">${x}</button>`).join("")}</div>
     <div id="pf-list"></div>
-    <p class="hint">출처: Yahoo! 재팬 스포츠 선수 정보 (갱신 ${esc(d.updated_at || "")}). 이름은 번역 사전 또는 일본어 읽기를 국립국어원 표기법으로 옮긴 것이고, 학교명은 기계 번역이라 어색할 수 있어요(학교명에 마우스를 올리면 원문).</p>`;
+    <p class="hint">출처: Yahoo! 재팬 스포츠 선수 정보 (갱신 ${esc(d.updated_at || "")}). 이름·학교명은 일본어 발음을 국립국어원 표기법에 맞춰 한글로 옮겼어요(장음은 표기하지 않음). 학교명 읽기는 형태소 분석기 기준이라 드물게 틀릴 수 있고, 마우스를 올리면 일본어 원문이 보여요.</p>`;
   el.querySelector("#pf-sort").value = PF.sort;
   el.querySelector("#pf-q").addEventListener("input", (e) => { PF.q = e.target.value.trim(); draw(); });
   el.querySelector("#pf-sort").addEventListener("change", (e) => { PF.sort = e.target.value; draw(); });
