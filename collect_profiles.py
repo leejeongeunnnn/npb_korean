@@ -422,7 +422,14 @@ def _school_ko(stem, suf, translated):
 # 학교명: 뜻 번역 대신 일본어 발음을 한글로 (慶應義塾 → 게이오기주쿠)
 #   읽기는 형태소 분석기 MeCab(unidic-lite)으로, 사전에 없는 말은 pykakasi로 보완
 # ----------------------------------------------------------------------------
-READING_OVERRIDE = {"智辯": "ちべん", "智弁": "ちべん", "社": "やしろ", "付": "ふ", "附": "ふ", "大付": "だいふ"}
+# 읽기 보정: 형태소 분석기가 인명·지명으로 잘못 읽는 학교명
+STEM_READING = {      # 학교명 어간 전체
+    "社": "やしろ", "仁川学院": "にがわがくいん", "明豊": "めいほう", "必由館": "ひつゆうかん",
+    "亜細亜": "あじあ", "星槎道都": "せいさどうと", "履正社": "りせいしゃ",
+}
+PART_READING = {"智辯": "ちべん", "智弁": "ちべん", "明徳": "めいとく", "光星": "こうせい"}   # 어간 속 일부
+TOKEN_READING = {"付": "ふ", "附": "ふ"}                                               # 형태소 하나
+HANGUL_OVERRIDE = {"亜細亜": "아시아"}                                                  # 최종 한글 (관용 표기)
 _TAGGER, _KAKASI = None, None
 
 
@@ -443,35 +450,47 @@ def _kakasi(text):
     return "".join(x["hira"] for x in _KAKASI.convert(text))
 
 
-def reading_of(text):
-    """일본어 고유명사 → 히라가나 읽기 (실패하면 '')."""
+def reading_parts(text):
+    """일본어 고유명사 → 형태소별 읽기 목록. 분석기가 모르는 말이 섞이면 전체를 pykakasi로 읽는다."""
     tagger, _ = _reading_tools()
     if not tagger:
-        return ""
-    if text in READING_OVERRIDE:
-        return READING_OVERRIDE[text]
-    out = []
+        return []
+    if text in STEM_READING:
+        return [STEM_READING[text]]
+    # 보정할 부분 문자열을 기준으로 나눠서 따로 읽기
+    for part, rd in sorted(PART_READING.items(), key=lambda x: -len(x[0])):
+        if part in text and part != text:
+            i = text.index(part)
+            return reading_parts(text[:i]) + [rd] + reading_parts(text[i + len(part):]) if text[:i] or text[i + len(part):] else [rd]
+    if text in PART_READING:
+        return [PART_READING[text]]
+    parts, unknown = [], False
     for w in tagger(text):
         surf = w.surface
-        if surf in READING_OVERRIDE:
-            out.append(READING_OVERRIDE[surf]); continue
-        if not C.JP_RE.search(surf):          # 영문·숫자는 그대로
-            out.append(surf); continue
+        if surf in TOKEN_READING:
+            parts.append(TOKEN_READING[surf]); continue
+        if not C.JP_RE.search(surf):
+            parts.append(surf); continue
         kana = getattr(w.feature, "kana", None)
-        out.append(kana if kana and kana != "*" else _kakasi(surf))
-    return "".join(out)
+        if not kana or kana == "*":
+            unknown = True
+            break
+        parts.append(kana)
+    return [_kakasi(text)] if unknown else parts
 
 
 def school_ko(stem, suf):
-    """학교명 어간의 일본어 발음 한글 표기 + 학교 종류. 예) 慶應義塾 + 대 → 게이오기주쿠대"""
-    key = "R:" + stem
+    """학교명 어간의 일본어 발음 한글 표기 + 학교 종류. 예) 慶應義塾 + 대 → 게이오기주쿠대, 大阪桐蔭 + 고 → 오사카도인고
+    형태소마다 따로 한글로 옮겨(각각 첫소리 규칙 적용) 붙여 쓴다."""
+    key = "R2:" + stem
     if key not in TRANS:
-        r = reading_of(stem)
-        if not r:
-            return ""
-        latin = re.findall(r"[A-Za-z0-9]+", r)
-        TRANS[key] = kana_to_hangul(re.sub(r"[A-Za-z0-9]+", " ", r)).replace(" ", "") if not latin else \
-            re.sub(r"\s+", "", kana_to_hangul(r))
+        if stem in HANGUL_OVERRIDE:
+            TRANS[key] = HANGUL_OVERRIDE[stem]
+        else:
+            parts = reading_parts(stem)
+            if not parts:
+                return ""
+            TRANS[key] = "".join(p if not C.JP_RE.search(p) else kana_to_hangul(p).replace(" ", "") for p in parts)
     return TRANS[key] + suf if TRANS[key] else ""
 
 
@@ -576,7 +595,7 @@ def name_kr(jp, npb_links):
     clean = re.sub(r"[\s　]", "", jp)
     hit = C.PLAYER_NAME_TRANSLATION.get(clean)
     if hit:
-        return clean_name(re.sub(r"[（(].*?[)）]", "", hit).strip()), "dict"
+        return clean_name(re.split(r"[（(]", hit)[0].strip()), "dict"
     if KANA_ONLY.match(jp.replace(" ", "")):
         return kana_to_hangul(jp), "kana"
     url = npb_links.get(clean)
