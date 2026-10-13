@@ -43,7 +43,7 @@ function renderSchedule() {
   days.forEach(day => {
     html += `<div class="day-group"><div class="day-head">${esc(day.display)} ${day.is_today ? '<span class="today-badge">오늘</span>' : ""}</div><div class="game-grid">`;
     day.games.forEach(g => {
-      const live = g.status && (g.status.includes("回") || g.status.includes("試合中") || g.status.includes("中"));
+      const live = g.status && g.status.includes("진행 중");
       const done = g.score_home !== "" && g.score_away !== "";
       let hw = "", aw = "";
       if (done) {
@@ -62,7 +62,7 @@ function renderSchedule() {
         </div>
         <div class="game-meta">
           <span>${esc(g.venue || "")}</span>
-          <span class="${live ? "status-live" : ""}">${esc(g.status || g.label || "")}</span>
+          <span class="${live ? "status-live" : ""}">${esc(g.status || "")}</span>
         </div>
       </div>`;
     });
@@ -276,7 +276,19 @@ function renderNews() {
   html += `<p class="hint">Google 뉴스(일본)에서 수집해 한국어로 번역·요약한 최신 야구 기사입니다. 제목을 누르면 원문으로 이동합니다.</p>`;
   if (!news.length) { p.innerHTML = html + emptyBox(SEED_MSG); return; }
 
-  const cats = [...new Set(news.map(n => n.category))];
+  // 오늘의 기사 요약 (분야별 · 구단별 건수)
+  const count = (key) => news.reduce((m, n) => (m[n[key]] = (m[n[key]] || 0) + 1, m), {});
+  const byCat = Object.entries(count("category")).sort((a, b) => b[1] - a[1]);
+  const byTeam = Object.entries(count("team")).filter(([t]) => t !== "NPB 종합").sort((a, b) => b[1] - a[1]).slice(0, 5);
+  const todayN = news.filter(n => n.is_today).length;
+  html += `<div class="card news-digest">
+    <div class="nd-title">📝 오늘의 기사 요약</div>
+    <div class="nd-line">최근 기사 <b>${news.length}건</b> 중 오늘 나온 기사 <b>${todayN}건</b></div>
+    <div class="nd-line">분야별: ${byCat.map(([c, n]) => `${esc(c)} <b>${n}</b>`).join(" · ")}</div>
+    ${byTeam.length ? `<div class="nd-line">많이 언급된 구단: ${byTeam.map(([t, n]) => `<span style="color:${colorOf(t)};font-weight:700">${esc(t)}</span> ${n}건`).join(" · ")}</div>` : ""}
+  </div>`;
+
+  const cats = byCat.map(([c]) => c);
   html += `<div class="controls"><select id="ncat"><option value="">전체 분야</option>${cats.map(c => `<option value="${esc(c)}">${esc(c)}</option>`).join("")}</select></div><div id="nlist"></div>`;
   p.innerHTML = html;
 
@@ -288,6 +300,7 @@ function renderNews() {
       h += `<div class="card news-card" style="border-left:4px solid ${esc(n.color)}">
         <div class="news-top"><span class="news-cat">${esc(n.category)}</span><span style="color:${esc(n.color)};font-size:.76rem;font-weight:700">${esc(n.team)}</span></div>
         <div class="news-title"><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a></div>
+        ${n.summary ? `<div class="news-summary">${esc(n.summary)}</div>` : ""}
         <div class="news-meta"><span>🕑 ${esc(n.time)}</span><span>📰 ${esc(n.media)}</span></div>
       </div>`;
     });
