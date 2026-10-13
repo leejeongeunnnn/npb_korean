@@ -1,7 +1,5 @@
-name: 임시 점검 (선수 페이지 구조)
+name: probe (임시 조사)
 on: workflow_dispatch
-permissions:
-  contents: write
 jobs:
   probe:
     runs-on: ubuntu-latest
@@ -10,11 +8,4 @@ jobs:
       - uses: actions/setup-python@v6
         with: { python-version: "3.12" }
       - run: pip install -r requirements.txt
-      - run: python tools/probe.py > /tmp/probe.txt 2>&1 || true
-      - name: 결과를 probe 브랜치에 저장
-        env:
-          PUSH_URL: https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
-        run: |
-          mkdir /tmp/pub && cp /tmp/probe.txt /tmp/pub/ && cd /tmp/pub
-          git init -q -b probe && git add . && git -c user.name=bot -c user.email=bot@x commit -q -m probe
-          git push -q -f "$PUSH_URL" probe:probe
+      - run: python tools/probe.py
