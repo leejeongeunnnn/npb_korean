@@ -201,11 +201,16 @@ def _tidy(text):
     return re.sub(r"\s{2,}", " ", text).strip()
 
 
+# 번역기 차단기: 연속으로 실패하면 이번 실행에서는 더 부르지 않는다 (타임아웃 누적 방지)
+_BREAKER = {"_google_translate": 0, "_mymemory_translate": 0}
+_BREAKER_LIMIT = 4
+
+
 def _google_translate(text):
-    """키가 필요 없는 Google 번역 공개 엔드포인트."""
+    """키가 필요 없는 Google 번역 공개 엔드포인트 (POST: 여러 줄을 한 번에 보낼 수 있음)."""
     url = "https://translate.googleapis.com/translate_a/single"
-    params = {"client": "gtx", "sl": "ja", "tl": "ko", "dt": "t", "q": text}
-    res = requests.get(url, params=params, headers=HEADERS, timeout=8)
+    params = {"client": "gtx", "sl": "ja", "tl": "ko", "dt": "t"}
+    res = requests.post(url, params=params, data={"q": text}, headers=HEADERS, timeout=6)
     res.raise_for_status()
     data = res.json()
     return "".join(seg[0] for seg in data[0] if seg and seg[0])
@@ -214,12 +219,30 @@ def _google_translate(text):
 def _mymemory_translate(text):
     api = ("https://api.mymemory.translated.net/get?q="
            + urllib.parse.quote(text[:450]) + "&langpair=ja|ko")
-    res = requests.get(api, timeout=8)
+    res = requests.get(api, timeout=5)
     res.raise_for_status()
     t = res.json().get("responseData", {}).get("translatedText", "")
     if not t or "MYMEMORY WARNING" in t.upper():
         raise ValueError("mymemory quota")
     return html.unescape(t)
+
+
+def _call_translators(text, allow=("_google_translate", "_mymemory_translate")):
+    for name in ("_google_translate", "_mymemory_translate"):
+        if name not in allow or _BREAKER[name] >= _BREAKER_LIMIT:
+            continue
+        fn = globals()[name]
+        try:
+            out = fn(text)
+            if out:
+                _BREAKER[name] = 0
+                return out
+        except Exception as e:
+            _BREAKER[name] += 1
+            print(f"[WARN] 번역 실패({name}, 연속 {_BREAKER[name]}회): {str(e)[:120]}")
+            if _BREAKER[name] >= _BREAKER_LIMIT:
+                print(f"[WARN] {name} 차단: 이번 실행에서는 더 이상 호출하지 않음")
+    return None
 
 
 def translate_text_kr(text, use_api=True):
@@ -231,23 +254,44 @@ def translate_text_kr(text, use_api=True):
         return _TRANS_CACHE[text]
 
     clean = _replace_teams(text)
+    translated = False
     if JP_RE.search(clean) and use_api:
-        for fn in (_google_translate, _mymemory_translate):
-            try:
-                out = fn(clean)
-                if out:
-                    clean = out
-                    break
-            except Exception as e:
-                print(f"[WARN] 번역 실패({fn.__name__}): {e}")
+        out = _call_translators(clean)
+        if out:
+            clean, translated = out, True
 
     if JP_RE.search(clean):  # 번역기 실패 시 사전 치환
         for jp, ko in BASEBALL_TERMS.items():
             clean = clean.replace(jp, ko)
 
     clean = _tidy(clean)
-    _TRANS_CACHE[text] = clean
+    if translated or not JP_RE.search(clean):
+        _TRANS_CACHE[text] = clean      # 번역에 실패한 것은 캐시하지 않음 → 다음 실행에서 재시도
     return clean
+
+
+def translate_batch_kr(texts, chunk_chars=1500):
+    """여러 문구를 줄바꿈으로 묶어 한 번에 번역. {원문: 번역} 반환 (실패한 항목은 빠짐)."""
+    out, todo = {}, [t for t in dict.fromkeys(texts) if t]
+    i = 0
+    while i < len(todo):
+        chunk, size = [], 0
+        while i < len(todo) and (size + len(todo[i]) + 1 <= chunk_chars or not chunk):
+            chunk.append(todo[i]); size += len(todo[i]) + 1; i += 1
+        src = [_replace_teams(t) for t in chunk]
+        res = _call_translators("\n".join(src), allow=("_google_translate",))
+        lines = res.split("\n") if res else []
+        if len(lines) == len(chunk):
+            for t, l in zip(chunk, lines):
+                out[t] = _tidy(l.strip())
+        elif res is not None and len(chunk) > 1:
+            # 줄 수가 어긋나면 반으로 나눠 다시 시도
+            half = len(chunk) // 2
+            out.update(translate_batch_kr(chunk[:half], chunk_chars))
+            out.update(translate_batch_kr(chunk[half:], chunk_chars))
+        if res is None and _BREAKER["_google_translate"] >= _BREAKER_LIMIT:
+            break
+    return out
 
 
 # ----------------------------------------------------------------------------

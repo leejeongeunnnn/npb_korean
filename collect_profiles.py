@@ -27,6 +27,12 @@ PROF_DIR = os.path.join(DATA, "profiles")
 CACHE_DIR = os.path.join(DATA, "cache")
 SLEEP = 0.35          # 요청 간 대기(초) - 상대 서버 부담 줄이기
 PROFILE_MAX_AGE_DAYS = 6
+TIME_BUDGET_MIN = float(os.environ.get("TIME_BUDGET_MIN", "70"))   # 이 시간을 넘기면 저장하고 종료 (다음 실행에서 이어서)
+START = time.time()
+
+
+def time_left():
+    return TIME_BUDGET_MIN * 60 - (time.time() - START)
 
 # 구단: 한국어명 → (Yahoo 팀 ID, npb.jp 코드, 파일 코드, 일본어 약칭)
 TEAMS = {
@@ -325,8 +331,21 @@ def draft_kr(s):
 
 
 def career_kr(s):
+    """경력 구간만 나눠 두고, 번역은 fill_career_ko()에서 구단 단위로 일괄 처리."""
     segs = [x.strip() for x in re.split(r"[－\-–—]", s or "") if x.strip()]
-    return [{"ja": x, "ko": tr(x)} for x in segs]
+    return [{"ja": x, "ko": TRANS.get(x, "")} for x in segs]
+
+
+def fill_career_ko(players):
+    missing = sorted({c["ja"] for p in players for c in p.get("career", []) if not c["ko"] and C.JP_RE.search(c["ja"])})
+    if missing:
+        got = C.translate_batch_kr(missing)
+        TRANS.update(got)
+        print(f"[TR] 경력 {len(missing)}개 중 {len(got)}개 번역")
+    for p in players:
+        for c in p.get("career", []):
+            if not c["ko"]:
+                c["ko"] = TRANS.get(c["ja"]) or C._replace_teams(c["ja"])
 
 
 def npb_kana_map(npb_code):
@@ -409,19 +428,41 @@ def parse_player(url):
     }
 
 
-def fetch_profiles():
+def stale_teams(force=False):
+    idx = load_json(os.path.join(PROF_DIR, "index.json"), {"teams": {}})
+    out = []
+    for kr in TEAMS:
+        t = idx.get("teams", {}).get(kr, {})
+        try:
+            age = (C.now_jst() - datetime.datetime.strptime(t["updated_at"], "%Y-%m-%d %H:%M").replace(tzinfo=C.JST)).days
+        except Exception:
+            age = 999
+        if force or age >= PROFILE_MAX_AGE_DAYS:
+            out.append((age, kr))
+    return [kr for _, kr in sorted(out, key=lambda x: -x[0])]     # 오래된 구단부터
+
+
+def fetch_profiles(force=False):
     os.makedirs(PROF_DIR, exist_ok=True)
-    index = {"updated_at": C.now_jst().strftime("%Y-%m-%d %H:%M"), "teams": {}}
-    for kr, (yid, npb_code, code, _) in TEAMS.items():
+    idx_path = os.path.join(PROF_DIR, "index.json")
+    index = load_json(idx_path, {"teams": {}})
+    index.setdefault("teams", {})
+    todo = stale_teams(force)
+    print(f"[PROFILE] 갱신 대상 {len(todo)}개 구단: {', '.join(todo)}")
+    for kr in todo:
+        if time_left() < 6 * 60:
+            print(f"[STOP] 시간 예산 소진 → 남은 구단은 다음 실행에서: {kr} ...")
+            break
+        yid, npb_code, code, _ = TEAMS[kr]
         try:
             r = get(f"https://baseball.yahoo.co.jp/npb/teams/{yid}/players")
             links = []
-            for a in BeautifulSoup(r.text, "html.parser").find_all("a", href=True):
-                m = re.search(r"/npb/player/(\d+)/top", a["href"])
+            for a_ in BeautifulSoup(r.text, "html.parser").find_all("a", href=True):
+                m = re.search(r"/npb/player/(\d+)/top", a_["href"])
                 if m and m.group(0) not in links:
                     links.append(m.group(0))
             npb_links = npb_kana_map(npb_code)
-            players = []
+            players, t0 = [], time.time()
             for path in links:
                 try:
                     p = parse_player("https://baseball.yahoo.co.jp" + path)
@@ -431,34 +472,30 @@ def fetch_profiles():
                     players.append(p)
                 except Exception as e:
                     print(f"[WARN] player {path}: {e}")
+            fill_career_ko(players)
             players.sort(key=lambda p: (int(p["no"]) if p["no"].isdigit() else 9999))
+            now = C.now_jst().strftime("%Y-%m-%d %H:%M")
             save_json(os.path.join(PROF_DIR, f"{code}.json"),
-                      {"team": kr, "updated_at": index["updated_at"], "players": players}, compact=True)
-            index["teams"][kr] = {"code": code, "count": len(players)}
-            save_json(TRANS_PATH, TRANS, compact=True)   # 중간 저장 (실패해도 번역 보존)
+                      {"team": kr, "updated_at": now, "players": players}, compact=True)
+            src = {}
+            for p in players:
+                src[p["name_src"]] = src.get(p["name_src"], 0) + 1
+            index["teams"][kr] = {"code": code, "count": len(players), "updated_at": now}
+            index["updated_at"] = now
+            save_json(idx_path, index)
+            save_json(TRANS_PATH, TRANS, compact=True)   # 중간 저장
+            print(f"[OK] {kr} 선수 {len(players)}명 ({time.time() - t0:.0f}초, 이름 출처 {src})")
         except Exception as e:
             print(f"[ERROR] profiles {kr}: {e}")
-    save_json(os.path.join(PROF_DIR, "index.json"), index)
-
-
-def profiles_stale():
-    idx = load_json(os.path.join(PROF_DIR, "index.json"), {})
-    try:
-        t = datetime.datetime.strptime(idx["updated_at"], "%Y-%m-%d %H:%M").replace(tzinfo=C.JST)
-        return (C.now_jst() - t).days >= PROFILE_MAX_AGE_DAYS or len(idx.get("teams", {})) < 12
-    except Exception:
-        return True
 
 
 def main():
     args = sys.argv[1:]
-    print(f"=== 공간분석 데이터 수집 ({C.now_jst():%Y-%m-%d %H:%M} JST) ===")
+    print(f"=== 공간분석 데이터 수집 ({C.now_jst():%Y-%m-%d %H:%M} JST, 시간 예산 {TIME_BUDGET_MIN:.0f}분) ===")
     if "--profiles-only" not in args:
         save_json(os.path.join(DATA, "season.json"), fetch_season(), compact=True)
-    if "--season-only" not in args and ("--profiles" in args or "--profiles-only" in args or profiles_stale()):
-        fetch_profiles()
-    else:
-        print("[SKIP] 선수 프로필은 최근에 갱신됨")
+    if "--season-only" not in args:
+        fetch_profiles(force="--profiles" in args)
     save_json(TRANS_PATH, TRANS, compact=True)
 
 
