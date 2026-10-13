@@ -14,6 +14,13 @@ with sync_playwright() as p:
     pg.on("pageerror", lambda e: errors.append(str(e)))
     pg.on("console", lambda m: errors.append(m.text) if m.type == "error" else None)
     pg.goto(BASE, wait_until="networkidle"); pg.wait_for_timeout(1500)
+    pg.screenshot(path="shots/overview.png", full_page=True)
+    for tab in ["schedule", "standings", "players", "stadiums", "news"]:
+        pg.click(f'.tab[data-tab="{tab}"]'); pg.wait_for_timeout(3000 if tab == "stadiums" else 1200)
+        if tab == "players":
+            pg.click('[data-mode="pit"]'); pg.wait_for_timeout(600)
+        pg.screenshot(path=f"shots/tab_{tab}.png", full_page=True)
+    pg.click('.tab[data-tab="myteam"]'); pg.wait_for_timeout(800)
     for sub in ["profiles", "origin", "travel", "weather"]:
         pg.click(f'[data-sub="{sub}"]')
         pg.wait_for_timeout(4500 if sub in ("origin", "travel", "weather") else 2000)
