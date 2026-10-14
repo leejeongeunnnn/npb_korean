@@ -3,78 +3,6 @@
   "days_fwd": 6,
   "days": [
     {
-      "date": "2026-09-21",
-      "display": "9월 21일 (월)",
-      "is_today": false,
-      "games": [
-        {
-          "gid": "2021039443",
-          "home": "주니치 드래곤즈",
-          "away": "히로시마 도요 카프",
-          "score_home": "10",
-          "score_away": "0",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "반테린 돔 나고야",
-          "venue_jp": "バンテリンドーム",
-          "series": ""
-        },
-        {
-          "gid": "2021039444",
-          "home": "한신 타이거스",
-          "away": "요코하마 DeNA 베이스타스",
-          "score_home": "3",
-          "score_away": "2",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "한신 고시엔 구장",
-          "venue_jp": "甲子園",
-          "series": ""
-        },
-        {
-          "gid": "2021039446",
-          "home": "라쿠텐 골든이글스",
-          "away": "소프트뱅크 호크스",
-          "score_home": "",
-          "score_away": "",
-          "status": "경기 취소(우천 등)",
-          "state": "cancel",
-          "start": "",
-          "venue": "라쿠텐 모바일 파크",
-          "venue_jp": "楽天モバイル",
-          "series": ""
-        },
-        {
-          "gid": "2021039445",
-          "home": "니혼햄 파이터즈",
-          "away": "오릭스 버팔로즈",
-          "score_home": "5",
-          "score_away": "3",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "에스콘 필드 홋카이도",
-          "venue_jp": "エスコンF",
-          "series": ""
-        },
-        {
-          "gid": "2021039447",
-          "home": "지바 롯데 마린스",
-          "away": "세이부 라이온즈",
-          "score_home": "",
-          "score_away": "",
-          "status": "경기 취소(우천 등)",
-          "state": "cancel",
-          "start": "",
-          "venue": "조조 마린 스타디움",
-          "venue_jp": "ZOZOマリン",
-          "series": ""
-        }
-      ]
-    },
-    {
       "date": "2026-09-22",
       "display": "9월 22일 (화)",
       "is_today": false,
@@ -1048,7 +976,7 @@
     {
       "date": "2026-10-14",
       "display": "10월 14일 (수)",
-      "is_today": true,
+      "is_today": false,
       "games": [
         {
           "gid": "2021039480",
@@ -1081,7 +1009,7 @@
     {
       "date": "2026-10-15",
       "display": "10월 15일 (목)",
-      "is_today": false,
+      "is_today": true,
       "games": [
         {
           "gid": "2021039481",
@@ -1262,6 +1190,12 @@
           "series": "🔥 CS 파이널 스테이지"
         }
       ]
+    },
+    {
+      "date": "2026-10-21",
+      "display": "10월 21일 (수)",
+      "is_today": false,
+      "games": []
     }
   ]
 }
