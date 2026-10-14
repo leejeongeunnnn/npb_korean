@@ -1003,6 +1003,11 @@ def live_details(games, now, today):
             prev = old.get("details") or {}
     except Exception:
         pass
+    try:   # 매시간 수집해 둔 예고 선발(data/today.json) — 경기가 시작되면 Yahoo 페이지에서 사라지므로 여기서 가져온다
+        with open(os.path.join(DATA_DIR, "today.json"), encoding="utf-8") as f:
+            today_pre = json.load(f).get("games") or {}
+    except Exception:
+        today_pre = {}
     out = {}
     for g in games:
         gid = g.get("gid")
@@ -1020,7 +1025,10 @@ def live_details(games, now, today):
             out[gid] = prev[gid]
             continue
         try:
-            d = T.fetch_detail(gid, g)
+            base = dict(today_pre.get(gid) or {})
+            if gid in prev:
+                base.update({k: v for k, v in prev[gid].items() if v})
+            d = T.fetch_detail(gid, g, prev=base)
             d["state"] = g["state"]
             out[gid] = d
         except Exception as e:

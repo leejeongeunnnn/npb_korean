@@ -186,8 +186,22 @@ def parse_lineup_p(p):
     return side, C.team_kr(m.group(2)), players
 
 
+def parse_starter_p(p):
+    """'先発ピッチャーは阪神が<a>ルーカス</a>、ヤクルトが<a>中村優</a>' → {팀(한국어): {이름, pid}}"""
+    out = {}
+    for a in p.select("a[href*='/npb/player/']"):
+        prv = a.find_previous_sibling("span")
+        m = re.search(r"(?:は|、)([^、は]+?)が(?:.*?の)?$", prv.get_text(strip=True) if prv else "")
+        pid = re.search(r"/player/(\d+)/", a["href"]).group(1)
+        if m:
+            out[C.team_kr(m.group(1))] = {"team": C.team_kr(m.group(1)), "pid": pid,
+                                          "name": G.name_ko(a.get_text(strip=True), pid),
+                                          "number": "", "hand": "", "stats": {}, "recent": []}
+    return out
+
+
 def parse_text(soup):
-    out = {"lineups": {}, "starters_text": "", "innings": []}
+    out = {"lineups": {}, "starters_text": "", "starters_basic": {}, "innings": []}
     root = soup.select_one("#text_live")
     if not root:
         return out
@@ -203,6 +217,8 @@ def parse_text(soup):
                     out["lineups"][side] = {"team": team, "players": players}
                 else:
                     out["starters_text"] = translate_line(rich_text(p))[0]
+                    if "先発ピッチャー" in p.get_text():
+                        out["starters_basic"] = parse_starter_p(p)
             continue
         im = re.match(r"(\d+)回(表|裏)", title)
         if not im:
@@ -256,8 +272,10 @@ def parse_text(soup):
 # ----------------------------------------------------------------------------
 # 한 경기 상세
 # ----------------------------------------------------------------------------
-def fetch_detail(gid, game=None, with_text=True):
+def fetch_detail(gid, game=None, with_text=True, prev=None):
+    """prev: 직전에 모아 둔 이 경기 상세. 경기가 시작되면 Yahoo가 '예고 선발' 칸을 없애므로 그때는 prev 것을 쓴다."""
     game = game or {}
+    prev = prev or {}
     top = BeautifulSoup(get(f"https://baseball.yahoo.co.jp/npb/game/{gid}/top").text, "html.parser")
     starters = parse_starters(top)
     try:
@@ -281,6 +299,17 @@ def fetch_detail(gid, game=None, with_text=True):
         time.sleep(0.3)
         tx = parse_text(BeautifulSoup(get(f"https://baseball.yahoo.co.jp/npb/game/{gid}/text").text, "html.parser"))
         d["lineups"], d["innings"], d["starters_text"] = tx["lineups"], tx["innings"], tx["starters_text"]
+        for team, s in tx["starters_basic"].items():          # 문자중계 '경기 전 정보'의 선발 (이름만)
+            side = "home" if team == d["home"] else "away" if team == d["away"] else ""
+            if side and side not in d["starters"]:
+                d["starters"][side] = s
+    for side, s in (prev.get("starters") or {}).items():         # 앞서 받아 둔 예고 선발(성적 포함)이 더 자세함
+        if side not in d["starters"] or (s.get("stats") and not d["starters"][side].get("stats")):
+            d["starters"][side] = s
+    if not d["preview"] and prev.get("preview"):
+        d["preview"], d["preview_ja"] = prev["preview"], prev.get("preview_ja", "")
+    if not d["lineups"] and prev.get("lineups"):
+        d["lineups"] = prev["lineups"]
     return d
 
 
@@ -299,9 +328,10 @@ def todays_games(days=(0, 1)):
 
 def main():
     out = {"updated_at": C.now_jst().strftime("%Y-%m-%d %H:%M"), "games": {}}
+    old = P.load_json(os.path.join(DATA, "today.json"), {}).get("games", {})
     for date, offset, g in todays_games():
         try:
-            d = fetch_detail(g["gid"], g, with_text=(offset == 0))
+            d = fetch_detail(g["gid"], g, with_text=(offset == 0), prev=old.get(g["gid"]))
             d["date"] = date
             out["games"][g["gid"]] = d
             n_ev = sum(len(i["events"]) for i in d["innings"])

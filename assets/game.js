@@ -270,7 +270,7 @@ function todayPitch(d, home, away) {
     const rows = ["season", "ps", "il"].filter(k => S[k]).map(k => `<tr><td class="l">${esc(S[k].label)}</td><td class="num">${esc(S[k].era)}</td><td class="num">${esc(S[k].g)}</td><td class="num">${esc(S[k].w)}</td><td class="num">${esc(S[k].l)}</td></tr>`).join("");
     return `<div class="card gm-card">
       <div class="mt-ph">${dot(team)}${esc(shortTeam(team))} <span class="mt-sub">${side === "away" ? "원정" : "홈"}</span></div>
-      <div class="td-sp"><div class="td-sp-no">${esc(p.number)}</div><div><div class="td-sp-name">${esc(p.name)}</div><div class="gm-pos">${esc(p.hand)}</div></div></div>
+      <div class="td-sp">${p.number ? `<div class="td-sp-no">${esc(p.number)}</div>` : '<div class="td-sp-no">⚾</div>'}<div><div class="td-sp-name">${esc(p.name)}</div><div class="gm-pos">${esc(p.hand)}</div></div></div>
       ${rows ? `<table class="gm-tbl"><thead><tr><th class="l"></th><th>평균자책</th><th>등판</th><th>승</th><th>패</th></tr></thead><tbody>${rows}</tbody></table>` : ""}
       ${p.recent && p.recent.length ? `<div class="mt-ph" style="margin-top:12px;font-size:.78rem">최근 등판</div>
         <table class="gm-tbl"><thead><tr><th class="l">날짜</th><th>결과</th><th>이닝</th><th>투구</th><th>피안타</th><th>삼진</th><th>실점</th></tr></thead><tbody>
