@@ -382,3 +382,30 @@ table.gm-tbl tr:has(+ tr.ab-row) td { border-bottom: none; }
 .gm-pn { font-weight: 700; white-space: nowrap; }
 .gm-pos { font-size: .68rem; color: var(--muted); margin-top: 1px; white-space: nowrap; }
 @media (max-width: 380px){ table.gm-tbl { font-size: .74rem; } .gm-pn { white-space: normal; } }
+
+/* ---------- 오늘 경기: 선발 · 라인업 · 문자중계 ---------- */
+.td-vs { font-size: 1.3rem; color: var(--muted); letter-spacing: .1em; }
+.td-status { margin-top: 6px; font-size: .8rem; color: var(--muted); font-weight: 600; }
+.td-status.on { color: #f87171; }
+.td-tabs { margin: 4px 0 12px; }
+.td-tools { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
+.td-tools .stage-chip { padding: 5px 10px; font-size: .74rem; }
+.td-inn { margin-bottom: 14px; }
+.td-inn-h { position: sticky; top: 0; z-index: 1; background: var(--bg); border-left: 4px solid var(--accent); padding: 8px 10px; font-size: .88rem; display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px; }
+.td-sum { margin-left: auto; font-size: .72rem; color: var(--muted); font-weight: 500; }
+.td-ev { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 9px 12px; margin-top: 6px; }
+.td-ev.pt { border-color: color-mix(in srgb, var(--accent) 55%, var(--border)); background: color-mix(in srgb, var(--accent) 8%, var(--card)); }
+.td-bat { font-size: .86rem; margin-bottom: 3px; }
+.td-no { display: inline-block; min-width: 20px; height: 20px; line-height: 20px; text-align: center; font-size: .66rem; font-weight: 800; color: var(--muted); background: var(--card-2); border-radius: 50%; margin-right: 6px; }
+.td-line { font-size: .84rem; color: #d5ddea; line-height: 1.55; margin-top: 2px; word-break: keep-all; overflow-wrap: anywhere; }
+.td-line.point { color: var(--text); font-weight: 700; }
+.td-line.change { color: var(--muted); font-size: .78rem; }
+.td-tail { display: inline-block; font-size: .68rem; font-weight: 700; color: var(--muted); background: var(--card-2); border-radius: 999px; padding: 1px 8px; margin-left: 4px; white-space: nowrap; }
+.td-pos { font-size: .72rem; color: var(--muted); white-space: nowrap; }
+table.gm-tbl td.r { text-align: right; }
+.td-sp { display: flex; align-items: center; gap: 12px; margin: 4px 0 10px; }
+.td-sp-no { width: 42px; height: 42px; border-radius: 12px; background: var(--card-2); display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.05rem; color: var(--accent); flex: 0 0 auto; }
+.td-sp-name { font-weight: 800; font-size: 1.02rem; }
+.td-preview { margin-top: 10px; }
+.td-preview p { font-size: .86rem; line-height: 1.7; color: #d5ddea; }
+.gm-two + .hint { margin-top: 10px; }

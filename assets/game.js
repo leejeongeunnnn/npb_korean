@@ -47,7 +47,20 @@ async function openGame(gid, hint = {}) {
   document.body.classList.add("gm-lock");
   if (!(history.state && history.state.game)) history.pushState({ game: gid }, "");
   body.innerHTML = `<div class="empty"><div class="spinner" style="margin:0 auto 10px"></div>경기 기록을 불러오는 중...</div>`;
+  GD.open = gid; GD.mode = "";
+  // 경기 전·진행 중: 예고 선발 · 라인업 · 문자중계
+  if (hint.state && hint.state !== "final") {
+    GD.mode = "today"; GD.hint = hint;
+    GD.tab = hint.state === "live" ? "text" : "pitch";
+    renderToday(body, gid, hint);
+    return;
+  }
   const g = await loadGame(gid);
+  if (!g && todayDetail(gid)) {      // 방금 끝나서 상세 기록이 아직 없으면 문자중계라도
+    GD.mode = "today"; GD.hint = hint; GD.tab = "text";
+    renderToday(body, gid, hint);
+    return;
+  }
   if (!g) {
     body.innerHTML = `<div class="gm-head"><div class="gm-meta">${esc(hint.date || "")} · ${esc(hint.venue || "")}</div>
         <div class="gm-score"><div class="gm-t">${dot(hint.away)}${esc(hint.away || "원정")}</div><b>${esc(hint.sa ?? "-")} : ${esc(hint.sh ?? "-")}</b><div class="gm-t">${dot(hint.home)}${esc(hint.home || "홈")}</div></div></div>
@@ -136,6 +149,146 @@ function renderGame(body, g) {
 
   body.querySelectorAll("[data-side]").forEach(b => b.addEventListener("click", () => { GD.side = b.dataset.side; renderGame(body, g); }));
 }
+
+/* ---------- 오늘 경기: 예고 선발 · 라인업 · 문자중계 ---------- */
+function todayDetail(gid) {
+  const L = DATA.live;
+  const live = L && L.date === todayStr() && L.details && L.details[gid];
+  const pre = DATA.today && DATA.today.games && DATA.today.games[gid];
+  if (live && pre) return { ...pre, ...live, preview: live.preview || pre.preview,
+    starters: Object.keys(live.starters || {}).length ? live.starters : pre.starters,
+    lineups: Object.keys(live.lineups || {}).length ? live.lineups : pre.lineups };
+  return live || pre || null;
+}
+function liveGame(gid) {
+  const gs = liveGamesToday();
+  return gs ? gs.find(x => x.gid === gid) : null;
+}
+
+function renderToday(body, gid, hint) {
+  const d = todayDetail(gid) || {};
+  const lg = liveGame(gid) || {};
+  const home = d.home || lg.home || hint.home || "", away = d.away || lg.away || hint.away || "";
+  const state = lg.state || d.state || hint.state || "pre";
+  const sh = lg.score_home ?? hint.sh ?? "", sa = lg.score_away ?? hint.sa ?? "";
+  const status = lg.status || (state === "pre" ? `${d.start || hint.start || ""} 시작` : "");
+  const scroll = body.closest(".gm-panel") ? body.closest(".gm-panel").scrollTop : 0;
+  const line = d.linescore && d.linescore.length === 2 && d.linescore.some(l => (l.innings || []).some(v => v !== "")) ? d.linescore : null;
+  const inns = line ? (line[0].innings || []).map((_, i) => String(i + 1)) : [];
+  const tabs = [["text", "📝 문자중계"], ["lineup", "📋 라인업"], ["pitch", "⚾ 선발 투수"]];
+
+  let html = `<div class="gm-head">
+      <div class="gm-meta">${esc(d.date || todayStr())} · ${esc(d.venue || hint.venue || "")}</div>
+      <div class="gm-score">
+        <div class="gm-t">${dot(away)}${esc(away)}<small>원정</small></div>
+        <b>${state === "pre" ? '<span class="td-vs">VS</span>' : `${esc(sa === "" ? "-" : sa)} <i>:</i> ${esc(sh === "" ? "-" : sh)}`}</b>
+        <div class="gm-t">${dot(home)}${esc(home)}<small>홈</small></div>
+      </div>
+      <div class="td-status ${state === "live" ? "on" : ""}">${state === "live" ? '<span class="live-dot"></span> ' : ""}${esc(status)}</div>
+    </div>`;
+  if (line) {
+    html += `<div class="table-scroll"><table class="gm-line"><thead><tr><th></th>${inns.map(i => `<th>${i}</th>`).join("")}<th class="tot">계</th><th>안타</th><th>실책</th></tr></thead>
+      <tbody>${line.map(l => `<tr><td class="team">${dot(l.team)}${esc(shortTeam(l.team))}</td>${inns.map((_, i) => {
+        const v = (l.innings || [])[i] ?? ""; return `<td class="${v !== "" && v !== "0" && !/x/i.test(v) ? "scored" : ""}">${esc(v)}</td>`; }).join("")}
+        <td class="tot">${esc(l.r)}</td><td>${esc(l.h)}</td><td>${esc(l.e)}</td></tr>`).join("")}</tbody></table></div>`;
+  }
+  html += `<div class="stage-tabs td-tabs">${tabs.map(([k, t]) => `<button class="stage-chip ${GD.tab === k ? "active" : ""}" data-ttab="${k}">${t}</button>`).join("")}</div>`;
+
+  if (GD.tab === "text") html += todayText(d, state);
+  else if (GD.tab === "lineup") html += todayLineup(d, home, away);
+  else html += todayPitch(d, home, away);
+
+  html += `<p class="hint">출처: Yahoo! 재팬 스포츠 · 문자중계는 야구 중계 표현 규칙으로 한국어로 옮겼어요.
+    ${state === "live" ? "경기 중에는 1~2분마다 자동으로 새로 고쳐져요. " : ""}
+    <a href="https://baseball.yahoo.co.jp/npb/game/${esc(gid)}/text" target="_blank" rel="noopener" style="color:var(--accent-2)">원문 보기 →</a></p>`;
+  body.innerHTML = html;
+  const panel = body.closest(".gm-panel");
+  if (panel && GD.keepScroll) panel.scrollTop = scroll;
+  GD.keepScroll = false;
+  body.querySelectorAll("[data-ttab]").forEach(b => b.addEventListener("click", () => { GD.tab = b.dataset.ttab; renderToday(body, gid, hint); }));
+  body.querySelectorAll("[data-order]").forEach(b => b.addEventListener("click", () => { GD.oldFirst = b.dataset.order === "old"; GD.keepScroll = true; renderToday(body, gid, hint); }));
+  body.querySelectorAll("[data-only]").forEach(b => b.addEventListener("click", () => { GD.onlyPoint = !GD.onlyPoint; GD.keepScroll = true; renderToday(body, gid, hint); }));
+}
+
+function todayText(d, state) {
+  const inns = (d.innings || []).filter(i => i.events && i.events.length);
+  if (!inns.length) {
+    return emptyBox(state === "pre"
+      ? "경기가 시작되면 여기에 한국어 문자중계가 올라와요. 선발 라인업은 보통 경기 시작 약 1시간 전에 발표됩니다."
+      : "문자중계를 불러오는 중이에요. 잠시 후 자동으로 채워집니다.");
+  }
+  const oldFirst = GD.oldFirst ?? (state !== "live");
+  const list = oldFirst ? inns : inns.slice().reverse();
+  const only = !!GD.onlyPoint;
+  let html = `<div class="td-tools">
+      <button class="stage-chip ${!oldFirst ? "active" : ""}" data-order="new">최신순</button>
+      <button class="stage-chip ${oldFirst ? "active" : ""}" data-order="old">1회부터</button>
+      <button class="stage-chip ${only ? "active" : ""}" data-only="1">득점 장면만</button>
+    </div>`;
+  html += list.map(inn => {
+    let evs = inn.events;
+    if (only) evs = evs.filter(e => e.lines.some(l => l.k === "point"));
+    if (only && !evs.length) return "";
+    if (!oldFirst) evs = evs.slice().reverse();
+    const sm = inn.summary || {};
+    return `<div class="td-inn">
+      <div class="td-inn-h" style="border-left-color:${readable(colorOf(inn.team))}">
+        <b>${inn.inning}회${inn.half}</b> ${esc(shortTeam(inn.team))} 공격
+        ${sm.r !== undefined && sm.r !== "" ? `<span class="td-sum">득점 ${esc(sm.r)} · 안타 ${esc(sm.h)} · 사사구 ${esc(sm.bb)}</span>` : ""}
+      </div>
+      ${evs.map(e => `<div class="td-ev ${e.lines.some(l => l.k === "point") ? "pt" : ""}">
+        ${e.batter ? `<div class="td-bat"><span class="td-no">${esc(e.no)}</span><b>${esc(e.batter)}</b> <span class="pf-jp">${esc(e.order)}${e.situation ? ` · ${esc(e.situation)}` : ""}</span></div>` : ""}
+        ${e.lines.map(l => `<div class="td-line ${l.k}">${l.k === "change" ? "🔄 " : ""}${esc(l.t)}${l.tail ? ` <span class="td-tail">${esc(l.tail)}</span>` : ""}${l.score ? `<div class="gm-play-score">${esc(l.score)}</div>` : ""}</div>`).join("")}
+      </div>`).join("")}
+    </div>`;
+  }).join("");
+  return html;
+}
+
+function todayLineup(d, home, away) {
+  const lu = d.lineups || {};
+  if (!lu.away && !lu.home) {
+    return emptyBox("선발 라인업은 보통 경기 시작 약 1시간 전에 발표돼요. 발표되면 여기에 자동으로 표시됩니다.");
+  }
+  const col = (side, team) => {
+    const t = lu[side];
+    return `<div class="card gm-card"><div class="mt-ph">${dot(team)}${esc(shortTeam(team))} <span class="mt-sub">${side === "away" ? "원정 · 선공" : "홈 · 후공"}</span></div>
+      ${t ? `<table class="gm-tbl"><tbody>${t.players.map(p => `<tr><td class="num" style="width:28px">${p.order}</td><td class="l"><div class="gm-pn">${esc(p.name)}</div></td><td class="r"><span class="td-pos">${esc(p.pos)}</span></td></tr>`).join("")}</tbody></table>`
+          : '<div class="hint" style="margin:0">아직 발표 전</div>'}
+    </div>`;
+  };
+  return `<div class="gm-two">${col("away", away)}${col("home", home)}</div>
+    <p class="hint">경기 중 교체(대타·대주자·투수 교체)는 문자중계 탭에 🔄 표시로 나와요.</p>`;
+}
+
+function todayPitch(d, home, away) {
+  const st = d.starters || {};
+  const card = (side, team) => {
+    const p = st[side];
+    if (!p) return `<div class="card gm-card"><div class="mt-ph">${dot(team)}${esc(shortTeam(team))}</div><div class="hint" style="margin:0">예고 선발 발표 전 (보통 전날 오후 발표)</div></div>`;
+    const S = p.stats || {};
+    const rows = ["season", "ps", "il"].filter(k => S[k]).map(k => `<tr><td class="l">${esc(S[k].label)}</td><td class="num">${esc(S[k].era)}</td><td class="num">${esc(S[k].g)}</td><td class="num">${esc(S[k].w)}</td><td class="num">${esc(S[k].l)}</td></tr>`).join("");
+    return `<div class="card gm-card">
+      <div class="mt-ph">${dot(team)}${esc(shortTeam(team))} <span class="mt-sub">${side === "away" ? "원정" : "홈"}</span></div>
+      <div class="td-sp"><div class="td-sp-no">${esc(p.number)}</div><div><div class="td-sp-name">${esc(p.name)}</div><div class="gm-pos">${esc(p.hand)}</div></div></div>
+      ${rows ? `<table class="gm-tbl"><thead><tr><th class="l"></th><th>평균자책</th><th>등판</th><th>승</th><th>패</th></tr></thead><tbody>${rows}</tbody></table>` : ""}
+      ${p.recent && p.recent.length ? `<div class="mt-ph" style="margin-top:12px;font-size:.78rem">최근 등판</div>
+        <table class="gm-tbl"><thead><tr><th class="l">날짜</th><th>결과</th><th>이닝</th><th>투구</th><th>피안타</th><th>삼진</th><th>실점</th></tr></thead><tbody>
+        ${p.recent.map(r => `<tr><td class="l">${esc(r.date)} <span class="pf-jp">vs ${esc(r.opp)}</span></td><td class="num ${r.res === "승" ? "hl" : ""}">${esc(r.res)}</td><td class="num">${esc(ipText(r.ip))}</td><td class="num">${esc(r.np)}</td><td class="num">${esc(r.h)}</td><td class="num">${esc(r.so)}</td><td class="num">${esc(r.r)}</td></tr>`).join("")}
+        </tbody></table>` : ""}
+    </div>`;
+  };
+  let html = `<div class="gm-two">${card("away", away)}${card("home", home)}</div>`;
+  if (d.preview) html += `<div class="card td-preview"><div class="mt-ph">🔍 경기 미리보기 <span class="mt-sub">기계 번역</span></div><p>${esc(d.preview)}</p></div>`;
+  return html;
+}
+
+window.addEventListener("npb-live", () => {
+  const m = document.getElementById("game-modal");
+  if (!m || !m.classList.contains("open") || GD.mode !== "today") return;
+  GD.keepScroll = true;
+  renderToday(m.querySelector(".gm-body"), GD.open, GD.hint || {});
+});
 
 function ipText(ip) {   // '1.2' → '1⅔', '0.1' → '⅓'
   const m = /^(\d+)(?:\.(\d))?$/.exec(String(ip || ""));

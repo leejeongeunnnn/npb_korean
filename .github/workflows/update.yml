@@ -34,6 +34,9 @@ jobs:
       - name: 데이터 수집 실행
         run: python collect.py
 
+      - name: 오늘·내일 경기 예고 선발·라인업·문자중계
+        run: python collect_today.py || echo "[WARN] 오늘 경기 상세 수집 실패 - 다음 실행에서 재시도"
+
       - name: 새로 끝난 경기 상세 수집
         run: python collect_games.py --minutes 6 --max 40
 

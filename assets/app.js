@@ -1,7 +1,7 @@
 /* NPB 정적 대시보드 - data/*.json 을 읽어 7개 탭을 렌더링 */
 
 const DATA = {};
-const FILES = ["meta", "standings", "schedule", "postseason", "batters", "pitchers", "news", "news_teams", "teams"];
+const FILES = ["meta", "standings", "schedule", "postseason", "batters", "pitchers", "news", "news_teams", "teams", "today"];
 
 /* ---------- 마이팀 (보는 사람 브라우저에 저장) ---------- */
 const MYTEAM_KEY = "npb_myteam";
@@ -100,8 +100,9 @@ function gameCard(g) {
   }
   const sc = (v) => showScore && v !== "" ? esc(v) : "-";
   const mine = isMine(g.home) || isMine(g.away);
-  const canOpen = g.gid && g.state === "final";
-  const attrs = canOpen ? ` data-gid="${esc(g.gid)}" data-home="${esc(g.home)}" data-away="${esc(g.away)}" data-sh="${esc(g.score_home)}" data-sa="${esc(g.score_away)}" data-venue="${esc(g.venue || "")}" role="button" tabindex="0"` : "";
+  const canOpen = g.gid && g.state !== "cancel";
+  const attrs = canOpen ? ` data-gid="${esc(g.gid)}" data-state="${esc(g.state || "")}" data-home="${esc(g.home)}" data-away="${esc(g.away)}" data-sh="${esc(g.score_home)}" data-sa="${esc(g.score_away)}" data-venue="${esc(g.venue || "")}" data-start="${esc(g.start || "")}" role="button" tabindex="0"` : "";
+  const moreLabel = g.state === "live" ? "문자중계 ›" : g.state === "final" ? "상세 ›" : "선발·라인업 ›";
   return `<div class="game ${live ? "is-live" : ""} ${mine ? "is-mine" : ""} ${canOpen ? "clickable" : ""}"${attrs}>
     ${(g.series || live || mine) ? `<div class="series">${mine ? '<span class="mine-star">⭐</span> ' : ""}${live ? '<span class="live-pill">LIVE</span> ' : ""}${esc(g.series || "")}</div>` : ""}
     <div class="game-row">
@@ -114,7 +115,7 @@ function gameCard(g) {
     </div>
     <div class="game-meta">
       <span>${esc(g.venue || "")}</span>
-      <span class="${live ? "status-live" : ""}">${esc(g.status || "")}${canOpen ? ' <b class="more">상세 ›</b>' : ""}</span>
+      <span class="${live ? "status-live" : ""}">${esc(g.status || "")}${canOpen ? ` <b class="more">${moreLabel}</b>` : ""}</span>
     </div>
   </div>`;
 }
@@ -663,6 +664,7 @@ async function pollLive() {
       const active = document.querySelector(".tab.active");
       rendered.myteam = false;
       if (active && ["schedule", "postseason", "myteam"].includes(active.dataset.tab)) activate(active.dataset.tab);
+      window.dispatchEvent(new Event("npb-live"));     // 열려 있는 문자중계 창 갱신
     }
   }
   setTimeout(pollLive, liveFinishedToday() ? 10 * 60 * 1000 : LIVE_POLL_MS);

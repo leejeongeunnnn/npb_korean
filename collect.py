@@ -985,18 +985,69 @@ def live_decision(games, now):
     return ("CONTINUE", "시작 시각 미확인") if now.hour < 22 else ("STOP", "늦은 시각")
 
 
+LIVE_DETAIL_BEFORE_MIN = 150   # 경기 시작 이만큼 전부터 선발 라인업·문자중계를 함께 수집
+
+
+def live_details(games, now, today):
+    """진행 중·곧 시작할 경기의 라인업·문자중계(한국어). 끝난 경기는 직전 결과를 재사용."""
+    try:
+        import collect_today as T
+    except Exception as e:
+        print(f"[WARN] 문자중계 모듈 불러오기 실패: {e}")
+        return {}
+    prev = {}
+    try:
+        with open(os.path.join(DATA_DIR, "live.json"), encoding="utf-8") as f:
+            old = json.load(f)
+        if old.get("date") == today:
+            prev = old.get("details") or {}
+    except Exception:
+        pass
+    out = {}
+    for g in games:
+        gid = g.get("gid")
+        if not gid or g.get("state") == "cancel":
+            continue
+        if g["state"] == "pre":
+            try:
+                h, m = map(int, g["start"].split(":"))
+                mins = (now.replace(hour=h, minute=m, second=0, microsecond=0) - now).total_seconds() / 60
+            except Exception:
+                mins = 0
+            if mins > LIVE_DETAIL_BEFORE_MIN:
+                continue
+        if g["state"] == "final" and prev.get(gid, {}).get("state") == "final":
+            out[gid] = prev[gid]
+            continue
+        try:
+            d = T.fetch_detail(gid, g)
+            d["state"] = g["state"]
+            out[gid] = d
+        except Exception as e:
+            print(f"[WARN] 문자중계 {gid}: {e}")
+            if gid in prev:
+                out[gid] = prev[gid]
+    try:
+        T.P.save_json(T.P.TRANS_PATH, T.P.TRANS, compact=True)
+    except Exception:
+        pass
+    return out
+
+
 def run_live():
     now = now_jst()
     today = now.strftime("%Y-%m-%d")
     games = fetch_games_by_date(today)
     ps_live = fetch_postseason_live()
     decision, reason = live_decision(games, now)
+    details = live_details(games, now, today)
     save("live.json", {
         "date": today,
         "updated_at": now.strftime("%Y-%m-%d %H:%M:%S"),
         "any_live": any(g["state"] == "live" for g in games),
         "games": games,
         "postseason": ps_live,
+        "details": details,
         "note": reason,
     })
     print(f"[LIVE] {len(games)}경기 · {reason}")
