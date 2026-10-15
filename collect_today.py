@@ -58,6 +58,17 @@ def rich_text(p):
     return "".join(out)
 
 
+def good_translation(t):
+    """번역기가 가끔 '1/1/1/1…' 같은 엉터리를 돌려준다. 한글이 충분하고 같은 조각이 반복되지 않을 때만 쓴다."""
+    t = (t or "").strip()
+    hangul = len(re.findall(r"[가-힣]", t))
+    if hangul < 2 or hangul < len(t) * 0.25:
+        return False
+    if re.search(r"(.{1,4})\1{4,}", t):
+        return False
+    return True
+
+
 def translate_line(src_ko_names):
     """규칙으로 바꾼 문장에 일본어가 남으면 번역기로(캐시). 실행당 호출 수를 제한한다."""
     global _tr_used
@@ -68,7 +79,7 @@ def translate_line(src_ko_names):
             _tr_used += 1
             body, _, _, _ = L.split_tail(src_ko_names)
             res = C._call_translators(C._replace_teams(body))
-            if res:
+            if res and good_translation(res):
                 P.TRANS[key] = C._tidy(res)
         if key in P.TRANS:
             ko = P.TRANS[key]
