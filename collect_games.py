@@ -330,7 +330,9 @@ def parse_top(soup):
                 continue
             im = INNING_RE.search(th.get_text(strip=True))
             batter = td.select_one(".bb-gameTable__batter")
-            summ = td.select_one(".bb-gameTable__summary")
+            # 득점 장면 칸에 '대주자·투수 교체' 줄이 먼저 붙어 있는 경우가 있어, 점수 표기가 있는 줄을 고른다
+            summs = td.select(".bb-gameTable__summary")
+            summ = next((x for x in summs if SCORE_RE.search(" " + x.get_text(" ", strip=True) + " ")), summs[-1] if summs else None)
             order = (td.select_one(".bb-gameTable__order") or BeautifulSoup("", "html.parser")).get_text(strip=True)
             state_el = batter.select_one(".bb-gameTable__state") if batter else None
             pa = td.select_one("a.bb-gameTable__player")
