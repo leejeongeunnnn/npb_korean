@@ -1,6 +1,50 @@
 {
   "요미우리 자이언츠": [
     {
+      "title": "프로야구는 본 적이 없지만, 프로야구 칩스에서 한 시즌 동안 친 선수를 응원합시다!",
+      "summary": "요미우리 자이언츠 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE83aHdyVFVubW9BYm4tVmlmOTI0eW14Zi1KM196QlcxbjJvTGEzSkVYM2xFRERWc01IcS00enlFXzBGVTBSNmkySg?oc=5",
+      "time": "오늘 15:15",
+      "is_today": true,
+      "media": "오모코로",
+      "team": "요미우리 자이언츠",
+      "color": "#F97316",
+      "category": "📰 구단 소식"
+    },
+    {
+      "title": "밝고 어두운!? 30세 이상 이적 (6) 일본과 미국에서 204승... CS회원외 (야구채널)",
+      "summary": "요미우리 자이언츠 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE90UGVRdEV5andPZVMwM0RKdWo2al8wV0UyQk9Oc29DMnUzOVA0ZjZmWDdKc3hLMmpBaGJ4ZkVWM3FDaXNBY3gzNmsta0R1T3pMdGtXRzBxVjdlc0pQSlc3R2N3MTBIUkRveTM5X0toWGtKYzhtdGFueURqV193eDA?oc=5",
+      "time": "오늘 14:50",
+      "is_today": true,
+      "media": "야후 뉴스",
+      "team": "요미우리 자이언츠",
+      "color": "#F97316",
+      "category": "📋 전력외·은퇴·이적"
+    },
+    {
+      "title": "분노의 파도에서 스태멘 포수로 30라운드 연속 완주한 타쿠조 오시로는 \"물론 후회도 있었다\" 며 독자적으로 연습했다.",
+      "summary": "요미우리 자이언츠 관련 — 선수단 훈련 상황과 컨디션 조율 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQ05tdGxDSWlack5oMktQOG1la3FCbC1uRHdNektWREFDYllydnp6QlYzOXV6NXdYZGtPbi10SnJnNUcycjZpX0dMRVNOd1VKeFJHb08tT1dDSGl5UWdFcnQ2d1pRNzJyYjJ2ZkhBRHczcnZTbjlmSkdvb1ZtVXJHZENBUlZ6TkM3TVFralV2c0IxU0swdHfSAYoBQVVfeXFMTnlmRkpVOENGbFo3ZlVTMGFDZnBjajdKY3VfMnU0WFBuUGtPUnpHNk1ueDhtaXhSUDNtT0RLMENEUFlNWjRUVXRwd2ZHcWVmTFkxcVpJTmZSXzRqbmozY0pPbl9xS3pQYS1VOFl0dm1SMnVSZGRLaUZOSFRxbHN0QlcyUmpsb29FUlh3?oc=5",
+      "time": "오늘 13:33",
+      "is_today": true,
+      "media": "산케이스포츠",
+      "team": "요미우리 자이언츠",
+      "color": "#F97316",
+      "category": "⚾ 선수단 훈련"
+    },
+    {
+      "title": "[프로야구 CS] 2026년 새로운 규칙 설명 2 우승 우위를 적용하기 위한 조건 및 필요한 우승 횟수",
+      "summary": "요미우리 자이언츠 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAyWUJXQi1LUnZjS19DQUh0eWZORHU2dlVScVdKazNlYzR5V0pfYkpVVjRacXJfNkpBSEhYYzRNQ2d4NlpHYjVLQzRLdEY3cWdfS00zTw?oc=5",
+      "time": "오늘 12:30",
+      "is_today": true,
+      "media": "야구 채널",
+      "team": "요미우리 자이언츠",
+      "color": "#F97316",
+      "category": "🏆 포스트시즌 & 경기"
+    },
+    {
       "title": "선수들에게 \"불신으로 이어진다\", 주인에게 \"지시\", KUDO 코치의 말에 변화의 예감을 주는 말은 삼가야 합니다.",
       "summary": "요미우리 자이언츠 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAtVm5IM1JqVC1UR3N6NlVVbmRoNGVQNUswU1RjNmE2ZXBtU3MyR2QtdkRQaEY2YjJ2emQwS0s5U1dpR0otbkp1WXRNbUc0dlJoZVBKdndvaGQ?oc=5",
@@ -10,174 +54,141 @@
       "team": "요미우리 자이언츠",
       "color": "#F97316",
       "category": "👔 감독·코치진"
-    },
-    {
-      "title": "[12팀 드래프트 지명 예측] \"필더 드래프트\" 로 빈곤을 퇴치하려면... 첫 번째 장소는 \"무한한 가능성\" 을 가진 고등학생입니까, 아니면 인스턴트 전사입니까!?",
-      "summary": "요미우리 자이언츠 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Mckh4VnIyNGRuZDhINmx6QmIwZ1FTT1BpTFVaamx5YjBZTUJyaWsySDE5TjBmdkpZeWFsSG9VVWxLMFlqWEpPVUx4Z2ZwZGg4OFE?oc=5",
-      "time": "오늘 12:05",
-      "is_today": true,
-      "media": "고등학교 야구 닷컴",
-      "team": "요미우리 자이언츠",
-      "color": "#F97316",
-      "category": "🎯 드래프트 & 스카우트"
-    },
-    {
-      "title": "“그 이야기는 언제 끝날까요? 기미야스 쿠도 (Kimiyasu KUDO) 감독의\" 슈퍼 이론가 스파르타 안내 \",\" 의학 서적 꺼내기... \"(엔도 슈야)",
-      "summary": "요미우리 자이언츠 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Wc19ReUhjdnlSU0FIVWFWSmxhemktTVF5LUNmMnhaVkxFOWR6M2dNN1dSb1FXd3g1ZHhCVG5zMGc5YkFHUktQZ1dFaUwzN2FCYjRySDFpMmlVLS12V3Rn?oc=5",
-      "time": "오늘 12:03",
-      "is_today": true,
-      "media": "Number Web",
-      "team": "요미우리 자이언츠",
-      "color": "#F97316",
-      "category": "👔 감독·코치진"
-    },
-    {
-      "title": "강력한 타구 가능성이 거의 없더라도 마츠모토 츠요시를 공략하는 방법 [데이터로만 이야기할 수 없는 야구 이론]",
-      "summary": "요미우리 자이언츠 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBEOV9EZDA4RVY2RVBHRnFuVmNOWENxUjVmanJsYUNnaE9CYnpKSHJ6SnJDbUdlcmFWczdjN0ZEOFBFSUJPVGZhQ3FtYUxPTi1STGdzaw?oc=5",
-      "time": "오늘 11:42",
-      "is_today": true,
-      "media": "야구 채널",
-      "team": "요미우리 자이언츠",
-      "color": "#F97316",
-      "category": "📰 구단 소식"
-    },
-    {
-      "title": "아라마키 유우가 2경기 연속 적시타로 3득점! 2경기 연속 멀티히트로 탄탄한 경기력 유지",
-      "summary": "요미우리 자이언츠 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBzUTRjZExYZTRHU3lSWDYwLTVwell3V1R3ay1RRTB5OXNCeHoyeTBlMlp0cDlZeGxjVGZZdGVySEZLWHhVWGgtQUpMOXQ1RERxbzRtOWl3ZFlNUQ?oc=5",
-      "time": "오늘 11:23",
-      "is_today": true,
-      "media": "사랑의 숟가락",
-      "team": "요미우리 자이언츠",
-      "color": "#F97316",
-      "category": "📰 구단 소식"
     }
   ],
   "한신 타이거스": [
     {
-      "title": "공식 온라인 상점에서 \"연속!! VV!! 캠페인\" 2026명이 사인 패널 등을 수상하게 됩니다.",
+      "title": "테루 사토 \"심하게 아픈 건 아니지만, 오늘은 스태멘을 벗을 거야\" 방망이로 컨디션 공개 실내 훈련장에서 약 20분간 연습",
+      "summary": "한신 타이거스 관련 — 선수단 훈련 상황과 컨디션 조율 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9heHFLTk95NDV0V0FaZXptd0xHMFhHV2F0bmRTYXB5ZW8yakRkWTFuOVpKN2NaMTR4THZSYjNmQUo4Y2RaT1FXVTNEVWFMQVJ1aUdtWDBGbkRRaFdkTER2VVhlN05FMU1GaGc?oc=5",
+      "time": "오늘 15:28",
+      "is_today": true,
+      "media": "데일리스포츠",
+      "team": "한신 타이거스",
+      "color": "#EAB308",
+      "category": "⚾ 선수단 훈련"
+    },
+    {
+      "title": "이바라키, 7회 140골, 11골, 실점, KBO 두산전 14... 지난 7회 7골",
       "summary": "한신 타이거스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcDlIZTBWbFpJZ0p5SXluX19STjRJb3REeXJNWmJ6elNTWVZiU3RhVzVhTFJKOUZsUkpSbTh1OHZvNzNOUFhyTVA2eW1HV3JnTXI3TTIzc0VVWENRZVNDUGVXMEJEaktGUkdfSldOckl6QVNWWkdSNzdYN1VwdG1selE3cmdjRXFyRE0xYzBobXBCZ2t4UkHSAYoBQVVfeXFMT3dvUkpwUElMaGtUZmVSTnlfOURGWVhOYUdjTkE3c1ZvU2luUFVBNkUzLUoxUjJGeEJkRnFRSGx5Q0Q5Mm84Q2h0UU9NcmNVMDlwQUdOX0J3TUV0ZzlFc1RZWEc5c3EtcWcxTkcwcTNYTjF2cVoyZWRfNGprMTJhWFl1SGVoajNGYmVR?oc=5",
-      "time": "오늘 12:20",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1lT2dKTmJYRHpEanFGU040TjJmMkFBc1hiVF92X0FjYjgyMElRd180TGVqbnJFWWgwOEFNYWtmWGJFWldvWmlBcmYxZ00wQmpGWGljdEtEbnM?oc=5",
+      "time": "오늘 15:14",
+      "is_today": true,
+      "media": "풀카운트",
+      "team": "한신 타이거스",
+      "color": "#EAB308",
+      "category": "📰 구단 소식"
+    },
+    {
+      "title": "후지카와 감독 \"내 강점을 보여줄 수 있다면 기여하고 싶다\" 사토 테루오의 벤치 스타트는 그 자신이 대회에 참가할 의향이 있음을 분명히 밝혔다.",
+      "summary": "한신 타이거스 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5iX203Uk1rZ3A5T1d1SXkxellYcGlVem1zRUxPOTdJUW1Bajc5dmxMY3pnR0hCN2xMWG5LNVFlT0JRQjhFN0gwTy1nQ2ViRFlubzFXLXdYbHF0VjE5WUZGdnlRdXpET1lVeFE?oc=5",
+      "time": "오늘 15:01",
+      "is_today": true,
+      "media": "데일리스포츠",
+      "team": "한신 타이거스",
+      "color": "#EAB308",
+      "category": "👔 감독·코치진"
+    },
+    {
+      "title": "테루아키 사토와의 2차 CS에서는 벤치 스타트 결정이 내려졌고, 후지카와 감독은 \"그 사람과 직접 대화하는 것은 어렵다\" 고 분명히 했다.",
+      "summary": "한신 타이거스 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBSbGYtSWx3OWI1VEh5LVR1ZW9CSHVhZ0ZjUTF1Y05pTUdyaTg5UTNxVW5BQWxTdTdHc29veUNyeGxJUjQtcUJvT1BROGpPNGtGQzJtZ21zVFg0S0hsbjlpeFhwS3ZjYWZmaVE?oc=5",
+      "time": "오늘 15:00",
+      "is_today": true,
+      "media": "데일리스포츠",
+      "team": "한신 타이거스",
+      "color": "#EAB308",
+      "category": "👔 감독·코치진"
+    },
+    {
+      "title": "전날 부상으로 교체 투입된 테루아키 사토는 컨디션이 좋지 않아 벤치를 시작할 계획이라고 밝혔고, 후지카와 다카오 감독은 이를 분명히 했다.",
+      "summary": "한신 타이거스 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUktocFZnajdVcEJLb0FUckJWTDY2OW5mX0hTNV8zSUp2V1dhN0VIc0hMZmFaS011XzhPd3JTNGplclZyNVJnenB6MEx0QTJEUG5rMVlyNENnQnpjZWwwU3FCc29yTWpNWGtZUVZSZXVZMkdxdVFwTlJtRFl5SExxM09HMFRiaTYxdHE3eDk3SW9ORWZQOEHSAYoBQVVfeXFMT25ENWIxb2tGWGVXOFo2ZllDcmM1WFF4YjMyLXpoQjBQaUI3cHpEWHBZUWJ0Tk55MmxVbE1uVEgwcnJUVVpXXzhneE5nWWg4Tnk3bE8zaWZOVUJDU1dteVdVMC0zZ3hsTUJIUUVTWmkyZzdrRUpzX0NMUDVHcFR2LUJweFhWZnhlSW9n?oc=5",
+      "time": "오늘 15:00",
       "is_today": true,
       "media": "산케이스포츠",
       "team": "한신 타이거스",
       "color": "#EAB308",
-      "category": "📰 구단 소식"
-    },
-    {
-      "title": "뉴스 - 상품 - 공식 온라인 상점 T-SHOP \"정복!! VV!! 캠페인\"",
-      "summary": "한신 타이거스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5JeUZHYnY0cnR0RE5vc25IQUJRU0Q0dHlWOThJbVF1aW1MZ2JUbkhhd2JjZHVvak9aa0h3YWw3OW5LUHVBYm9iYjc4eXd2bGMxYWRGNTVJdWVqNmNzckF5NjVB?oc=5",
-      "time": "오늘 12:06",
-      "is_today": true,
-      "media": "공식 웹사이트",
-      "team": "한신 타이거스",
-      "color": "#EAB308",
-      "category": "📰 구단 소식"
-    },
-    {
-      "title": "\"\" 상품은 시마무라에서 온라인으로 주문하기 위해 만들어졌습니다! 쿠션, 가방, 캡 파우치 등 일상용품이 준비되어 있습니다. 3번째 사진/이미지",
-      "summary": "한신 타이거스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ITVpyamZYak1laHNybHZZYWpvby14X0UzR0Rnc1RFelV1YnRmNU9vQTJ6ZGhKOFJGVVF0LTRrMEhxVVZPbE9KVkV4c2NGc1FIQWp3elZUS201WnUwQzdWcXpfd3VxeXNINURwNjd5aUEta0ZaZGlB?oc=5",
-      "time": "오늘 12:05",
-      "is_today": true,
-      "media": "인사이드",
-      "team": "한신 타이거스",
-      "color": "#EAB308",
-      "category": "📰 구단 소식"
-    },
-    {
-      "title": "너무 똑똑한... 편차 값은 이기적이고, 매우 어려운 학교 운동 선수 (1) \"슈퍼 재능\" 을 자랑스럽게 생각하는 \"슈퍼 재능있는\"... 교육부가 지정한→ 국립 교육 대학교에",
-      "summary": "한신 타이거스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ETS1IUjQtVFBtNVp3dHNaektlZENMTll4VE11MXZHM3lHYWY3c2NGQTNubVg0Y1RDa2ZTb1ZfNjRRT3lJTzAzcC16X0RQSEs1ZHBiQjBRYWdlMndJU1dXQ09vYTc4SGczZ0ZLM1pTWTdWSzE1UGVHRnBNZVo0OXc?oc=5",
-      "time": "오늘 12:02",
-      "is_today": true,
-      "media": "야후 뉴스",
-      "team": "한신 타이거스",
-      "color": "#EAB308",
-      "category": "📰 구단 소식"
-    },
-    {
-      "title": "40년 만에 배스 이후 처음으로 테루아키 사토의 슛이 \"너무 높이 날아갔다\"",
-      "summary": "한신 타이거스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiigRBVV95cUxQLWhjSG9vTEU3RThUR3AtUFpzQUZxa3gyMEJ0NUpOTE9rWGJlR1pSZXZROXhja3RqSEVmZUlQZmw0N3BmT2s0NTEwcEJCX3ZLSTBhVXhYc0lWZngzOFNLVXFqLUR2Q0IyNTFweHhLTGNfMm9xckJoQ2hGaFg3RFNxZXZDdlJqbXZ3ZHNhWEZ6NHRqcmkxY2VPa1AtRXJXOUR5OFBTcU1EMFpPQnMtVXdhbmppZGRPTGFOZkRKOERuZFRrYkNEQlBaV0FyLWxQY0JmcFJjRy1zcFJSS3VvaTN4Q3BtQjlMRER6WHVkek5ZbHhDWTVkcXNMYUo2Ni1pNmF5ME1iSXdkdm5FUXBuYmc0aVRjZEhEek8tQ2pDREI3WTJPUFJsTmdkV09SYzZXVENpekFwWC04N3BteGEwMkw1akxPM1RZNGI5UmphRTJXdVJOV1U5bUFISDJiSTc5ZDQ4M0hGcEdsQWF6SWJmaU9XYXFhaVZraTBXOGNURVRJeGo5R3RqWFlCeU1RSV8zSU02UnBSTzZudkNDN3Zwd1ZxLVRSR2Rnc3htZ3hlZ3NCUlN2a0w3c3lYR2FIeFZMSXFKZnB1VkhhZ1R6NWlnMDdtelA0aHkzNTRKMGFxNVF5VFZMQkg0QzJuVDRqTWQtWm1xUHd3Yk5qRm0tVzRrR0JCMkVPanhOeGhyZGc?oc=5",
-      "time": "오늘 12:00",
-      "is_today": true,
-      "media": "SmartNews",
-      "team": "한신 타이거스",
-      "color": "#EAB308",
-      "category": "📰 구단 소식"
+      "category": "👔 감독·코치진"
     }
   ],
   "주니치 드래곤즈": [
     {
-      "title": "그는 구도 기미야스를 감독으로 선임했다고 발표했다. 감독으로 재임하는 동안 그는 리그에서 3번 우승했고, 일본 정상을 5번이나 이끌었다.",
+      "title": "오시마 오너 \"관리자는 중간 관리자\", \"팀 개혁\" 및 \"문제 해결 능력\" 에 대한 지식을 기대하며 새로운 관리자 인 Kin Yasuyasu Kudo에게 위임했습니다.",
       "summary": "주니치 드래곤즈 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1Ed3FkNVYtcXlSMjlFMzhTZC1FdnNYRjNrNDlqZm5aaFljam1sQWNIb3FYVXJDUzUySThQMHBnTW9QbnYzVmNyYVF3?oc=5",
-      "time": "오늘 13:34",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE01SEZTcy1WMU1zRE5JV1hnUTNUVmNyNWhDV0xrZU5ITGVRakdZOWdsREQ1R2ROT0drd3hobTlLbmdmMVV1R2lqUTZ0RVRuTlUxNG5oaA?oc=5",
+      "time": "오늘 15:09",
       "is_today": true,
-      "media": "BASEBALL KING",
+      "media": "신문 웹",
       "team": "주니치 드래곤즈",
       "color": "#3B82F6",
       "category": "👔 감독·코치진"
     },
     {
-      "title": "신구도 감독은 가을 연습 때 나인에게 인사하며 “점점 더 어필해주세요. 열심히 일하지 않는 사람은 싫어요.”",
-      "summary": "주니치 드래곤즈 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTVBzNjdIelVXN1VtUUxrS3J0MjY1aFNJMk5HYVhVZXF5TDJha25VSGdZa0RFZEhNN2xZbVJCRnJwTUtUMTg5MUFMeDViMGdFbE1Vd2p2RlI4b1NheExaUXZiSE1LaXhLQlBxN1dZTUNOSFhLMkNncHkxVTZJMmtXVXNmbUNPclkyR3VrZ29VOTFfWFJ4UXI40gGKAUFVX3lxTE5mc1RjQlpydkREdnRrbEhzRkl2NjN6dXlSNGVIN0lmZGNIZE1UYWh3bkdpYzdnSEJOTFJPVmlVd2hIbGdMcXFYbG1qZ2R4STJaYTNudHZYdXBqTmgtQmcyZElLTnRkTkxUS2k2Qk1keXBPc0hOWC1iTGYzN1haNmFia1R0V01BTGtVQQ?oc=5",
-      "time": "오늘 13:31",
+      "title": "도어맨과 도어맨이 있는 독점 콜라보 아이템도 판매 중입니다! 나고야 4호점 로프트, 2026년 10월 23일 이온몰 나고야돔 앞에 오픈 [나고야돔 마에야다]",
+      "summary": "주니치 드래곤즈 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFAwaXBKbjBncWlwOHJFWHNqemRhUHMzZ1RXblgtd0dlY0pWMDlwSGtPLW5yUS1maVVRSFdJUVlxc1E4Vjgxdkx3?oc=5",
+      "time": "오늘 14:58",
       "is_today": true,
-      "media": "산케이스포츠",
+      "media": "나고야 토코톤",
       "team": "주니치 드래곤즈",
       "color": "#3B82F6",
-      "category": "👔 감독·코치진"
+      "category": "📰 구단 소식"
     },
     {
-      "title": "KUDO 디렉터의 제안을 수락한 이유",
-      "summary": "주니치 드래곤즈 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBUdE4zOTZwdFZJSEFQenpGUFFHTjlfNnJiTkhIVlViOUFzVC14UGdYWTBqUnppTVB1dE5IaHF4bkMxU3VLazVPeURnZ3RMWUhl?oc=5",
-      "time": "오늘 13:20",
-      "is_today": true,
-      "media": "야후 뉴스",
-      "team": "주니치 드래곤즈",
-      "color": "#3B82F6",
-      "category": "👔 감독·코치진"
-    },
-    {
-      "title": "[야후 코미디 화제] \"KUDO의 새로운 감독 시스템의 기대와 현실\" \"장기적인 팀 개혁을 모색하는 목소리\" - 새로운 감독 및 코칭 인력의 임명에 중점을 둠",
-      "summary": "주니치 드래곤즈 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9KU204azVWZmZIQnJzVFp3R3lFNF9iLXhQU2xqYlJqbXZKdVZwakRTNmJQYmptaUxwRE1USjlJeFdzRHZYS2s4ZGFucHZ6Q2VicXlyX3NfVmxRV0NYRU10N2JBYTF0WEdUZEwyWXdvZERvcTc3X2d6R05OTnZfRWs?oc=5",
-      "time": "오늘 13:18",
-      "is_today": true,
-      "media": "야후 뉴스",
-      "team": "주니치 드래곤즈",
-      "color": "#3B82F6",
-      "category": "👔 감독·코치진"
-    },
-    {
-      "title": "[12팀 초안 지명 예측] 속도를 늦추면 \"마스터 낚시\" 가 있나요!? 새 매니저 KUDO의 우선 순위에 주의하세요! | 게시글 목록",
+      "title": "[프로야구 드래프트 미팅] 이벤트 직전 SP KUDO의 새로운 시스템 \"\" 젊은 투수들의 보강이 우선인가? (TV 아이치)",
       "summary": "주니치 드래곤즈 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5jWUpuVDQ0LVFNLVkwcFJiRlRXdVFuOGtBdi03MDRUbXdaeWFqTVFhb3NhMEdJSVNsN0xHWDJRdXNlVlhfektiOEJYNV9LVURDQ1E?oc=5",
-      "time": "오늘 13:05",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCODN3Mk1mZlNaVDVJRGp1anpiTGFjeWM0Q3JUMURfWE12R29XNm5ydDN2VHlHb0tMTU9Ga3B3TE5JblpTSzdlblJEb21Ec1ZjaW5uenNDd3E2TDdwNTlhYjFzNEdXM2s3cU9KaVkzOV9hZS1EWEdkZjlKN1RkVHc?oc=5",
+      "time": "오늘 14:57",
       "is_today": true,
-      "media": "고등학교 야구 닷컴",
+      "media": "야후 뉴스",
       "team": "주니치 드래곤즈",
       "color": "#3B82F6",
       "category": "🎯 드래프트 & 스카우트"
+    },
+    {
+      "title": "[기자회견 전문] KUDO 기미야스 코치의 취임 기자회견 \"모두가 키맨\" \"365일 24시간 선수에 대한 생각\" (토카이TV)",
+      "summary": "주니치 드래곤즈 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qWExWaHlUT2I5Q2JyRHF2VEl5ZXE5VTVBUkdWMjBrcnlXS1RsajVfR2xCd3c5TTAxWXFEQnhBMGMtejhrNUdKTDRZeEpfX1Jjc0FxV0FoM0hpbmVENVNWbEc3b1JDSWotd0RWMnpNaTFWOWJ0dGoyWGx4QlB0UmM?oc=5",
+      "time": "오늘 14:30",
+      "is_today": true,
+      "media": "야후 뉴스",
+      "team": "주니치 드래곤즈",
+      "color": "#3B82F6",
+      "category": "👔 감독·코치진"
+    },
+    {
+      "title": "[기자회견 전문] KUDO 기미야스 코치의 취임 기자회견 \"모두가 키맨이다\" \"365일 24시간 선수들을 생각하라\"",
+      "summary": "주니치 드래곤즈 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMDhpeDFZb2xIc1l6S1FxTEVmcWhVLTVMaG9Wa3VqaThDY09NVllGUEJIcjRTeFlGS0g2dTViMUdPSU8xVXZ0SkJUX04wT2lYNVNweGl1Wi14dFo5b2FmMzNjTi1CYVVtU25wZ3hRTlFUbElVSlBRemVFRUM2QUV3MVNocGQ5UzhBQWZkZkt0Y9IBjwFBVV95cUxQMDhpeDFZb2xIc1l6S1FxTEVmcWhVLTVMaG9Wa3VqaThDY09NVllGUEJIcjRTeFlGS0g2dTViMUdPSU8xVXZ0SkJUX04wT2lYNVNweGl1Wi14dFo5b2FmMzNjTi1CYVVtU25wZ3hRTlFUbElVSlBRemVFRUM2QUV3MVNocGQ5UzhBQWZkZkt0Yw?oc=5",
+      "time": "오늘 14:30",
+      "is_today": true,
+      "media": "d메뉴 뉴스",
+      "team": "주니치 드래곤즈",
+      "color": "#3B82F6",
+      "category": "👔 감독·코치진"
     }
   ],
   "요코하마 DeNA 베이스타스": [
     {
-      "title": "\"적을 상대하는 동안, 나는 아첨할 것이다.\" 28세의→ DeNA는 코수에서 빠른 투구 정신을 보였고, 오른팔에는 LTTE 팬들과 열선 시선 훈련에서 기어다니는 것도 \"이렇게 좋은 투수인 줄 몰랐다.\" \"해변이 너무 좋다.\"",
-      "summary": "요코하마 DeNA 베이스타스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0zbnh5Nzc3OThOcFJvT0w5ZU1BYUpqQVZyMzl0NjFlbXlMcGhtNDVQcXBtODdxM25Rakg0U0Y2QzhKTDMxNTlKakVRQkRCQTVwSF92T2h6Y1A0cG1MMVA1R3hQWnBSeHVnS19DOWF4cHEzekRMWWNzUVR3?oc=5",
-      "time": "오늘 12:41",
+      "title": "DeNA Iwata는 힘 밖에서 2 년 동안 CS에서 Furusu를 화나게했습니다.",
+      "summary": "요코하마 DeNA 베이스타스 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE85bTVocEFlTHFoQkJzRVNyUVhrNFRYLVV3UGxzLXZpaEZUOS1Cb3JRMF9helNMXzR3dWh1UzJfakJXUXg5SVN6TWw2aTMtS2I4Z2REWm1LdUQ?oc=5",
+      "time": "오늘 14:34",
       "is_today": true,
-      "media": "코코 칼라넥스트",
+      "media": "풀카운트",
+      "team": "요코하마 DeNA 베이스타스",
+      "color": "#2563EB",
+      "category": "📋 전력외·은퇴·이적"
+    },
+    {
+      "title": "일본인들은 도우미의 행동에 감사한다. \"그런 존경...\" 경기 전의 모습에 집중하라. \"너희 둘은 너무 신이다.\"",
+      "summary": "요코하마 DeNA 베이스타스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1hdFRhVTFadlBhYUlmeGs4R3o3MS1DZWhhOS1nM3h3WjNaUk5pWHpMNDNORWMybEd2RFlFTHhIeHUtT0lrQ19JN3M3NHRlR25IN0oxYWpNNnY?oc=5",
+      "time": "오늘 14:14",
+      "is_today": true,
+      "media": "풀카운트",
       "team": "요코하마 DeNA 베이스타스",
       "color": "#2563EB",
       "category": "📰 구단 소식"
@@ -205,26 +216,15 @@
       "category": "👔 감독·코치진"
     },
     {
-      "title": "10/16 (금) \"PLAYER PRODUCT 2026 Pt. 9\" 및 MILKFED. 콜라보레이션 등 다양한 콘텐츠가 지속적으로 출시되고 있습니다!",
-      "summary": "요코하마 DeNA 베이스타스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1JLWk5ajhtVy1DMFJNSHdkN1dUVGNkMGNnUE1TZGdaSEdTZTFMcF8tdVdUczRtMGhqYVZPNGtsdlFTaFJWVThvNGhTeGMtdjRRZW9qT25nMzhrZXVOeFZ0WQ?oc=5",
-      "time": "오늘 11:56",
+      "title": "[이것은 단지 공의 세계를 위한 것입니다 (4294)] DeNA · Shuichi Murata는 두 군 감독관의 첫 해에 필요한 \"모든 것에 철저함\" 이라는 태도 (사진/이미지 1/1)",
+      "summary": "요코하마 DeNA 베이스타스 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbFhZcDdJWDUwcW10a2lmdlZvUjNJZEQyeGxydlVYMzJ5d0R2eVhvZFE3cTFDNkRsVjRNemp2ektXUnZYNFZGQW9PR3ZheDJvdWllNF9Ub3VPSGliNmdVTlNZc1NybGd5OVBDd25Xc1JIRllscm9seVlEbG5UU2FTVDZqUWU2YUtBbEFtUXE3VG1aMVlHRmdmTjRxazU1NUlj?oc=5",
+      "time": "오늘 12:00",
       "is_today": true,
-      "media": "요코하마 DeNA 베이스타스",
+      "media": "산케이스포츠",
       "team": "요코하마 DeNA 베이스타스",
       "color": "#2563EB",
-      "category": "📰 구단 소식"
-    },
-    {
-      "title": "[프로야구 경기 시작 전] Vs DeNA (2026-10-15, 고시엔구장)",
-      "summary": "요코하마 DeNA 베이스타스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1VUkhoQ2d1WkZ2dmdZMzNYQ2RtRDBSbGNoUjRyUUwzblhuR0tMNmM2Ukg0TzRHVDExUjBlNFZ6UnJKRUkzei1WS0NHd0ZlNDQtMElONG9HVVB1MFhf?oc=5",
-      "time": "오늘 11:52",
-      "is_today": true,
-      "media": "MyNavi 뉴스",
-      "team": "요코하마 DeNA 베이스타스",
-      "color": "#2563EB",
-      "category": "📰 구단 소식"
+      "category": "👔 감독·코치진"
     }
   ],
   "야쿠르트 스왈로스": [
@@ -232,7 +232,7 @@
       "title": "도쿄 vs 사이토, 2026년 10월 15일 목요일 12:30",
       "summary": "야쿠르트 스왈로스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5pNjNWX3FJc0NwWmxOVEExZmhHcm5FckJQNnd5RnpSenpNcXdPbzdOWDJRd3VUWjlIcEVOMnVOdjlNUm1zWnVseEdZQU5kU2hJLWY0?oc=5",
-      "time": "오늘 12:23",
+      "time": "오늘 15:23",
       "is_today": true,
       "media": "PA-LEAGUE.com",
       "team": "야쿠르트 스왈로스",
@@ -240,21 +240,21 @@
       "category": "📰 구단 소식"
     },
     {
-      "title": "[이미지 2/8] 맥도날드가 WBC 지원 캠페인을 시작합니다!",
+      "title": "사토 테루아키 인수는 \"최우선 과제\" 이며 카네만 팀에 \"무라카미 빗나감\" 권고... 일본 전투기에 대한 평가 증가",
       "summary": "야쿠르트 스왈로스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA0Zkk3bnoxMHc0aUxoZmp3enZSdEZwU245allnQks3OUQ4N1JPcW16RE9LUEVmSVpOd25NazdfTUl4WVl6U3djNzRsNGY5RHBlVk1XcWw3OUVEWDZRcmh5RW43MWg?oc=5",
-      "time": "오늘 07:30",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9jTGRsMWNibHFUS1NBLTVSRmdlaUZBRVdud1NhU2RpX2hkMndNdHExS0tuVGtlN01JcEJDaE04QnJ3aUhXUWUwczN4ZVlqREI3RllNaVV2enM?oc=5",
+      "time": "오늘 14:39",
       "is_today": true,
-      "media": "Worrath",
+      "media": "풀카운트",
       "team": "야쿠르트 스왈로스",
       "color": "#475569",
       "category": "📰 구단 소식"
     },
     {
-      "title": "미야모토 다케시, 국내 FA권 행사 없이 다음 시즌 잔류에 애착이 있는 팀과 경기",
+      "title": "FA 권리를 행사하지 않고 \"최선의 선택\" 결정을 내리는 이유는 \"이 팀과 함께 다시 우승하여 일본에서 최고가 되기 위해 열심히 노력하고 싶다\" 는 것입니다.",
       "summary": "야쿠르트 스왈로스 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSXBaRTdVVUJMcVU4ekJEUURMcm0yZmpYSXcteUh0VFFqUEFjaXg2QUYtYVhkS0wzNWs0WjJWYTUzMDg5dEVpTm12bTNQREFZblcwTGpnRlNxNGxoTTFnLTBGXzFHM1VEcjBiQlA5cmpxZmVxTlFuRVd2amdzSm9uMnlZUXc0WjhIeDRLTFBUREhGLU1fcGk0NNIBigFBVV95cUxQVGJpS0NONlhCVzRIM1pIRUNUNHU1aTh3MEZ0X0hQSjZiS0tvdWktblZPak50czlxemo3Y3I5T2E4anBSbFV5TW1memZyTms0RDhtVEJvUmJuZWQ1Mm1hb1hfZEFFc1VyWktGSU9RTkF6eV9WaHpRUklqdU5aX0hjTjJPOWlremlaNlE?oc=5",
-      "time": "오늘 05:00",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbWFUNUpBcHU3Qy1uTmt2MjdOTWcwUFhpVk85NHdBWGxIVzIxMnRrUS1DdFJyRkpsWDZQVE1FMjFpVDJTSXlZZmxDZExVVHZ3Z3MzR2I1OThMXzBzcEE1WkNYcU0xSkpuYjNPVXRNcDBiMnViUVlVR210bklRS1VZTUxVa2Y1X0xTT1hUY0RNcVFIWm9VVFB0WtIBigFBVV95cUxOdXFTMkRfTWVjMDh3MjRYTDNiMXhSQnJ5Q195NHNnR1U3RU14TUdzTE9LZ084Tzhydks5Zno4Unl5dWRyOUZnb3NMdjhmOWRXVk9iRVBROHQzUTZkN24zMFYwYmpUelFieEVRWVZPX1JBemsyNTRmX0FBNndtVFBmZW9QUzVtXzdFc0E?oc=5",
+      "time": "오늘 14:36",
       "is_today": true,
       "media": "산케이스포츠",
       "team": "야쿠르트 스왈로스",
@@ -262,26 +262,26 @@
       "category": "📋 전력외·은퇴·이적"
     },
     {
-      "title": "쇼야마노베, 현역 은퇴 결심 \"매일 즐겁고 열심히 일했다\"",
+      "title": "2026 프로야구 은퇴선수 특별전 안내",
       "summary": "야쿠르트 스왈로스 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSFFBS0JCcmExOE1ud0RuX25nbjVuUFdFOXB5aGJWei1veXBHMlN0d2UwMkZfN1AxekNqV3FkUVBoU29GRWFQRS02WE50X3ptdm12bHBEQWY0dTVnU3NtZFlmdDJfZzFZUnB5T2Qxcy14TWNJTFd6T2gtQ3dkRVdHOGxmZ3VSalpHNmZmTFlqWFFhMWdVS1A2StIBigFBVV95cUxOaUtYcUpBUDRyQXhua3hBd1NmU2VwRWYxQ3MyRVBQNThycXFZMzM4NTFwNEZaOS1Qb2N1V19RRkN3bExPUld4V1BVWUFvdERCNDl3bEJ4bmY1V2ttaWYxWFQ1SWZ2eENCZXhhNkZSRmRpcTdtd2JIOS1PcWdNekRDMFlBeWNueDRrNHc?oc=5",
-      "time": "오늘 05:00",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BQnRCM0RBczZFa0txR1lxTmpNM3R5VUhYcVZxOXhRd1pGYVd4dnpDSjQzbk9qY2tmMUYzNGlNX3R4bXZ3RkdETUZXLUkwTloyYnBmcU84UzFpTmxTVTFNcDlOZUlINDdVd2c?oc=5",
+      "time": "오늘 14:27",
       "is_today": true,
-      "media": "산케이스포츠",
+      "media": "PR TIMES",
       "team": "야쿠르트 스왈로스",
       "color": "#475569",
       "category": "📋 전력외·은퇴·이적"
     },
     {
-      "title": "미야모토 다케시 (Takeshi Miyamoto) 는 국내 FA 권리를 행사하지 않고 다음 시즌 잔류에 애착이 있는 팀과 경기를 한다 (사진/이미지 1/2)",
-      "summary": "야쿠르트 스왈로스 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRjNjZU5FOXhfbjdnTTgwclJvb3F0Q0N6V2JMZUVlTlFYUDltNVA3UzFnQ2ZtZGdhVU5TZFVabjlPdm5kUU9yZkoxRlFEajNrclozU0p5Y0x3bWxKYVdVUkZ6VEw0b3pfN2pSVk9PZTRUeGNFQVpxNHpNZTd0blBkZk41QlJ6UGxLbkU0QTBlWkF3VXdTbGhSaWhKUTBTbUh1?oc=5",
-      "time": "오늘 05:00",
+      "title": "Image 6/13 > 스누피가 프로야구 12개 팀에 모자를 씌웠습니다! 올해도 시마무라 온라인 전용 비닐우산이 돌아왔습니다",
+      "summary": "야쿠르트 스왈로스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB4SVlUdVpWTWFkNVJ2Y2UzWkl0bEtkYms5aklSYm0xTFRGdWxESjRSck14ZG5hX3Btc1FiY1EzWjdnTzJ2djN4LVQ5Y1NyOXE3V0VjSTVES3VVUUp4YXdjMjFLU0MwZXBaTlZMWVVn?oc=5",
+      "time": "오늘 12:37",
       "is_today": true,
-      "media": "산케이스포츠",
+      "media": "Worrath",
       "team": "야쿠르트 스왈로스",
       "color": "#475569",
-      "category": "📋 전력외·은퇴·이적"
+      "category": "📰 구단 소식"
     }
   ],
   "히로시마 도요 카프": [
@@ -292,6 +292,17 @@
       "time": "오늘 12:18",
       "is_today": true,
       "media": "공식 웹사이트",
+      "team": "히로시마 도요 카프",
+      "color": "#EF4444",
+      "category": "📰 구단 소식"
+    },
+    {
+      "title": "[이미지 2/13] 여성이 아닌 \"쿠로다 남성\" 의 수가 급증하고 있습니다!",
+      "summary": "히로시마 도요 카프 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9UVkd5dlNaRDRhemRmRUdQbkVnbDZXUEtqeVY0ZkFpVk9Pemt6cmNTNkZrQURWbWpEcklxRHEwSE9OUW1WcUJZVVF1NjdQVmtHeVBaNnJ3dXAxV0xmc0FrQk9WVlZNbWlr?oc=5",
+      "time": "오늘 12:09",
+      "is_today": true,
+      "media": "Worrath",
       "team": "히로시마 도요 카프",
       "color": "#EF4444",
       "category": "📰 구단 소식"
@@ -328,17 +339,6 @@
       "team": "히로시마 도요 카프",
       "color": "#EF4444",
       "category": "📋 전력외·은퇴·이적"
-    },
-    {
-      "title": "팬들은 신유니가 발표한 '모델 발탁' 에 대해 의구심을 갖고 있고, 팬들은 공식 홈페이지 (주간 여성 프라임) 의 '예방수칙' 에 대해 의구심을 갖고 있다.",
-      "summary": "히로시마 도요 카프 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBLTWdoQjNjeWxRRjlJcG5zRURQN1g4WE9QSEtEaEx5VjFBTUxfSG1NRUZycjJaU1VGbXQwdnZ4bFlaRnJpOGFRNTBOaGJGRDh3SEduQlE0QnFjU3ppdDNfcUYyNkNMdWVfUjUzaHlrNm9iVmpJbms1YzFWc2N2a1E?oc=5",
-      "time": "오늘 06:30",
-      "is_today": true,
-      "media": "야후 뉴스",
-      "team": "히로시마 도요 카프",
-      "color": "#EF4444",
-      "category": "📋 전력외·은퇴·이적"
     }
   ],
   "소프트뱅크 호크스": [
@@ -346,7 +346,7 @@
       "title": "도쿄 vs 사이토, 2026년 10월 15일 목요일 12:30",
       "summary": "소프트뱅크 호크스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5pNjNWX3FJc0NwWmxOVEExZmhHcm5FckJQNnd5RnpSenpNcXdPbzdOWDJRd3VUWjlIcEVOMnVOdjlNUm1zWnVseEdZQU5kU2hJLWY0?oc=5",
-      "time": "오늘 12:23",
+      "time": "오늘 15:23",
       "is_today": true,
       "media": "PA-LEAGUE.com",
       "team": "소프트뱅크 호크스",
@@ -354,56 +354,67 @@
       "category": "📰 구단 소식"
     },
     {
-      "title": "이게 왕의 결론이다…! \"일본 최강의 숙련 타자\" 는 적시 CS 1라운드에서 생생한 반전을 자랑합니다.",
-      "summary": "소프트뱅크 호크스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5DaG9KMHdUZWVQeEpGV2cyc2l1Y0lzZ2tpOEkxdFl5Rjh5STM2QWJoOEdLWjF4V0owZ0ZDMW5tbHF3S09jc2FkbVdaNFVfTFdGeVAxenQ3M2JNZm1wQi15b2l6Z2VVX1daNEJiUHJEa1VTbkhSM2NBdUpoZkQ5VFU?oc=5",
-      "time": "오늘 12:10",
-      "is_today": true,
-      "media": "야후 뉴스",
-      "team": "소프트뱅크 호크스",
-      "color": "#FBBF24",
-      "category": "🏆 포스트시즌 & 경기"
-    },
-    {
-      "title": "KUDO 신임 매니저 \"우승이 목표\" 현지 팀 \"환원하고 싶었다\"",
-      "summary": "소프트뱅크 호크스 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBVMlFScUdCTkVJZ3RjOXJTYmotMThGV1JCOFlTMGdBVjJFalBNY3Zfdjd3M2xtSlpzVkZxZUROcURic3hvR0F3UnduejIzaldQdnRySzFn?oc=5",
-      "time": "오늘 11:34",
-      "is_today": true,
-      "media": "Nishi Nippon Shimbun me",
-      "team": "소프트뱅크 호크스",
-      "color": "#FBBF24",
-      "category": "👔 감독·코치진"
-    },
-    {
-      "title": "[야후 코미디 주제] \"야나기다 유키의 리더십이 빛난다\" \"벤치에서의 존재가 팀을 지지한다\" - 포스트시즌 첫 라운드에서 영적 기둥의 역할에 집중",
+      "title": "[MIYAZAKI PL] 마에다 준이 에밀과 일시적으로 동점을 끊습니다. 에밀은 3골을 6번이나 넣은 좋은 슛입니다.",
       "summary": "소프트뱅크 호크스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBsUnl1NEluWDFXRVQzN3F2a2d1d0otM2hoTVJReUxaMVdwMFN4aXkxVzlzbnZFYmJvckpIUDQ2X1pxNG9iMkVfc01VeFAybm13a0hXVjZFVzM3MFFFa0NZQm5KZ1dTOWl5QmwtdHRtVEMxMG5PMUpUTUxNd1NqUTg?oc=5",
-      "time": "오늘 11:22",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1FT202ZjYwNE13VkFGOHBSQUtwQVhoUHBjWG4weVZ6aFpzbzNUZlo3MWdoUlZwS0dnUnUyYkRmSUFXOGpkdF9rblpRSGF0bUNGS0tMdm9Sa9IBUkFVX3lxTE9iLTY4YVBZaGlqQ2wwNWVGbkxSR2tRd1lVVUhXOU5tdHg2TlZhblFQcDN0ZFNnaGJPcXRhX1pJZ19iQ2RFcHVodkNRMGNlLUk3aHc?oc=5",
+      "time": "오늘 15:18",
       "is_today": true,
-      "media": "야후 뉴스",
+      "media": "PA-LEAGUE.com",
       "team": "소프트뱅크 호크스",
       "color": "#FBBF24",
       "category": "📰 구단 소식"
     },
     {
-      "title": "[10월 15일] TV 중계/인터넷 송출 일정/시청 방법 | 프로야구 클라이맥스 시리즈 파이널 스테이지 2026",
-      "summary": "소프트뱅크 호크스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdURDeVhWX3RpTGhnZlZpLV9paWlVa3NEUGpMZEY4N2RyaHQ0QnRNbnNtVzd5bHVpdm5SZ01KcXBHUEZRcnBvd3MzYlpfQjlwTmVhT0ZhbTRBNjlOVjRtME1pNmZfWjkxRDdUcWpkamJpV0RnWjRYM09jRm9oZ2JGSDRMdEtveXVYYWNGYXdDX29ienhRaVNxMndDV2JQWXM0RmlxUWRiNzBfZ09FbXFDSGlMblRibDUyazBrQVhMbFg4UQ?oc=5",
-      "time": "오늘 11:00",
+      "title": "기미야스 쿠도 (Kimiyasu Kudo) 매니저: \"그만둔 선수들을 생각하는 것은 당신의 일이 아니라고 생각하지 마세요.\"",
+      "summary": "소프트뱅크 호크스 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOc2dYWW5QcXhNLTF4ZTUzbVA5NUR2MFMwX0l5NTUxd2VqSUZGSHdXaFgtcDF4YngxckR6WEdoZnEwM0daR2N3MjVDTWNZSHhXYlIzd05HdlNzZEhnaUNYSmtvc0hTVU9Oc3UwZGdRYUNQT005ZHNWcVN6TzhKSG8yeTV6YmoxQTQ4cThveHQ0NS1NVHBMOEw00gGKAUFVX3lxTFBuRlZuY19JWnRkcjVSU2J0X1JvdzQ1UzBSMmpLcW1MRXI3M1o4SVVhXzdITFN1bzRuMk8wTUVEeGtOZXlkSEhXaFhjYm5jVG5keTlaNjVRWnNJUEwwOHI2eHFmdFRWdzA5MEcxb0xSZ3BERGlsS0JPRDhYSHllNWk3UDFfR1p5cWhLUQ?oc=5",
+      "time": "오늘 14:17",
       "is_today": true,
-      "media": "Goal.com",
+      "media": "산케이스포츠",
       "team": "소프트뱅크 호크스",
       "color": "#FBBF24",
-      "category": "🏆 포스트시즌 & 경기"
+      "category": "👔 감독·코치진"
+    },
+    {
+      "title": "프로야구는 본 적이 없지만, 프로야구 칩스에서 한 시즌 동안 친 선수를 응원합시다!",
+      "summary": "소프트뱅크 호크스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9QTTdLNlA0czJscHAweFpKYlNxWDVtalI4UWF1WVFUMVU3RmY0NXAyYnBucDQwM1JIcThYVzlRYTdFbDB1ZlFQVg?oc=5",
+      "time": "오늘 13:50",
+      "is_today": true,
+      "media": "오모코로",
+      "team": "소프트뱅크 호크스",
+      "color": "#FBBF24",
+      "category": "📰 구단 소식"
+    },
+    {
+      "title": "시청 방법! 무료 시청 및 날짜 매칭 방법 보기",
+      "summary": "소프트뱅크 호크스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1BdkVuS0ROcERPU1l2b3dOM3N3aE5KQ0hXYzh6NTMyNk56SHJlZDNOTGtfMGNLcW42dHFHVFI5NzJGSXQtVWJIWmRWVFVLcWwyX0xz?oc=5",
+      "time": "오늘 13:32",
+      "is_today": true,
+      "media": "Spokare",
+      "team": "소프트뱅크 호크스",
+      "color": "#FBBF24",
+      "category": "📰 구단 소식"
     }
   ],
   "오릭스 버팔로즈": [
     {
+      "title": "[팀에서 직접 관리하는 스토어 한정 프로젝트] 포스터 선물 캠페인을 실시합니다! |",
+      "summary": "오릭스 버팔로즈 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9nZndNTkFCN19aMnNfLXo3YlZlYk90SHliVkZZaU1vbnF3T1VndVZybV9FVnpaUk1Ma3Rj?oc=5",
+      "time": "오늘 15:15",
+      "is_today": true,
+      "media": "Howl.link",
+      "team": "오릭스 버팔로즈",
+      "color": "#1E293B",
+      "category": "📰 구단 소식"
+    },
+    {
       "title": "[2026 프로야구 드래프트 미팅] 드라1의 궤적 [TBS]",
       "summary": "오릭스 버팔로즈 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1DM0licFZYMVlKWjYzaGxLNVdzOXN3TGtxVlVaQnNrYWtFTzZmY0xOLTZhSlFIYXpzdnItNS1mOVJXWWFDcWZXUDJCOFZVTDBiOXNwQU5uMXZ3U2s1?oc=5",
-      "time": "오늘 13:00",
+      "time": "오늘 13:13",
       "is_today": true,
       "media": "스포츠 내비게이션",
       "team": "오릭스 버팔로즈",
@@ -433,86 +444,108 @@
       "category": "📋 전력외·은퇴·이적"
     },
     {
-      "title": "스크램블이 터졌어요!? 야마자키 이오리/토고 쇼세이 (Yamazaki Iori/Togo Shosei) 의 부진은 설문 조사에서 가장 승리 한 Pa의 오른팔을 획득하게합니까?",
+      "title": "Pa Masakatsu Right Arm Espinosa 인수 관련 설문조사! 다른 팀과 난투극을 벌이시나요?",
       "summary": "오릭스 버팔로즈 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA1bERfWXZScHJGTmFUWW13OThfaEZhZk5DVmljSm9IbVF3cl9qd3FpTm5OMnh5MXA4bzVFaHRWUFd6NzBoc3ltOUJUQTZ4S3JIVGl5YXNUTldCNHk1enBR?oc=5",
-      "time": "오늘 10:30",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9FZzU0dm8zd05yMjR5MkctYTZzdmkyYk1kcV9GYkxBQjBSc2ZSMGx0alQ3Q0x6R1NFQmN5NXZDa0FjcXNvNzRST0xvVmxkYnc0LXpweg?oc=5",
+      "time": "오늘 10:34",
       "is_today": true,
-      "media": "라이브 도어 뉴스",
+      "media": "사랑의 숟가락",
       "team": "오릭스 버팔로즈",
       "color": "#1E293B",
       "category": "🏆 포스트시즌 & 경기"
-    },
-    {
-      "title": "2026년 초안 지명 예측 | 군 구성 및 제2군 발전의 관점에서 포인트 강화",
-      "summary": "오릭스 버팔로즈 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9DbC1TajJhN3RpTkgwRFBLLVZTcEdzVG9Xc1dVZVVUVHF2Z2l0RTdfNzREVFU0RUtyYXZveUZGWjlELUgyUUNhZFM4MzBNc2wybjZEVHVST08wUm05azlaV1VkOEhFcjZRWng3TmFjZlh6bUU?oc=5",
-      "time": "오늘 08:00",
-      "is_today": true,
-      "media": "스포츠 내비게이션",
-      "team": "오릭스 버팔로즈",
-      "color": "#1E293B",
-      "category": "🎯 드래프트 & 스카우트"
     }
   ],
   "지바 롯데 마린스": [
     {
-      "title": "호주 윈터 리그에 파견된 아쓰시 토모스기와 우에다 마사요시",
-      "summary": "지바 롯데 마린스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMGMxUmV5M0V4OUdIckg5dVgtVEpsQXlabFlYc3VHVmZSaGJkdWt6MHNqNk44NUNSaFZpYm8wdTZ3aVVTN1JsdlZLWGY5OXpKV2tMZ0FOTmRERHd6Z3p3WFVPMkVlTnVQVTdjNGhIcHgtR2hUcmRiUThwNGEtd1N2R0prVDdfR01MckcxVXE5LXA3aGlhbkhJ0gGKAUFVX3lxTE1ndTRpeXRtUXVzSWhxRWpJelZxVlhkRVlOMXlDSUc3MjQ4Um5hOHY3YkU2c1RaaW0zektUalphdlRiSlB2Y3RCdVgwZWt5VjZYMHFMRVd2ZEd3ZmVZQ3NjeEprWWg0RmZOdzVscWRWSzl2TV9GNGVVNmk4VEZMLVRzdk11WGgzYkJrdw?oc=5",
-      "time": "오늘 12:36",
+      "title": "10/16 (금) 8500 혼료쿠 기념관 (우에다 마사요시) 상품 주문 판매 시작",
+      "summary": "지바 롯데 마린스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBXZmJGUXdKLXRsaU5VWUVLMzNnYUptcDh1V0NjSk5Id2Zfa1E4RHpQanZyc3I2dURlaUJlVHJ6SDZQR2F4T2hGeUdOX3p5Y1hVVnZINHhOcEYzWTRHNE9ZMnlMZnpmZw?oc=5",
+      "time": "오늘 15:04",
       "is_today": true,
-      "media": "산케이스포츠",
+      "media": "지바 롯데 마린스",
       "team": "지바 롯데 마린스",
       "color": "#94A3B8",
-      "category": "📰 구단 소식"
+      "category": "🏆 포스트시즌 & 경기"
     },
     {
-      "title": "토모스기 아츠테루와 우에다 마사요시를 호주 윈터 리그로 보내기",
-      "summary": "지바 롯데 마린스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbVNzdDN3VEN2OXJ6ckw3eG9HSG05aHpkcF9mQVFMMExFb2xmaC1tUDVnRWNCNlhTRGRvWjVqdGRSZXVpTUFmZVVXYWdtNnVQLXJDcTdaSFFqaVNUclVRQ1JIMEt0cWVoNFpiMWFSUU5Idy1nTDdBQ29JTTk5QUkxOUVXT2JTU19kN2NCNE9R0gGTAUFVX3lxTE1PYWwyTXFSR2JCSlExeTYyd28wWWNWSnNpZG9xZ3N6bngtOVlaWjBDcHY2M2Y2cFE4V2hHT2NKWlc4LTlfalA3dUZScG8xMFU2Ym94R3ZoYjVVbXRNTllxNzE3YUdIWGxBbVluLXRneS1CdThxWjRvTlZXcEZzcEEyeDRjcFlESGRWRTBKYmk5TVlwUQ?oc=5",
-      "time": "오늘 12:24",
-      "is_today": true,
-      "media": "d메뉴 뉴스",
-      "team": "지바 롯데 마린스",
-      "color": "#94A3B8",
-      "category": "📰 구단 소식"
-    },
-    {
-      "title": "요코야마, 스즈키, 니시카와 개인 타이틀 기념 상품 주문",
-      "summary": "지바 롯데 마린스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5hT2ZMZVI0TmhCNWdEMGxuYWo0X2ZrSF9RbTFLWl9ydjdia013eXNpcUtuOWZoQ05PZWJmVzU1SWRHUXZPRThOT2VB?oc=5",
-      "time": "오늘 07:05",
-      "is_today": true,
-      "media": "BASEBALL KING",
-      "team": "지바 롯데 마린스",
-      "color": "#94A3B8",
-      "category": "📰 구단 소식"
-    },
-    {
-      "title": "그는 도미니카 윈터 리그에 두 명의 선수를 파견했습니다. \"많이 경험하고 배우고 성장하고 싶습니다.\"",
-      "summary": "지바 롯데 마린스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9tejh5Q25vTEE1bTV0X0Q1Mm1GT0h5M2xEcFRNaVNGcnZFc2dWeDMxRXBVZjNkRE4tT215U0Fub3k4U1g1T3JMY1Fn?oc=5",
-      "time": "오늘 07:00",
-      "is_today": true,
-      "media": "BASEBALL KING",
-      "team": "지바 롯데 마린스",
-      "color": "#94A3B8",
-      "category": "📰 구단 소식"
-    },
-    {
-      "title": "The topic of discussion at a later date] · 카라카와 타케시의 은퇴 경기에 대한 생각 \"아빠를 생각한다면\" 43세의 나이로 갑작스럽게 세상을 떠난 선배에게... 1주년 전날 깜짝 선물 (Number Web",
+      "title": "2026 프로야구 은퇴선수 특별전 안내",
       "summary": "지바 롯데 마린스 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aN0Y1dHNaVXF0MXJnNVR5Y0Z3by1LeC1YejRkelprUmJNdDJKMUk1LUxQRlRBcnczSlgyNXI5aDUyWGl1MUpqa3NCZ3NHWXFJVTlZcUNhbjNzelljd3BBV2pEa3cxdWVkdEFha0xycGJnTnhDWTFKQWRab2M1UWc?oc=5",
-      "time": "오늘 06:05",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BQnRCM0RBczZFa0txR1lxTmpNM3R5VUhYcVZxOXhRd1pGYVd4dnpDSjQzbk9qY2tmMUYzNGlNX3R4bXZ3RkdETUZXLUkwTloyYnBmcU84UzFpTmxTVTFNcDlOZUlINDdVd2c?oc=5",
+      "time": "오늘 14:27",
       "is_today": true,
-      "media": "야후 뉴스",
+      "media": "PR TIMES",
       "team": "지바 롯데 마린스",
       "color": "#94A3B8",
       "category": "📋 전력외·은퇴·이적"
+    },
+    {
+      "title": "[Team 26 Day 2026] 9월 22일 화요일 아웃바운드 코멘터리가 포함된 티켓 보고서",
+      "summary": "지바 롯데 마린스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB1S2MzSnpIbWNNYW1HakFBR2RpLVRFanR4UjVzNFBIMkdVTFliTFVnTVhZOUR6NlZ5eFFVSTNjZFFPZnNya1JpdmVnWnlJMlhVX0lScVpONDdUd0RLNUJQcGYwYnhMdw?oc=5",
+      "time": "오늘 14:03",
+      "is_today": true,
+      "media": "지바 롯데 마린스",
+      "team": "지바 롯데 마린스",
+      "color": "#94A3B8",
+      "category": "📰 구단 소식"
+    },
+    {
+      "title": "호주 윈터 리그에 파견된 토모스기와 우에다",
+      "summary": "지바 롯데 마린스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9OVTRKeUJjaXlWU2NFSExwRUJsRFppSDZMNU9SLTY0YUZDQ0phbTVyZ3p3cFpkSGN5ODFmNHd3czIyRXFBQWNmTklR?oc=5",
+      "time": "오늘 13:44",
+      "is_today": true,
+      "media": "BASEBALL KING",
+      "team": "지바 롯데 마린스",
+      "color": "#94A3B8",
+      "category": "📰 구단 소식"
+    },
+    {
+      "title": "유망주가 가을의 실제 전투에 나선다",
+      "summary": "지바 롯데 마린스 관련 — 선수단 훈련 상황과 컨디션 조율 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kb0wxTV85bVBXNU15MWhlT3hERnlYcWc0RFdrSkZodERJMUJ0RUhUZ2lCcWFuZTA1cnhNeGVuZ1JINHRNamEzUkc4ZXN0ek5pUXU0elFiZGtjQkthRGFhMXV4R1JJMEJiZU5iLTFMVlNSNWtDN3lCa0h5MGtIMWM?oc=5",
+      "time": "오늘 13:40",
+      "is_today": true,
+      "media": "조선일보",
+      "team": "지바 롯데 마린스",
+      "color": "#94A3B8",
+      "category": "⚾ 선수단 훈련"
     }
   ],
   "라쿠텐 골든이글스": [
+    {
+      "title": "양카이쇼는 아시아 프로야구 챔피언십에서 중국 타이베이 대표로 선발되었다.",
+      "summary": "라쿠텐 골든이글스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE0wNnh4RlVwamRnUkRxLUFoRVJ6bDdDX0ZOR09vb21hNGZKM2U3a0tZOWxiZzlCbTdkVkFEUmJnTjZNaDFRa1ZtbXFB?oc=5",
+      "time": "오늘 14:52",
+      "is_today": true,
+      "media": "BASEBALL KING",
+      "team": "라쿠텐 골든이글스",
+      "color": "#991B1B",
+      "category": "📰 구단 소식"
+    },
+    {
+      "title": "밝고 어두운!? 30세 이상 이적 (6) 일본과 미국에서 204승... CS회원외 (야구채널)",
+      "summary": "라쿠텐 골든이글스 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE90UGVRdEV5andPZVMwM0RKdWo2al8wV0UyQk9Oc29DMnUzOVA0ZjZmWDdKc3hLMmpBaGJ4ZkVWM3FDaXNBY3gzNmsta0R1T3pMdGtXRzBxVjdlc0pQSlc3R2N3MTBIUkRveTM5X0toWGtKYzhtdGFueURqV193eDA?oc=5",
+      "time": "오늘 14:50",
+      "is_today": true,
+      "media": "야후 뉴스",
+      "team": "라쿠텐 골든이글스",
+      "color": "#991B1B",
+      "category": "📋 전력외·은퇴·이적"
+    },
+    {
+      "title": "다음 시즌부터는 가마타 씨가 가나자와 드래곤 크로스로 파견되어 일본해 리그에 진출할 예정입니다.",
+      "summary": "라쿠텐 골든이글스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9CSFg4M2VocTRQRVE5ZmJLOTdlNmV2ckdFdThYQno5SlJfSUxRVlZrMXdaYTNlRHhSVWs4a0xuejVDWEVia0k5bEtQaEc5RUNhdHlxZlg3eGVZbnPSAVZBVV95cUxQQUxUWEt4QUU4dUNyd2pRdFhneThLWHU2ZnNoLVltS1V3WFNZdjhqVWpBLURoTXVfSk9USzlRcXhtNkVISVlzdU5OU0JnLUc5LWw0U054UQ?oc=5",
+      "time": "오늘 14:18",
+      "is_today": true,
+      "media": "PA-LEAGUE.com",
+      "team": "라쿠텐 골든이글스",
+      "color": "#991B1B",
+      "category": "📰 구단 소식"
+    },
     {
       "title": "일본 씨리그 신생팀 가나자와 드래곤크로스에 가나에 가마타 피칭 코디네이터 파견",
       "summary": "라쿠텐 골든이글스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
@@ -525,51 +558,40 @@
       "category": "📰 구단 소식"
     },
     {
-      "title": "가나자와 드래곤 크로스, 이시카와현 출신 가마타 요시나오 초대 감독, 기타무라 슌스케 코치 | KKT LLC 보도 자료",
+      "title": "카마다 요시나오는 가나자와 드래곤크로스의 첫 번째 감독이 될 것이며, 그의 코치는 기타무라 슌스케가 될 것입니다.",
       "summary": "라쿠텐 골든이글스 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBQVmpzSU1CZnB0R1A3bHVtcnlnNVlPLWRnM1YxcEg3Q05oZFpWSUoxaS1mbXhlYV93V25oa00yUERrZUc1ekhONTV6MlpWdlNqeWZITHFtajFTbV9uX29QN21TUURVT0lYakE?oc=5",
-      "time": "오늘 11:00",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5PVXNIZkhvc0NCS0poQlAwMVpVY0pISXUyN0t1MWxCQ3JwWlZzYUZXUG9DSDNhbWk2VHltWHZfaVZJQ2hkM3ptSU9CaVdVQjlPWDlkcnVDYzdQMHp1RThiWVRRWTM?oc=5",
+      "time": "오늘 12:40",
       "is_today": true,
-      "media": "PR TIMES",
-      "team": "라쿠텐 골든이글스",
-      "color": "#991B1B",
-      "category": "👔 감독·코치진"
-    },
-    {
-      "title": "제23회 미야자키 피닉스 리그 \"-\" 경기 진행 및 투척 결과 (2026년 10월 15일) [2학년]",
-      "summary": "라쿠텐 골든이글스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcXBRTmQzN1V4Vko1al9kTENjRm5OSGFqN1U2LUVCUEhPWlZyZVU2WVRNeXZIWVBWR1cxdHNXWTU3THFlUS0xQ0pHNUNRaXBsb3ZldmZLZ0wyYjJhMENYRzhCSTMtVG96Q0s0OHNFOC1KM0EzaktiM0pNMkNaX0x2Zy1nSHZubWM?oc=5",
-      "time": "오늘 09:09",
-      "is_today": true,
-      "media": "Aki people go",
-      "team": "라쿠텐 골든이글스",
-      "color": "#991B1B",
-      "category": "📰 구단 소식"
-    },
-    {
-      "title": "Yoshinao Kamata 피칭 코디네이터가 새로운 팀 \"Kanazawa Dragon Cross\" 의 첫 번째 매니저로 임명되었습니다.",
-      "summary": "라쿠텐 골든이글스 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYjZIa3ZqLXY2Nm1zNFFKNHQxUk5vakVIc1RXdG1QdlNJcmR1SzQzOTFhNC1Bb2NlNU1uXzRQOG53YmNLdHBXWkFpSk95YXY5aElwdDZ5R2lhMm1KaDIxT0FnNmdocFlZMnBJM1lfd3VXcHJDemNFeXdjTWsxVHlwZGJtclNxZVJFdkRWQWU3Snd4SWZFbXRkNkZpTElCUdIBigFBVV95cUxNVHpiVXVobWNmTGpFZ19WQ1pGMldobnVXUEdXNFFNMWtWS3VoMWtvRERtM1BfRWhkVE1iby1QQm1iWk1aZ2dhOThJMHV0MHVmS1Y2M09QNDRRb3VTUGNKdFZQVkplVV8xOGkwbTlZaEtzS05oQXBuSDlLTzZYbE41UF9EUWE4dzgyRFE?oc=5",
-      "time": "오늘 08:00",
-      "is_today": true,
-      "media": "산케이스포츠",
-      "team": "라쿠텐 골든이글스",
-      "color": "#991B1B",
-      "category": "👔 감독·코치진"
-    },
-    {
-      "title": "새로운 팀 \"가나자와 드래곤 크로스\" 의 초대 매니저로 임명된 요시나오 카마타 피칭 코디네이터 (사진/이미지 1/1)",
-      "summary": "라쿠텐 골든이글스 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYVZiYkE1LWpleDNxX1ctYlk3RkVZcGowVkFHb3FwdXlHZzRWaW9SSHdrMTdhdWliNVhma1BuVEZ4aTNURDNGU2V2SkJJV3YtcVBCR0dOQVNLWW5JaF9MblpxWDZGR3B4SWJybVpzcVFGTHA0V0FEb0QwMkZLcmRvTFlkWGdNWFhUMEwxc1JPYTN3aVhxbURnTHBpLXFfaWJs?oc=5",
-      "time": "오늘 08:00",
-      "is_today": true,
-      "media": "산케이스포츠",
+      "media": "Dellows News",
       "team": "라쿠텐 골든이글스",
       "color": "#991B1B",
       "category": "👔 감독·코치진"
     }
   ],
   "세이부 라이온즈": [
+    {
+      "title": "[사이타마] 공식 웹사이트가 리뉴얼되었습니다!",
+      "summary": "세이부 라이온즈 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5yU21nN1hjampjdV9FeVJkZkNEX3lGR0ZEc1V4LWFLNXpwSlhVV1ltcFE1Q0RxU0c3Rk1YY0N1Q21aQkdoSl9fdnZFcTVuVHZzZllWeU9VUEJKaThPN3Itck9Ma0ZhTXRtcTFZYlEyX1RDVFk?oc=5",
+      "time": "오늘 15:00",
+      "is_today": true,
+      "media": "스포츠 내비게이션",
+      "team": "세이부 라이온즈",
+      "color": "#2563EB",
+      "category": "📰 구단 소식"
+    },
+    {
+      "title": "2026 프로야구 은퇴선수 특별전 안내",
+      "summary": "세이부 라이온즈 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BQnRCM0RBczZFa0txR1lxTmpNM3R5VUhYcVZxOXhRd1pGYVd4dnpDSjQzbk9qY2tmMUYzNGlNX3R4bXZ3RkdETUZXLUkwTloyYnBmcU84UzFpTmxTVTFNcDlOZUlINDdVd2c?oc=5",
+      "time": "오늘 14:27",
+      "is_today": true,
+      "media": "PR TIMES",
+      "team": "세이부 라이온즈",
+      "color": "#2563EB",
+      "category": "📋 전력외·은퇴·이적"
+    },
     {
       "title": "10/22 (목) 은 \"프로야구 드래프트 미팅\" 입니다! 추천 페이지에서 지난 드래프트를 다시 플레이하세요!",
       "summary": "세이부 라이온즈 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
@@ -582,6 +604,17 @@
       "category": "🎯 드래프트 & 스카우트"
     },
     {
+      "title": "알렉산더 카나리오",
+      "summary": "세이부 라이온즈 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE13N0JNMnZTdnVKSjNSbUs1NllkbjBHMkt5V2ZQdEVybVVUeng3a0pnTEhQeG5QcF82dHpYTnJDVUpMa1MtenZMdVY5XzZ4QllKZlNYczVIUnVSN1dNMkh0Ug?oc=5",
+      "time": "오늘 11:08",
+      "is_today": true,
+      "media": "주간 베이스볼",
+      "team": "세이부 라이온즈",
+      "color": "#2563EB",
+      "category": "📰 구단 소식"
+    },
+    {
       "title": "SMBC 일본 시리즈 2026 클라이맥스 시리즈 SE 리그 우승 팀",
       "summary": "세이부 라이온즈 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1LQjFJWDVWZms1V0J6MWMycmNNTXhsSEd4SDRxdTdxaW41MVVGU0VlM09IcUotQUFxM0h0VWZLSWEwRTlFNFBWVWoweE4xSUxCdVVmcE5HTnhNQk14d0gw?oc=5",
@@ -591,46 +624,35 @@
       "team": "세이부 라이온즈",
       "color": "#2563EB",
       "category": "🏆 포스트시즌 & 경기"
-    },
-    {
-      "title": "[이미지 2/4] 토부 동물원과 아르디자 선수들이 공원을 방문합니다",
-      "summary": "세이부 라이온즈 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5DYkgtcGhWQXlTd3JSelJ4ZWJLVEV3bVlHQ0gtZ3dacnV4YkVrQVRvdy15ZzNXbi13WllLamFQN2hnVjJhQkdIa050Ym9KSzZERVdxZ1JNX0wtMkxUcUlHaWlTMHA?oc=5",
-      "time": "오늘 08:36",
-      "is_today": true,
-      "media": "Worrath",
-      "team": "세이부 라이온즈",
-      "color": "#2563EB",
-      "category": "📰 구단 소식"
-    },
-    {
-      "title": "네빈을 포함한 외국인 선수 4명의 복귀를 발표하며 \"1년 동안 따뜻한 성원에 감사드립니다.\"",
-      "summary": "세이부 라이온즈 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5STm5yM0RnXzFqM0pjdWJqbVdXWVB5aGdNVFZ5YnhKdVFETlY2Q2tieF9QVnVTVGR3anJXQ1JTcksxZTFVTlFaNDRB?oc=5",
-      "time": "오늘 07:10",
-      "is_today": true,
-      "media": "BASEBALL KING",
-      "team": "세이부 라이온즈",
-      "color": "#2563EB",
-      "category": "📰 구단 소식"
-    },
-    {
-      "title": "컵스 현지 언론은 \"타이라가 잠금을 해제하기 전에 타이라가 원해야 한다\" 며 \"우리는 최고의 NPB 중 하나의 오른팔을 획득하는 것에 대해 진지하게 생각해야 한다\" 고 주장했다.",
-      "summary": "세이부 라이온즈 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBDazdHcWhoQVY2d2kwNmFobWdRYTE2WGNTN2ttQjBJdnBHZWpranhoZ1U1amZKSHNpLUJTbG9MWUNDT0t2T1JNdGcwSnRoNFpEY3VDWmVhbEQ3TGZ0TFZ4VUxHQUpLZlRtazVLRUxlN2FZTTRhVlBKQkpOMA?oc=5",
-      "time": "오늘 06:31",
-      "is_today": true,
-      "media": "코코 칼라넥스트",
-      "team": "세이부 라이온즈",
-      "color": "#2563EB",
-      "category": "📰 구단 소식"
     }
   ],
   "니혼햄 파이터즈": [
     {
+      "title": "[프로야구 CS] 2026년 새로운 규칙 설명 2 우승 우위를 적용하기 위한 조건 및 필요한 우승 횟수",
+      "summary": "니혼햄 파이터즈 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAyWUJXQi1LUnZjS19DQUh0eWZORHU2dlVScVdKazNlYzR5V0pfYkpVVjRacXJfNkpBSEhYYzRNQ2d4NlpHYjVLQzRLdEY3cWdfS00zTw?oc=5",
+      "time": "오늘 12:30",
+      "is_today": true,
+      "media": "야구 채널",
+      "team": "니혼햄 파이터즈",
+      "color": "#06B6D4",
+      "category": "🏆 포스트시즌 & 경기"
+    },
+    {
       "title": "CS의 한가운데서, R. Castro는 도미니카 공화국에 그의 집 건설에 대한 재정적 문제로 인해 14 일에 체포 영장이 발부되었음을 밝힙니다.",
       "summary": "니혼햄 파이터즈 관련 — 선수·지도자의 인터뷰와 발언을 정리한 기사입니다.",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbXM5Zm5mZTNLenRpMWdSeDJkWDVkWG1xUTFnZkY2Ymd5WVl4cFMyQVBuWUZRRTlHN3JueWN2UEVlZlp0YmY0MlJORmMwTC1kX1dXRFpFa0pyS1F5ejNmQUhyR1NkQzB2dlh2X0tpaUNYOUNrb3pzdXdHT3E0VnJUU2Vac1R1a1JldmFIRHFzWHVBOWtPbU9Yd9IBigFBVV95cUxPVk5oMGp1WWRvNkdyVFZENmRPeVg4TWJFVndIU1Brd3piVzI4ZHVnMFNfcTlJX2R3UFdmLTc2NG5Vb2JhdTlZMEVLU0hONzhOZjNsQ3NlRXZSZFU0cUFDU1dpaTc0bnlocXd6cXBiTlg5R3M0eWlZaW1rZzUySl9Ubkc2aUZ3SU02dWc?oc=5",
+      "time": "오늘 12:14",
+      "is_today": true,
+      "media": "산케이스포츠",
+      "team": "니혼햄 파이터즈",
+      "color": "#06B6D4",
+      "category": "🎙 인터뷰 & 코멘트"
+    },
+    {
+      "title": "CS의 한가운데서, R. Castro는 도미니카 공화국의 주택 건설을 둘러싼 재정적 어려움으로 인해 14일에 체포 영장이 발부되었음을 밝힙니다 (사진/이미지 1/1).",
+      "summary": "니혼햄 파이터즈 관련 — 선수·지도자의 인터뷰와 발언을 정리한 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNclNGVFQxRU5EZlhwOEMzMDhOZzNVMXJIVUxSNkpydmZVbThlWjdlbXp5Z2dZRG84V0hDZktSLWxTczdLMzF3ZWpHNm9tUV9tb3pmUlFqMzB1bUw0NTM5aExUVXVUdGRtalNZQ2hiWnBjbkZpV3YwWVlDeW9wSUl2bURncDlwTTY5MlY4MlM3eUx3bkM3TzFmZTZzTFZZYXRqd1JZQi1Gc09KM2lxRHlBdk5rWUswbHdseFpVYkotS1pqdVhF?oc=5",
       "time": "오늘 12:14",
       "is_today": true,
       "media": "산케이스포츠",
@@ -659,28 +681,6 @@
       "team": "니혼햄 파이터즈",
       "color": "#06B6D4",
       "category": "📰 구단 소식"
-    },
-    {
-      "title": "[2026 프로야구 드래프트 미팅] 드라1의 궤적 [TBS]",
-      "summary": "니혼햄 파이터즈 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9kd3JCTHRrbmZRTmwyNmRXUzczZjMyRFZabGl0Y1BDYjRoZnF5c0Q2NnNfN2Y4eDd6Y3lzY0tYeVlJMlRGNzUzUVpqUFNyaHNjMFlWcUVGR2ZQZlpf?oc=5",
-      "time": "오늘 11:00",
-      "is_today": true,
-      "media": "스포츠 내비게이션",
-      "team": "니혼햄 파이터즈",
-      "color": "#06B6D4",
-      "category": "🎯 드래프트 & 스카우트"
-    },
-    {
-      "title": "[10월 15일] TV 중계/인터넷 송출 일정/시청 방법 | 프로야구 클라이맥스 시리즈 파이널 스테이지 2026",
-      "summary": "니혼햄 파이터즈 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdURDeVhWX3RpTGhnZlZpLV9paWlVa3NEUGpMZEY4N2RyaHQ0QnRNbnNtVzd5bHVpdm5SZ01KcXBHUEZRcnBvd3MzYlpfQjlwTmVhT0ZhbTRBNjlOVjRtME1pNmZfWjkxRDdUcWpkamJpV0RnWjRYM09jRm9oZ2JGSDRMdEtveXVYYWNGYXdDX29ienhRaVNxMndDV2JQWXM0RmlxUWRiNzBfZ09FbXFDSGlMblRibDUyazBrQVhMbFg4UQ?oc=5",
-      "time": "오늘 11:00",
-      "is_today": true,
-      "media": "Goal.com",
-      "team": "니혼햄 파이터즈",
-      "color": "#06B6D4",
-      "category": "🏆 포스트시즌 & 경기"
     }
   ]
 }
