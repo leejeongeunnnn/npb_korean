@@ -1,14 +1,69 @@
 [
   {
-    "title": "이미지/사진: 스트라이크 후쿠시마 프로야구 CS: 시사 닷컴",
-    "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBLcW5pRnhwTzNwYTh0QzdYdV9rMUYySEc1MHYtZ2tJbV9yNVFkLUdKNVZEWGZqenJycGNXTkczVl9UX0pXbV9KdkpBa2VhQ09LNFItaWN2LWNmU281TW5xbzVib2I?oc=5",
-    "time": "오늘 01:02",
+    "title": "[Pa League] [프로야구] 타카 연승 일본 S to King's Hand CS 결승전 우승",
+    "summary": "일본 프로야구 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9LZjBOVTI5UWpZWFhuRzVGVS0xZmplS0FLaUp2ODktMGY2VEhYcWhIM0g2Z1lHbUdEWlV2V1NJRFRlYTAtZEkyZGtpaW5hNEJKSDFRbkFaOXVEQ0ZmZnc?oc=5",
+    "time": "오늘 04:00",
+    "is_today": true,
+    "media": "오키나와 타임즈",
+    "team": "NPB 종합",
+    "color": "#3b82f6",
+    "category": "🏆 포스트시즌 & 경기"
+  },
+  {
+    "title": "2학년 때, 내야수 양 카시와 쇼 (요 · 보산) 가 11월에 아시아 프로야구 CS의 대만 국가대표로 선발되었다 (Sponicia Nex).",
+    "summary": "라쿠텐 골든이글스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBqTkJMQUVITkYyR0RVRU1COFZnZG8tU3BhelNoRjRrNHVtMVB2WW1oWm9fS3dJd2Z0SGFHVmRpTVI2S3UtNWhXMkkyX1ptUWxmMUtBbGpOdlNPQUo3aVdURjJnZmY5N0dBQVNTOWFlUGFTdllzS2RLOHZWWWhNWFU?oc=5",
+    "time": "오늘 03:13",
+    "is_today": true,
+    "media": "야후 뉴스",
+    "team": "라쿠텐 골든이글스",
+    "color": "#991B1B",
+    "category": "🏆 포스트시즌 & 경기"
+  },
+  {
+    "title": "프로야구 Se CS 파이널 스테이지 DeNA 1-0 마키 파이널 불릿, 베이 2연승 놓치지 않고 8회 치카네",
+    "summary": "한신 타이거스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93aXFXOTNZUW03V3lOQUlIWGkzMDY0dGtTeGVncGE0U1lzXzVkTGlDQ0RSUHVPTF9mVTFJcmtwTmp5cE5SZXg1QkY3djNsTVQtcGxPckxWck8tVW1IU3ZrZTZ4aTFfdHZE?oc=5",
+    "time": "오늘 02:01",
+    "is_today": true,
+    "media": "마이니치신문",
+    "team": "한신 타이거스",
+    "color": "#EAB308",
+    "category": "🏆 포스트시즌 & 경기"
+  },
+  {
+    "title": "프로야구 Pa CS 파이널 스테이지 6-2 타카 차분히 안녕, 구리하라 극적인 야구",
+    "summary": "소프트뱅크 호크스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE81cjAzTTN5S05UZVBYRHJNZUw5VV96TXB1YmF4MV9mTmZMcFhIclhfdGJ6eUI0VG0zQmM2LTNPMndXcTRPVnpkSE5tX0RpNzBRNklVemxkMWptRVJPVE0wZk9HSmF3UV9r?oc=5",
+    "time": "오늘 02:01",
+    "is_today": true,
+    "media": "마이니치신문",
+    "team": "소프트뱅크 호크스",
+    "color": "#FBBF24",
+    "category": "🏆 포스트시즌 & 경기"
+  },
+  {
+    "title": "[Seleague CS/Parliga CS2026] 최신 토너먼트 테이블 경기 날짜/결과 게시판 | 프로 야구 포스트 시즌 모든 날짜/결과",
+    "summary": "일본 프로야구 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1mLU1WN0tHMHZ2UkRHSjBkWDRUTnZjUFJFSngtZnpKNk92bklRejJ1bDhCOFI5aEprbElMbEtIcWMwb0dFUTJOc1hIbUhjVlJpTjdPVQ?oc=5",
+    "time": "오늘 01:23",
+    "is_today": true,
+    "media": "야구 채널",
+    "team": "NPB 종합",
+    "color": "#3b82f6",
+    "category": "🏆 포스트시즌 & 경기"
+  },
+  {
+    "title": "이미지/사진: DeNA, 프로야구 연속 우승 CS: 시사 닷컴",
+    "summary": "일본 프로야구 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9UdjJFSWVtQlZlM2NwRW1zQzVpVS1oYXl0cTlFUjhMd0dkQmFlRFQxU3dQRlRLVVE2U0E3SlJlTkF3MmQ5cHcwYVBzNEhlU2hLRjhhZm1ORTZJYjQzcER4U1Z0VEk?oc=5",
+    "time": "오늘 01:22",
     "is_today": true,
     "media": "시사 닷컴",
     "team": "NPB 종합",
     "color": "#3b82f6",
-    "category": "📰 구단 소식"
+    "category": "🏆 포스트시즌 & 경기"
   },
   {
     "title": "[프로야구 경기 시작 전] Vs DeNA (2026-10-16, 고시엔구장)",
@@ -20,6 +75,28 @@
     "team": "한신 타이거스",
     "color": "#EAB308",
     "category": "📰 구단 소식"
+  },
+  {
+    "title": "[프로야구 CS] 2026년 새로운 규칙 설명 2 우승 우위를 적용하기 위한 조건 및 필요한 우승 횟수",
+    "summary": "일본 프로야구 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAyWUJXQi1LUnZjS19DQUh0eWZORHU2dlVScVdKazNlYzR5V0pfYkpVVjRacXJfNkpBSEhYYzRNQ2d4NlpHYjVLQzRLdEY3cWdfS00zTw?oc=5",
+    "time": "오늘 00:35",
+    "is_today": true,
+    "media": "야구 채널",
+    "team": "NPB 종합",
+    "color": "#3b82f6",
+    "category": "🏆 포스트시즌 & 경기"
+  },
+  {
+    "title": "[프로야구 은퇴/은퇴 특집 2026] 은퇴, 은퇴, 무료 계약, 포스 외 통지, 트레이드, FA, 현재 시즌 은퇴/은퇴 선수 명단 | 야구 요약 - 주간 베이스볼 온라인",
+    "summary": "일본 프로야구 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1FZTRGSkxaZzBDWVlhX3dqLXVQRkV6bGQ5TGxJUVhhUGthaXFlMFpVdTVSSGZMajBnV1lBeVV2bXNRVHlxVWtIMHFETnNhdGIwMDZ1TjRpUzExWXFvYVNWVWZ1RTk0LXlUNkVUc1FJd0U5Sk1mWnA4bzVn0gF_QVVfeXFMTW0xV1E5bndFbGxpRFNBWVZ0V2dCR3FIbFM4RkM5UUhaMTlRNGVhTklsdUsxckNfSDYtVi1wSzBRcFhSOER4MGV3TWlWNm5UNkFfVnd4Sk5PckxzNE5ncUwtQ2tCNEZIZzJpZFlieU1ySVhFS0laTHVDeFNDdVlVdw?oc=5",
+    "time": "오늘 00:12",
+    "is_today": true,
+    "media": "주간 베이스볼",
+    "team": "NPB 종합",
+    "color": "#3b82f6",
+    "category": "👔 감독·코치진"
   },
   {
     "title": "[프리뷰] 마에다 유타카가 한 번에 결정할 수 있다, 노무라 유키가 4경기 연속 안타 | 파리그 | 프로야구 클라이맥스 시리즈 파이널 스테이지",
@@ -66,14 +143,14 @@
     "category": "📰 구단 소식"
   },
   {
-    "title": "이미지/사진: DeNA, 프로야구 연속 우승 CS: 시사 닷컴",
-    "summary": "일본 프로야구 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9UdjJFSWVtQlZlM2NwRW1zQzVpVS1oYXl0cTlFUjhMd0dkQmFlRFQxU3dQRlRLVVE2U0E3SlJlTkF3MmQ5cHcwYVBzNEhlU2hLRjhhZm1ORTZJYjQzcER4U1Z0VEk?oc=5",
-    "time": "어제 23:52",
+    "title": "프로야구: 증오의 고별 총알로 절벽 사격을 가릴 수도 없다.",
+    "summary": "니혼햄 파이터즈 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uZGRLQ2daYmZFTU5TeGZoU0xsd3M0ZnlMSFVLVXhCaDdrN19pYVBBa0lKZ1BMdXN1ZGFjSjdRS0trYkJqcktfYklaOGRGVFVKb1FpUGpaT2p0N1JFejI4NjBPdTlJY0RudjhaRg?oc=5",
+    "time": "어제 23:37",
     "is_today": false,
-    "media": "시사 닷컴",
-    "team": "NPB 종합",
-    "color": "#3b82f6",
+    "media": "닛케이신문",
+    "team": "니혼햄 파이터즈",
+    "color": "#06B6D4",
     "category": "🏆 포스트시즌 & 경기"
   },
   {
@@ -165,14 +242,14 @@
     "category": "📰 구단 소식"
   },
   {
-    "title": "송곳니를 두 번 연속 잃은 사토 이외에 모리시타가 퇴각하는 비상 상황 (아사히 신문)",
-    "summary": "한신 타이거스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE50Y2FvS1lUSmVMekZwUU1IaWRhV2RHazU2bU9WVjhSVXNvbHpnX0wyVVU0QVlxdXhNRThLSm5sQ0JvenZ0TGx2UWJWUTZpREV0cE9RRjFDM1ExQ3E5VGJwZm1vRFZKVTYyQjFnQUlFeURqWFlCalFRRGEtWjdsbTA?oc=5",
-    "time": "어제 22:39",
+    "title": "\"모든 종류의 공\" DeNA의 목축, 신체의 스윙 - 프로 야구 CS (뉴스 레터)",
+    "summary": "요코하마 DeNA 베이스타스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmTnV6dWtWVElyVE80ZTdnYWJaUDBYZ1BYcHhQbnYyeENDM2VrblVrVUV0TmFHZGNad3hKUGQ4MVpwQXl5NzZ3T2dJeXlLc1BTblFMNmpIM19Gd1RMTmpkZ3l0amxBVkhwSm1rZ3pIY3o5bDlmRkRPbFhwaTVVdFk?oc=5",
+    "time": "어제 22:40",
     "is_today": false,
     "media": "야후 뉴스",
-    "team": "한신 타이거스",
-    "color": "#EAB308",
+    "team": "요코하마 DeNA 베이스타스",
+    "color": "#2563EB",
     "category": "🏆 포스트시즌 & 경기"
   },
   {
@@ -185,6 +262,17 @@
     "team": "소프트뱅크 호크스",
     "color": "#FBBF24",
     "category": "🏆 포스트시즌 & 경기"
+  },
+  {
+    "title": "이미지/사진: 럭비 프로 야구 공격 CS: 시사 닷컴",
+    "summary": "니혼햄 파이터즈 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRnN2RnB1S25NNHZja3oxSVVVc0RSUHl1MEtNeWZ2UldXamUta2RXeVdNYVFnSktCd1Flc1JKY25jQUlGYmV3bUltTHZtTG84MFVtNUVpTzlzcUcwQXFuSjh0dy1FUjNKNk9oZ1lPclRVY1VzUGhUenFsUTcwSDR0cHB3?oc=5",
+    "time": "어제 22:33",
+    "is_today": false,
+    "media": "시사 닷컴",
+    "team": "니혼햄 파이터즈",
+    "color": "#06B6D4",
+    "category": "📰 구단 소식"
   },
   {
     "title": "공격함 = 프로 야구 CS",
@@ -207,28 +295,6 @@
     "team": "요코하마 DeNA 베이스타스",
     "color": "#2563EB",
     "category": "🏆 포스트시즌 & 경기"
-  },
-  {
-    "title": "[Seleague CS/Parliga CS2026] 최신 토너먼트 테이블 경기 날짜/결과 게시판 | 프로 야구 포스트 시즌 모든 날짜/결과",
-    "summary": "일본 프로야구 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1mLU1WN0tHMHZ2UkRHSjBkWDRUTnZjUFJFSngtZnpKNk92bklRejJ1bDhCOFI5aEprbElMbEtIcWMwb0dFUTJOc1hIbUhjVlJpTjdPVQ?oc=5",
-    "time": "어제 22:22",
-    "is_today": false,
-    "media": "야구 채널",
-    "team": "NPB 종합",
-    "color": "#3b82f6",
-    "category": "🏆 포스트시즌 & 경기"
-  },
-  {
-    "title": "\"꿈속에서처럼\" 왕 회장은 또한 빠른 성장에 대한 쿠리하라의 칭찬 탄약을 말한다 \"새로운 No. 4\" (닛칸 스포츠)",
-    "summary": "소프트뱅크 호크스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5rMTFzLVlzWmpITnI5VFBSbi0yN3BWV2FFNFA4S25LSEdLanM3S2c2YkF0OWUxTEh2U2FtSEJJZEZqTTF5TmZBVXRBUDJ1aFAwTGM1MUtZWjZTNGcxU1BhMzJWTGoydFJMc2pzV2xGZEktVUJMN1BfMVlkY1VyLWM?oc=5",
-    "time": "어제 22:21",
-    "is_today": false,
-    "media": "야후 뉴스",
-    "team": "소프트뱅크 호크스",
-    "color": "#FBBF24",
-    "category": "📰 구단 소식"
   },
   {
     "title": "츠바키, 그리고 라인 사토의 침묵, 모리시타가 부족한 시련 - 프로 야구 CS",
@@ -259,72 +325,6 @@
     "time": "어제 21:57",
     "is_today": false,
     "media": "이와키 민포샤",
-    "team": "NPB 종합",
-    "color": "#3b82f6",
-    "category": "📰 구단 소식"
-  },
-  {
-    "title": "모리시타 쇼타 (Shota Morishita) 가 프로야구 CS: 시사 닷컴을 바꾸는 길에 있습니다.",
-    "summary": "한신 타이거스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBrbUhXTGQwbFF4VTZScGtUVjV4c3N5X0N5NWZmbEdYQ3VRaW95anlZU2QzYzdObGgzcWRiU3NONjBvWlJfazRzVkRHeG1CVlE0cUYtSGxyQmN2dTIxZ2o1M2lmbw?oc=5",
-    "time": "어제 21:55",
-    "is_today": false,
-    "media": "시사 닷컴",
-    "team": "한신 타이거스",
-    "color": "#EAB308",
-    "category": "📰 구단 소식"
-  },
-  {
-    "title": "후쿠시마 프로야구 CS ◎스트라이크",
-    "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5QRDY5UmJadnZkYk9DSlplNnlsR2dIR3lpUGtxSU5PY05RMTB0WDZVM1ptX0o1YWJwRV8ybnY1YkxVOXhjcGpFdENoekR6ckJ5bHYyeA?oc=5",
-    "time": "어제 21:49",
-    "is_today": false,
-    "media": "지지통신",
-    "team": "NPB 종합",
-    "color": "#3b82f6",
-    "category": "📰 구단 소식"
-  },
-  {
-    "title": "축복받은 구리하라 프로야구 CS (뉴스레터)",
-    "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5hdmdUVTdUeHRPUjFiaEJzS2NnM0hlV1oyOVJiUkpfT21KWFllM01kZ3hyMWVlX3B6aVlKWHhoTkRfZVRXZ19vaWVHMnpVRFdWLWNsMk9xbjBSRFRiekxkcUVlQlNDdk44WmtXVy1BVjFZbV96eXVmdDNTOVZsMnc?oc=5",
-    "time": "어제 21:47",
-    "is_today": false,
-    "media": "야후 뉴스",
-    "team": "NPB 종합",
-    "color": "#3b82f6",
-    "category": "📰 구단 소식"
-  },
-  {
-    "title": "왕과의 작별 (뉴스레터)",
-    "summary": "소프트뱅크 호크스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBZQjlUZ2M3WnNBVjVsSHNnME9QbHZaYTRiQzFKTFRBazZtUnhUY0lBSkwtZGhlSklxdHNJTjNzZ2J3TVJuQzBZQzNxNlRjSDdnMW1BRFVNMDhibUhYQXo3S01RVmwwdUgyclpXamlFcW1keDJhNlNzRlBmaGVwNFE?oc=5",
-    "time": "어제 21:47",
-    "is_today": false,
-    "media": "야후 뉴스",
-    "team": "소프트뱅크 호크스",
-    "color": "#FBBF24",
-    "category": "🏆 포스트시즌 & 경기"
-  },
-  {
-    "title": "프로야구 CS 세리에 A 코치의 강연",
-    "summary": "일본 프로야구 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE40VUo2d2laQzFxMlpYQ0w3cVByMWxDYnE5dFZtOHFEVWZMbFFLaGNwelVvNlpqR0pLenVaY3pKTTlPRW5oVGVnUmdLWjBTd1ZXUzhXaw?oc=5",
-    "time": "어제 21:47",
-    "is_today": false,
-    "media": "지지통신",
-    "team": "NPB 종합",
-    "color": "#3b82f6",
-    "category": "👔 감독·코치진"
-  },
-  {
-    "title": "이미지/사진: 유쾌한 구리하라 프로야구 CS: 시사 닷컴",
-    "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9TcVh5c3MzOUxtbFA4ZUNHaGlNdVhWbV9iRllia3QwdmUzRUtvN0RVY2pNc29BdlZfOUdPdXVER09DbjdpTU1mMUJsM09rcFdlRUExdjRUbVpma3BWYmU5TVBZX2Y?oc=5",
-    "time": "어제 21:46",
-    "is_today": false,
-    "media": "시사 닷컴",
     "team": "NPB 종합",
     "color": "#3b82f6",
     "category": "📰 구단 소식"
