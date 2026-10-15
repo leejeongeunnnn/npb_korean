@@ -455,6 +455,14 @@ def repair_saved(limit=None):
     print(f"[REPAIR] 저장된 경기 {len(files)}개 중 {changed}개 갱신")
 
 
+REFETCH_RE = re.compile(r"代走|代打|投手交代|守備交代|守備変更|マウンドにあがる")
+
+
+def needs_refetch(path):
+    g = P.load_json(path, None)
+    return bool(g) and any(REFETCH_RE.search(p.get("desc_ja", "")) and not p.get("score") for p in g.get("plays", []))
+
+
 # ----------------------------------------------------------------------------
 # 대상 경기 목록
 # ----------------------------------------------------------------------------
@@ -492,6 +500,8 @@ def main():
     if "--no-repair" not in args:
         repair_saved()
     todo = [t for t in target_games() if not os.path.exists(os.path.join(GAMES_DIR, f"{t[1]}.json"))]
+    # 예전 파서로 득점 장면에 교체 문장이 들어간 경기는 다시 받는다 (파일은 새로 받을 때까지 그대로 둠)
+    todo += [t for t in target_games() if t not in todo and needs_refetch(os.path.join(GAMES_DIR, f"{t[1]}.json"))]
     print(f"=== 경기 상세 수집: 대상 {len(todo)}경기 (이번 실행 최대 {max_n}경기 / {minutes:.0f}분) ===")
     done, batch = 0, []
 
