@@ -3,91 +3,6 @@
   "days_fwd": 6,
   "days": [
     {
-      "date": "2026-09-23",
-      "display": "9월 23일 (수)",
-      "is_today": false,
-      "games": [
-        {
-          "gid": "2021039453",
-          "home": "야쿠르트 스왈로스",
-          "away": "한신 타이거스",
-          "score_home": "4",
-          "score_away": "8",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "메이지 진구 야구장",
-          "venue_jp": "神宮",
-          "series": ""
-        },
-        {
-          "gid": "2021039455",
-          "home": "히로시마 도요 카프",
-          "away": "요미우리 자이언츠",
-          "score_home": "1",
-          "score_away": "2",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "마쓰다 스타디움",
-          "venue_jp": "マツダスタジアム",
-          "series": ""
-        },
-        {
-          "gid": "2021039454",
-          "home": "요코하마 DeNA 베이스타스",
-          "away": "주니치 드래곤즈",
-          "score_home": "4",
-          "score_away": "3",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "요코하마 스타디움",
-          "venue_jp": "横浜",
-          "series": ""
-        },
-        {
-          "gid": "2021039458",
-          "home": "소프트뱅크 호크스",
-          "away": "세이부 라이온즈",
-          "score_home": "10",
-          "score_away": "3",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "미즈호 PayPay 돔",
-          "venue_jp": "みずほPayPay",
-          "series": ""
-        },
-        {
-          "gid": "2021039457",
-          "home": "지바 롯데 마린스",
-          "away": "오릭스 버팔로즈",
-          "score_home": "0",
-          "score_away": "1",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "조조 마린 스타디움",
-          "venue_jp": "ZOZOマリン",
-          "series": ""
-        },
-        {
-          "gid": "2021039456",
-          "home": "니혼햄 파이터즈",
-          "away": "라쿠텐 골든이글스",
-          "score_home": "3",
-          "score_away": "5",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "에스콘 필드 홋카이도",
-          "venue_jp": "エスコンF",
-          "series": ""
-        }
-      ]
-    },
-    {
       "date": "2026-09-24",
       "display": "9월 24일 (목)",
       "is_today": false,
@@ -957,7 +872,7 @@
     {
       "date": "2026-10-16",
       "display": "10월 16일 (금)",
-      "is_today": true,
+      "is_today": false,
       "games": [
         {
           "gid": "2021039482",
@@ -978,11 +893,11 @@
           "away": "니혼햄 파이터즈",
           "score_home": "6",
           "score_away": "2",
-          "status": "9회초 진행 중",
-          "state": "live",
+          "status": "경기 종료",
+          "state": "final",
           "start": "",
           "venue": "미즈호 PayPay 돔",
-          "venue_jp": "みずほPayPay\nライブ配信中",
+          "venue_jp": "みずほPayPay",
           "series": "🔥 CS 파이널 스테이지"
         }
       ]
@@ -990,7 +905,7 @@
     {
       "date": "2026-10-17",
       "display": "10월 17일 (토)",
-      "is_today": false,
+      "is_today": true,
       "games": [
         {
           "gid": "2021039483",
@@ -998,24 +913,11 @@
           "away": "요코하마 DeNA 베이스타스",
           "score_home": "",
           "score_away": "",
-          "status": "14:00 시작 · 선발 예고",
+          "status": "14:00 시작",
           "state": "pre",
           "start": "14:00",
           "venue": "한신 고시엔 구장",
           "venue_jp": "甲子園",
-          "series": "🔥 CS 파이널 스테이지"
-        },
-        {
-          "gid": "2021039489",
-          "home": "소프트뱅크 호크스",
-          "away": "니혼햄 파이터즈",
-          "score_home": "",
-          "score_away": "",
-          "status": "18:00 시작",
-          "state": "pre",
-          "start": "18:00",
-          "venue": "미즈호 PayPay 돔",
-          "venue_jp": "みずほPayPay",
           "series": "🔥 CS 파이널 스테이지"
         }
       ]
@@ -1037,19 +939,6 @@
           "venue": "한신 고시엔 구장",
           "venue_jp": "甲子園",
           "series": "🔥 CS 파이널 스테이지"
-        },
-        {
-          "gid": "2021039490",
-          "home": "소프트뱅크 호크스",
-          "away": "니혼햄 파이터즈",
-          "score_home": "",
-          "score_away": "",
-          "status": "18:00 시작",
-          "state": "pre",
-          "start": "18:00",
-          "venue": "미즈호 PayPay 돔",
-          "venue_jp": "みずほPayPay",
-          "series": "🔥 CS 파이널 스테이지"
         }
       ]
     },
@@ -1070,19 +959,6 @@
           "venue": "한신 고시엔 구장",
           "venue_jp": "甲子園",
           "series": "🔥 CS 파이널 스테이지"
-        },
-        {
-          "gid": "2021039491",
-          "home": "소프트뱅크 호크스",
-          "away": "니혼햄 파이터즈",
-          "score_home": "",
-          "score_away": "",
-          "status": "18:00 시작",
-          "state": "pre",
-          "start": "18:00",
-          "venue": "미즈호 PayPay 돔",
-          "venue_jp": "みずほPayPay",
-          "series": "🔥 CS 파이널 스테이지"
         }
       ]
     },
@@ -1090,21 +966,7 @@
       "date": "2026-10-20",
       "display": "10월 20일 (화)",
       "is_today": false,
-      "games": [
-        {
-          "gid": "2021051966",
-          "home": "소프트뱅크 호크스",
-          "away": "니혼햄 파이터즈",
-          "score_home": "",
-          "score_away": "",
-          "status": "18:00 시작",
-          "state": "pre",
-          "start": "18:00",
-          "venue": "미즈호 PayPay 돔",
-          "venue_jp": "みずほPayPay",
-          "series": "🔥 CS 파이널 스테이지"
-        }
-      ]
+      "games": []
     },
     {
       "date": "2026-10-21",
@@ -1115,6 +977,12 @@
     {
       "date": "2026-10-22",
       "display": "10월 22일 (목)",
+      "is_today": false,
+      "games": []
+    },
+    {
+      "date": "2026-10-23",
+      "display": "10월 23일 (금)",
       "is_today": false,
       "games": []
     }
