@@ -281,18 +281,18 @@
       "stage": "🔥 센트럴 CS 파이널",
       "home": "한신 타이거스",
       "away": "요코하마 DeNA 베이스타스",
-      "score_home": "",
-      "score_away": "",
-      "status": "경기 전",
+      "score_home": "0",
+      "score_away": "3",
+      "status": "8회초 진행 중",
       "venue": "한신 고시엔 구장"
     },
     {
       "stage": "🔥 퍼시픽 CS 파이널",
       "home": "소프트뱅크 호크스",
       "away": "니혼햄 파이터즈",
-      "score_home": "",
-      "score_away": "",
-      "status": "경기 전",
+      "score_home": "5",
+      "score_away": "2",
+      "status": "7회말 진행 중",
       "venue": "미즈호 PayPay 돔"
     }
   ]
