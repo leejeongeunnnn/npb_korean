@@ -911,10 +911,10 @@
           "gid": "2021039483",
           "home": "한신 타이거스",
           "away": "요코하마 DeNA 베이스타스",
-          "score_home": "2",
-          "score_away": "3",
-          "status": "6회초 진행 중",
-          "state": "live",
+          "score_home": "5",
+          "score_away": "8",
+          "status": "경기 종료",
+          "state": "final",
           "start": "",
           "venue": "한신 고시엔 구장",
           "venue_jp": "甲子園",
@@ -926,41 +926,13 @@
       "date": "2026-10-18",
       "display": "10월 18일 (일)",
       "is_today": false,
-      "games": [
-        {
-          "gid": "2021039484",
-          "home": "한신 타이거스",
-          "away": "요코하마 DeNA 베이스타스",
-          "score_home": "",
-          "score_away": "",
-          "status": "14:00 시작 · 선발 예고",
-          "state": "pre",
-          "start": "14:00",
-          "venue": "한신 고시엔 구장",
-          "venue_jp": "甲子園",
-          "series": "🔥 CS 파이널 스테이지"
-        }
-      ]
+      "games": []
     },
     {
       "date": "2026-10-19",
       "display": "10월 19일 (월)",
       "is_today": false,
-      "games": [
-        {
-          "gid": "2021039485",
-          "home": "한신 타이거스",
-          "away": "요코하마 DeNA 베이스타스",
-          "score_home": "",
-          "score_away": "",
-          "status": "18:00 시작",
-          "state": "pre",
-          "start": "18:00",
-          "venue": "한신 고시엔 구장",
-          "venue_jp": "甲子園",
-          "series": "🔥 CS 파이널 스테이지"
-        }
-      ]
+      "games": []
     },
     {
       "date": "2026-10-20",
