@@ -1,22 +1,66 @@
 [
   {
-    "title": "이미지/사진: 오야마 산의 타이 적시 플레이 프로야구 CS: 시사닷컴",
-    "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE00S1VUd09UcVFHRlNmc0t1YVZPY2xvVmM3UFMwcnBtVGNUQWo3YWdWdU1UejB4RHRlNEQ2WWxDZnhJSWRLRURQaEp3cXRRMzBTRGpPb3cyU1k0Q3FNeVItMVFQQmQ?oc=5",
-    "time": "오늘 15:03",
+    "title": "구라모토 도시히코가 하야테에서 계속 싸우는 이유는 젊은이들이 \"CS가 나왔습니다!\"... DeNA 외부 세력으로부터 4 년 후 35 세의 나이에 NPB로 복귀 \"뭔가있을 수 있습니다\"",
+    "summary": "요코하마 DeNA 베이스타스 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBscEx4Qk1LYlQ3LXVQRmtZQUZQVF9lcHNPTmNJV0hPOVJxenRYRkhwUlBLd3lZT3llSU9uaGFMMlhzMWRxTGktcjZuaS10b2QyNmxvTEdieks?oc=5",
+    "time": "오늘 15:47",
     "is_today": true,
-    "media": "시사 닷컴",
+    "media": "풀카운트",
+    "team": "요코하마 DeNA 베이스타스",
+    "color": "#2563EB",
+    "category": "📋 전력외·은퇴·이적"
+  },
+  {
+    "title": "[동영상] 모리시타 쇼타, CS No.1 홈런",
+    "summary": "한신 타이거스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBtNGNmYnBxQXNQTXZNcnhUNlVkUXY3Um5ENFo2aWRyejhRN2xSUUgtdUxsQzE3ZXlUaUk0RzJPdzNCQ0lKM1ZvcmlGRkU3c2NlMWtwOWRkbjBCekVwQVJZbmxJeTZ5V0NtNlBSN3luRmhoZFAzVUE?oc=5",
+    "time": "오늘 15:44",
+    "is_today": true,
+    "media": "닛칸스포츠",
+    "team": "한신 타이거스",
+    "color": "#EAB308",
+    "category": "🏆 포스트시즌 & 경기"
+  },
+  {
+    "title": "◎우승 투런 나루세 프로야구 CS",
+    "summary": "일본 프로야구 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9IdFdZZ3VReWgzdHRsc1QzeG4zWXQ4WHZ1RVYxUlcxVlphcU1jakpGNjdhUHVGRUwyUGhra2xwNmRTMFhGZWJZYTc2a2lSOGhrdnJRYw?oc=5",
+    "time": "오늘 15:44",
+    "is_today": true,
+    "media": "지지통신",
     "team": "NPB 종합",
     "color": "#3b82f6",
+    "category": "🏆 포스트시즌 & 경기"
+  },
+  {
+    "title": "모리시타가 반격을 가합니다 (일간 스포츠)",
+    "summary": "한신 타이거스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0yWFlxQlBZejRCY3dpdU5BRlVNb2VDRzBNLUNhb3IwLWt6b29lbkQ1aG5vRlpoSlEzektLT2hnVkJncTY4M0VRSVhROTZEdlVOQ2xDT183V1BBOFJoeE4yS0plZndYb20zNzZuRlBreklWamctOTJ5VnVZVXZSUFk?oc=5",
+    "time": "오늘 15:29",
+    "is_today": true,
+    "media": "야후 뉴스",
+    "team": "한신 타이거스",
+    "color": "#EAB308",
     "category": "📰 구단 소식"
   },
   {
-    "title": "프로야구 CS를 적시에 플레이하는 ◎오야마의 타이",
-    "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1qSjgyR0E3WEI1c2hzSjBreUlFUWJyYUtlSGJRNko4OU5IMDF4cVBsbFd5VldnM3JGWkJwNWRpOUZBMnEwRWVYLWRLbWRqQnBES0h4bQ?oc=5",
-    "time": "오늘 15:03",
+    "title": "후지카와 감독이 벤치에서 뛰어내린 이유 \"요청이 아니라...\" 해명은 \"그냥 하고 있었다\" 고 추측한다 (대답)",
+    "summary": "한신 타이거스 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBsa2tOU2NUWXBnS0pvU3llV2h6WTh0MGJZZUxqTFZadGh2bk80U1doVHc1Y1BUbU9KbGRFam9CQWhNelhrbjlGQnNXa2VqT21PVEdBQnlOWFFKVUdjWlhkVHFjOWNZOGpmblR5MFFjcm1Gb3hPT2VGVUhacGlURTA?oc=5",
+    "time": "오늘 15:20",
     "is_today": true,
-    "media": "지지통신",
+    "media": "야후 뉴스",
+    "team": "한신 타이거스",
+    "color": "#EAB308",
+    "category": "👔 감독·코치진"
+  },
+  {
+    "title": "프로야구 CS를 적시에 플레이하는 오야마의 넥타이 (Jiji Shun)",
+    "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9VVXZQVm1kUEJYcTZDUGlQNWhlcmI3MWM4eWhrUXYtemZVSEd2Yk1kQlIxbWtJMjR6MmRQZHR2b2RVM2dpVDBjR19JMDdmOXZVX3dPY0lTbHRCZEdMYmRkNmxZVFpKR29McjhXWWdHV25qQWhjTzkwYTZuMW9YRW8?oc=5",
+    "time": "오늘 15:04",
+    "is_today": true,
+    "media": "야후 뉴스",
     "team": "NPB 종합",
     "color": "#3b82f6",
     "category": "📰 구단 소식"
@@ -30,6 +74,17 @@
     "media": "시사 닷컴",
     "team": "NPB 종합",
     "color": "#3b82f6",
+    "category": "📰 구단 소식"
+  },
+  {
+    "title": "[프로야구 경기 속보] 1-1 DeNA (10월 17일, 고시엔 스타디움)",
+    "summary": "한신 타이거스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4zWkRTZWhtbE9ad0w0b3JNV2x0eDlHMGwwMGI5Z2NJQVlVNlhjaWJxNFJRMy1URV90NzRVcVVUd3p1dkJRVFI4SUpLM0c2LVJRZTFyN3dVQy1Ub3du?oc=5",
+    "time": "오늘 15:01",
+    "is_today": true,
+    "media": "MyNavi 뉴스",
+    "team": "한신 타이거스",
+    "color": "#EAB308",
     "category": "📰 구단 소식"
   },
   {
@@ -53,6 +108,28 @@
     "team": "NPB 종합",
     "color": "#3b82f6",
     "category": "📰 구단 소식"
+  },
+  {
+    "title": "동부 프로 야구 CS에 ◎투자",
+    "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1DNnZBcnI0Tm1Fa0QzMkhrRTJ3X2QxNXZTMHVzT0NZX2c4SmVsNlNGTUxFRklQcV9vWjJKRV9wbmp4M3VwZUtJbGlBbjNtWm12bjI0Uw?oc=5",
+    "time": "오늘 14:56",
+    "is_today": true,
+    "media": "지지통신",
+    "team": "NPB 종합",
+    "color": "#3b82f6",
+    "category": "📰 구단 소식"
+  },
+  {
+    "title": "경쟁? 단일 낚시? 고시엔에 도달하지 못한 드래프트 (2) \"150km 슈퍼 사우스포\" (야구 채널) 의 첫 번째 후보로 간주되는 투수",
+    "summary": "일본 프로야구 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Da0xzTENneWhnM0NrSTg0U01SdzdrWkwtMEpTZUdYejAwUGNEdU9LZFdnN3pqai1tbzRBRWVkZmc1U2ozT1FqY2lEbTJBSHlSclBNWnlJSXB4d3VSZU8yUHBqeWxhN2Q2WmxzTVFmY2VtN0ExaGZsNGxaSEdUd1U?oc=5",
+    "time": "오늘 14:50",
+    "is_today": true,
+    "media": "야후 뉴스",
+    "team": "NPB 종합",
+    "color": "#3b82f6",
+    "category": "🎯 드래프트 & 스카우트"
   },
   {
     "title": "29 세의 나이에 최초의 사무라이 일본이 선출되었습니다. \"당황하지 마라.\" 모리타 슌야 (Shunya Morita) 는 \"자기 인식\" 놀이 및 행동 (스포츠 정보) 에서 \"나는 그것을 보여줘야한다\" 고 밝힙니다.",
@@ -97,17 +174,6 @@
     "team": "니혼햄 파이터즈",
     "color": "#06B6D4",
     "category": "👔 감독·코치진"
-  },
-  {
-    "title": "과거 드래프트 피지명자 명단 | 2001-2025 지명 순위 및 개발 드래프트",
-    "summary": "야쿠르트 스왈로스 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Sa01ZOTNTX1lFMF96QU1DcXllaFdBbXVVMmdFMzV5LXozZmNkdHJCVEFaVUcxOWZGRzQ1U01SbkJEdWdwSXJPWlgyd0tGei1RY3ViVg?oc=5",
-    "time": "오늘 14:30",
-    "is_today": true,
-    "media": "야구 채널",
-    "team": "야쿠르트 스왈로스",
-    "color": "#475569",
-    "category": "🎯 드래프트 & 스카우트"
   },
   {
     "title": "사사키 슌스케, 사무라이 재팬 \"Going Bullets\" 에 가다 피닉스 탄약으로 왼쪽으로 백스크린 이번 시즌, 일본은 태국에서 10발을 쐈다.",
@@ -187,6 +253,17 @@
     "category": "🏆 포스트시즌 & 경기"
   },
   {
+    "title": "[프로야구 경기 시작 전] Vs DeNA (2026-10-17, 고시엔구장)",
+    "summary": "한신 타이거스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAzQmMxQXNUcGhyMEMzbUdmV2VEdGlncnYtdWxDdW5CUURieVZIY3RldmhuMG83QlJMcGJIS281b1pKY1d4bUdHSTBmS1BnSGZpTTVYTHJFQXFBdUgx?oc=5",
+    "time": "오늘 13:22",
+    "is_today": true,
+    "media": "MyNavi 뉴스",
+    "team": "한신 타이거스",
+    "color": "#EAB308",
+    "category": "📰 구단 소식"
+  },
+  {
     "title": "[CS 파이널 4라운드] 테루 사토와 모리시타는 절벽 가장자리에 있고, DeNA는 엔카네이션 5호를 사용하고 있습니다 (닛폰 텔레비전 뉴스 NNN)",
     "summary": "한신 타이거스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1FNkJBUlR2WE9ndVB5ejJDNlVPdFhPTlp2ZjE0VzBZMTFHUlM2czhFYldrbDFMMXB2dXo1T0FiNlJtN29sUWV1S3c0NWNrZFkzT1NCM3A5cTI3Q1JCc05LVURfOHgyQUVvbGJyMFdlRUI0XzRPWGUtdFl5aHhhdVU?oc=5",
@@ -251,82 +328,5 @@
     "team": "니혼햄 파이터즈",
     "color": "#06B6D4",
     "category": "👔 감독·코치진"
-  },
-  {
-    "title": "[동영상] [드래프트 추천 선수] 요네자와 토모쇼 (간사이 대학) [대학생 에디션] - 스포츠 내비게이션 \"프로야구 드래프트 컨퍼런스 2026TBS\"",
-    "summary": "일본 프로야구 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBLVFRLVFlySU1mY3RxRjBKcmFET0pjX2lwM3NSU29TOUF5SnNxM0JiQWtTcGRob3ZFZFRJWGFlZnRNeENnbWJyajBDdHhkc01jTnB4eDVhVU5JSVlE?oc=5",
-    "time": "오늘 12:40",
-    "is_today": true,
-    "media": "스포츠 내비게이션",
-    "team": "NPB 종합",
-    "color": "#3b82f6",
-    "category": "🎯 드래프트 & 스카우트"
-  },
-  {
-    "title": "세리그 발표 (17일) = 프로야구",
-    "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE95d0NEbnpjSUEzMVpzRnVYUjliNnBzc1hoeWVpYm4zd3RLU3liY1BwUkt2SDQ1U3pmdEZ3QmVlaTk4b29vQ0lvVzJvTWpfZHExeC01UQ?oc=5",
-    "time": "오늘 12:31",
-    "is_today": true,
-    "media": "지지통신",
-    "team": "NPB 종합",
-    "color": "#3b82f6",
-    "category": "📰 구단 소식"
-  },
-  {
-    "title": "(15) Ukyo Maekawa Deletes Hiroto Saiki, Registers Takashi Hamada/17일에 발표 (닛칸 스포츠)",
-    "summary": "한신 타이거스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aemUzMTBhQjhfUUdhd2hSMHY0bm5JbkMtLVV4WHNLU0V3SUhMZzNrTi1fRHhVV25tRlVXOXB0NW1RSVF2b3BCQWpwQnVrazgzaF8zbkF1ZVYxbnB6T2hSRFRJTVprS2RpaElGaTNicEMwTldSbU5GdG5wUEl2akE?oc=5",
-    "time": "오늘 12:17",
-    "is_today": true,
-    "media": "야후 뉴스",
-    "team": "한신 타이거스",
-    "color": "#EAB308",
-    "category": "📰 구단 소식"
-  },
-  {
-    "title": "스핀들 역할로 5위도 기용… 츠토무, '고교졸업 5년차 슬러거 후보' 등록 사고 삭제 및 원망 철회 (야구채널)",
-    "summary": "한신 타이거스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15R0E5Yl9aaENoRHhkMHM4RktTYjMyekRpcDREYWxsSFRFcUVYV24yLTNqb2w3aGwyaFF0NXFidHpRNEF1NXJydnM2UGt4aWpfV3VlSzg2elVqSlRXLVVQc0FiRlJDLVpiQXJkMVBMb2REc1dDWDFQMU9LY18ta3c?oc=5",
-    "time": "오늘 12:15",
-    "is_today": true,
-    "media": "야후 뉴스",
-    "team": "한신 타이거스",
-    "color": "#EAB308",
-    "category": "📰 구단 소식"
-  },
-  {
-    "title": "[프로야구 경기 시작 전] Vs DeNA (2026-10-17, 고시엔구장)",
-    "summary": "한신 타이거스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAzQmMxQXNUcGhyMEMzbUdmV2VEdGlncnYtdWxDdW5CUURieVZIY3RldmhuMG83QlJMcGJIS281b1pKY1d4bUdHSTBmS1BnSGZpTTVYTHJFQXFBdUgx?oc=5",
-    "time": "오늘 12:11",
-    "is_today": true,
-    "media": "MyNavi 뉴스",
-    "team": "한신 타이거스",
-    "color": "#EAB308",
-    "category": "📰 구단 소식"
-  },
-  {
-    "title": "[17일 프로야구 예고] 린포체, 우쿄 마에카와 등 삭제하고 다카시 하마다 등록 (야구채널)",
-    "summary": "한신 타이거스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xZllMV056aDMyZThDYXBrNWh0ZGNLNFJpTWtGdzRCWkJsYW9qVnJ0U3ktSG1fSmx2UjNNX1lZSXNXcHk2OWpTcFVEOWxGNnBOWnl4dTFxTXplWlZLVGlabFZUT0tGeWVYWEsxaXVWU29BRllYRV9wdUtfTU5VSDA?oc=5",
-    "time": "오늘 12:06",
-    "is_today": true,
-    "media": "야후 뉴스",
-    "team": "한신 타이거스",
-    "color": "#EAB308",
-    "category": "📰 구단 소식"
-  },
-  {
-    "title": "너무 똑똑해... 편차 값은 에기 초난이도 학교 운동 선수 (4) 도라 1 후보 지명... 게이오도 \"학업 상\" (야구 채널)",
-    "summary": "주니치 드래곤즈 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE01MHBoc0pxYTBBOEI4eWJJeGNkdndxb1RiSVE0ZFh3WUR3aUdpa3YtY2JXN0pWa3FWYnpyTGVWcXpSTGQ4YVlZNEhYbUVJd3VkX3h1d2dsem1KWDJKdk9NOXp5VzR4YmJ2ZF9ycS1LRTczZ19SWEMwZHd1c1BSWmc?oc=5",
-    "time": "오늘 12:03",
-    "is_today": true,
-    "media": "야후 뉴스",
-    "team": "주니치 드래곤즈",
-    "color": "#3B82F6",
-    "category": "🎯 드래프트 & 스카우트"
   }
 ]
