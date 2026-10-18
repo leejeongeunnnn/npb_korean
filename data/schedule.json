@@ -3,78 +3,6 @@
   "days_fwd": 6,
   "days": [
     {
-      "date": "2026-09-25",
-      "display": "9월 25일 (금)",
-      "is_today": false,
-      "games": [
-        {
-          "gid": "2021048556",
-          "home": "야쿠르트 스왈로스",
-          "away": "주니치 드래곤즈",
-          "score_home": "5",
-          "score_away": "4",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "메이지 진구 야구장",
-          "venue_jp": "神宮",
-          "series": ""
-        },
-        {
-          "gid": "2021048557",
-          "home": "요코하마 DeNA 베이스타스",
-          "away": "한신 타이거스",
-          "score_home": "2",
-          "score_away": "1",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "요코하마 스타디움",
-          "venue_jp": "横浜",
-          "series": ""
-        },
-        {
-          "gid": "2021048558",
-          "home": "히로시마 도요 카프",
-          "away": "요미우리 자이언츠",
-          "score_home": "3",
-          "score_away": "2",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "마쓰다 스타디움",
-          "venue_jp": "マツダスタジアム",
-          "series": ""
-        },
-        {
-          "gid": "2021039460",
-          "home": "세이부 라이온즈",
-          "away": "지바 롯데 마린스",
-          "score_home": "2",
-          "score_away": "6",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "벨루나 돔",
-          "venue_jp": "ベルーナドーム",
-          "series": ""
-        },
-        {
-          "gid": "2021039461",
-          "home": "오릭스 버팔로즈",
-          "away": "소프트뱅크 호크스",
-          "score_home": "0",
-          "score_away": "9",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "교세라 돔 오사카",
-          "venue_jp": "京セラD大阪",
-          "series": ""
-        }
-      ]
-    },
-    {
       "date": "2026-09-26",
       "display": "9월 26일 (토)",
       "is_today": false,
@@ -892,13 +820,13 @@
     {
       "date": "2026-10-18",
       "display": "10월 18일 (일)",
-      "is_today": true,
+      "is_today": false,
       "games": []
     },
     {
       "date": "2026-10-19",
       "display": "10월 19일 (월)",
-      "is_today": false,
+      "is_today": true,
       "games": []
     },
     {
@@ -939,6 +867,26 @@
           "status": "18:30 시작",
           "state": "pre",
           "start": "18:30",
+          "venue": "요코하마 스타디움",
+          "venue_jp": "横浜",
+          "series": "🏆 SMBC 일본시리즈"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "display": "10월 25일 (일)",
+      "is_today": false,
+      "games": [
+        {
+          "gid": "2021039493",
+          "home": "요코하마 DeNA 베이스타스",
+          "away": "소프트뱅크 호크스",
+          "score_home": "",
+          "score_away": "",
+          "status": "18:00 시작",
+          "state": "pre",
+          "start": "18:00",
           "venue": "요코하마 스타디움",
           "venue_jp": "横浜",
           "series": "🏆 SMBC 일본시리즈"
