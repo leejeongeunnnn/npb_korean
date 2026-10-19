@@ -19,8 +19,9 @@ jobs:
         run: |
           mkdir -p shots
           (python -m http.server 8000 >/dev/null 2>&1 &) && sleep 2
-          python tools/screenshot.py "${{ github.event.inputs.team }}"
+          python tools/screenshot.py "${{ github.event.inputs.team }}" > shots/log.txt 2>&1 || echo "script failed" >> shots/log.txt
       - name: shots 브랜치에 저장
+        if: always()
         env:
           PUSH_URL: https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
         run: |
