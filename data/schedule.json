@@ -3,78 +3,6 @@
   "days_fwd": 6,
   "days": [
     {
-      "date": "2026-09-26",
-      "display": "9월 26일 (토)",
-      "is_today": false,
-      "games": [
-        {
-          "gid": "2021048560",
-          "home": "요코하마 DeNA 베이스타스",
-          "away": "한신 타이거스",
-          "score_home": "3",
-          "score_away": "8",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "요코하마 스타디움",
-          "venue_jp": "横浜",
-          "series": ""
-        },
-        {
-          "gid": "2021048559",
-          "home": "야쿠르트 스왈로스",
-          "away": "주니치 드래곤즈",
-          "score_home": "5",
-          "score_away": "3",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "메이지 진구 야구장",
-          "venue_jp": "神宮",
-          "series": ""
-        },
-        {
-          "gid": "2021039462",
-          "home": "세이부 라이온즈",
-          "away": "지바 롯데 마린스",
-          "score_home": "5",
-          "score_away": "4",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "벨루나 돔",
-          "venue_jp": "ベルーナドーム",
-          "series": ""
-        },
-        {
-          "gid": "2021039463",
-          "home": "오릭스 버팔로즈",
-          "away": "니혼햄 파이터즈",
-          "score_home": "0",
-          "score_away": "2",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "교세라 돔 오사카",
-          "venue_jp": "京セラD大阪",
-          "series": ""
-        },
-        {
-          "gid": "2021039464",
-          "home": "소프트뱅크 호크스",
-          "away": "라쿠텐 골든이글스",
-          "score_home": "4",
-          "score_away": "0",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "미즈호 PayPay 돔",
-          "venue_jp": "みずほPayPay",
-          "series": ""
-        }
-      ]
-    },
-    {
       "date": "2026-09-27",
       "display": "9월 27일 (일)",
       "is_today": false,
@@ -826,13 +754,13 @@
     {
       "date": "2026-10-19",
       "display": "10월 19일 (월)",
-      "is_today": true,
+      "is_today": false,
       "games": []
     },
     {
       "date": "2026-10-20",
       "display": "10월 20일 (화)",
-      "is_today": false,
+      "is_today": true,
       "games": []
     },
     {
@@ -892,6 +820,12 @@
           "series": "🏆 SMBC 일본시리즈"
         }
       ]
+    },
+    {
+      "date": "2026-10-26",
+      "display": "10월 26일 (월)",
+      "is_today": false,
+      "games": []
     }
   ]
 }
