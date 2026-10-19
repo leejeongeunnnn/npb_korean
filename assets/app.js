@@ -332,39 +332,82 @@ function renderPlayers() {
 
 /* ---------- 5. 구장 ---------- */
 let mapInited = false;
-function renderStadiums() {
+let ACCESS = null;
+async function renderStadiums() {
   const p = document.getElementById("panel-stadiums");
   const t = DATA.teams;
   if (p.dataset.done) return;
+  p.dataset.done = "1";
+  if (!ACCESS) {
+    try { const r = await fetch(`data/geo/access.json?t=${Math.floor(Date.now() / 3600000)}`); ACCESS = r.ok ? (await r.json()).teams : {}; }
+    catch (e) { ACCESS = {}; }
+  }
   let html = `<h2 class="section-title">🏟️ 구단별 홈 구장 안내</h2>`;
-  html += `<p class="hint">지도의 마커를 누르면 구장 정보가 표시됩니다.</p><div id="map"></div><div class="stadium-grid">`;
+  html += `<p class="hint">지도의 마커나 카드의 <b>🗺️ 지도에서 역 보기</b>를 누르면 구장 주변 역과 도보 10분권이 표시돼요.</p>
+    <div class="map-wrap"><div id="map"></div><button class="map-reset" id="map-reset" hidden>↩ 전국 보기</button></div><div class="stadium-grid">`;
   const all = [...((t && t.central) || []), ...((t && t.pacific) || [])];
   all.forEach(tm => {
+    const ac = ACCESS[tm.name];
+    const near = ac && ac.stations[0];
     html += `<div class="card stadium-card">
       <div class="sc-name">🏟️ ${esc(tm.stadium)}</div>
       <div class="sc-team" style="color:${esc(tm.color)}">${esc(tm.name)}</div>
       <div class="sc-row">📍 ${esc(tm.address)}</div>
       <div class="sc-row">🪑 ${esc(tm.capacity)}</div>
+      ${ac ? `<details class="sc-access"><summary>🚉 가는 법 <span class="sc-near">${esc(near.ko)}역 · 도보 약 ${near.walk}분</span></summary>
+        <div class="sc-st">${ac.stations.map(st => `<div class="sc-strow"><div><b>${esc(st.ko)}</b> <em class="pf-jp">${esc(st.ja)}</em><div class="sc-line">${esc(st.lines)}</div></div>
+          <div class="sc-dist"><b>${st.walk}분</b><span>${st.dist >= 1000 ? (st.dist / 1000).toFixed(1) + "km" : st.dist + "m"}</span></div></div>`).join("")}</div>
+        <div class="sc-from">📍 ${esc(ac.from)}에서</div>
+        <ul class="sc-routes">${ac.routes.map(r => `<li>${esc(r)}</li>`).join("")}</ul>
+        <button class="stage-chip sc-focus" data-focus="${esc(tm.name)}">🗺️ 지도에서 역 보기</button>
+      </details>` : ""}
       <div style="margin-top:8px"><a href="${esc(tm.website)}" target="_blank" rel="noopener">공식 홈페이지 →</a>
-      &nbsp; <a href="https://www.google.com/maps/search/?api=1&query=${tm.lat},${tm.lon}" target="_blank" rel="noopener">지도 보기 →</a></div>
+      &nbsp; <a href="https://www.google.com/maps/dir/?api=1&destination=${tm.lat},${tm.lon}&travelmode=transit" target="_blank" rel="noopener">길찾기 →</a></div>
     </div>`;
   });
-  html += `</div>`;
+  html += `</div><p class="hint">🚉 역 위치는 OpenStreetMap, 거리는 구장 중심에서 역까지의 직선거리예요. 도보 시간은 직선거리에 우회 계수 1.3을 곱하고
+    일본 부동산 표기 기준인 분당 80m로 나눠 추정했어요(입구 위치에 따라 실제와 몇 분 차이 날 수 있어요). 노선 안내는 2026년 10월 기준이며, 경기일엔 임시 열차·버스가 더 다녀요.</p>`;
   p.innerHTML = html;
-  p.dataset.done = "1";
 
-  if (typeof L !== "undefined" && all.length) {
-    const map = L.map("map").setView([36.2, 138.3], 5);
-    L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}", {
-      attribution: "Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ", maxZoom: 16,
-    }).addTo(map);
-    all.forEach(tm => {
-      L.circleMarker([tm.lat, tm.lon], { radius: 9, color: "#fff", weight: 2, fillColor: tm.color, fillOpacity: .95 })
-        .addTo(map)
-        .bindPopup(`<b>${esc(tm.stadium)}</b><br>${esc(tm.name)}<br>${esc(tm.address)}`);
+  if (typeof L === "undefined" || !all.length) return;
+  const map = L.map("map").setView([36.2, 138.3], 5);
+  L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}", {
+    attribution: "Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ · 역: &copy; OpenStreetMap", maxZoom: 17,
+  }).addTo(map);
+  const layer = L.layerGroup().addTo(map);
+  const reset = document.getElementById("map-reset");
+  const focus = (tm) => {
+    const ac = ACCESS[tm.name];
+    layer.clearLayers();
+    if (!ac) return;
+    // 도보 10분권: 800m 걷기 = 직선 약 615m (우회 계수 1.3)
+    L.circle([tm.lat, tm.lon], { radius: 800 / 1.3, color: "#22c55e", weight: 1.5, dashArray: "4 4", fillColor: "#22c55e", fillOpacity: .08 })
+      .addTo(layer).bindTooltip("도보 약 10분권", { sticky: true });
+    const pts = [[tm.lat, tm.lon]];
+    ac.stations.forEach((st, i) => {
+      pts.push([st.lat, st.lon]);
+      L.polyline([[tm.lat, tm.lon], [st.lat, st.lon]], { color: i === 0 ? "#f59e0b" : "#94a3b8", weight: i === 0 ? 3 : 2, dashArray: "6 6", opacity: .9 }).addTo(layer);
+      L.circleMarker([st.lat, st.lon], { radius: 6, color: "#fff", weight: 2, fillColor: i === 0 ? "#f59e0b" : "#64748b", fillOpacity: 1 })
+        .addTo(layer).bindTooltip(`🚉 ${esc(st.ko)}역 · 도보 약 ${st.walk}분`, { permanent: i === 0, direction: "right", className: "st-tip" })
+        .bindPopup(`<b>${esc(st.ko)}역</b> (${esc(st.ja)})<br>${esc(st.lines)}<br>직선 ${st.dist}m · 도보 약 ${st.walk}분`);
     });
-    setTimeout(() => map.invalidateSize(), 200);
-  }
+    map.fitBounds(L.latLngBounds(pts).pad(0.25), { maxZoom: 16 });
+    reset.hidden = false;
+  };
+  all.forEach(tm => {
+    L.circleMarker([tm.lat, tm.lon], { radius: 9, color: "#fff", weight: 2, fillColor: tm.color, fillOpacity: .95 })
+      .addTo(map)
+      .bindPopup(`<b>${esc(tm.stadium)}</b><br>${esc(tm.name)}<br>${esc(tm.address)}`)
+      .on("click", () => focus(tm));
+  });
+  reset.addEventListener("click", () => { layer.clearLayers(); map.setView([36.2, 138.3], 5); reset.hidden = true; });
+  p.querySelectorAll("[data-focus]").forEach(b => b.addEventListener("click", () => {
+    const tm = all.find(x => x.name === b.dataset.focus);
+    if (!tm) return;
+    document.getElementById("map").scrollIntoView({ behavior: "smooth", block: "center" });
+    focus(tm);
+  }));
+  setTimeout(() => map.invalidateSize(), 200);
 }
 
 /* ---------- 6. 팀 소개 ---------- */

@@ -423,3 +423,23 @@ table.gm-tbl td.r { text-align: right; }
 .wx-chip.out { color:#fbbf24; } .wx-chip.in { color:#93c5fd; } .wx-chip.cross { color:#c4b5fd; } .wx-chip.calm { color:var(--muted); }
 .wx-arr { display:inline-block; font-style:normal; font-weight:800; margin-left:2px; color:#fbbf24; }
 .wx-arr.in { color:#93c5fd; } .wx-arr.cross { color:#c4b5fd; }
+
+/* ---------- 구장 가는 법 ---------- */
+.map-wrap { position: relative; }
+.map-reset { position: absolute; top: 10px; right: 10px; z-index: 500; border: 1px solid var(--border); background: var(--card); color: var(--text); border-radius: 999px; padding: 6px 12px; font-size: .78rem; font-weight: 700; cursor: pointer; font-family: inherit; }
+.sc-access { margin-top: 10px; border-top: 1px solid var(--border); padding-top: 8px; }
+.sc-access summary { cursor: pointer; font-weight: 700; font-size: .86rem; list-style: none; display: flex; justify-content: space-between; gap: 8px; align-items: center; }
+.sc-access summary::-webkit-details-marker { display: none; }
+.sc-access summary::after { content: "▾"; color: var(--muted); }
+.sc-access[open] summary::after { content: "▴"; }
+.sc-near { margin-left: auto; font-size: .74rem; font-weight: 600; color: #fbbf24; white-space: nowrap; }
+.sc-st { margin-top: 8px; display: flex; flex-direction: column; gap: 6px; }
+.sc-strow { display: flex; justify-content: space-between; align-items: center; gap: 8px; background: var(--card-2); border-radius: 8px; padding: 7px 10px; font-size: .82rem; }
+.sc-line { font-size: .7rem; color: var(--muted); margin-top: 2px; }
+.sc-dist { display: flex; flex-direction: column; align-items: flex-end; font-size: .7rem; color: var(--muted); white-space: nowrap; }
+.sc-dist b { font-size: .9rem; color: var(--text); }
+.sc-from { margin-top: 10px; font-size: .78rem; font-weight: 700; }
+.sc-routes { margin: 4px 0 8px 18px; font-size: .78rem; line-height: 1.6; color: #cdd6e4; }
+.sc-routes li { margin-bottom: 3px; }
+.sc-focus { margin-top: 2px; }
+.leaflet-tooltip.st-tip { background: rgba(14,17,23,.9); color: #fff; border: 1px solid #f59e0b; font-weight: 700; }
