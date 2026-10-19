@@ -23,6 +23,7 @@ for k, (la, lo) in S.items():
     seen = {}
     for e in d["elements"]:
         t = e.get("tags", {}); nm = t.get("name")
+        if "lat" not in e: continue
         if not nm: continue
         dist = hav((la, lo), (e["lat"], e["lon"]))
         if nm not in seen or dist < seen[nm]["dist"]:
