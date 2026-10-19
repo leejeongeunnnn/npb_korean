@@ -424,11 +424,71 @@ const wmo = (c) => WMO[c] || ["❔", "정보 없음"];
 const ROOF_KO = { dome: "🏟️ 돔 구장 · 날씨 영향 거의 없음", retractable: "🏟️ 개폐식 지붕 · 우천 시 닫음", open: "🌳 야외 구장 · 비 오면 취소될 수 있음" };
 const windDir = (d) => DIR16[Math.round(d / 22.5) % 16];
 
+/* ---------- 구장 방향과 바람 ----------
+   cf: 홈플레이트 → 센터 방향 방위각(북=0°, 시계 방향). OpenStreetMap의 그라운드 폴리곤에서
+   부채꼴의 꼭짓점(홈)과 무게중심을 잇는 축으로 계산했다(tools 참고). 돔 구장은 바람 영향이 없어 제외. */
+const FIELD_CF = [
+  { name: "한신 고시엔 구장", lat: 34.72121, lon: 135.36162, cf: 174 },
+  { name: "요코하마 스타디움", lat: 35.44332, lon: 139.6401, cf: 344 },
+  { name: "메이지 진구 야구장", lat: 35.67437, lon: 139.71708, cf: 33 },
+  { name: "마쓰다 스타디움", lat: 34.39183, lon: 132.48472, cf: 88 },
+  { name: "조조 마린 스타디움", lat: 35.64513, lon: 140.03079, cf: 225 },
+  { name: "라쿠텐 모바일 파크", lat: 38.25656, lon: 140.90253, cf: 183 },
+  { name: "에스콘 필드", lat: 42.99042, lon: 141.55442, cf: 312 },
+];
+const cfOf = (lat, lon) => { const f = FIELD_CF.find(v => haversine([v.lat, v.lon], [lat, lon]) < 1.5); return f ? f.cf : null; };
+
+/* 바람(불어오는 방향 from, 풍속 m/s)을 구장 축 기준으로 나눈다.
+   along > 0: 외야로 부는 뒷바람(타구가 더 뻗음) / along < 0: 홈 쪽으로 부는 맞바람
+   cross > 0: 좌익 → 우익 방향 / cross < 0: 우익 → 좌익 방향 */
+function fieldWind(from, speed, cf) {
+  const toward = (from + 180) % 360;
+  const rel = ((toward - cf) % 360 + 360) % 360;            // 센터 방향 = 0°
+  const along = speed * Math.cos(rel * Math.PI / 180), cross = speed * Math.sin(rel * Math.PI / 180);
+  let label, cls;
+  if (speed < 1.5) { label = "거의 무풍 · 영향 없음"; cls = "calm"; }
+  else if (Math.abs(along) >= Math.abs(cross)) {
+    if (along > 0) { label = `외야로 부는 뒷바람 · 타구가 더 뻗어 타자 유리`; cls = "out"; }
+    else { label = `홈 쪽으로 부는 맞바람 · 타구가 덜 뻗어 투수 유리`; cls = "in"; }
+  } else {
+    label = cross > 0 ? "좌익 → 우익 방향 옆바람 · 뜬공이 우익수 쪽으로 휨" : "우익 → 좌익 방향 옆바람 · 뜬공이 좌익수 쪽으로 휨";
+    cls = "cross";
+  }
+  const strength = speed >= 7 ? "강한 " : speed >= 4 ? "" : "약한 ";
+  const short = cls === "calm" ? "무풍" : cls === "out" ? `↑ ${strength}뒷바람` : cls === "in" ? `↓ ${strength}맞바람` : (cross > 0 ? `→ ${strength}옆바람` : `← ${strength}옆바람`);
+  return { rel, along, cross, label: speed >= 1.5 && strength ? strength + label : label, short, cls, toward };
+}
+
+/* 센터가 위쪽인 그라운드 그림 + 바람 화살표 */
+function fieldWindSvg(fw, speed) {
+  const len = Math.min(30, 10 + speed * 3);
+  const arrow = speed < 1.5 ? `<circle cx="50" cy="58" r="4" fill="#94a3b8"/>`
+    : `<g transform="rotate(${fw.rel.toFixed(0)} 50 58)"><line x1="50" y1="${58 + len / 2}" x2="50" y2="${58 - len / 2}" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+       <path d="M50 ${58 - len / 2 - 8} l-7 10 h14 z" fill="currentColor"/></g>`;
+  return `<svg viewBox="0 0 100 100" class="wx-field ${fw.cls}" aria-hidden="true">
+    <path d="M50 92 L8 50 A60 60 0 0 1 92 50 Z" fill="rgba(34,197,94,.16)" stroke="rgba(34,197,94,.55)" stroke-width="1.5"/>
+    <path d="M50 92 L36 78 L50 64 L64 78 Z" fill="rgba(180,140,90,.35)" stroke="rgba(180,140,90,.7)" stroke-width="1"/>
+    <text x="50" y="12" text-anchor="middle" class="wx-fl">센터</text><text x="6" y="44" class="wx-fl">좌익</text><text x="94" y="44" text-anchor="end" class="wx-fl">우익</text>
+    <text x="50" y="99" text-anchor="middle" class="wx-fl">홈</text>${arrow}</svg>`;
+}
+
+function windBlock(s, from, speed, when) {
+  const cf = cfOf(s.lat, s.lon);
+  if (s.roof === "dome") return "";
+  if (cf == null) return `<div class="wx-wind"><div class="wx-wind-t">🌬️ ${when} ${windDir(from)}풍 ${speed.toFixed(1)}m/s <span class="pf-jp">(이 구장은 방향 정보가 없어요)</span></div></div>`;
+  const fw = fieldWind(from, speed, cf);
+  return `<div class="wx-wind">${fieldWindSvg(fw, speed)}<div>
+      <div class="wx-wind-h">🌬️ ${when} 구장 기준 바람</div>
+      <div class="wx-wind-t ${fw.cls}">${esc(fw.label)}</div>
+      <div class="wx-wind-s">${windDir(from)}풍 ${speed.toFixed(1)}m/s · 외야 방향 성분 ${fw.along >= 0 ? "+" : ""}${fw.along.toFixed(1)}m/s${s.roof === "retractable" ? " · 지붕을 열었을 때 기준" : ""}</div>
+    </div></div>`;
+}
+
 async function fetchWeather(points) {
   const lat = points.map(p => p.lat.toFixed(4)).join(","), lon = points.map(p => p.lon.toFixed(4)).join(",");
   const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}`
     + "&current=temperature_2m,relative_humidity_2m,apparent_temperature,precipitation,weather_code,wind_speed_10m,wind_direction_10m"
-    + "&hourly=temperature_2m,precipitation_probability,weather_code,wind_speed_10m"
+    + "&hourly=temperature_2m,precipitation_probability,weather_code,wind_speed_10m,wind_direction_10m"
     + "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max"
     + "&timezone=Asia%2FTokyo&forecast_days=4&wind_speed_unit=ms";
   const r = await fetch(url);
@@ -471,13 +531,14 @@ async function renderWeather(el, team) {
   const card = (s, w) => {
     const c = w.current, [ic, desc] = wmo(c.weather_code);
     const isNext = s.key === "next" || (s.key === "home" && next && haversine([next.vinfo.lat, next.vinfo.lon], [team.lat, team.lon]) <= 1.5);
-    let gameLine = "";
+    let gameLine = "", gameWind = "";
     if (isNext && next) {
       const st = startOf(next.date) || "18:00";
       const idx = w.hourly.time.indexOf(`${next.date}T${st.slice(0, 2).padStart(2, "0")}:00`);
       if (idx >= 0) {
         const pp = w.hourly.precipitation_probability[idx], [hi, hd] = wmo(w.hourly.weather_code[idx]);
         const risk = s.roof === "open" && pp >= 50;
+        if (w.hourly.wind_direction_10m) gameWind = windBlock(s, w.hourly.wind_direction_10m[idx], w.hourly.wind_speed_10m[idx], `경기 시각(${st})`);
         gameLine = `<div class="wx-game ${risk ? "risk" : ""}">⚾ ${esc(next.date.slice(5).replace("-", "/"))} ${esc(st)} 경기 시각 예보: ${hi} ${esc(hd)} · ${Math.round(w.hourly.temperature_2m[idx])}° · 강수확률 ${pp}%
           ${risk ? "<br>☔ 야외 구장이라 우천 취소 가능성이 있어요." : ""}</div>`;
       } else gameLine = `<div class="wx-game">⚾ 다음 경기(${esc(next.date)})는 예보 범위(4일) 밖이에요.</div>`;
@@ -488,6 +549,8 @@ async function renderWeather(el, team) {
       <div class="mt-ph">${esc(s.title)}</div><div class="wx-roof">${ROOF_KO[s.roof] || ROOF_KO.open}</div>
       <div class="wx-now"><span class="wx-ic">${ic}</span><div><div class="wx-temp">${Math.round(c.temperature_2m)}°</div><div class="wx-desc">${esc(desc)} · 체감 ${Math.round(c.apparent_temperature)}°</div></div>
         <div class="wx-meta">💧 습도 ${c.relative_humidity_2m}%<br>🌬️ ${windDir(c.wind_direction_10m)}풍 ${c.wind_speed_10m.toFixed(1)}m/s<br>☔ 강수 ${c.precipitation}mm</div></div>
+      ${windBlock(s, c.wind_direction_10m, c.wind_speed_10m, "지금")}
+      ${gameWind}
       ${gameLine}
       <div class="wx-hours">${hours.map(h => `<div><span>${h.t}</span><b>${wmo(h.wc)[0]}</b><span>${Math.round(h.tmp)}°</span><em>${h.pp}%</em></div>`).join("")}</div>
       <div class="wx-days">${w.daily.time.map((d, i) => `<div><span>${i === 0 ? "오늘" : ["일", "월", "화", "수", "목", "금", "토"][new Date(d + "T00:00:00+09:00").getDay()]}</span><b>${wmo(w.daily.weather_code[i])[0]}</b>
@@ -499,18 +562,24 @@ async function renderWeather(el, team) {
   el.innerHTML = `<div class="wx-grid">${spots.map((s, i) => card(s, W[i])).join("")}</div>
     <div class="card"><div class="mt-ph">🗾 12개 구단 홈구장 현재 날씨</div>
       <div id="wx-map" class="geo-map"></div>
-      <div class="table-scroll"><table class="stats"><thead><tr><th>구장</th><th>날씨</th><th>기온</th><th>오늘 강수확률</th><th>바람</th></tr></thead><tbody>
+      <div class="table-scroll"><table class="stats"><thead><tr><th>구장</th><th>날씨</th><th>기온</th><th>오늘 강수확률</th><th>바람</th><th>구장 기준</th></tr></thead><tbody>
       ${rows.map(({ s, w }) => `<tr class="${s.team.name === team.name ? "mine-row" : ""}"><td class="pname">${esc(s.team.stadium)} <em class="pf-jp">${s.roof === "dome" ? "돔" : s.roof === "retractable" ? "개폐식" : "야외"}</em></td>
         <td>${wmo(w.current.weather_code)[0]} ${esc(wmo(w.current.weather_code)[1])}</td><td class="num">${Math.round(w.current.temperature_2m)}°</td>
-        <td class="num">${w.daily.precipitation_probability_max[0]}%</td><td>${windDir(w.current.wind_direction_10m)} ${w.current.wind_speed_10m.toFixed(1)}m/s</td></tr>`).join("")}
+        <td class="num">${w.daily.precipitation_probability_max[0]}%</td><td>${windDir(w.current.wind_direction_10m)} ${w.current.wind_speed_10m.toFixed(1)}m/s</td>
+        <td>${(() => { const cf = cfOf(s.lat, s.lon); if (s.roof === "dome" || cf == null) return '<span class="pf-jp">돔 · 영향 없음</span>';
+          const fw = fieldWind(w.current.wind_direction_10m, w.current.wind_speed_10m, cf); return `<span class="wx-chip ${fw.cls}">${esc(fw.short)}</span>`; })()}</td></tr>`).join("")}
       </tbody></table></div></div>
+    <p class="hint">🌬️ 구장 기준 바람: 홈플레이트→센터 방향(구장 방위각)과 풍향의 각도 차로 바람을 '외야로 부는 성분'과 '옆으로 부는 성분'으로 나눠 계산했어요. 구장 방위는 OpenStreetMap 그라운드 모양에서 구했고, 지도 화살표는 바람이 불어 가는 방향이에요.</p>
     <p class="hint">날씨: <a href="https://open-meteo.com/" target="_blank" rel="noopener" style="color:var(--accent-2)">Open-Meteo.com</a> (CC BY 4.0) · 구장 좌표 기준 예보이며 30분~1시간마다 바뀌어요.</p>`;
 
   const map = makeMap("wx-map", [36.2, 137.8], 4.5);
   if (map) rows.forEach(({ s, w }) => {
     const [ic] = wmo(w.current.weather_code);
-    L.marker([s.lat, s.lon], { icon: L.divIcon({ className: "wx-pin", html: `<span>${ic}</span><b>${Math.round(w.current.temperature_2m)}°</b>`, iconSize: [54, 24] }) })
-      .addTo(map).bindTooltip(`${esc(s.team.stadium)} · ${esc(wmo(w.current.weather_code)[1])} · 강수확률 ${w.daily.precipitation_probability_max[0]}%`);
+    const cf = cfOf(s.lat, s.lon), outdoor = s.roof !== "dome" && cf != null;
+    const fw = outdoor ? fieldWind(w.current.wind_direction_10m, w.current.wind_speed_10m, cf) : null;
+    const arr = outdoor && w.current.wind_speed_10m >= 1.5 ? `<i class="wx-arr ${fw.cls}" style="transform:rotate(${fw.toward.toFixed(0)}deg)">↑</i>` : "";
+    L.marker([s.lat, s.lon], { icon: L.divIcon({ className: "wx-pin", html: `<span>${ic}</span><b>${Math.round(w.current.temperature_2m)}°</b>${arr}`, iconSize: [arr ? 68 : 54, 24] }) })
+      .addTo(map).bindTooltip(`${esc(s.team.stadium)} · ${esc(wmo(w.current.weather_code)[1])} · 강수확률 ${w.daily.precipitation_probability_max[0]}%${fw ? ` · ${esc(fw.label)}` : ""}`);
   });
 }
 
