@@ -388,7 +388,7 @@ async function renderStadiums() {
       pts.push([st.lat, st.lon]);
       L.polyline([[tm.lat, tm.lon], [st.lat, st.lon]], { color: i === 0 ? "#f59e0b" : "#94a3b8", weight: i === 0 ? 3 : 2, dashArray: "6 6", opacity: .9 }).addTo(layer);
       L.circleMarker([st.lat, st.lon], { radius: 6, color: "#fff", weight: 2, fillColor: i === 0 ? "#f59e0b" : "#64748b", fillOpacity: 1 })
-        .addTo(layer).bindTooltip(`🚉 ${esc(st.ko)}역 · 도보 약 ${st.walk}분`, { permanent: i === 0, direction: "right", className: "st-tip" })
+        .addTo(layer).bindTooltip(`🚉 ${esc(st.ko)}역 · 도보 약 ${st.walk}분`, { permanent: i === 0, direction: "auto", className: "st-tip" })
         .bindPopup(`<b>${esc(st.ko)}역</b> (${esc(st.ja)})<br>${esc(st.lines)}<br>직선 ${st.dist}m · 도보 약 ${st.walk}분`);
     });
     map.fitBounds(L.latLngBounds(pts).pad(0.25), { maxZoom: 16 });
