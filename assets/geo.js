@@ -474,7 +474,7 @@ function fieldWindSvg(fw, speed) {
 
 function windBlock(s, from, speed, when) {
   const cf = cfOf(s.lat, s.lon);
-  if (s.roof === "dome") return "";
+  if (s.roof === "dome" || (cf == null && s.roof === "retractable")) return "";   // 미즈호 PayPay 돔처럼 늘 닫는 개폐식은 돔과 같게
   if (cf == null) return `<div class="wx-wind"><div class="wx-wind-t">🌬️ ${when} ${windDir(from)}풍 ${speed.toFixed(1)}m/s <span class="pf-jp">(이 구장은 방향 정보가 없어요)</span></div></div>`;
   const fw = fieldWind(from, speed, cf);
   return `<div class="wx-wind">${fieldWindSvg(fw, speed)}<div>
