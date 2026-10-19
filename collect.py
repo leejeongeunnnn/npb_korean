@@ -1049,7 +1049,7 @@ def run_live():
     ps_live = fetch_postseason_live()
     decision, reason = live_decision(games, now)
     details = live_details(games, now, today)
-    save("live.json", {
+    out = {
         "date": today,
         "updated_at": now.strftime("%Y-%m-%d %H:%M:%S"),
         "any_live": any(g["state"] == "live" for g in games),
@@ -1057,7 +1057,18 @@ def run_live():
         "postseason": ps_live,
         "details": details,
         "note": reason,
-    })
+    }
+    try:   # 텔레그램 득점 알림 (봇 설정이 없으면 기록만)
+        import notify
+        try:
+            with open(os.path.join(DATA_DIR, "live.json"), encoding="utf-8") as f:
+                prev = json.load(f)
+        except Exception:
+            prev = {}
+        notify.process(prev, out)
+    except Exception as e:
+        print(f"[WARN] 알림 처리 실패: {e}")
+    save("live.json", out)
     print(f"[LIVE] {len(games)}경기 · {reason}")
     print(decision)
 

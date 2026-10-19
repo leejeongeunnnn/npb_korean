@@ -42,9 +42,16 @@ jobs:
       - name: 의존성 설치
         run: pip install -r requirements.txt
 
+      - name: 직전 실시간 기록 가져오기 (알림 중복 방지)
+        run: |
+          git fetch -q --depth 1 origin live 2>/dev/null && git show origin/live:live.json > data/live.json || echo "이전 기록 없음"
+
       - name: 실시간 수집 루프
         env:
           PUSH_URL: https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          NOTIFY_TEAMS: ${{ vars.NOTIFY_TEAMS }}
         run: |
           publish() {
             rm -rf /tmp/pub && mkdir -p /tmp/pub && cp data/live.json /tmp/pub/

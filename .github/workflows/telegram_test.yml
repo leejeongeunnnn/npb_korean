@@ -1,0 +1,39 @@
+name: 텔레그램 알림 연결 테스트
+
+# 1) @BotFather 로 봇을 만들고 토큰을 저장소 Secrets 의 TELEGRAM_BOT_TOKEN 에 넣는다
+# 2) 텔레그램에서 내 봇에게 아무 메시지(예: /start)를 보낸다
+# 3) 이 워크플로를 실행하면 봇이 대화 ID를 알려 준다 → Secrets 의 TELEGRAM_CHAT_ID 에 넣는다
+# 4) 다시 실행하면 '연결 완료' 테스트 메시지가 온다
+on: workflow_dispatch
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 봇 확인 · 대화 ID 찾기 · 테스트 메시지
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python3 - <<'PY'
+          import os, json, urllib.request, urllib.parse
+          tok, chat = os.environ.get("TOKEN", "").strip(), os.environ.get("CHAT", "").strip()
+          if not tok:
+              raise SystemExit("TELEGRAM_BOT_TOKEN 비밀값이 없습니다. Settings → Secrets and variables → Actions 에서 추가하세요.")
+          def api(m, **kw):
+              data = urllib.parse.urlencode(kw).encode() if kw else None
+              return json.load(urllib.request.urlopen(f"https://api.telegram.org/bot{tok}/{m}", data, timeout=20))
+          me = api("getMe")["result"]
+          print("봇 이름:", me.get("username"))
+          if chat:
+              api("sendMessage", chat_id=chat, text="✅ NPB 대시보드 알림 연결 완료!\n마이팀 경기 중 득점이 나면 여기로 알려 드릴게요.")
+              print("테스트 메시지를 보냈습니다.")
+          else:
+              ups = api("getUpdates").get("result", [])
+              chats = {u[k]["chat"]["id"] for u in ups for k in ("message", "channel_post") if k in u}
+              if not chats:
+                  raise SystemExit("봇에게 온 메시지가 없습니다. 텔레그램에서 봇에게 /start 를 보낸 뒤 다시 실행하세요.")
+              for c in chats:
+                  api("sendMessage", chat_id=c, text=f"🔑 대화 ID: {c}\n이 숫자를 GitHub 저장소 Secrets 의 TELEGRAM_CHAT_ID 에 넣고 테스트를 한 번 더 실행하세요.")
+              print("봇이 대화 ID를 텔레그램으로 보냈습니다.")
+          PY
