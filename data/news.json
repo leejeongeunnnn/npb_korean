@@ -1,5 +1,49 @@
 [
   {
+    "title": "[프로야구] 엔카나시온 결장 베이 강타자 일본 S",
+    "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBIRWxURFctQUcwSUFkZm1RM0wzT1hGeDgwbFlSdk1HVG1QZld3TkYwc1dJeEtGa1lpYUpmeFlXbGNBaml1RE1reEpCdnJJMW5ITVJLWHFiSkR6R3BvR2c?oc=5",
+    "time": "오늘 03:57",
+    "is_today": true,
+    "media": "오키나와 타임스사",
+    "team": "NPB 종합",
+    "color": "#3b82f6",
+    "category": "📰 구단 소식"
+  },
+  {
+    "title": "[19일 전력외 일람] 2차 통고 2일째로 한신이 시마다 히로시와 도요타 히로시에 니혼 햄은 마츠오카 타카키 등 3선수(스포니치아넥스)",
+    "summary": "한신 타이거스 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5wU3o4WXZnbjhkbkF3alF2YWVfT0JKWDk4TExqQU5taTNyTnRlX0JaSFFtcTNQV0NFTF9QOFZueFl3LWhoMjIxQ0xCcUIyaVppSU1Ja3huWnBjRVc2RV93OVh1SURBd1dqLWpPUklNc25TSzN5ODhxem0tTnJSdFU?oc=5",
+    "time": "오늘 03:16",
+    "is_today": true,
+    "media": "야후 뉴스",
+    "team": "한신 타이거스",
+    "color": "#EAB308",
+    "category": "📋 전력외·은퇴·이적"
+  },
+  {
+    "title": "[프로야구 은퇴·퇴단 특집 2026] 은퇴, 퇴단, 자유계약, 전력외 통고, 트레이드, FA, 이번 시즌 현역 은퇴·퇴단 선수 일람 | 야구 정리 - 주간 베이스볼 ONLINE",
+    "summary": "일본 프로야구 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1FZTRGSkxaZzBDWVlhX3dqLXVQRkV6bGQ5TGxJUVhhUGthaXFlMFpVdTVSSGZMajBnV1lBeVV2bXNRVHlxVWtIMHFETnNhdGIwMDZ1TjRpUzExWXFvYVNWVWZ1RTk0LXlUNkVUc1FJd0U5Sk1mWnA4bzVn0gF_QVVfeXFMTW0xV1E5bndFbGxpRFNBWVZ0V2dCR3FIbFM4RkM5UUhaMTlRNGVhTklsdUsxckNfSDYtVi1wSzBRcFhSOER4MGV3TWlWNm5UNkFfVnd4Sk5PckxzNE5ncUwtQ2tCNEZIZzJpZFlieU1ySVhFS0laTHVDeFNDdVlVdw?oc=5",
+    "time": "오늘 01:59",
+    "is_today": true,
+    "media": "주간 베이스볼",
+    "team": "NPB 종합",
+    "color": "#3b82f6",
+    "category": "👔 감독·코치진"
+  },
+  {
+    "title": "[대학생 야수 5선] 와타나베해(아오야마 학원대), 사카키하라 나나토(메이지대) 등 드래프트 상위 지명 후보에 주목 | 프로야구 드래프트 회의",
+    "summary": "일본 프로야구 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUXdwSU9SNUJZcmpKX2RlcnRXTmJpek9tN2lkVGtmZHRxd2dCWTN5U3V0Q083ZUZvNXNtMHBRZEJSSlhEQWYtVlV2ci1SRGUtV056NG10NGR5UG0wVGRSWlhXWnhwZ19yRzRqd2F5RmlDVjdKbm1nMUd1djkwb2M2NHJtb3JLSjBPMl80ZUR5Y2Q0UVR3cUl3WkZrQXVuSGNzS1Bpb3hTS21KUEk?oc=5",
+    "time": "오늘 00:00",
+    "is_today": true,
+    "media": "DAZN",
+    "team": "NPB 종합",
+    "color": "#3b82f6",
+    "category": "🎯 드래프트 & 스카우트"
+  },
+  {
     "title": "[주니치] 쿠도 신 감독, 드래프트 회의는 결석 \"스카웃 여러분의 눈으로 본 최선의 선수를\"",
     "summary": "주니치 드래곤즈 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9zXzZBbk1TejgyS1JkemNSWWl2aW1pdjFaMUF4ajU1VFNOUXVqLWd5UGtXcGlDTWYzR3owTzQzSEFZbXZvQ1d4WkRTcGttMEpE?oc=5",
@@ -33,6 +77,17 @@
     "category": "📰 구단 소식"
   },
   {
+    "title": "홀리 프로에 새로운 얼굴 탄생 전 프로 야구 선수의 손자 타부치 유키 12 세 여배우의 재능은 \"있다고 생각합니다\"(닛테레 NEWS NNN)",
+    "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdThLME5WeGc0Tkt4UzN4RUREdDZ0cnctMVpMTGRZNFhTdTFLckMtclRfZTVBYldfWTlUcXhibGY1dGx3MDRGWFV6RUdBQmhxSGRwSUVFaE9XU3JoenYwcjFrdE5qVzdZbmx4dEVDVmJQQ3F0dFJHX1VQYWE2eGZjLXNrU0ZOY3dHd3ZSQkt3?oc=5",
+    "time": "어제 22:35",
+    "is_today": false,
+    "media": "야후 뉴스",
+    "team": "NPB 종합",
+    "color": "#3b82f6",
+    "category": "📰 구단 소식"
+  },
+  {
     "title": "빈 둥지 의심으로 프로야구 히로시마의 전 선수를 체포 히로시마현 경 「틀림없습니다」라고 혐의 인정한다",
     "summary": "히로시마 도요 카프 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MTnRycGE5NnAyTHp3dlZtUVR6QjZKQ2tGeTJDeWtUTTZnWm5Wb3V4d29jZUZ0TU5tWGhyU1VLbHRGb29WMTc4VFF0RTFDbFU2WGxBbWJ4YmNYVkdXSzY1TTg4RXVLdVJ3Qzh6aFk2YVdRM1FOSmc?oc=5",
@@ -41,17 +96,6 @@
     "media": "산케이뉴스",
     "team": "히로시마 도요 카프",
     "color": "#EF4444",
-    "category": "📰 구단 소식"
-  },
-  {
-    "title": "삼관왕이 메이저 도전 한신 타이거스 사토 테루아키(TV 아사히계(ANN))",
-    "summary": "한신 타이거스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95eTlEQXFoazlDQVNySUVPQ2k3SXdOUk1nRTBvSHdtNld3WEV2bVJrbFFwT1dfWG1qNGprX3VhcHl5ZUFKSldsbHJJXzhDWGZkU0tHTnJCZlZ4anJtbXhObjZicGtfaVlCeTFuTzFHTktteEE2cmUwVXl5VC0xODg?oc=5",
-    "time": "어제 22:19",
-    "is_today": false,
-    "media": "야후 뉴스",
-    "team": "한신 타이거스",
-    "color": "#EAB308",
     "category": "📰 구단 소식"
   },
   {
@@ -66,17 +110,6 @@
     "category": "📰 구단 소식"
   },
   {
-    "title": "「VIVANT」당일에 TBS 「일본 시리즈」생중계에 「괜찮아?」 「시작 늦을 가능성」X 곤혹(일간 스포츠)",
-    "summary": "일본 프로야구 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pU2ZmVzBEa1NuNG9xM25rV2lrVkxTOW1obnpfQmFWcWlQUTlDTElMNTlFMzdhVXoyQ29ydVhzMERvXzkwd0o0ZXlzR1IwYmh2TTgyb21LdzJUQ1ZmazdrZTBvZHd0bXc4SHM3QWd6RGh6QzBjY3VrRTNVdUJZSjA?oc=5",
-    "time": "어제 22:06",
-    "is_today": false,
-    "media": "야후 뉴스",
-    "team": "NPB 종합",
-    "color": "#3b82f6",
-    "category": "🏆 포스트시즌 & 경기"
-  },
-  {
     "title": "소프트뱅크 일본 시리즈에 연습 대DeNA2년전은 패전(공동통신)",
     "summary": "요코하마 DeNA 베이스타스 관련 — 선수단 훈련 상황과 컨디션 조율 소식을 전하는 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBqSHdIclBHem1nbmdZSFN6a21pWnBmX3BYM1RuUEZuZTR3eVFjLUQ0Z3lxZVNfYTh0Mm9mMU83VlhrczRUVWRxMjFCc3RPdDRBX3M5YkRuVkYtSUY4cExKLVZ0UTFWU3FHa1BEUFJtZmZjZ1FxdVZUTGN0dk5LOHc?oc=5",
@@ -86,6 +119,17 @@
     "team": "요코하마 DeNA 베이스타스",
     "color": "#2563EB",
     "category": "⚾ 선수단 훈련"
+  },
+  {
+    "title": "NPB가 FA 유자격자 104명을 공시",
+    "summary": "일본 프로야구 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdURWb282MDdVd3lHWnJuRXl1cXpGc19jODgyQ2N6azM5T1UtMjRmb1I2NHpLWll1VFU4S0JRUTRyMjRrZUR6VHhFVkQySHhNRkVUYlBua2Z6Yll6RjA2UEtPTnVTcFgwVEtCUE52bGNXMEpsUHNnek1aZ2VoNm5iM000czh1enNpYlRQMnBaZw?oc=5",
+    "time": "어제 21:33",
+    "is_today": false,
+    "media": "닛칸스포츠",
+    "team": "NPB 종합",
+    "color": "#3b82f6",
+    "category": "📋 전력외·은퇴·이적"
   },
   {
     "title": "오다 쇼키가 미국 도전에 마이너 리그는 지금도 가혹? 급여·주거 개선과 어려운 경쟁(스포팅 뉴스 일본판)",
@@ -132,7 +176,7 @@
     "category": "🎯 드래프트 & 스카우트"
   },
   {
-    "title": "[동영상] [드래프트 주목 선수] 이노마타 스루타(도호쿠 복지대) [대학생편] - 스포츠 내비「프로야구 드래프트 회의 2026 TBS」",
+    "title": "[동영상] [드래프트 주목 선수] 이노마타 스루타(도호쿠 복지대)[대학생편] - 스포츠 내비「프로야구 드래프트 회의 2026 TBS」",
     "summary": "일본 프로야구 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9JUF9fa3BFcEU2bHJZdFh6YXgtemN2TmhpX1ozcExlZXhxRE9TX2VqRzdaZ0hqc0VUUmhQcUlUQXNqUzF2aWdlYkFGS3o5SzRtNlRUbkRVaGNMVWFG?oc=5",
     "time": "어제 21:02",
@@ -141,17 +185,6 @@
     "team": "NPB 종합",
     "color": "#3b82f6",
     "category": "🎯 드래프트 & 스카우트"
-  },
-  {
-    "title": "[프로야구 은퇴·퇴단 특집 2026] 은퇴, 퇴단, 자유계약, 전력외 통고, 트레이드, FA, 이번 시즌 현역 은퇴·퇴단 선수 일람 | 야구 정리 - 주간 베이스볼 ONLINE",
-    "summary": "일본 프로야구 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1FZTRGSkxaZzBDWVlhX3dqLXVQRkV6bGQ5TGxJUVhhUGthaXFlMFpVdTVSSGZMajBnV1lBeVV2bXNRVHlxVWtIMHFETnNhdGIwMDZ1TjRpUzExWXFvYVNWVWZ1RTk0LXlUNkVUc1FJd0U5Sk1mWnA4bzVn0gF_QVVfeXFMTW0xV1E5bndFbGxpRFNBWVZ0V2dCR3FIbFM4RkM5UUhaMTlRNGVhTklsdUsxckNfSDYtVi1wSzBRcFhSOER4MGV3TWlWNm5UNkFfVnd4Sk5PckxzNE5ncUwtQ2tCNEZIZzJpZFlieU1ySVhFS0laTHVDeFNDdVlVdw?oc=5",
-    "time": "어제 20:56",
-    "is_today": false,
-    "media": "주간 베이스볼",
-    "team": "NPB 종합",
-    "color": "#3b82f6",
-    "category": "👔 감독·코치진"
   },
   {
     "title": "프로야구 일본 시리즈 2026 중계에 따른 방송 시간 변경에 대해서",
@@ -165,17 +198,6 @@
     "category": "🏆 포스트시즌 & 경기"
   },
   {
-    "title": "홀리프로 탤런트 스카우트 캐러밴>그랑프리에 타부치 유키이치의 손자·타부치 유키 씨 효고현 출신의 중학 1학년(MANTANWEB)",
-    "summary": "일본 프로야구 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yR2hQUjhzNXlMUHBrSUxaVnJEa2pfMGV3ckVmRUgyb0VQck51c0xBam45cmlDZkstMTR4OFV3YWFKZ2N1aWwycWJXR3dFcVZmQkU5VHlwSHN5a2hCdzVDaHF1TldVNkk1OGNwQ2NaYk9kazZRUjZ5V1ltWE02ekE?oc=5",
-    "time": "어제 20:32",
-    "is_today": false,
-    "media": "야후 뉴스",
-    "team": "NPB 종합",
-    "color": "#3b82f6",
-    "category": "🎯 드래프트 & 스카우트"
-  },
-  {
     "title": "DeNA 마키히데오 선수 “현지를 위해서라면” “특수 사기를 발라!” 경찰의 동영상 출연 오퍼를 쾌락 “전화로 돈의 이야기가 나오면 사기를 의심해” 피해 방지를 호소(NBS 나가노 방송)",
     "summary": "요코하마 DeNA 베이스타스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB1WFJlT1ItdmVnZGRxejBnUTc1bC1NVGRmZi1pRjhyeWdZX1QtWFR2RTdhZ09uVnBHRVk4T1I4YnZFQ0E2aWJ5akhuczBhczBNOUlzZUpvcE5ZRTZNbTZtVE1Pb2Y4QVZHTVVicmFDV1Rzd1NUcmtIajFZMFhndXM?oc=5",
@@ -187,37 +209,15 @@
     "category": "📰 구단 소식"
   },
   {
-    "title": "[목록] 프로야구 12구단 전력외 은퇴 FA퇴단 현역 드래프트 트레이드 등",
-    "summary": "일본 프로야구 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE91YjhMZmZOdG5nM2FTbkFXNHcyVWhFM3dXWUJGUUJKZmkzRG5HUmtUNldvQzZvR2tfSGdBM0llVnlaRU5NM3R0UzdKNi1TRFE4MjVDeC0tem13ajJBazVULWN4THEzR2RKSC1pWncyUDM?oc=5",
-    "time": "어제 20:22",
-    "is_today": false,
-    "media": "닛칸스포츠",
-    "team": "NPB 종합",
-    "color": "#3b82f6",
-    "category": "🎯 드래프트 & 스카우트"
-  },
-  {
-    "title": "2026년 프로야구 드래프트 회의 지명 선수 기자 회견의 안내",
+    "title": "2026년 프로야구 드래프트 회의 지명 선수 기자 회견 안내",
     "summary": "일본 프로야구 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1wYW1naTVkRkNRTnIwTUdzMVhWOUhWM1lKOWtWd2Nuc2ZlczRuOGhVeGNlY3lFMzhBeUJxZ3NDdTlNaEk?oc=5",
-    "time": "어제 20:20",
+    "time": "어제 20:24",
     "is_today": false,
     "media": "Digital PR Platform",
     "team": "NPB 종합",
     "color": "#3b82f6",
     "category": "🎯 드래프트 & 스카우트"
-  },
-  {
-    "title": "60세 여배우, 10세 연하의 프로야구 감독과 2샷 「팬이란 몰랐다」 「부럽다」의 목소리(ENCOUNT)",
-    "summary": "일본 프로야구 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5CSDRCUzFSNHZSMEtaallFM3pnTlEzMUtNYVRKVnNwdzVycEVtZDRXa1NkZVVCTlVGRE05VFp1RmdhckJEQWV6YUhBYmFEQTNpTkdSMDZMRjJfQzNUalQ1VThDeGNYakpvRVdRdEZfSGVKOWNNVl9LZ0tPRjJMYUU?oc=5",
-    "time": "어제 20:20",
-    "is_today": false,
-    "media": "야후 뉴스",
-    "team": "NPB 종합",
-    "color": "#3b82f6",
-    "category": "👔 감독·코치진"
   },
   {
     "title": "[고교야구] 게이오, 사요나라에서 센바츠 당확 유모토 타코미가 완투 삼림감독 “새로운 유모토가 보였다”",
@@ -275,6 +275,28 @@
     "category": "👔 감독·코치진"
   },
   {
+    "title": "「야구인가 별반인가」일본 시리즈 제2전, 3시간 넘는 경우는 「VIVANT」개시 시각이 뒤로 쓰러뜨려(일간 스포츠)",
+    "summary": "일본 프로야구 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9IM1pzak5sZTJqQnlxczlKRW1mR3VBbDZEdFJXX0ZJeGdPZ0tCaXo3YklFVnBTWjhZZDJJM0dGU2szSnBUNnBCVmM0QW4zaERfVHpJeFNYcV9XUDZ0c0JkQXpsd2szV2JjQXZLc1pYaG1IQlhnSHFHWnpZQi13dWs?oc=5",
+    "time": "어제 19:17",
+    "is_today": false,
+    "media": "야후 뉴스",
+    "team": "NPB 종합",
+    "color": "#3b82f6",
+    "category": "🏆 포스트시즌 & 경기"
+  },
+  {
+    "title": "삼관왕이 메이저 도전 한신 타이거스 사토 테루아키(TV 아사히계(ANN))",
+    "summary": "한신 타이거스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95eTlEQXFoazlDQVNySUVPQ2k3SXdOUk1nRTBvSHdtNld3WEV2bVJrbFFwT1dfWG1qNGprX3VhcHl5ZUFKSldsbHJJXzhDWGZkU0tHTnJCZlZ4anJtbXhObjZicGtfaVlCeTFuTzFHTktteEE2cmUwVXl5VC0xODg?oc=5",
+    "time": "어제 19:15",
+    "is_today": false,
+    "media": "야후 뉴스",
+    "team": "한신 타이거스",
+    "color": "#EAB308",
+    "category": "📰 구단 소식"
+  },
+  {
     "title": "「모두가 인정하는 일본 제일의 투수에」프로야구 드래프트 회의에서 상위 지명에 기대",
     "summary": "일본 프로야구 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAxeTctWFhNVURQS3ZUc3B2dzdoY0RZVWZSZ0lvcUxkSERjeS1LMjhRVnBfVE9BX2ZrbHNDVFRtRDNITkRfaTRxY2hCU0VJbVdWQkF2aW5BTVlsamlxZFJFcEpFUWtIbWhmYnlGTlV3ZXhVeFZaTnRDUmhvdlJzMVE?oc=5",
@@ -306,27 +328,5 @@
     "team": "한신 타이거스",
     "color": "#EAB308",
     "category": "📰 구단 소식"
-  },
-  {
-    "title": "한신 타이거스·사토 테루아키 선수 포스팅에서의 메이저 도전을 구단이 용인/효고현(산테레비)",
-    "summary": "한신 타이거스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82MTVGanlDMEd3b0hWMGlvVmJ4eHZpdll0bnJlSmlpQWJJYlE3dVQzSm5XbG9Xdl9URWhtem9nVFRqRUdneV9sY3FWbkNwWUwweE93aU51T2tvRVhwY01RcFItUWFiZmlVcHNTZ21KVUJqM05DcmdFSlVtaTJ4TjQ?oc=5",
-    "time": "어제 19:05",
-    "is_today": false,
-    "media": "야후 뉴스",
-    "team": "한신 타이거스",
-    "color": "#EAB308",
-    "category": "📰 구단 소식"
-  },
-  {
-    "title": "[19일의 전력외 통고]한신의 시마다 카이조 등이 전력외 22년에 123경기 출전도 이번 시즌은 자기 최소의 5경기",
-    "summary": "한신 타이거스 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE14UlpBR2o2ZS1YWDBIcGd4RXBENEZwQ0s1VTRSUXNjbjdJdFN5YUlNa0M3QmQ3blVXQUNTX21CdGFqZ0EtTWlPVmM4bWtySWNEbFR4T1lwOGFPMkdhZksxdTI2OU1iVFRleE9JektkeHZyVGJKYkJVSHd3c091a1E?oc=5",
-    "time": "어제 19:05",
-    "is_today": false,
-    "media": "야후 뉴스",
-    "team": "한신 타이거스",
-    "color": "#EAB308",
-    "category": "📋 전력외·은퇴·이적"
   }
 ]
