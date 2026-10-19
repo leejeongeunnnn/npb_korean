@@ -1,5 +1,5 @@
 import json, requests, time, os
-q = '[out:json][timeout:25];(nwr["leisure"~"pitch|stadium"](around:700,34.39183,132.48472););out geom tags;'
+q = '[out:json][timeout:25];relation(1740911);way(r);out geom;'
 d = None
 for url in ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter", "https://overpass.private.coffee/api/interpreter"] * 2:
     try:
