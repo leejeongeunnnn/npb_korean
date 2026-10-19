@@ -1,0 +1,756 @@
+{
+ "tokyodome": [
+  {
+   "name": "後楽園",
+   "en": "Korakuen",
+   "ko": "고라쿠엔",
+   "lat": 35.7073372,
+   "lon": 139.7512155,
+   "dist": 201,
+   "operator": "東京地下鉄",
+   "line": "東京メトロ丸ノ内線"
+  },
+  {
+   "name": "春日",
+   "en": "Kasuga",
+   "ko": "가스가",
+   "lat": 35.7084896,
+   "lon": 139.7527409,
+   "dist": 328,
+   "operator": "東京都交通局",
+   "line": "都営地下鉄"
+  },
+  {
+   "name": "水道橋",
+   "en": "Suidobashi",
+   "ko": "스이도바시",
+   "lat": 35.7035144,
+   "lon": 139.7551538,
+   "dist": 375,
+   "operator": "東京都交通局",
+   "line": "都営地下鉄"
+  },
+  {
+   "name": "飯田橋",
+   "en": "Iidabashi",
+   "ko": "이다바시",
+   "lat": 35.7031331,
+   "lon": 139.7457081,
+   "dist": 625,
+   "operator": "東京都交通局",
+   "line": "都営地下鉄"
+  },
+  {
+   "name": "本郷三丁目",
+   "en": "Hongo-sanchome",
+   "ko": "혼고3초메",
+   "lat": 35.7066386,
+   "lon": 139.7599627,
+   "dist": 736,
+   "operator": "東京地下鉄",
+   "line": ""
+  },
+  {
+   "name": "九段下",
+   "en": "Kudanshita",
+   "ko": "구단시타",
+   "lat": 35.6959079,
+   "lon": 139.7512822,
+   "dist": 1081,
+   "operator": "東京地下鉄",
+   "line": ""
+  },
+  {
+   "name": "神保町",
+   "en": "Jimbocho",
+   "ko": "짐보초",
+   "lat": 35.6959273,
+   "lon": 139.7572047,
+   "dist": 1179,
+   "operator": "東京地下鉄",
+   "line": "東京メトロ半蔵門線"
+  },
+  {
+   "name": "御茶ノ水",
+   "en": "Ochanomizu",
+   "ko": "오차노미즈",
+   "lat": 35.7005755,
+   "lon": 139.764082,
+   "dist": 1234,
+   "operator": "東京地下鉄",
+   "line": ""
+  }
+ ],
+ "koshien": [
+  {
+   "name": "甲子園",
+   "en": "Koshien",
+   "ko": "고시엔",
+   "lat": 34.7240751,
+   "lon": 135.3629,
+   "dist": 339,
+   "operator": "阪神電気鉄道",
+   "line": "阪神電気鉄道本線"
+  },
+  {
+   "name": "久寿川",
+   "en": "Kusugawa",
+   "ko": "구스가와",
+   "lat": 34.7270303,
+   "lon": 135.3568223,
+   "dist": 782,
+   "operator": "",
+   "line": ""
+  },
+  {
+   "name": "鳴尾・武庫川女子大前",
+   "en": "Naruo / Mukogawajoshidai-Mae",
+   "ko": "나루오",
+   "lat": 34.7195801,
+   "lon": 135.3706404,
+   "dist": 844,
+   "operator": "阪神電気鉄道",
+   "line": "阪神電気鉄道本線"
+  },
+  {
+   "name": "今津",
+   "en": "Imazu",
+   "ko": "이마즈",
+   "lat": 34.7307778,
+   "lon": 135.3517959,
+   "dist": 1392,
+   "operator": "阪神電鉄",
+   "line": "本線"
+  },
+  {
+   "name": "武庫川",
+   "en": "Mukogawa",
+   "ko": "무코가와",
+   "lat": 34.7188487,
+   "lon": 135.381728,
+   "dist": 1856,
+   "operator": "阪神電気鉄道",
+   "line": "阪神電気鉄道本線"
+  },
+  {
+   "name": "東鳴尾",
+   "en": "Higashi-Naruo",
+   "ko": "히가시나루오",
+   "lat": 34.7126346,
+   "lon": 135.3791155,
+   "dist": 1862,
+   "operator": "阪神電気鉄道",
+   "line": "阪神電気鉄道武庫川線"
+  },
+  {
+   "name": "阪神国道",
+   "en": "Hanshin-Kokudō",
+   "ko": "한신코쿠도",
+   "lat": 34.7373734,
+   "lon": 135.3548295,
+   "dist": 1901,
+   "operator": "阪急電鉄",
+   "line": "阪急今津線"
+  },
+  {
+   "name": "洲先",
+   "en": "Suzaki",
+   "ko": "스자키",
+   "lat": 34.7090693,
+   "lon": 135.3780191,
+   "dist": 2017,
+   "operator": "阪神電気鉄道",
+   "line": "阪神電気鉄道武庫川線"
+  }
+ ],
+ "vantelin": [
+  {
+   "name": "ナゴヤドーム前矢田",
+   "en": "Nagoya Dome-mae Yada",
+   "ko": "나고야돔마에야다",
+   "lat": 35.1909445,
+   "lon": 136.9439779,
+   "dist": 639,
+   "operator": "",
+   "line": ""
+  },
+  {
+   "name": "砂田橋",
+   "en": "Sunadabashi",
+   "ko": "스나다바시",
+   "lat": 35.1887683,
+   "lon": 136.9544499,
+   "dist": 709,
+   "operator": "",
+   "line": ""
+  },
+  {
+   "name": "矢田",
+   "en": "Yada",
+   "ko": "야다",
+   "lat": 35.1937918,
+   "lon": 136.9475909,
+   "dist": 872,
+   "operator": "名古屋鉄道",
+   "line": ""
+  },
+  {
+   "name": "大曽根",
+   "en": "Ozone",
+   "ko": "",
+   "lat": 35.18961,
+   "lon": 136.9371584,
+   "dist": 1020,
+   "operator": "",
+   "line": ""
+  },
+  {
+   "name": "茶屋ヶ坂",
+   "en": "Chayagasaka",
+   "ko": "자야가사카",
+   "lat": 35.1844986,
+   "lon": 136.9623993,
+   "dist": 1368,
+   "operator": "",
+   "line": ""
+  },
+  {
+   "name": "守山自衛隊前",
+   "en": "Moriyama-Jieitai-Mae",
+   "ko": "모리야마자위대앞",
+   "lat": 35.1962692,
+   "lon": 136.9576637,
+   "dist": 1476,
+   "operator": "名古屋鉄道",
+   "line": ""
+  },
+  {
+   "name": "森下",
+   "en": "Morishita",
+   "ko": "모리시타",
+   "lat": 35.1883354,
+   "lon": 136.9293009,
+   "dist": 1671,
+   "operator": "名古屋鉄道",
+   "line": ""
+  },
+  {
+   "name": "平安通",
+   "en": "Heian-dōri",
+   "ko": "헤이안도리",
+   "lat": 35.1958368,
+   "lon": 136.9300173,
+   "dist": 1928,
+   "operator": "",
+   "line": ""
+  }
+ ],
+ "yokohama": [
+  {
+   "name": "関内",
+   "en": "Kannai",
+   "ko": "간나이",
+   "lat": 35.4440833,
+   "lon": 139.6360365,
+   "dist": 378,
+   "operator": "東日本旅客鉄道",
+   "line": "根岸線"
+  },
+  {
+   "name": "日本大通り",
+   "en": "Nihon-odori",
+   "ko": "니혼오도리",
+   "lat": 35.4467354,
+   "lon": 139.6426718,
+   "dist": 446,
+   "operator": "横浜高速鉄道",
+   "line": ""
+  },
+  {
+   "name": "石川町",
+   "en": "Ishikawacho",
+   "ko": "이시카와초",
+   "lat": 35.4392296,
+   "lon": 139.6427451,
+   "dist": 514,
+   "operator": "東日本旅客鉄道",
+   "line": ""
+  },
+  {
+   "name": "伊勢佐木長者町",
+   "en": "Isezaki-chojamachi",
+   "ko": "이세자키초자마치",
+   "lat": 35.4410015,
+   "lon": 139.6327993,
+   "dist": 710,
+   "operator": "横浜市交通局",
+   "line": "横浜市営地下鉄"
+  },
+  {
+   "name": "馬車道",
+   "en": "Bashamichi",
+   "ko": "바샤미치",
+   "lat": 35.4501475,
+   "lon": 139.6362973,
+   "dist": 834,
+   "operator": "横浜高速鉄道",
+   "line": ""
+  },
+  {
+   "name": "元町・中華街",
+   "en": "Motomachi-chukagai",
+   "ko": "모토마치·주카가이",
+   "lat": 35.4421165,
+   "lon": 139.6509129,
+   "dist": 989,
+   "operator": "横浜高速鉄道",
+   "line": ""
+  },
+  {
+   "name": "桜木町",
+   "en": "Sakuragicho",
+   "ko": "사쿠라기초",
+   "lat": 35.4496272,
+   "lon": 139.630787,
+   "dist": 1097,
+   "operator": "横浜市交通局",
+   "line": "横浜市営地下鉄"
+  },
+  {
+   "name": "日ノ出町",
+   "en": "Hinodecho",
+   "ko": "히노데초",
+   "lat": 35.4455466,
+   "lon": 139.6267113,
+   "dist": 1238,
+   "operator": "京浜急行電鉄",
+   "line": ""
+  }
+ ],
+ "jingu": [
+  {
+   "name": "外苑前",
+   "en": "Gaiemmae",
+   "ko": "가이엔마에",
+   "lat": 35.6704649,
+   "lon": 139.7178823,
+   "dist": 440,
+   "operator": "東京地下鉄",
+   "line": ""
+  },
+  {
+   "name": "青山一丁目",
+   "en": "Aoyama-itchome",
+   "ko": "아오야마1초메",
+   "lat": 35.6727797,
+   "lon": 139.7240186,
+   "dist": 651,
+   "operator": "東京地下鉄;東京都交通局",
+   "line": "都営地下鉄"
+  },
+  {
+   "name": "国立競技場",
+   "en": "Kokuritsu-kyogijo",
+   "ko": "국립경기장",
+   "lat": 35.6801003,
+   "lon": 139.7139442,
+   "dist": 697,
+   "operator": "東京都交通局",
+   "line": "都営地下鉄"
+  },
+  {
+   "name": "信濃町",
+   "en": "Shinanomachi",
+   "ko": "시나노마치",
+   "lat": 35.6800236,
+   "lon": 139.7204947,
+   "dist": 700,
+   "operator": "東日本旅客鉄道",
+   "line": ""
+  },
+  {
+   "name": "千駄ケ谷",
+   "en": "Sendagaya",
+   "ko": "센다가야",
+   "lat": 35.6812678,
+   "lon": 139.7113637,
+   "dist": 925,
+   "operator": "東日本旅客鉄道",
+   "line": ""
+  },
+  {
+   "name": "表参道",
+   "en": "Omote-sando",
+   "ko": "오모테산도",
+   "lat": 35.6651609,
+   "lon": 139.7125432,
+   "dist": 1103,
+   "operator": "東京地下鉄",
+   "line": "銀座線;千代田線;半蔵門線"
+  },
+  {
+   "name": "北参道",
+   "en": "Kita-sando",
+   "ko": "기타산도",
+   "lat": 35.6784974,
+   "lon": 139.705414,
+   "dist": 1149,
+   "operator": "東京地下鉄",
+   "line": ""
+  },
+  {
+   "name": "乃木坂",
+   "en": "Nogizaka",
+   "ko": "노기자카",
+   "lat": 35.6666651,
+   "lon": 139.726365,
+   "dist": 1199,
+   "operator": "東京地下鉄",
+   "line": "東京メトロ"
+  }
+ ],
+ "mazda": [
+  {
+   "name": "広島",
+   "en": "Hiroshima",
+   "ko": "히로시마",
+   "lat": 34.3973947,
+   "lon": 132.4758369,
+   "dist": 1023,
+   "operator": "西日本旅客鉄道",
+   "line": ""
+  },
+  {
+   "name": "天神川",
+   "en": "Tenjingawa",
+   "ko": "덴진가와",
+   "lat": 34.3897155,
+   "lon": 132.4979979,
+   "dist": 1241,
+   "operator": "",
+   "line": ""
+  },
+  {
+   "name": "矢賀",
+   "en": "Yaga",
+   "ko": "야가",
+   "lat": 34.3988542,
+   "lon": 132.497389,
+   "dist": 1400,
+   "operator": "西日本旅客鉄道",
+   "line": "JR芸備線"
+  },
+  {
+   "name": "県庁前",
+   "en": "Kenchō-mae",
+   "ko": "현청앞",
+   "lat": 34.3966808,
+   "lon": 132.458162,
+   "dist": 2496,
+   "operator": "",
+   "line": ""
+  }
+ ],
+ "paypay": [
+  {
+   "name": "唐人町",
+   "en": "Tōjinmachi",
+   "ko": "도진마치",
+   "lat": 33.5902206,
+   "lon": 130.370243,
+   "dist": 939,
+   "operator": "",
+   "line": ""
+  },
+  {
+   "name": "西新",
+   "en": "Nishijin",
+   "ko": "니시진",
+   "lat": 33.5837344,
+   "lon": 130.3594592,
+   "dist": 1321,
+   "operator": "",
+   "line": ""
+  },
+  {
+   "name": "大濠公園",
+   "en": "Ōhorikōen",
+   "ko": "오호리공원",
+   "lat": 33.590105,
+   "lon": 130.3787604,
+   "dist": 1640,
+   "operator": "",
+   "line": ""
+  },
+  {
+   "name": "藤崎",
+   "en": "Fujisaki",
+   "ko": "후지사키",
+   "lat": 33.5813608,
+   "lon": 130.3483351,
+   "dist": 2022,
+   "operator": "",
+   "line": ""
+  },
+  {
+   "name": "六本松",
+   "en": "Ropponmatsu",
+   "ko": "롯폰마쓰",
+   "lat": 33.5774198,
+   "lon": 130.3770659,
+   "dist": 2425,
+   "operator": "",
+   "line": ""
+  },
+  {
+   "name": "別府",
+   "en": "Befu",
+   "ko": "베후",
+   "lat": 33.5741102,
+   "lon": 130.369553,
+   "dist": 2462,
+   "operator": "",
+   "line": ""
+  }
+ ],
+ "kyocera": [
+  {
+   "name": "ドーム前",
+   "en": "Dome-Mae",
+   "ko": "돔마에치요자키",
+   "lat": 34.6704659,
+   "lon": 135.4784229,
+   "dist": 249,
+   "operator": "阪神電気鉄道",
+   "line": ""
+  },
+  {
+   "name": "ドーム前千代崎",
+   "en": "Dome-mae Chiyozaki",
+   "ko": "돔마에치요자키",
+   "lat": 34.6714542,
+   "lon": 135.4794918,
+   "dist": 392,
+   "operator": "大阪市高速電気軌道",
+   "line": ""
+  },
+  {
+   "name": "大正",
+   "en": "Taisho",
+   "ko": "다이쇼",
+   "lat": 34.6656183,
+   "lon": 135.4786895,
+   "dist": 465,
+   "operator": "",
+   "line": ""
+  },
+  {
+   "name": "九条",
+   "en": "Kujō",
+   "ko": "구조",
+   "lat": 34.6741525,
+   "lon": 135.473137,
+   "dist": 612,
+   "operator": "阪神電気鉄道",
+   "line": ""
+  },
+  {
+   "name": "汐見橋",
+   "en": "Shiomibashi",
+   "ko": "시오미바시",
+   "lat": 34.6679549,
+   "lon": 135.4862765,
+   "dist": 937,
+   "operator": "南海電気鉄道",
+   "line": ""
+  },
+  {
+   "name": "西長堀",
+   "en": "Nishi-Nagahori",
+   "ko": "니시나가호리",
+   "lat": 34.6738941,
+   "lon": 135.4870077,
+   "dist": 1120,
+   "operator": "",
+   "line": ""
+  },
+  {
+   "name": "弁天町",
+   "en": "Bentencho",
+   "ko": "벤텐초",
+   "lat": 34.6684254,
+   "lon": 135.4620899,
+   "dist": 1289,
+   "operator": "大阪市高速電気軌道",
+   "line": ""
+  },
+  {
+   "name": "桜川",
+   "en": "Sakuragawa",
+   "ko": "사쿠라가와",
+   "lat": 34.6683051,
+   "lon": 135.4902662,
+   "dist": 1295,
+   "operator": "",
+   "line": ""
+  }
+ ],
+ "zozo": [
+  {
+   "name": "海浜幕張",
+   "en": "Kaihim-Makuhari",
+   "ko": "가이힌마쿠하리",
+   "lat": 35.6484267,
+   "lon": 140.0419158,
+   "dist": 1070,
+   "operator": "東日本旅客鉄道",
+   "line": ""
+  },
+  {
+   "name": "幕張豊砂",
+   "en": "Makuhari-Toyosuna",
+   "ko": "마쿠하리토요스나",
+   "lat": 35.6578775,
+   "lon": 140.027359,
+   "dist": 1451,
+   "operator": "東日本旅客鉄道",
+   "line": ""
+  }
+ ],
+ "rakuten": [
+  {
+   "name": "宮城野原",
+   "en": "Miyaginohara",
+   "ko": "미야기노하라",
+   "lat": 38.2608253,
+   "lon": 140.9048201,
+   "dist": 515,
+   "operator": "",
+   "line": ""
+  },
+  {
+   "name": "榴ヶ岡",
+   "en": "Tsutsujigaoka",
+   "ko": "쓰쓰지가오카",
+   "lat": 38.2587711,
+   "lon": 140.8942638,
+   "dist": 762,
+   "operator": "",
+   "line": ""
+  },
+  {
+   "name": "薬師堂",
+   "en": "Yakushido",
+   "ko": "야쿠시도",
+   "lat": 38.2497493,
+   "lon": 140.9057414,
+   "dist": 808,
+   "operator": "",
+   "line": ""
+  },
+  {
+   "name": "連坊",
+   "en": "Rembo",
+   "ko": "렌보",
+   "lat": 38.2511739,
+   "lon": 140.8932704,
+   "dist": 1006,
+   "operator": "仙台市交通局",
+   "line": ""
+  },
+  {
+   "name": "陸前原ノ町",
+   "en": "Rikuzen-Haranomachi",
+   "ko": "리쿠젠하라노마치",
+   "lat": 38.2662062,
+   "lon": 140.9110021,
+   "dist": 1303,
+   "operator": "",
+   "line": ""
+  },
+  {
+   "name": "宮城野通",
+   "en": "Miyagino-dori",
+   "ko": "미야기노도리",
+   "lat": 38.2579376,
+   "lon": 140.8858661,
+   "dist": 1463,
+   "operator": "仙台市交通局",
+   "line": ""
+  },
+  {
+   "name": "卸町",
+   "en": "Oroshimachi",
+   "ko": "오로시마치",
+   "lat": 38.2515983,
+   "lon": 140.9208595,
+   "dist": 1693,
+   "operator": "仙台市交通局",
+   "line": ""
+  },
+  {
+   "name": "仙台",
+   "en": "Sendai",
+   "ko": "센다이",
+   "lat": 38.2603516,
+   "lon": 140.8823921,
+   "dist": 1808,
+   "operator": "",
+   "line": ""
+  }
+ ],
+ "belluna": [
+  {
+   "name": "西武球場前",
+   "en": "Seibukyujo-mae",
+   "ko": "세이부구장앞",
+   "lat": 35.7704505,
+   "lon": 139.4197824,
+   "dist": 215,
+   "operator": "西武鉄道",
+   "line": "西武鉄道"
+  },
+  {
+   "name": "西武園ゆうえんち",
+   "en": "Seibuen-yūenchi",
+   "ko": "세이부엔유엔치",
+   "lat": 35.7693627,
+   "lon": 139.4400558,
+   "dist": 1765,
+   "operator": "",
+   "line": ""
+  },
+  {
+   "name": "多摩湖",
+   "en": "Tamako",
+   "ko": "다마코",
+   "lat": 35.7660664,
+   "lon": 139.4426285,
+   "dist": 2015,
+   "operator": "西武鉄道",
+   "line": "西武鉄道"
+  },
+  {
+   "name": "下山口",
+   "en": "Shimo-Yamaguchi",
+   "ko": "시모야마구치",
+   "lat": 35.7795178,
+   "lon": 139.4414607,
+   "dist": 2245,
+   "operator": "西武鉄道",
+   "line": ""
+  }
+ ],
+ "escon": [
+  {
+   "name": "北広島",
+   "en": "Kitahiroshima",
+   "ko": "기타히로시마",
+   "lat": 42.9787683,
+   "lon": 141.5631811,
+   "dist": 1479,
+   "operator": "",
+   "line": ""
+  }
+ ]
+}
