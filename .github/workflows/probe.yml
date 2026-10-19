@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
         with: { python-version: "3.12" }
-      - run: pip install requests matplotlib
+      - run: pip install requests
       - run: python tools/probe.py > /tmp/probe.txt 2>&1 || true
       - env:
           PUSH_URL: https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
