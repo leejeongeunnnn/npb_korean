@@ -19,7 +19,7 @@ def ov(q):
     return {"elements": []}
 out = {}
 for k, (la, lo) in S.items():
-    d = ov(f'[out:json][timeout:60];(node["railway"="station"](around:2500,{la},{lo});node["public_transport"="station"]["train"="yes"](around:2500,{la},{lo}););out tags;')
+    d = ov(f'[out:json][timeout:60];(node["railway"="station"](around:2500,{la},{lo});node["public_transport"="station"]["train"="yes"](around:2500,{la},{lo}););out body;')
     seen = {}
     for e in d["elements"]:
         t = e.get("tags", {}); nm = t.get("name")
