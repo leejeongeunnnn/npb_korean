@@ -28,7 +28,7 @@
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0zZzV4THNFZlNfbXd0RExmc055cXEyVFJocTh0aXlWSFZhdVp4ZU9OZmJxcmtHWXJpMlhkZlZ6ZnBsOWZMY09YYUxGUDNfRXRVNVlBeg?oc=5",
       "time": "어제 22:48",
       "is_today": false,
-      "media": "베이스볼 채널",
+      "media": "야구 채널",
       "team": "요미우리 자이언츠",
       "color": "#F97316",
       "category": "🎯 드래프트 & 스카우트"
@@ -45,7 +45,7 @@
       "category": "🎙 인터뷰 & 코멘트"
     },
     {
-      "title": "자이언츠가 \"획득\"한다…? 요미우리의 드래프트 지명 후보(1)자이언츠에게 원하는 “정포수 후보”이지만",
+      "title": "\"수입\"...? 드래프트 지명 후보 (1) 내가 원하는 \"주전 포수 후보\" 이다 (야구 채널)",
       "summary": "요미우리 자이언츠 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBoeG5yNHAzLXI4bE5Tb3VZbkJPQThfUFd6UEVRUDN5VENnZW4yZkpjcTl1a3BrUEwtN3BnSXFRVXdfSjNVS2R4RFotNU1UTUp1RnlxSGpZVlRUVm1fMnVET1ZLdlVTRnpzZldodE1CNWpUbGI0LUg3U3JYaEY1R3c?oc=5",
       "time": "어제 21:00",
@@ -74,7 +74,7 @@
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBQVDJBUEZ1c0h1OHBsa2R3TlN6bXNhZmo0eHpHTmhoazdZWHZnS19GSTFORm03aDdVWERpY3d3Sy12ZnFMYTVIWmJNTVNYdHk1UGxxeA?oc=5",
       "time": "어제 23:11",
       "is_today": false,
-      "media": "베이스볼 채널",
+      "media": "야구 채널",
       "team": "한신 타이거스",
       "color": "#EAB308",
       "category": "🎯 드래프트 & 스카우트"
@@ -102,7 +102,7 @@
       "category": "👔 감독·코치진"
     },
     {
-      "title": "프로야구 : 한신·이하라릉인, 통상활동에 폭력행위 순회 다시 사과",
+      "title": "프로 야구: 이하라 료토 (Ryoto Ihara) 가 정상적인 활동에서 폭력적인 행동을 한 것에 대해 다시 한 번 사과합니다.",
       "summary": "한신 타이거스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE12b3p6R0hzN29ERWRja2NlbW9odjNNSU9UYUEwQklNeXRkOHlid29SQzhud0RUVXc4OFZZRThScTJzWVlJTWFsWXhOV0s3NnZMU3NJdjVkQmFBYkhOX1RXTHh0a1dtN1F0Y3hqRQ?oc=5",
       "time": "어제 20:48",
@@ -153,7 +153,7 @@
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9DVURPNzViNUo5emFIQWtaNmdPV1p6X0pXaUtOTEtTOTFTV25aNUVaUThmWkMwckxhSUVaMnBmdWFLWEdBeFVDQUgwb1ZsS1dRdVJjaA?oc=5",
       "time": "어제 22:24",
       "is_today": false,
-      "media": "베이스볼 채널",
+      "media": "야구 채널",
       "team": "주니치 드래곤즈",
       "color": "#3B82F6",
       "category": "🎯 드래프트 & 스카우트"
@@ -172,18 +172,7 @@
   ],
   "요코하마 DeNA 베이스타스": [
     {
-      "title": "축하합니다! SMBC 일본 시리즈 2026! [DeNA Support Harbor (Part 2)] 10월 22일 (목) 출시 [한정수량 3,000박스]",
-      "summary": "요코하마 DeNA 베이스타스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5qbE9PMm9YaG81cTQzcWs3TWp0bzRYc1NMTnFVa3VYOC1XQWZOS2hKbHpJZm15b291MHRXNTZBb3cxRlRRODB4MzVSekJPSm5IdUE1ME5CLVZtN21qeVNwWEllcHhGZGVfMXNYQmFzaE5mVmlZLXZLNXdB?oc=5",
-      "time": "어제 22:33",
-      "is_today": false,
-      "media": "매일매일 아름다움",
-      "team": "요코하마 DeNA 베이스타스",
-      "color": "#2563EB",
-      "category": "🏆 포스트시즌 & 경기"
-    },
-    {
-      "title": "DeNA가 \"획득\"한다 ...? 베이스타스의 드래프트 지명 후보(6) 설마의 “형제 공연”도! ? (베이스볼 채널)",
+      "title": "DeNA 'WINS' …? 초안 후보 (6) 예기치 않은 \"형제 성과\" 도 있습니다!? (야구 채널)",
       "summary": "요코하마 DeNA 베이스타스 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA2QjFuZjlNV3U0OEo2MmtzRzQyYU5CWVJYcVpWTkxsRXNOZzRpeE9hWWtDODdvcEJBTXkwLVBTQW1iSnlnLVRJdkJKY1pUS3lWSVlSc0tlVHNMczZxMjR1dTloZUU0WFFyLWszZkhJV1hxNmFRUjRPeWFkT1ZTOTQ?oc=5",
       "time": "어제 21:30",
@@ -225,6 +214,17 @@
       "team": "요코하마 DeNA 베이스타스",
       "color": "#2563EB",
       "category": "📰 구단 소식"
+    },
+    {
+      "title": "일본 시리즈의 규정 규칙은 무엇인가요? 2026년 최신",
+      "summary": "요코하마 DeNA 베이스타스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaml3NEF6MTVpbzV0Q2MxZ1M1RzBXSG5iMkdaYndvNjFjRnBuWW5yb2M3cUM3clFKcHlKMTRlSmxtYUQySXdqQjY0bW56b0EycFpPcWNIUWdlQnJNdTRrdW80dnZsRy1HcHhCaG9wZ1hFWklTcUluTlRqQnpyZ3hCbGpzY3d5WjNSYUM2QXJXMXg2N2hDTjNkWjRiVk8yTlFRVElKcnNvVU9aa0lNaVFBR0gtVk83QQ?oc=5",
+      "time": "어제 20:42",
+      "is_today": false,
+      "media": "Goal.com",
+      "team": "요코하마 DeNA 베이스타스",
+      "color": "#2563EB",
+      "category": "🏆 포스트시즌 & 경기"
     }
   ],
   "야쿠르트 스왈로스": [
@@ -245,7 +245,7 @@
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9aNUd3RWN5ckVDeVV0eDZ2QW1GUzZHS1BQQU9JNGk1N3prZ3BXdG1hUGtuNFBVOWRHazBDVk94dDRzRzRtQ3d2UkxlcFdWX0FSU2xyMHZVcDE1aHAwMXFwcA?oc=5",
       "time": "어제 19:00",
       "is_today": false,
-      "media": "베이스볼 채널",
+      "media": "야구 채널",
       "team": "야쿠르트 스왈로스",
       "color": "#475569",
       "category": "🎯 드래프트 & 스카우트"
@@ -291,7 +291,7 @@
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBHRENRS0V5YTdBRzVEVGNYWkd2NG9KaVBrdXgxTC1MTWxGUWNVTm1rbkhfME1qSEdzbGF2VkQzLUhHamVsNEw0ZXlHSlJsZ2E2al9LUA?oc=5",
       "time": "어제 23:23",
       "is_today": false,
-      "media": "베이스볼 채널",
+      "media": "야구 채널",
       "team": "히로시마 도요 카프",
       "color": "#EF4444",
       "category": "🎯 드래프트 & 스카우트"
@@ -319,7 +319,7 @@
       "category": "📰 구단 소식"
     },
     {
-      "title": "카프가 \"획득\"한다 ...? 히로시마의 드래프트 지명 후보 (5) 히로시마의 드라 1 지명은 “유력”인가(베이스볼 채널)",
+      "title": "뭐야, 이긴다고…? 드래프트 지명 후보 (5) 드래프트 1 지명은 \"우세\" (야구 채널)",
       "summary": "히로시마 도요 카프 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBFMFhmQ0Fyc1RCRDdXbnp4SUFUaERvcURvWExBeHo4bDhETDR5UklUZGprbl9hUGt4N29MSnJBeFoyamM5U0YwbHRzT1YxcUVmRDNVN3Q3Mzgtb09JUXkxLXo3T1RtOE9ic1V0WWdmUGI0bkxzNjB5Vm5rUm1WdTQ?oc=5",
       "time": "어제 20:50",
@@ -365,7 +365,7 @@
       "category": "🎯 드래프트 & 스카우트"
     },
     {
-      "title": "프로야구 2026 일본 시리즈의 TV방송은 있어? 민방 · NHK · 인터넷 중계 정보 요약 | 소프트 뱅크 대 DeNA",
+      "title": "프로야구 2026 일본 시리즈의 TV 방송이 있나요? 비공개 릴리스, NHK 및 온라인 중계 정보 요약 | DeNA vs.",
       "summary": "소프트뱅크 호크스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQLTdqd3RXVmhBYTc1M3JYY0FWWFpoVDE5aWdGS2tfZ2cybUJYSThtRkotU1hnQVlYUy1qZmlXNkFiUndSWHBMbFV5Nmx1bHF4LTc2bmpQNDF5dTItM0owR05zVUoxMDRPTFJPTG1CLWRndGt6cV90UkJzVGx6NVhucExFY1FEUlRQb3pNNlh1TUc2TEdXbHBRVXpzeXhDZEU1eVFTWDJkSU9RUlgzcFBublN5c2JZYl9JbXpfNHJya2JiZ0FFZEJTd0Nn?oc=5",
       "time": "어제 20:37",
@@ -392,7 +392,7 @@
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBxTWR0aHpWYjBLTk1iT0c3czdTT0VKMGl1STVNdmlmSHk5RDRJdkZRWjJ0djRpY2VwcmUwVUxzX1Z1TGs4bGNLYTNDUWM1VlNxS0dOdVg3ZnZPQ3Q1?oc=5",
       "time": "어제 19:00",
       "is_today": false,
-      "media": "베이스볼 채널",
+      "media": "야구 채널",
       "team": "소프트뱅크 호크스",
       "color": "#FBBF24",
       "category": "🎯 드래프트 & 스카우트"
@@ -400,23 +400,12 @@
   ],
   "오릭스 버팔로즈": [
     {
-      "title": "「새로운 생명을 받았습니다」 프로야구 선수와 결혼 27세의 임신 보고에 여자 프로 동료로부터 축복의 폭풍! 투어 복귀에 대한 생각도 계속한다",
+      "title": "\"나는 새로운 삶을 살고있다\" 프로 야구 선수와 결혼 27 세의 임신 보고서에 대한 여성 프로 동반자의 축복의 폭풍! 또한 투어로 돌아가고 싶습니다.",
       "summary": "오릭스 버팔로즈 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Da0FEeUZSMnoxNkxabzhsREhfYUhMQmR0R2JENGUzQ0xlbk5MY0NqUEN4WWJYaWE2RWlLdTJkME5rVm5zSXZ6Qnc2anZVQlJBdmJfQmVPS3FVQ0xzZEtCZnNHejFLdnlFTkh2Q0F3ZVlhVGtSTF9OT2lnMnhvdWc?oc=5",
       "time": "어제 22:30",
       "is_today": false,
       "media": "야후 뉴스",
-      "team": "오릭스 버팔로즈",
-      "color": "#1E293B",
-      "category": "📰 구단 소식"
-    },
-    {
-      "title": "[이미지 8/12] 간사이 워커 \"교세라 돔 오사카 특별 투어\" 보고서",
-      "summary": "오릭스 버팔로즈 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBWVVllc3pFVGNqR1hubmlrc0lLTW54TkVCNGU4c0VRWTNDVXNNMG40Vl9FeTJkazVVd2hZdzREbUtQc0RzQldzMkZHUTFZdDdueG5YcFJKNE9oM2E2N2l4MjN3cUphTkJD?oc=5",
-      "time": "어제 20:55",
-      "is_today": false,
-      "media": "Worrath",
       "team": "오릭스 버팔로즈",
       "color": "#1E293B",
       "category": "📰 구단 소식"
@@ -433,12 +422,23 @@
       "category": "📰 구단 소식"
     },
     {
+      "title": "Mr. Ham (@ hamuneko23) on X",
+      "summary": "오릭스 버팔로즈 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1JYllGRUJSbGhzUl9tallTa3hrR1A2VUl6dHk1a3UxX0gyd09CY1hhdzhob2tueVQ0N0hv?oc=5",
+      "time": "어제 19:03",
+      "is_today": false,
+      "media": "Howl.link",
+      "team": "오릭스 버팔로즈",
+      "color": "#1E293B",
+      "category": "📰 구단 소식"
+    },
+    {
       "title": "지명 초안의 추세는 어떻습니까? 2008년부터 2025년까지의 직위와 출생 범주를 비교하십시오",
       "summary": "오릭스 버팔로즈 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9pMEE2dUhlOENRWUQ5VWJWNnBoYnp1aXFXQ2ZBaU9XRnUzZXFrTkJPcFh3YmFzNGJHelAydVhKeFlUamJhOXhBS25ielNoN01mLXg0c2FjaElBSUlPNWJobEFn?oc=5",
       "time": "어제 19:00",
       "is_today": false,
-      "media": "베이스볼 채널",
+      "media": "야구 채널",
       "team": "오릭스 버팔로즈",
       "color": "#1E293B",
       "category": "🎯 드래프트 & 스카우트"
@@ -506,7 +506,7 @@
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBzNEt5YkdSZy1BSlZNMEhjQTBzVFRrZ0RRZ1k3YVA1SHNrM2drdWQzLVlGZ1F3ZVNxTExScW5tWndNckh3alpaaG51TUdlUFFvMHFKdXZBVUNtVkRBbi1R?oc=5",
       "time": "어제 19:00",
       "is_today": false,
-      "media": "베이스볼 채널",
+      "media": "야구 채널",
       "team": "지바 롯데 마린스",
       "color": "#94A3B8",
       "category": "🎯 드래프트 & 스카우트"
@@ -514,12 +514,12 @@
   ],
   "라쿠텐 골든이글스": [
     {
-      "title": "[오늘의 프로야구 정보] 10월 20일에 발표된 전력외 통고·현역은퇴·자유계약·퇴단선수 일람",
+      "title": "[오늘의 프로야구 정보] 10월 20일 발표된 포스 외 공지 · 현역 은퇴 · 자유계약 · 은퇴 선수 명단",
       "summary": "라쿠텐 골든이글스 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE44d3EtMGFxNWIwVWU5Rm5NcGN3VVR6Y0FKMTNGbGdTTkh6U21YWm5vODRmLXBCczgyRXhNamZDcFQyNF9JWkRXem51d2tnOVV5RUZzNA?oc=5",
       "time": "어제 21:03",
       "is_today": false,
-      "media": "베이스볼 채널",
+      "media": "야구 채널",
       "team": "라쿠텐 골든이글스",
       "color": "#991B1B",
       "category": "👔 감독·코치진"
@@ -571,7 +571,7 @@
   ],
   "세이부 라이온즈": [
     {
-      "title": "라이온스가 \"획득\"한다…? 세이부의 드래프트 지명 후보 (2)지명 누출로부터 2년…휴부 전 마지막 도전(베이스볼 채널)",
+      "title": "\"수익을 올리시겠습니까?\" 드래프트 지명 후보자 (2) 지명 누락 후 2년... 남은 기간 전 마지막 도전 (야구 채널)",
       "summary": "세이부 라이온즈 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9YMF9ueEtwLV9oVVZFTDZleE9uZWxUanpISDV3SGt2U3VLRlRPUTVDcmFQSVoxX2RBWVBBanNTLXQxNlRXaUc5WEFNcElJS1VJTnZlRkdOd3lWTHl5REZvNENfYU9SWHpoRDktcWtNLTczYzZUdjdzbmRnbHZqZG8?oc=5",
       "time": "어제 20:40",
@@ -598,10 +598,21 @@
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBSeHhERzUxX2NDT2pfRXlKUlAtVDRiNEVqQUM0Sk5ldmhhc1ZaT3pNZmVsS0hXekczbG9YUkJsYkVLSjFHeUNiTjEya3dtd0pBc0Rtdg?oc=5",
       "time": "어제 20:30",
       "is_today": false,
-      "media": "베이스볼 채널",
+      "media": "야구 채널",
       "team": "세이부 라이온즈",
       "color": "#2563EB",
       "category": "🎯 드래프트 & 스카우트"
+    },
+    {
+      "title": "히라요시와 코지마는 \"첫 해부터 함께 일할 수 있었고 많은 것을 배웠다\" (사진/이미지 1/1) 는 신인 포수의 첫 번째 공연인 최우수 배터리 상을 수상했습니다.",
+      "summary": "세이부 라이온즈 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxON1dJZndmbnRkZUNBc3lRQWtwd2U2aGkzVHpEbVRSVXJ2TzF6S3FNWnE5YWVMM2NaU2VkUGhfNDZlOER5T0lOSUxoQ2p5dndTR0RkUXdtRXJxSVUtQlQ5YVViRXAxaFVpYWR5dHJESGRsUWRMdFBpRUFfeWFRbnkyMlpiRDFRYWZrMkJIckZOSXJlYnpQQVlsVmFsaThvTHVKUDlCRnlOVUMtem5rVDdhSzgzZFpZSDhjZUwzalp2d0U?oc=5",
+      "time": "어제 19:01",
+      "is_today": false,
+      "media": "산케이스포츠",
+      "team": "세이부 라이온즈",
+      "color": "#2563EB",
+      "category": "📰 구단 소식"
     },
     {
       "title": "히라요시와 코지마가 최우수 배터리 상을 수상했습니다. 신인 포수의 첫 번째 공연 \"첫 해부터 함께 일할 수 있었고, 많은 것을 배웠습니다\"",
@@ -613,17 +624,6 @@
       "team": "세이부 라이온즈",
       "color": "#2563EB",
       "category": "📰 구단 소식"
-    },
-    {
-      "title": "지명 초안의 추세는 어떻습니까? 2008년부터 2025년까지의 직위와 출생 범주를 비교하십시오",
-      "summary": "세이부 라이온즈 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1jOUlLSXpFbTRKMjFjbzliS2J2UUxSVFZPSnM2dmJlVDVnUVhlQTJzMHQzUU96cmVlNHpHbldGQmFpbThIRGtTcEs4ZWlTR3ctUTF5UWVfYU14WVVP?oc=5",
-      "time": "어제 19:00",
-      "is_today": false,
-      "media": "베이스볼 채널",
-      "team": "세이부 라이온즈",
-      "color": "#2563EB",
-      "category": "🎯 드래프트 & 스카우트"
     }
   ],
   "니혼햄 파이터즈": [
@@ -633,7 +633,7 @@
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9iTy13dVBaSXJvMlRBT1FGZDZMRmdKdlZqRXEycnlIdWR1V19PNk1PZDZQcURVN0p3bnlwWURiN1BoSTZUT2NNV3MyN3pJSzhoU05ib0FVYmh4cWwySE56LQ?oc=5",
       "time": "어제 21:35",
       "is_today": false,
-      "media": "베이스볼 채널",
+      "media": "야구 채널",
       "team": "니혼햄 파이터즈",
       "color": "#06B6D4",
       "category": "👔 감독·코치진"
@@ -650,18 +650,18 @@
       "category": "👔 감독·코치진"
     },
     {
-      "title": "[오늘의 프로야구 정보] 10월 20일에 발표된 전력외 통고·현역은퇴·자유계약·퇴단선수 일람",
+      "title": "[오늘의 프로야구 정보] 10월 20일 발표된 포스 외 공지 · 현역 은퇴 · 자유계약 · 은퇴 선수 명단",
       "summary": "니혼햄 파이터즈 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE44d3EtMGFxNWIwVWU5Rm5NcGN3VVR6Y0FKMTNGbGdTTkh6U21YWm5vODRmLXBCczgyRXhNamZDcFQyNF9JWkRXem51d2tnOVV5RUZzNA?oc=5",
       "time": "어제 21:03",
       "is_today": false,
-      "media": "베이스볼 채널",
+      "media": "야구 채널",
       "team": "니혼햄 파이터즈",
       "color": "#06B6D4",
       "category": "👔 감독·코치진"
     },
     {
-      "title": "프로야구, 오늘(10월 20일) 발표된 전력외 통고·현역 은퇴·퇴단 선수 일람은? (베이스볼 채널)",
+      "title": "프로야구, 오늘 (10월 20일) 발표된 세력 이탈, 현역 은퇴, 은퇴 선수 명단은? (야구 채널)",
       "summary": "니혼햄 파이터즈 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Pc3NaVUFSVXFSdE1ieDBlTThxa01BSUU3RDdhOHZVcE04RHlnYkpXX3BGTHJnV1FTRFNVSGlPVGF1RG1USjludTJUemp5bjF2VEVYTHhIQkdSOHRBVnNXWHl5aE5Ob1VMQ1NuTG9GSTBQX1FwbWpDVXNock16VXM?oc=5",
       "time": "어제 21:01",
