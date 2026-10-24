@@ -281,9 +281,9 @@
       "stage": "🏆 SMBC 일본시리즈",
       "home": "요코하마 DeNA 베이스타스",
       "away": "소프트뱅크 호크스",
-      "score_home": "",
-      "score_away": "",
-      "status": "경기 전",
+      "score_home": "0",
+      "score_away": "0",
+      "status": "5회초 진행 중",
       "venue": "요코하마 스타디움"
     }
   ]
