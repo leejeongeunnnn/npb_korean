@@ -1,72 +1,105 @@
 [
   {
-    "title": "이미지/사진: 극복할 수 있었던 이세 프로야구: 시사닷컴",
+    "title": "이미지・사진：소프트뱅크가 2연승 프로야구：시사닷컴",
+    "summary": "소프트뱅크 호크스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9OUGJIQ0NzWHp3TUJxR2ZBUXhhX0VkekIxSFRDeUtiVm92aml0RkRjQ1lMcGNZeXlUOG1VZkN1b0d6Szd1X0lhTVlkajlGTjFCdEctNkdFR1g2ekhKUzdxb1RIS3E?oc=5",
+    "time": "오늘 04:02",
+    "is_today": true,
+    "media": "시사닷컴",
+    "team": "소프트뱅크 호크스",
+    "color": "#FBBF24",
+    "category": "🏆 포스트시즌 & 경기"
+  },
+  {
+    "title": "이미지 · 사진 : 카와무라의 승리 솔로 프로 야구 : 시사닷컴",
+    "summary": "일본 프로야구 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42NTdkSmVBNG9CVndISDEyZnFPajR2RDU4amg5VDM3NDVsdEQwWW1na2k1QTBuQWg0LXRKYTVUTTNMWHB6QjdrMDR4QnFfT3RrS3dWTG5RY2lrLW1udEthZWRWV2w?oc=5",
+    "time": "오늘 03:42",
+    "is_today": true,
+    "media": "시사닷컴",
+    "team": "NPB 종합",
+    "color": "#3b82f6",
+    "category": "🏆 포스트시즌 & 경기"
+  },
+  {
+    "title": "이미지・사진：야마가와의 동점 솔로 프로야구：시사닷컴",
+    "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE96azRUQ01sSXVWUU56VUh5S1BYdU1VaVlkcHZ0ZEJ5bFhna2NWREU3TXRpOU92U0Y3TUE5V29FOGxBZ1Y4ckd5bGlvRkprLVg4VE1WNWFzektUeFRHYlNkWmQtcFc?oc=5",
+    "time": "오늘 03:22",
+    "is_today": true,
+    "media": "시사닷컴",
+    "team": "NPB 종합",
+    "color": "#3b82f6",
+    "category": "📰 구단 소식"
+  },
+  {
+    "title": "이미지 · 사진 : 승리를 허용한 이세 프로 야구 : 시사닷컴",
     "summary": "일본 프로야구 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5fM3puQzRaLUFRbnV5WVU0Qzc4bVBDNFlRaURCa0ZfcHIwRUpOWDRJRTBncmVyeGJEZW9TMlRvbHdYSlA3SHlJN3U3TG81UTNpUTJUOWVwLTRKQlJTZkJSV0o4bUU?oc=5",
     "time": "오늘 02:42",
     "is_today": true,
-    "media": "시사 닷컴",
+    "media": "시사닷컴",
     "team": "NPB 종합",
     "color": "#3b82f6",
     "category": "🏆 포스트시즌 & 경기"
   },
   {
-    "title": "이미지/사진: 2연승 프로야구: 시사 닷컴",
-    "summary": "소프트뱅크 호크스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9OUGJIQ0NzWHp3TUJxR2ZBUXhhX0VkekIxSFRDeUtiVm92aml0RkRjQ1lMcGNZeXlUOG1VZkN1b0d6Szd1X0lhTVlkajlGTjFCdEctNkdFR1g2ekhKUzdxb1RIS3E?oc=5",
-    "time": "오늘 02:32",
-    "is_today": true,
-    "media": "시사 닷컴",
-    "team": "소프트뱅크 호크스",
-    "color": "#FBBF24",
-    "category": "🏆 포스트시즌 & 경기"
-  },
-  {
-    "title": "이미지/사진: 가와무라 프로야구: 시사 닷컴",
+    "title": "이미지 · 사진 : 기뻐하는 카와무라 프로야구 : 시사닷컴",
     "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9aTXVDVDNBWExQMTdkYXdyZzlpb3lUbU1ZSG1QUHV3R3EzRS15OEFudk9TeTVtbUtWdmNESlRtUkpYS3pRT1Ywd29pTVJ2dUg1WUlZd1NSUU53M3p5Nl9fNWVQdS0?oc=5",
     "time": "오늘 02:23",
     "is_today": true,
-    "media": "시사 닷컴",
+    "media": "시사닷컴",
     "team": "NPB 종합",
     "color": "#3b82f6",
     "category": "📰 구단 소식"
   },
   {
-    "title": "이미지/사진: 야마카와의 타이인 솔로 프로야구: 시사 닷컴",
+    "title": "프로야구 일본 시리즈 소프트뱅크 4-3DeNA 타카 연승 야마가와 회생의 동점탄/가와무라 후부병의 결승탄",
+    "summary": "요코하마 DeNA 베이스타스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1KNm9mWVdkd0hFelk2T0NDVkUtdTQwS3JydWNScUo2SVlDdWdpX1hOc3lUQVFRZEVvMEJseVFsWV9vVld1Zm54WGZvbEJBVXhYU0RkVW03NGlOZ2ZkNWN0ZzcxSThpQ0l3?oc=5",
+    "time": "오늘 02:03",
+    "is_today": true,
+    "media": "마이니치신문",
+    "team": "요코하마 DeNA 베이스타스",
+    "color": "#2563EB",
+    "category": "🏆 포스트시즌 & 경기"
+  },
+  {
+    "title": "프로야구 일본 시리즈 소프트뱅크 4-3DeNA 타카 연승",
+    "summary": "요코하마 DeNA 베이스타스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBEYXQtZllmSzRyYXVneU8td3o1blc1RHFvcVV3Wnljdzd3cTI2VDlhemM4QlRmbS05enJJMlQxUmRMTFI4SUpOQ2tWbXZWS0pWamFlTjNmNjJtbFJtRFl3UXBkUnh6R1ox?oc=5",
+    "time": "오늘 02:03",
+    "is_today": true,
+    "media": "마이니치신문",
+    "team": "요코하마 DeNA 베이스타스",
+    "color": "#2563EB",
+    "category": "🏆 포스트시즌 & 경기"
+  },
+  {
+    "title": "프로야구 속보：경기 결과·순위",
     "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE96azRUQ01sSXVWUU56VUh5S1BYdU1VaVlkcHZ0ZEJ5bFhna2NWREU3TXRpOU92U0Y3TUE5V29FOGxBZ1Y4ckd5bGlvRkprLVg4VE1WNWFzektUeFRHYlNkWmQtcFc?oc=5",
-    "time": "오늘 01:52",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5XVFFJRFJnR1JxZWNhM09EZ3I3T0ZLcDNMbGlrSHRCSlVoMjdPLV9TUUl1R0FTaE41cFJucXM5NFppdENGN2Jra1VhMHdzQlk3MDJoamdPYnZYNVZzUl9HZTg2eV9LX05zTHJEZmY5QlFjZlExa0d0amJR?oc=5",
+    "time": "오늘 01:29",
     "is_today": true,
-    "media": "시사 닷컴",
+    "media": "도신 스포츠",
     "team": "NPB 종합",
     "color": "#3b82f6",
     "category": "📰 구단 소식"
   },
   {
-    "title": "프로야구 2연승",
+    "title": "소프트뱅크가 2연승 프로야구",
     "summary": "소프트뱅크 호크스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1uNV9ZV09ITGpsUXZ3OXZaT1JNdkZnUXJhRUFjcnA5T2hidm1tNnRHbVJDUU0xQ2pXU2tGQy13cmtxcVBsNlhVRzQ4UEJjSTFhUEE?oc=5",
-    "time": "오늘 00:58",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1GR0lHSlZQVVg4amIyQXVNTGtYSGdlT3NqcGtZNjVsWFdqZjQzZm45RmRJY18yVGFiZHZCU0hpbFc5RDItNkdjWGEzQWVpc0JC?oc=5",
+    "time": "오늘 00:16",
     "is_today": true,
-    "media": "긴자 게이자이 신문",
+    "media": "사가 경제 신문",
     "team": "소프트뱅크 호크스",
     "color": "#FBBF24",
     "category": "🏆 포스트시즌 & 경기"
   },
   {
-    "title": "\"지면 소용없어\" DeNA, 츠카의 역전 3 \"빈 총\" 을 다시 실행하면 구조 팀에 충실 할 수 없습니다 (산케이 신문)",
-    "summary": "요코하마 DeNA 베이스타스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5wN0tRVEdLM0YtNHBaS0gxVWRILTFJcEwxV2NrLWJhQ3ZSRTMyaER2a0dsZjVERnlEU1M0ZHhnem5oaThITDF1aDZBTUNXN2s3WFByZjdaSU00ZDhKYk1qTHA4MTh4aUNhRk1LTXJtY0NkSzlWY3h0N2RLaDJJeFE?oc=5",
-    "time": "오늘 00:23",
-    "is_today": true,
-    "media": "야후 뉴스",
-    "team": "요코하마 DeNA 베이스타스",
-    "color": "#2563EB",
-    "category": "📰 구단 소식"
-  },
-  {
-    "title": "Junichi Nitta 프로 야구 선수 및 기타 선수들이 세미나에 참석하여 단식 지식을 사용하여 의사 결정을 내립니다... (Sponicia Nex)",
+    "title": "닛타 준이치 프로야구 선수들 스포츠 선수 출석의 세미나로 사회 결정 파스팅 지식 살려… (스포니치아넥스)",
     "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwU2pjd2xqWDd0QXdyRmpCMW5IWDlSWVRqMFlHeFlwejVqWktOMzRqM3NTSTdURXY5LTlIcW13SUpyR0gwZ3g3Yzh3U2RxTzIwSmlvOFVodVlfV2xqUE9sOXpUeTlmMS1KOUxQMnIzMy1VYUxCWG5NZ0xVd3ZZdm8?oc=5",
     "time": "어제 23:45",
@@ -77,18 +110,18 @@
     "category": "📰 구단 소식"
   },
   {
-    "title": "이미지/사진: DeNA Pro 패배한 야구: 시사 닷컴",
+    "title": "이미지・사진：패한 DeNA 프로야구：시사닷컴",
     "summary": "일본 프로야구 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBrUkRydTVDYmNfU0pqbmlXcTFqZzBzejM2QWh6RUZYbWZ5UWZFeU5kZEtmWHR1dGdyczVJVFdwUjJSNVV6bmxPT2s5ZWpaMm5Nc29rYkdhaTdNcGtqRnZ4WldvWFU?oc=5",
     "time": "어제 23:20",
     "is_today": false,
-    "media": "시사 닷컴",
+    "media": "시사닷컴",
     "team": "NPB 종합",
     "color": "#3b82f6",
     "category": "🏆 포스트시즌 & 경기"
   },
   {
-    "title": "DeNA 프로야구 ◎패배",
+    "title": "◎패한 DeNA 프로야구",
     "summary": "일본 프로야구 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5OeWJITFpaWUpwLWZXZ3NRUmZqY3EtZUh2Y1lpNUtkMmNxUzRGQjhKX3JhRTctUnBVeWJOZWpkdTgyU3U1aUpNdVhHRW0xVXlHZ0Zxbw?oc=5",
     "time": "어제 23:20",
@@ -99,7 +132,7 @@
     "category": "🏆 포스트시즌 & 경기"
   },
   {
-    "title": "아사히 신문: 시리즈의 카와무라의 첫 번째 샷은 깜짝 총알을 준비했습니다 (아사히 신문)",
+    "title": "소프트뱅크·가와무라, 시리즈 첫 타석에서 놀라게 탄 준비 실은 한 모습(아사히 신문)",
     "summary": "소프트뱅크 호크스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Manl2NEJJRzF5Zkw1cjB2NWhZZlFobkFjZFRZNFUxcy1VeDFRS0tRYzN0THRCZ1RoZ1lVNUtOcGlvOGo3LXdVdnN3WDNkaEU3aWJYV1d4ZkJQMzltQTJyaWp6UlJZTnhEOTZFZWQ0MXUwVG4tcEJHZlJmVEJpMzA?oc=5",
     "time": "어제 23:17",
@@ -110,18 +143,7 @@
     "category": "📰 구단 소식"
   },
   {
-    "title": "이미지/사진: 가와무라의 승리 솔로 프로야구: 시사닷컴",
-    "summary": "일본 프로야구 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42NTdkSmVBNG9CVndISDEyZnFPajR2RDU4amg5VDM3NDVsdEQwWW1na2k1QTBuQWg0LXRKYTVUTTNMWHB6QjdrMDR4QnFfT3RrS3dWTG5RY2lrLW1udEthZWRWV2w?oc=5",
-    "time": "어제 23:12",
-    "is_today": false,
-    "media": "시사 닷컴",
-    "team": "NPB 종합",
-    "color": "#3b82f6",
-    "category": "🏆 포스트시즌 & 경기"
-  },
-  {
-    "title": "프로 야구: DeNA, Tsutsuka Kachi의 죽음의 재생 탄환이 실패하고 구조 팀이 타격을 입고 밤마다 패배합니다.",
+    "title": "프로야구 : DeNA, 통향가 지의 기사 회생 탄실하지 않고 구원진 타격 연야의 연장 패배",
     "summary": "요코하마 DeNA 베이스타스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1nV182ejJyOVB1UnBnb0Zkei1MWUttUFBDM0gxVlBPTHFjekYzR3JGZVprQ0pCQTNxemNzejk4dTZUaXlMTGRyVnV2QnNNQzBVQ3BOdmdvNExjR0QyNkQzRjB1NGZUMTZYY1E4Wg?oc=5",
     "time": "어제 23:10",
@@ -132,7 +154,7 @@
     "category": "📰 구단 소식"
   },
   {
-    "title": "\"vivant\" X \"결국...\", \"Nonki ni\", \"Separate team Wada is sad\" (Nikkan Sports) 가 시작된 지 33 분 만에 사실이 밝혀졌습니다.",
+    "title": "「VIVANT」개시 33분 후에 판명의 사실에 X 「역시…",
     "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQS1hsRXloUjlYSHRWOVZtZUFtMGtMT18tMXlFQ1VBU0dGTE9IeFFwd3QxN3pXWEdpai1aZW5xX0VHaFVpTDBGMjRpelVrVG04RXZEQ09ScTBUYUYxeVBORlhYXzM0UE90X211ZkNLd3ZHUzExNUdQTTY5Y0pubGs?oc=5",
     "time": "어제 23:09",
@@ -143,29 +165,29 @@
     "category": "📰 구단 소식"
   },
   {
-    "title": "연장전 프로야구 일본 시리즈의 가와무라 기습",
+    "title": "소프트뱅크의 후시베가와무라, 연장전에 걸려 프로야구 일본 시리즈",
     "summary": "소프트뱅크 호크스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9uSnhQZFRsc2RhNkE4dlFIMVVNZTV4RmRXbmRRdnA5VFd1Si1KVUpBUjdCTTZ6M2FrV3lGQlg2RGgteFpjem43S2FkNkRxRXJEbU54NjBXOGQycW9aY0ZPWUtkUQ?oc=5",
     "time": "어제 23:04",
     "is_today": false,
-    "media": "시사 닷컴",
+    "media": "시사닷컴",
     "team": "소프트뱅크 호크스",
     "color": "#FBBF24",
     "category": "🏆 포스트시즌 & 경기"
   },
   {
-    "title": "연장전의 매복병 가와무라 = 일본 프로야구 시리즈",
+    "title": "소프트뱅크의 후시베가와무라, 연장전에 케리=프로야구 일본 시리즈",
     "summary": "소프트뱅크 호크스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPempPRHc2RWFwbC1MeURCUlVkWElsWkhMMjRvU3kwY0U4Zy1tdDhEa0xfYmRLcDd3eGdLYlFrdENKS3BiTnF6S1ZDRVBjS1dGNkpndTB2N3YxbWZ3YkszQklWVjF6aTlIQjVDbDcyX0R0aVltcElBRHQ3WFM1YjN6NTUxZWdFY0hWMkxtd9IBf0FVX3lxTE0zc25KWmM3TmJBcmQ0VmlDNlhhcmV3T25FLUg3R1FGOFhtSUFSTDBpUUk5UzhScHBLY0RydXBrQzFPZWstR2djWm8tZFM4SHM0YnV4RW90Z2tXX0NVUGhhUzFETE52eU9KSFQ1ZTc3X0g3WTlURzVncVJ1TjJiUkk?oc=5",
     "time": "어제 23:04",
     "is_today": false,
-    "media": "d메뉴 뉴스",
+    "media": "d 메뉴 뉴스",
     "team": "소프트뱅크 호크스",
     "color": "#FBBF24",
     "category": "🏆 포스트시즌 & 경기"
   },
   {
-    "title": "프로 야구: 매복 군인 카와무라 유토 (Yuto Kawamura) 는 일본 시리즈의 첫 번째 타자 세션에서 천 금 최종 총알의 가치가 있습니다.",
+    "title": "프로 야구 : 소프트 뱅크, 복병 · 카와무라 유토가 가치 천금 결승탄 일본 시리즈 첫 타석에서",
     "summary": "소프트뱅크 호크스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8tbUJXcjNXU0xySmFEVXJYVkEwdTJEczQyWjJBVVpHbWNPMC04ZGY5TUlMMFQxMnF0bmRMWVZCZm9OT3pDV1g3Z1A1bXhuWTJTRjNIckZRTHh0UFZhVEtyeVd2ckU0c1l4NFQwOQ?oc=5",
     "time": "어제 23:02",
@@ -176,40 +198,51 @@
     "category": "🏆 포스트시즌 & 경기"
   },
   {
-    "title": "프로 야구 일본 시리즈/감독 강연: 시사 닷컴",
+    "title": "프로야구 일본 시리즈·감독담화 : 시사닷컴",
     "summary": "일본 프로야구 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1vQVBIalVLSHN4MkVnSjNIVnNLdXZZWi1iOXJqYzhBQlozU1drNkpJNkZZdHpzQmNHNXlkWG1GZzVDREctd0xpSEdIY2NhNl93em1tRGVxZ3FzQTE1YXN1ZXFLOA?oc=5",
     "time": "어제 22:51",
     "is_today": false,
-    "media": "시사 닷컴",
+    "media": "시사닷컴",
     "team": "NPB 종합",
     "color": "#3b82f6",
     "category": "👔 감독·코치진"
   },
   {
-    "title": "쇼코, 논스톱 프로 야구 선수, 일본 시리즈: 시사 닷컴",
+    "title": "이미지・사진：프로야구 일본 시리즈・감독담화：시사닷컴",
+    "summary": "일본 프로야구 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZEJ5TGpnNURkYkRKc2FJWk5fZExUVm1zRmY5OG1xZVVHUlJmaHlUclFkS0Q5MEM1a0Exb0hLOUVnclN6QzdfVjQwV0sxMENRZGtEeHY4X1RYSEpnaHljRmk4WlhsMHVwQk1qTEtzaGl3Mm5LNnplXzIyLUloRTZSN0NR?oc=5",
+    "time": "어제 22:51",
+    "is_today": false,
+    "media": "시사닷컴",
+    "team": "NPB 종합",
+    "color": "#3b82f6",
+    "category": "👔 감독·코치진"
+  },
+  {
+    "title": "소프트뱅크의 쇼코, 기세 멈추지 않고 프로야구·일본 시리즈 : 시사닷컴",
     "summary": "소프트뱅크 호크스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA2VEt1TXBnWFRsVTI5OGt3UVZFTWRHb3NEMm9HWEZ1LUZ4ZndMVkFtV0lXVGRrQnY0ZTJJR2g0cHBJNTM2Ql9NRzRrRG40dE5JU0EzZ1Zkdjdha2RWSWZvRnNaYw?oc=5",
     "time": "어제 22:49",
     "is_today": false,
-    "media": "시사 닷컴",
+    "media": "시사닷컴",
     "team": "소프트뱅크 호크스",
     "color": "#FBBF24",
     "category": "🏆 포스트시즌 & 경기"
   },
   {
-    "title": "모이네로가 빅 스테이지 프로야구 재팬 시리즈에서 부활했다.",
+    "title": "소프트뱅크의 모이네로, 대무대에서 부활 프로야구 일본 시리즈",
     "summary": "소프트뱅크 호크스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5aeGpMUWZBd2xpR2trdkhpN0NqYzRQQy14VHpSOTAwRmw2bW5MZW14QnhnOGJxV29EMi1rYWthdDRXbVFZY1NrLTA0bUxJalVHOVZCNERadjd0TWZNRUJBcllDVQ?oc=5",
     "time": "어제 22:42",
     "is_today": false,
-    "media": "시사 닷컴",
+    "media": "시사닷컴",
     "team": "소프트뱅크 호크스",
     "color": "#FBBF24",
     "category": "🏆 포스트시즌 & 경기"
   },
   {
-    "title": "큰 무대에서 부활한 모이네로 = 일본 프로야구 시리즈",
+    "title": "소프트뱅크의 모이네로, 대무대에서 부활=프로야구 일본 시리즈",
     "summary": "소프트뱅크 호크스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE45YkF3RGpoV0hGcm9kNWk2M2hwUUVMbDl0VHl3S3VRUktkSWhsY2syQ2ZPWE90TTdtbTk3d2NENzhDM3E4aDgwQVVhelJLSVVuRXVTUw?oc=5",
     "time": "어제 22:42",
@@ -220,7 +253,7 @@
     "category": "🏆 포스트시즌 & 경기"
   },
   {
-    "title": "\"Vivant\" 드럼이 \"Kanji four letters\" \"Judge that you can endure?\" 많이! \"X는 박수를 보냈다 (일간 스포츠).",
+    "title": "설마 「VIVANT」드럼 구한 “한자 4문자”에 “참을 수 있다고 판단?” “많다!” X박수 갈채(일간 스포츠)",
     "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5zR25SWVhQS29KMDFmRFY2cU9jamFJU1ZHa21hRkhVRERUaXE4Ukxpc3pvTGNTZDhncmp3R19mRExVemhVTElxOV9Ed3Z3X3pIazJMYzN3cGxtX2ZtbVRWTy1uSWIzWTYxdU9rSjFoZkttMDdEMnd4LWJtMUhDRFU?oc=5",
     "time": "어제 22:37",
@@ -231,18 +264,18 @@
     "category": "📰 구단 소식"
   },
   {
-    "title": "야마카와, 연승을 시작으로 군중의 눈에 띄는 외야 탄환 - 프로 야구 일본 시리즈",
+    "title": "야마가와, 도간 빼는 장외탄 소프트뱅크, 연승 발진-프로야구 일본 시리즈",
     "summary": "소프트뱅크 호크스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOay1TTFVNLTF6cjdYWTMwWUYtTzlfWFFXb1lZczFLTVNhS3QwRlJWWEZEbWdDMGduWUpUZEdQWWFWdDhwZzRNMS1XeXl5dUVWeFhYRnZJWDBvem10SFE2LS0xR25yMXdnWXZUM2FOd0Z2bGNrWHdhenFoVVBLYjVYWW9n?oc=5",
     "time": "어제 22:29",
     "is_today": false,
-    "media": "시사 닷컴",
+    "media": "시사닷컴",
     "team": "소프트뱅크 호크스",
     "color": "#FBBF24",
     "category": "🏆 포스트시즌 & 경기"
   },
   {
-    "title": "Yamakawa, out-of-field bullets to shine =, streak start - 프로야구 재팬 시리즈",
+    "title": "야마가와, 도간 빼는 장외탄=소프트뱅크, 연승 발진-프로야구 일본 시리즈",
     "summary": "소프트뱅크 호크스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83MjZHRjByUDROeUZkRTM5VTdpZUhBRnlKUndFUEZ6LUJFNWh1Z3pLWkZ5V3pNWEY5cDVWUXNhcVZiZUh2bXV1QnFnc3FEUThkOFlBdA?oc=5",
     "time": "어제 22:29",
@@ -253,7 +286,7 @@
     "category": "🏆 포스트시즌 & 경기"
   },
   {
-    "title": "가와무라 토모토, 2경기 연속 10회 솔로 우승… DeNA가 구조팀 파악 (요미우리 신문 온라인)",
+    "title": "소프트뱅크가 2경기 연속으로 연장전제하는, 10회에 카와무라 토모토가 이겨 솔로… DeNA는 구호진이 잡힌다",
     "summary": "요미우리 자이언츠 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5IcVgyM0tXMWNjMjZUZHE4dnVxbzNRdUtaTGUyblUycXBfWFBkYW1tNUVnTFFKM2NXNnRZZGsyRmVCYnRqY2I5RnZ0RENSTmJSR1FCWUo5UEtpcHJ5akRyUG5YVmhNaG8zSzVHNTd2QnJYUGtQSjRYTkIxbl9Mb2M?oc=5",
     "time": "어제 22:05",
@@ -264,7 +297,7 @@
     "category": "🏆 포스트시즌 & 경기"
   },
   {
-    "title": "살아남을 수 있게 해준 이세 프로야구 (지심도)",
+    "title": "승리를 허용한 이세 프로야구(시사통신)",
     "summary": "일본 프로야구 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1TUnMtbDBzSWNaTEYxam1XcXBDWnY5TEVzaWhqQnc2a21ndWNRM1NHYV96M20zVHJmNmNlc2dncXVFQWwtX1dpZ0pDRVJlNkZMcEI5YTVrcUV6elFWeTFwRXNSbHd5UTAzUDZvdkdLM25SaDZlNm1wSHFlR2tyTzg?oc=5",
     "time": "어제 22:04",
@@ -275,7 +308,7 @@
     "category": "🏆 포스트시즌 & 경기"
   },
   {
-    "title": "드래프트 3일 후, 충격 \"3회 9승 스트라이크아웃...???\" 9위는 강한 팔을 지명하며 분주한 \"해답\" (해답)",
+    "title": "드래프트 3일 후에 충격 \"3회 9탈삼진…???\"",
     "summary": "일본 프로야구 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pTHZLZVJCSkI5a0pBVnZKRjZraEJYVG1tTTVPS1ptR09uOFhsNG00dVRnSVRJOEtoSFVfMGZIYWdWV0N1N1BlUUN1VUxSQ0ZoTFBiUEt4UFNEMTVZRG9QeFJWY2pDYWxfc1VYSENOTG9mVFMwRXVjS3IwT1JBSE0?oc=5",
     "time": "어제 22:03",
@@ -286,45 +319,12 @@
     "category": "🎯 드래프트 & 스카우트"
   },
   {
-    "title": "가와무라는 2연승을 10회 연장했고, 가와무라는 결승전 - 프로야구/일본 시리즈",
+    "title": "소프트뱅크가 2연승 연장 10회, 카와무라가 결승 솔로-프로야구·일본 시리즈",
     "summary": "소프트뱅크 호크스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBUODdPMXdYYmJGWkdaNUdnMHZmdVVpSmM5NzU3cG1pZHp3ZmIxU0VkTHVBTG5PQzJVR0pCamEyNnhENHNIamdQdHFTS2VVMzhpVExkYWlaN3cxNUozTW1NVUwxVQ?oc=5",
     "time": "어제 21:56",
     "is_today": false,
-    "media": "시사 닷컴",
-    "team": "소프트뱅크 호크스",
-    "color": "#FBBF24",
-    "category": "🏆 포스트시즌 & 경기"
-  },
-  {
-    "title": "프로야구 2연승 (뉴스레터)",
-    "summary": "소프트뱅크 호크스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSanpCdjk3M3Z1R2ZLUHNuV1Rrd3pHU2xWa0dxYk9IVl9VMGpoUFVyd3gwenE4RmJ6cEJBRUV4OEExS2FjclcwZkExRU1iODJsRl9OMjRVWTR4T1JCdUNyS3FwSU43Rmo4UHB3Z0RoUjhFS0FLMFhDVVdFQ3hwSHM?oc=5",
-    "time": "어제 21:54",
-    "is_today": false,
-    "media": "야후 뉴스",
-    "team": "소프트뱅크 호크스",
-    "color": "#FBBF24",
-    "category": "🏆 포스트시즌 & 경기"
-  },
-  {
-    "title": "가와무라 프로야구 배짱 자세 (지심도)",
-    "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9SM2kwNnlpalNKQlpRS1JyajdzUldNN3p2WTR5UGtzQ1RiNGR6UXlGQVR3cXE0Vm1peTJZM1Y4QlhUaFNmMmh0WHFLVFNZRlppMTRrOC1IaHNRQWxoLUVDRTR0NHdXZGphZk0tOW5tLVU1SklRWFkwTnBiVkNLaTA?oc=5",
-    "time": "어제 21:54",
-    "is_today": false,
-    "media": "야후 뉴스",
-    "team": "NPB 종합",
-    "color": "#3b82f6",
-    "category": "📰 구단 소식"
-  },
-  {
-    "title": "프로야구 2연승",
-    "summary": "소프트뱅크 호크스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOdkhYOWtkcHRLeGl1RFl1SXFGekowb2FneDJqcXhRRUlzNkhnVm4xbXVkZktVS2U4eWdlOTIxNTJpWmg2bkUwQ3lReDZZWmcxUGVuUXd6djNOdWhKQ1RtN3hudzVuSVpZRXFPUFQ2Yk5JOXh1anU1cTJLMWZpNDRCM05yd0Y2dmY3ME91dnJiNUtfb0dvbnFlSThUOFh6LUNwdGRGUllZRjM0eHczcV9qbVJ0UFIza1VpNkE0VWtRQmpsT1I2Snp6UU5VdGVjejhWMzNadVFB0gGGAUFVX3lxTE5icEx2S0RRYWxweU5tUjVpWlhvZ3dJVHlvLVcwUnh0dGl3dTVXaTFPTmREN0w0WjkzWEY4Z3h5VkhicDA2WDA5Y1g4SU1ZNUVLU3FabTEzaHdjeGJDdFFLWlNib1lBdjQ0VG5RcDFJYXpWQ0RiSlNlM1JrUG9xelBHZk1Hd1l3?oc=5",
-    "time": "어제 21:54",
-    "is_today": false,
-    "media": "d메뉴 뉴스",
+    "media": "시사닷컴",
     "team": "소프트뱅크 호크스",
     "color": "#FBBF24",
     "category": "🏆 포스트시즌 & 경기"
