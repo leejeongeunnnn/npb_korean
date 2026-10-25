@@ -541,13 +541,13 @@
           "gid": "2021039493",
           "home": "요코하마 DeNA 베이스타스",
           "away": "소프트뱅크 호크스",
-          "score_home": "",
-          "score_away": "",
-          "status": "18:00 시작",
-          "state": "pre",
-          "start": "18:00",
+          "score_home": "0",
+          "score_away": "2",
+          "status": "4회말 진행 중",
+          "state": "live",
+          "start": "",
           "venue": "요코하마 스타디움",
-          "venue_jp": "横浜",
+          "venue_jp": "横浜\nライブ配信中",
           "series": "🏆 SMBC 일본시리즈"
         }
       ]
