@@ -276,5 +276,15 @@
       "rules": "최종 7차전 챔피언 결정전"
     }
   ],
-  "live": []
+  "live": [
+    {
+      "stage": "🏆 SMBC 일본시리즈",
+      "home": "소프트뱅크 호크스",
+      "away": "요코하마 DeNA 베이스타스",
+      "score_home": "",
+      "score_away": "",
+      "status": "경기 전",
+      "venue": "미즈호 PayPay 돔"
+    }
+  ]
 }
