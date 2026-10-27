@@ -462,13 +462,13 @@
           "gid": "2021039494",
           "home": "소프트뱅크 호크스",
           "away": "요코하마 DeNA 베이스타스",
-          "score_home": "",
-          "score_away": "",
-          "status": "18:00 시작",
-          "state": "pre",
-          "start": "18:00",
+          "score_home": "0",
+          "score_away": "1",
+          "status": "5회말 진행 중",
+          "state": "live",
+          "start": "",
           "venue": "미즈호 PayPay 돔",
-          "venue_jp": "みずほPayPay",
+          "venue_jp": "みずほPayPay\nライブ配信中",
           "series": "🏆 SMBC 일본시리즈"
         }
       ]
