@@ -436,11 +436,11 @@
           "gid": "2021039495",
           "home": "소프트뱅크 호크스",
           "away": "요코하마 DeNA 베이스타스",
-          "score_home": "",
-          "score_away": "",
-          "status": "18:00 시작",
-          "state": "pre",
-          "start": "18:00",
+          "score_home": "4",
+          "score_away": "2",
+          "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "미즈호 PayPay 돔",
           "venue_jp": "みずほPayPay",
           "series": "🏆 SMBC 일본시리즈"
@@ -453,14 +453,14 @@
       "is_today": false,
       "games": [
         {
-          "gid": "2021039496",
+          "gid": "2021039495",
           "home": "소프트뱅크 호크스",
           "away": "요코하마 DeNA 베이스타스",
-          "score_home": "",
-          "score_away": "",
-          "status": "18:00 시작",
-          "state": "pre",
-          "start": "18:00",
+          "score_home": "4",
+          "score_away": "2",
+          "status": "경기 종료",
+          "state": "final",
+          "start": "",
           "venue": "미즈호 PayPay 돔",
           "venue_jp": "みずほPayPay",
           "series": "🏆 SMBC 일본시리즈"
@@ -471,7 +471,21 @@
       "date": "2026-10-30",
       "display": "10월 30일 (금)",
       "is_today": false,
-      "games": []
+      "games": [
+        {
+          "gid": "2021039495",
+          "home": "소프트뱅크 호크스",
+          "away": "요코하마 DeNA 베이스타스",
+          "score_home": "4",
+          "score_away": "2",
+          "status": "경기 종료",
+          "state": "final",
+          "start": "",
+          "venue": "미즈호 PayPay 돔",
+          "venue_jp": "みずほPayPay",
+          "series": "🏆 SMBC 일본시리즈"
+        }
+      ]
     },
     {
       "date": "2026-10-31",
@@ -479,16 +493,16 @@
       "is_today": false,
       "games": [
         {
-          "gid": "2021039497",
-          "home": "요코하마 DeNA 베이스타스",
-          "away": "소프트뱅크 호크스",
-          "score_home": "",
-          "score_away": "",
-          "status": "18:30 시작",
-          "state": "pre",
-          "start": "18:30",
-          "venue": "요코하마 스타디움",
-          "venue_jp": "横浜",
+          "gid": "2021039495",
+          "home": "소프트뱅크 호크스",
+          "away": "요코하마 DeNA 베이스타스",
+          "score_home": "4",
+          "score_away": "2",
+          "status": "경기 종료",
+          "state": "final",
+          "start": "",
+          "venue": "미즈호 PayPay 돔",
+          "venue_jp": "みずほPayPay",
           "series": "🏆 SMBC 일본시리즈"
         }
       ]
@@ -499,16 +513,16 @@
       "is_today": false,
       "games": [
         {
-          "gid": "2021039498",
-          "home": "요코하마 DeNA 베이스타스",
-          "away": "소프트뱅크 호크스",
-          "score_home": "",
-          "score_away": "",
-          "status": "18:00 시작",
-          "state": "pre",
-          "start": "18:00",
-          "venue": "요코하마 스타디움",
-          "venue_jp": "横浜",
+          "gid": "2021039495",
+          "home": "소프트뱅크 호크스",
+          "away": "요코하마 DeNA 베이스타스",
+          "score_home": "4",
+          "score_away": "2",
+          "status": "경기 종료",
+          "state": "final",
+          "start": "",
+          "venue": "미즈호 PayPay 돔",
+          "venue_jp": "みずほPayPay",
           "series": "🏆 SMBC 일본시리즈"
         }
       ]
@@ -519,16 +533,16 @@
       "is_today": false,
       "games": [
         {
-          "gid": "2021039498",
-          "home": "요코하마 DeNA 베이스타스",
-          "away": "소프트뱅크 호크스",
-          "score_home": "",
-          "score_away": "",
-          "status": "18:00 시작",
-          "state": "pre",
-          "start": "18:00",
-          "venue": "요코하마 스타디움",
-          "venue_jp": "横浜",
+          "gid": "2021039495",
+          "home": "소프트뱅크 호크스",
+          "away": "요코하마 DeNA 베이스타스",
+          "score_home": "4",
+          "score_away": "2",
+          "status": "경기 종료",
+          "state": "final",
+          "start": "",
+          "venue": "미즈호 PayPay 돔",
+          "venue_jp": "みずほPayPay",
           "series": "🏆 SMBC 일본시리즈"
         }
       ]
@@ -539,16 +553,16 @@
       "is_today": false,
       "games": [
         {
-          "gid": "2021039498",
-          "home": "요코하마 DeNA 베이스타스",
-          "away": "소프트뱅크 호크스",
-          "score_home": "",
-          "score_away": "",
-          "status": "18:00 시작",
-          "state": "pre",
-          "start": "18:00",
-          "venue": "요코하마 스타디움",
-          "venue_jp": "横浜",
+          "gid": "2021039495",
+          "home": "소프트뱅크 호크스",
+          "away": "요코하마 DeNA 베이스타스",
+          "score_home": "4",
+          "score_away": "2",
+          "status": "경기 종료",
+          "state": "final",
+          "start": "",
+          "venue": "미즈호 PayPay 돔",
+          "venue_jp": "みずほPayPay",
           "series": "🏆 SMBC 일본시리즈"
         }
       ]
