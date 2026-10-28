@@ -3,39 +3,6 @@
   "days_fwd": 6,
   "days": [
     {
-      "date": "2026-10-05",
-      "display": "10월 5일 (월)",
-      "is_today": false,
-      "games": [
-        {
-          "gid": "2021051118",
-          "home": "라쿠텐 골든이글스",
-          "away": "소프트뱅크 호크스",
-          "score_home": "3",
-          "score_away": "1",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "라쿠텐 모바일 파크",
-          "venue_jp": "楽天モバイル",
-          "series": ""
-        },
-        {
-          "gid": "2021051119",
-          "home": "지바 롯데 마린스",
-          "away": "세이부 라이온즈",
-          "score_home": "1",
-          "score_away": "7",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "조조 마린 스타디움",
-          "venue_jp": "ZOZOマリン",
-          "series": ""
-        }
-      ]
-    },
-    {
       "date": "2026-10-06",
       "display": "10월 6일 (화)",
       "is_today": false,
@@ -430,7 +397,7 @@
     {
       "date": "2026-10-28",
       "display": "10월 28일 (수)",
-      "is_today": true,
+      "is_today": false,
       "games": [
         {
           "gid": "2021039495",
@@ -450,7 +417,7 @@
     {
       "date": "2026-10-29",
       "display": "10월 29일 (목)",
-      "is_today": false,
+      "is_today": true,
       "games": [
         {
           "gid": "2021039495",
@@ -550,6 +517,26 @@
     {
       "date": "2026-11-03",
       "display": "11월 3일 (화)",
+      "is_today": false,
+      "games": [
+        {
+          "gid": "2021039495",
+          "home": "소프트뱅크 호크스",
+          "away": "요코하마 DeNA 베이스타스",
+          "score_home": "4",
+          "score_away": "2",
+          "status": "경기 종료",
+          "state": "final",
+          "start": "",
+          "venue": "미즈호 PayPay 돔",
+          "venue_jp": "みずほPayPay",
+          "series": "🏆 SMBC 일본시리즈"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "display": "11월 4일 (수)",
       "is_today": false,
       "games": [
         {
