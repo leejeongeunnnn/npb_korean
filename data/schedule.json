@@ -3,12 +3,6 @@
   "days_fwd": 6,
   "days": [
     {
-      "date": "2026-10-09",
-      "display": "10월 9일 (금)",
-      "is_today": false,
-      "games": []
-    },
-    {
       "date": "2026-10-10",
       "display": "10월 10일 (토)",
       "is_today": false,
@@ -404,7 +398,7 @@
     {
       "date": "2026-11-01",
       "display": "11월 1일 (일)",
-      "is_today": true,
+      "is_today": false,
       "games": [
         {
           "gid": "2021039495",
@@ -424,7 +418,7 @@
     {
       "date": "2026-11-02",
       "display": "11월 2일 (월)",
-      "is_today": false,
+      "is_today": true,
       "games": [
         {
           "gid": "2021039495",
@@ -524,6 +518,26 @@
     {
       "date": "2026-11-07",
       "display": "11월 7일 (토)",
+      "is_today": false,
+      "games": [
+        {
+          "gid": "2021039495",
+          "home": "소프트뱅크 호크스",
+          "away": "요코하마 DeNA 베이스타스",
+          "score_home": "4",
+          "score_away": "2",
+          "status": "경기 종료",
+          "state": "final",
+          "start": "",
+          "venue": "미즈호 PayPay 돔",
+          "venue_jp": "みずほPayPay",
+          "series": "🏆 SMBC 일본시리즈"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "display": "11월 8일 (일)",
       "is_today": false,
       "games": [
         {
