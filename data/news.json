@@ -1,14 +1,135 @@
 [
   {
-    "title": "야마가시 출신 이케다 세이마 선수에게 요미우리가 지명 인사말",
-    "summary": "요미우리 자이언츠 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdGU0MENlZDUwX3p2OXIxT0VLS1pQcnVjVmtveUY0X2lqSzlFenZ0RjFlVzk3R1MwUFlHNldpYTZfY1dxNDlHYjJEYVZtR3V3SnVOZTE3Tld1Wi05OFpsUHVpQnZTMkxCOFRLb2d3WVhBX0s4aFFMWmtMYUc4cVVDVm1Jenp2TzA?oc=5",
-    "time": "오늘 18:46",
+    "title": "이미지・사진：마츠모토 코치 「책임 느낀다」 프로야구：시사닷컴",
+    "summary": "일본 프로야구 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAyWDdyT3pIUzB0WGYwa2NFcGhncDJyMHB5YTc1Zm82M1pZTW5hVnNBLW1wUVpyWmFnaWthQjJTUlFXZ0NsZWVmb05pVC1lSzM0NDNvNjNWS1dnUm5TSGVlUEFTZ1M?oc=5",
+    "time": "오늘 19:33",
     "is_today": true,
-    "media": "NTV NEWS NNN",
+    "media": "시사닷컴",
+    "team": "NPB 종합",
+    "color": "#3b82f6",
+    "category": "👔 감독·코치진"
+  },
+  {
+    "title": "마츠이 감독, 열심히 타격 지도 프로야구(시사 통신)",
+    "summary": "일본 프로야구 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42NFdpOV96djNMVGo2OGh1eWlMQXFFeHJiUnBFY1hJcmV5UThqQ0pnRnJwRUFMd3dGMWhWWjVhcE1ncGlwUERRcmZCVjdRUWoxY1ZDVHM5UC1KdzBkWl96cHZyR1ZHUjRkQ0tDUUV6WE9WSlR5ZWlSd25fWW0xajQ?oc=5",
+    "time": "오늘 19:29",
+    "is_today": true,
+    "media": "야후 뉴스",
+    "team": "NPB 종합",
+    "color": "#3b82f6",
+    "category": "👔 감독·코치진"
+  },
+  {
+    "title": "「자신답게 진흙 냄새」야마가시 출신의 이케다 세이마 선수에게 요미우리가 지명 인사(구마모토 뉴스 KAB ONLINE)",
+    "summary": "요미우리 자이언츠 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8wc3Q4dW12bkhJQjNpRlMzQU9PVDZMb0F0R0ZuQXJQV3lXcjNlSDUzdm1VOE1MRURldWVmSkhwMnpZNndxb2x6ajlSQzNmSHFjR3NWZnpITDV4bmtEdTNIU0tRM1VCaktKdVF2YVlGMVphVHdLTnRQdk1VVEdHRzA?oc=5",
+    "time": "오늘 19:28",
+    "is_today": true,
+    "media": "야후 뉴스",
     "team": "요미우리 자이언츠",
     "color": "#F97316",
     "category": "🎯 드래프트 & 스카우트"
+  },
+  {
+    "title": "[오릭스] 소우마가 국내 FA권 행사 인적, 금전 보상 발생하지 않는 C랭크에서 DeNA 등 조사인가(일간 스포츠)",
+    "summary": "요코하마 DeNA 베이스타스 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15QU5kNUJQVFlyRU5MYkoyNG04Q3liTzY1SmtXLWw0WXFBMkQ2U0VXOTNGSVd0YklqLUZVb3BZd2g1UHprZWJPUWtwa0pxTS1fX0NaUGpiR1U0WkJ4eWNVUWRVYl9TZ2hVTXljZTAtVHlVcG4tZm5xaDRmbUg4cnM?oc=5",
+    "time": "오늘 19:09",
+    "is_today": true,
+    "media": "야후 뉴스",
+    "team": "요코하마 DeNA 베이스타스",
+    "color": "#2563EB",
+    "category": "📋 전력외·은퇴·이적"
+  },
+  {
+    "title": "마츠이 감독, 열심히 타격지도=은사 양보의 「의음」도―프로야구 요미우리",
+    "summary": "요미우리 자이언츠 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1OVkgzNE1MdWlqQWJBNzc5YndWdDlUMmpDcENLNTk4ZGhaZGNReHo2MUt5V2VOTXdrM2l5RTY1U1VVZllkdzI5RmhQUVZRQ3czUWhWdg?oc=5",
+    "time": "오늘 19:04",
+    "is_today": true,
+    "media": "지지통신",
+    "team": "요미우리 자이언츠",
+    "color": "#F97316",
+    "category": "👔 감독·코치진"
+  },
+  {
+    "title": "오시기리 모에, SNS 안티에 곤혹 남편 와쿠이 히데아키 투수의 팬으로부터 「당신 아무것도 하지 않는다」 「비밀의 엄마 원 시즌3」10화",
+    "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9fcWJGTHJuRS04WHpSQWxHUy1JcU10eTNtcEVDRU5DeGFmc0t3bWh4dndwZDVaa3JfWkpKRlpDdk9lQy1fQVRyRXNnZmJhaVc5MUkybVlOYVp4akpsUkpQNG5jaGhTSWtkQmlDTzF6b0R5dmdFNWM5Z29VeGNBWlU?oc=5",
+    "time": "오늘 19:02",
+    "is_today": true,
+    "media": "야후 뉴스",
+    "team": "NPB 종합",
+    "color": "#3b82f6",
+    "category": "📰 구단 소식"
+  },
+  {
+    "title": "충격의 “타구단들이”에… FA인적 보상이 된 거물 (5) FA 가입한 2관왕이…",
+    "summary": "일본 프로야구 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE10OEEyc2xnOURHNmZ1UmJJRVdVUUpyVVhHUXpHejFsaUwtN2FjS04xeDhCNE5uMDJiaGRzbmV2YTNCNTVydVQ0dVNDVVFUSnQ1b2NRUG5qbFRlUXd4UzZpem5zUzkyVklTYU1YRnA3cjBwV3ZlX1VwbXV2UmowMEE?oc=5",
+    "time": "오늘 19:02",
+    "is_today": true,
+    "media": "야후 뉴스",
+    "team": "NPB 종합",
+    "color": "#3b82f6",
+    "category": "📋 전력외·은퇴·이적"
+  },
+  {
+    "title": "[요미우리] 마츠이 히데키 신 감독이 G타운 스타디움에 투수 코치와 \"말하고 싶은 일이 있었다\"(닛테레 NEWS NNN)",
+    "summary": "요미우리 자이언츠 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9YVFR4a0phNTJyeXRSZ0xqbjY2NkpueTFGVlk5c2d5RThVZDBfM1JKT19XT2tpVXZnUFFZRTRyRHF2VWR2c3JMMENUNzhzQndLVjN2dVMwZEg2UWNSRlBxdHkyQ0JiUTlLQjk5cDMzc256YXdHaWxQaThEWEFDV3M?oc=5",
+    "time": "오늘 19:02",
+    "is_today": true,
+    "media": "야후 뉴스",
+    "team": "요미우리 자이언츠",
+    "color": "#F97316",
+    "category": "👔 감독·코치진"
+  },
+  {
+    "title": "[일본 선수권] 전국 대회 사상 최초인가 CLUB REBASE 17세·다구치 음이 등판 “긴장하고 업 업”(스포니치아넥스)",
+    "summary": "일본 프로야구 관련 — 선수단 훈련 상황과 컨디션 조율 소식을 전하는 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1MzRfV2NlVnRYVHRvdlo3a1NGRF9kOWlrRDA2ZDdVSkpOZEZheXNyRmYwUWFjbF9zRTNTR1ctVzIyZXVWTy1NUGo3eGtLNGRuTlBwUUF4LXlmSWd2aDM4ZWJEb1ZMc1c1VkEwblFVc2JKbS1YMHNia0ExYVN0WXM?oc=5",
+    "time": "오늘 19:00",
+    "is_today": true,
+    "media": "야후 뉴스",
+    "team": "NPB 종합",
+    "color": "#3b82f6",
+    "category": "⚾ 선수단 훈련"
+  },
+  {
+    "title": "야마가시 출신·이케다 세이마 선수에 요미우리가 지명 인사말 마츠이 신 감독의 사인 손에 “자신답게 진흙 냄새”라고 자세(KKT 구마모토 현민 TV)",
+    "summary": "요미우리 자이언츠 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ISDJEUGt3bXJFNFFVNnFHQ3pmOUVNcjFKV3pzNkRkMmpxR0xjY3NlWUg2Mms2MGxxX2pJb3ZPTkdHUkVFWGNjaWQ0aGlwTVVKREhQeXFqUDZLNTROZ2VsQUhXMDFzYlFxcGxrZDd1ckZ5cXJZbDZwWFBCTG9uZTA?oc=5",
+    "time": "오늘 18:46",
+    "is_today": true,
+    "media": "야후 뉴스",
+    "team": "요미우리 자이언츠",
+    "color": "#F97316",
+    "category": "🎯 드래프트 & 스카우트"
+  },
+  {
+    "title": "46세에 보이지 않는다! 전 탤런트 「에노모토 카나코」씨 12세상・사사키 주 히로시씨와 부부 샷 「계속 동경」(스포츠 경보)",
+    "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5LOG1NLU5CRVQyT3JzUEM1Q0xRZklWNjZZbXNnWExuZExGcHFDVks2QS14WWllekE5T2RLU3pad25TSDEtOVdrY1ZSTVpqRWpNZ3E5M2NYNi03TWF0SXlEY3NSZGJRV05nS2Q5d2tIdlNFQzdyTXQ4eUxLNlBSRjA?oc=5",
+    "time": "오늘 18:45",
+    "is_today": true,
+    "media": "야후 뉴스",
+    "team": "NPB 종합",
+    "color": "#3b82f6",
+    "category": "📰 구단 소식"
+  },
+  {
+    "title": "사무라이 재팬 시동, 요미우리·다케마루 투수들이 땀… 초진이 되는 이구치 감독 “모두 확실히 움직이고 있다”(요미우리 신문 온라인)",
+    "summary": "요미우리 자이언츠 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9RS0dKbEhKY1R5am9ld2RvZ2FhODZnSHZLSzJoamNhanppalNnZTRtYTJnbUlKZzhyXzFlR3NVMFdlSkFIQkYyV2w4NmsxNnlwdzFOM1loQ0d4NUFtaGFVNm9oSHdBenM0WWVkVGd5ZzhQcndPdnVRNklWZDk2NEk?oc=5",
+    "time": "오늘 18:43",
+    "is_today": true,
+    "media": "야후 뉴스",
+    "team": "요미우리 자이언츠",
+    "color": "#F97316",
+    "category": "👔 감독·코치진"
   },
   {
     "title": "[사무라이 재팬] 롯데 야마구치 항휘를 4번 지명 “도쿄 돔에 찌르는” 화려한 금발 차림으로 은혜 맹세 (일간 스포츠)",
@@ -20,6 +141,17 @@
     "team": "지바 롯데 마린스",
     "color": "#94A3B8",
     "category": "🎯 드래프트 & 스카우트"
+  },
+  {
+    "title": "기요하라 카즈히로씨 9월에 왼쪽 무릎의 인공 무릎 관절 치환술을 받았다고 보고 「친구나 아들의 뒷받침」받기 결의(스포니티아넥스)",
+    "summary": "일본 프로야구 관련 — 선수·지도자의 인터뷰와 발언을 정리한 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE11Sk9wWW5nZkdUcndxSVBzLUNNdGlIaHl5cGVXVENxZndqbl8yalIwY3NLQTNrdVg5X3RhekFMeGx4VnJBY1BDVTNZd1FVTm9WQ1N2NHl2WlNXMVR2blFkci1WV0d3OVhTR1YxY3M2UHJLYzJ2T1ByY21PS2VxNE0?oc=5",
+    "time": "오늘 18:38",
+    "is_today": true,
+    "media": "야후 뉴스",
+    "team": "NPB 종합",
+    "color": "#3b82f6",
+    "category": "🎙 인터뷰 & 코멘트"
   },
   {
     "title": "목표는 가장 꼬리표! 프로야구 선수도 단련하는 언덕길을 격주, 아이 약 170명이 「언덕의 보리」에 도전 홍일점의 도전도",
@@ -44,7 +176,7 @@
     "category": "🎯 드래프트 & 스카우트"
   },
   {
-    "title": "훈련 2순위인 가와시마 켄신과 협상 중 \"앞으로 일본 공계에서 대표 투수가 되고 싶다\" (야구왕)",
+    "title": "세이부, 육성 2위의 가와시마 켄신과 입단 협상 「장래는 일본의 구계를 대표하는 투수가 되고 싶다」(베이스볼 킹)",
     "summary": "세이부 라이온즈 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5lZ3Vsblp6TzJzZUFiOWxoODBJS0xDczVwQ0FQOU5CbHJSNDdQZVlwMnFzbzBGYThnUzZzMkRWQWlDU1BYdm0tUDdTM2Uxcm9BcWk4ZXdPRWNJTmQ4ODBsa28yc2VoVWJTMVQ3RUVSbmc5aVgtNXZXZEE0cTJSUzg?oc=5",
     "time": "오늘 18:33",
@@ -55,7 +187,7 @@
     "category": "📰 구단 소식"
   },
   {
-    "title": "프로 야구/이적 포수인 타쿠야 카이는 스승인 시마 모토히로의 \"37\" 을 물려받는다 (OBS 오이타 방송)",
+    "title": "프로야구·라쿠텐 이적의 카이 타쿠야 포수가 입단 회견 등번호는 스승·시마기 히로시씨의 「37」을 계승한다(OBS오이타 방송)",
     "summary": "라쿠텐 골든이글스 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5mSjBQSDBJYkJOdE42bHl4UGRLZUpUSEQ4SVhnWVVWNHpMRkhxSDVDanlyWkFRc1Fnd05aeVQ2eUJKRkloZXVLM0hkcUVBYmplSklnWURQeGU1REhhN0UxTjdra1ZZT19iMlNGRnhDeFlTNlNmWTlYamFYNTJBV0k?oc=5",
     "time": "오늘 18:29",
@@ -77,23 +209,12 @@
     "category": "🎯 드래프트 & 스카우트"
   },
   {
-    "title": "기요하라 카즈히로 (Kazuhiro Kiyohara) 는 왼쪽 무릎 수술을 받았으며 현재 재활원에 있으며 \"반드시 살아날 것\" 이라고 고백했다. (이스트 스팟 웹)",
+    "title": "기요하라 카즈히로씨가 왼쪽 무릎의 수술을 받고 있었다고 고백 현재 재활중 「반드시 부활합니다」(히가시스포 WEB)",
     "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzYk5OZzJURHBSVjdCRC1WYXlWR0xQUjVSc1dHS0NOc1VlcWJmc2lyVDRxcE5GTkwtNkFQb2hpekM3Xy0yZlBaVmI0YjZJSlFLNXNPY1FnZ1FzY2pvRmtLSEZCbmlkMVVSOGJEeGZRcktzdGgtS0Zhb3A3TVc4TXc?oc=5",
     "time": "오늘 18:20",
     "is_today": true,
     "media": "야후 뉴스",
-    "team": "NPB 종합",
-    "color": "#3b82f6",
-    "category": "📰 구단 소식"
-  },
-  {
-    "title": "[記憶喪失級] 大谷翔平の直筆サインを狙え！TOPPS FINEST NPB 2026を開封したらヤバすぎた",
-    "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5iT0t4al9KMlZDTHhmampIYTk5SE9Fbmp5eWI0QnF4U3hmZlJaeTJBOUJvVzd3dW1adk1FdC1VaHRqQQ?oc=5",
-    "time": "오늘 18:19",
-    "is_today": true,
-    "media": "YouTube",
     "team": "NPB 종합",
     "color": "#3b82f6",
     "category": "📰 구단 소식"
@@ -110,18 +231,7 @@
     "category": "👔 감독·코치진"
   },
   {
-    "title": "요미우리 · 마츠이 신 감독, 적극적으로 대화 추계 캠프 : 프로 야구",
-    "summary": "요미우리 자이언츠 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ZU3RibDc3aVROR2RTZnRVUnZaYVBucDJpT1FldlJ6UDZBNGZ1bjdWNXZBaEdRVkg2dUh0RTUxc3lHM0sxTDg1UFB5RkhHVDV0NzVJWGpNQ3kwUWhwTG5nNkRtcUhRREdDREE?oc=5",
-    "time": "오늘 18:18",
-    "is_today": true,
-    "media": "후쿠시마 미미토모 신문",
-    "team": "요미우리 자이언츠",
-    "color": "#F97316",
-    "category": "👔 감독·코치진"
-  },
-  {
-    "title": "전설 스카우트, \"황금알 구별법\" \"성공적인 투수란 무엇인가\" 공개 (Sponicianex)",
+    "title": "“전설의 스카우트”가 밝힌 “금 달걀을 구별하는 방법” “성공하고 있는 투수라고 하는 것은”(스포니치아넥스)",
     "summary": "일본 프로야구 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GZ1Rwdlo4S3lCTzREM0RTVEEtOHNrN1NoQm9FaXdwZW03NnNjZWM1ZEtZRHk3ZDNZbDl2Y2hiTUJ5V2JzOTNtYW9Mb25ONTMtZlhtMUc3NzZNcVFmdnVUM09EYnZ0ejNCZFpxazRTMEZHZ0ZYS1IxMVd0TVZMLU0?oc=5",
     "time": "오늘 18:14",
@@ -143,7 +253,7 @@
     "category": "👔 감독·코치진"
   },
   {
-    "title": "[프로야구] 2026 골든그랩 어워드는 언제 발표되나요? 선발 절차와 137명의 적격 지원자를 나열합니다.",
+    "title": "[프로야구] 2026년 골든그러브상 발표는 언제? 전형 방법과 유자격자 137명을 일람으로 소개",
     "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcmtRNWxJTVVfMDA1LXdQaTMzcXpRYmVTRndsV0l6a25nNWRrQmNJMV9FeFlWOWJrZVhZV0x1YThMUG5mX3l4Y3JEQTRoZlE0cUN6ZzExeFo0Rlp2Q2xIR1lWSVBCWGJwT295YXNLa215Z2JIenY5TXQ3RGtQM1R1SkdvZXhYNlVXQk4tWkNRck1RUzdSTE1HZTQwMHJpR0lQWnZiVVB3UlNkUUE?oc=5",
     "time": "오늘 18:08",
@@ -154,7 +264,7 @@
     "category": "📰 구단 소식"
   },
   {
-    "title": "기요하라 카즈히로 (Kazuhiro Kiyohara) 가 인공 무릎 관절 수술을 고백하며 손에 막대기를 든 채 재활 중인 자신의 모습을 공개합니다. \"살기 위해서라도 버리고 싶은 날도 있습니다.\" (일간스포츠)",
+    "title": "기요하라 카즈히로 씨 인공 무릎 관절의 수술을 고백 지팡이를 손에 재활 모습 공개 「살기마저 던지고 싶어지는 날도」(일일 스포츠)",
     "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1iZUhORktGeVdPVVJkUXYzME1BajBXbFZnRjUxZk1HQWplcGlXMUlLV05uWDFfYTEtQzByUzhKMTM1UVh5czdCUmY4bnBTTkhPZ2lPXzk0T1AyT3BPa2F0YkJQNmxpLU5oVWstVTR0NTZwWnVNOUp5NHdhOHUxbGs?oc=5",
     "time": "오늘 18:01",
@@ -165,7 +275,7 @@
     "category": "📰 구단 소식"
   },
   {
-    "title": "한국 프로야구에서 가장 많은 홀드 투수는 역시 하단에 드래프트되거나 트레이닝 지명을 받아도 \"과소평가할 수 없는 6명\" (AERA 디지털) 이다.",
+    "title": "한국프로야구의 최다 홀드 투수도 드래프트 하위·육성 지명에서도 「만들 수 없는 6명」(AERA DIGITAL)",
     "summary": "일본 프로야구 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96am5kcGlhdGw4emdVYkszNG5rN0l6Uy11RlNqOFFOMFNPcDJ4QVpOSUx0QU52OTFVbTBqck1qTWdETXdYMXhJQ3dwVnMxUXlaVktmMkZ0RnNtaVJXdWJRelV6OFV0NmZPaEtiQXRoRXY2VDF6MlFLN0ZEdU5veDg?oc=5",
     "time": "오늘 18:00",
@@ -176,7 +286,7 @@
     "category": "🎯 드래프트 & 스카우트"
   },
   {
-    "title": "코치진은 \"Yoshii Connection\" 으로 갱신되었으며, Takuya Kai도 다음 시즌 Pa 리그에서 번개에서 태풍의 눈까지 가장 낮은 순위에 합류했습니다 (Aera 디지털).",
+    "title": "라쿠텐 「요시이 인맥」에서 코치 진쇄신, 카이 타쿠야도 전격 가입 최하위부터 내계 파·리그의 태풍의 눈에",
     "summary": "라쿠텐 골든이글스 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9rTElNamJZNEtrbF9lVXNCMjNac1hPRUVJQUJjcFhPSi1xQ3RkbVhOVWlzT0s4NDEzUk5YM2dRTTJUdk1idnREM2FXalVIQVlCTkM2WHFmeW4tTy1BS1dUNHNKY3R5WnktMERVeGFrMnZKdkZZTTRWZ3dJd3BlaGs?oc=5",
     "time": "오늘 18:00",
@@ -187,7 +297,7 @@
     "category": "👔 감독·코치진"
   },
   {
-    "title": "기요하라 카즈히로 (Kazuhiro Kiyohara) 는 왼쪽 무릎에 수술을 받았음을 밝힙니다. 9 월에 그는 \"인공 무릎 관절 치환술\" 재활 치료를 시작했습니다. \"반드시 살아날 것입니다\"... [전체 보고서]",
+    "title": "기요하라 카즈히로씨 왼쪽 무릎의 수술을 받은 것을 밝힌다 9월에 「인공 무릎 관절 치환술」재활도 개시 「반드시 부활합니다」…[보고 전문]",
     "summary": "일본 프로야구 관련 — 선수·지도자의 인터뷰와 발언을 정리한 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUSTd4bEtSV2hkaXRqa2RaUXVRanVoenBFbl9ORnBoUzB3cDRINDMydXM2aThMRnlFMEhJWFlNSXFMcVZQLUNtYU9naHMteUlTeTh2NFBiZFZ4ME9wZHg2VV9mMDdpZmdJZ1ZpbDhvTFdjeTFQeU9GT0tsWHVZZkE?oc=5",
     "time": "오늘 18:00",
@@ -198,18 +308,7 @@
     "category": "🎙 인터뷰 & 코멘트"
   },
   {
-    "title": "병마와 싸우다 세상을 떠난 아나운서의 마지막 포스팅은 “잘 치료하고 최선을 다하겠다” 였습니다. 지난 5월부터는 진료를 위해 공연이 중단되었습니다.",
-    "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE11OS1tNHVLTE9SWTdXY0Rxem9CNG9zZ05GdDhTbEo2WjdMQzlwVjc2ZWRLcWRWelF2ZlRKcl8wbEVOSkxhMURsVHY0VENMTURPNDlxRzd0bmpsNWRnd3RNS3UzdzA4MjJCR1VNbXdsUzRsOURweS1ueEhLM0kzdWM?oc=5",
-    "time": "오늘 17:54",
-    "is_today": true,
-    "media": "야후 뉴스",
-    "team": "NPB 종합",
-    "color": "#3b82f6",
-    "category": "📰 구단 소식"
-  },
-  {
-    "title": "[Rizin] Asakura Mirai and Gustavo rematch in \"Lightweight\", Gustavo \"Belt Bet\". 스즈키 치히로는 야만인과 싸우기 위해 돌아오고, 이자와 세이카는 출산 휴가에서 돌아옵니다! = 신년 전야 \"Super RIZIN.6\" 나고야 돔 (공무술)",
+    "title": "[RIZIN] 아사쿠라 미래와 구스타보가 '라이트급'으로 재전, 구스타보는 '벨트 내기'. 스즈키 치유가 복귀로 YA-MAN과 대전, 산휴에서 이자와 세이카가 전격 복귀! = 새해 전날 「초RIZIN.6」나고야 돔(공격투기)",
     "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wM0MwMnRfUW1LNHF1N0dCYWJQcTRubElpLTFXTFRTbDlqVU9TdDdQdTVxeVpnSC02Tm14UlU2MnRIVjZUdUJDUTZzb3dfcDdzaXlsUnVsaWUtbFRrbC1pY1VCazUzYU4tRGRxVWlKZGVSdzFEc1gzUTVZV215YUE?oc=5",
     "time": "오늘 17:51",
@@ -220,7 +319,7 @@
     "category": "📰 구단 소식"
   },
   {
-    "title": "[명단] 프로야구 12 야구단 은퇴 FA 은퇴 현역 드래프트 트레이드 등",
+    "title": "[목록] 프로야구 12구단 전력외 은퇴 FA퇴단 현역 드래프트 트레이드 등",
     "summary": "일본 프로야구 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVG1jSHFQWHlCRnM2T18tWmYyYzRKS0xRVEhFQ1p0MkVNcmZVSFUtRnJmNExSbTA0U3MzNlFNYThhY0VMaWxMU1RJZjR2OHJxODNBSmN3WmJkcEl1OXU3ckNXaFdrNkRmYWkzaHpSSWdDb3pVSklQLWx2cFladzhfQTZuaHQ0X1hQNEN3SVo4TmVnVFFna2NkV3VyeXB1Wm02?oc=5",
     "time": "오늘 17:48",
@@ -229,104 +328,5 @@
     "team": "NPB 종합",
     "color": "#3b82f6",
     "category": "🎯 드래프트 & 스카우트"
-  },
-  {
-    "title": "카이와 이시이 GM 프로야구 (뉴스레터)",
-    "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBZZ0d5Tmd6OEIzMWZEUW1oMUZXbXdpUURzTWd1VWs0VG9Tb0tUVkNrRm90TVVGZmFPMmN4X1c2OWpSZnV4dmtHQUdpbE90NFpDM2pWeVFwRjFHSG5oV2NsVmdvNF9nSjJ0ZjlCaVlrc0twX3E0Y0QzYTZRbHZIa0U?oc=5",
-    "time": "오늘 17:33",
-    "is_today": true,
-    "media": "야후 뉴스",
-    "team": "NPB 종합",
-    "color": "#3b82f6",
-    "category": "📰 구단 소식"
-  },
-  {
-    "title": "KAI 프로야구 (뉴스레터) 가 KAI로 이적",
-    "summary": "라쿠텐 골든이글스 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5iQU9OU2Z3bE5ZYWVkODdOR3NZNlZiajF5SllHTWxWU2lrV1dOZ2ZBX1o5SWVLc0R3TXN1WHdZdTVCUjZHYkl2Rm9sczRCRkVFS1kxaEw2SGcxN1dheTVxNXdtbG5FVXhEQ1RGV2luWkJKNEdHT0lmcHZTc1lQX3c?oc=5",
-    "time": "오늘 17:33",
-    "is_today": true,
-    "media": "야후 뉴스",
-    "team": "라쿠텐 골든이글스",
-    "color": "#991B1B",
-    "category": "📋 전력외·은퇴·이적"
-  },
-  {
-    "title": "이미지/사진: KAI 프로야구가 KAI로 이적: 시사 닷컴",
-    "summary": "라쿠텐 골든이글스 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5KUHpDZGVwVk96V05lSTRGR0FHRXpycGdEZG9HNUFtRmRtU2xtN3ZURElSN3hpOHU2b1doZnM0TkVYTmFFV0p0d2JzZEJBWDZOYW5BZko4M3ZXWERiZTY3VDFjWWE?oc=5",
-    "time": "오늘 17:32",
-    "is_today": true,
-    "media": "시사 닷컴",
-    "team": "라쿠텐 골든이글스",
-    "color": "#991B1B",
-    "category": "📋 전력외·은퇴·이적"
-  },
-  {
-    "title": "이미지/사진: KAI와 이시이 GM 프로야구: 시사 닷컴",
-    "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBGUWxwSkQwOWhFSVNUSVJLMkxkcmx5UE12cEpLdnNKeGpqZWZkQ3h1UzlBa0xkLXJ5NGMxRzVKS1pZdU4waFdyY3JIdm1BYUt5dEZNNEk1eVRNN0hIY0pkQ2RIdEg?oc=5",
-    "time": "오늘 17:32",
-    "is_today": true,
-    "media": "시사 닷컴",
-    "team": "NPB 종합",
-    "color": "#3b82f6",
-    "category": "📰 구단 소식"
-  },
-  {
-    "title": "◎KAI 프로야구, KAI 등록 컨퍼런스 참석",
-    "summary": "라쿠텐 골든이글스 관련 — 선수·지도자의 인터뷰와 발언을 정리한 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBfY2RLOV83VnZaQUpjck5ucWtXaktfOGlHLXFSUHdOWThpcVpUaTRoVGQ1OUQwdW1kTUVNZFBBYTV6Qk5sQ1RNXzhKeVpsMVFyN1licg?oc=5",
-    "time": "오늘 17:32",
-    "is_today": true,
-    "media": "지지통신",
-    "team": "라쿠텐 골든이글스",
-    "color": "#991B1B",
-    "category": "🎙 인터뷰 & 코멘트"
-  },
-  {
-    "title": "\"마츠이가 매니저라면, 나는 그것을보고 싶다.\" 볼 세계의 지도자의 \"진지한 손\" 의 감독에 필요한 \"Zundoko\" 는 무엇입니까? (AERA DIGITAL)",
-    "summary": "요미우리 자이언츠 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBIQy1QM2w2WTJ4OGtiVTJBRV9IZmJLSjhrbWpzaFBPcW5uTy1GNGNIOE5oVXdoV2NiR3FmdElwSnNZblQ3WkpsZGVzejhaYk9nNi0yYmZWOHpTdU5ZS0E1bWlUQWZBMTNBUmEwSzh2OVI1X2NyNGZ4SkwyZTk4Yk0?oc=5",
-    "time": "오늘 17:30",
-    "is_today": true,
-    "media": "야후 뉴스",
-    "team": "요미우리 자이언츠",
-    "color": "#F97316",
-    "category": "👔 감독·코치진"
-  },
-  {
-    "title": "두 명의 전 NPB 어시스턴트인 수호 여신 얀센은 다음 시즌 500세이브가 남을 때까지 FA에 남아 있습니다 (야구왕)",
-    "summary": "한신 타이거스 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1IQVNocUx2d3g2TDBmNk1MU1FwdENGdmVpc2RNb194TEJnOGVwMmRScDVmM0FTNUpXVmtRSWlyTnZWMExVY0JMUWsxMXg2dzNENnNMNl9QSDNMeDJfX2hmZFNjUHNERnA5elFlQ2RmdE92dlpfRnJ4NklLcEVjcmc?oc=5",
-    "time": "오늘 17:30",
-    "is_today": true,
-    "media": "야후 뉴스",
-    "team": "한신 타이거스",
-    "color": "#EAB308",
-    "category": "📋 전력외·은퇴·이적"
-  },
-  {
-    "title": "한국 프로야구에서 가장 많은 홀드 투수는 드래프트 최하위와 트레이닝 지명에서도 \"과소평가할 수 없는 6명\" 이다.",
-    "summary": "일본 프로야구 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9relpPTzJXSGczUldtcnRmV181WmZxeFMyQzg5QURvSnpQdlJOWGN2aGdoTzYzUjhqaWVSQ0s5cGhLa3lZS3lDaldKbDQya3Rp?oc=5",
-    "time": "오늘 17:30",
-    "is_today": true,
-    "media": "AERA DIGITAL",
-    "team": "NPB 종합",
-    "color": "#3b82f6",
-    "category": "🎯 드래프트 & 스카우트"
-  },
-  {
-    "title": "드디어 오다 쇼키가 메이저 구단과의 면담에 요미우리와의 협상은…",
-    "summary": "요미우리 자이언츠 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Kdkk5eV9jQ3UzYmE0SkJTMVphNWRQU2c3dVNtOWxjekpkU3lqanJXUUllQTFmWks3dFl1QzNVdzFGdDduaXVDZ1I5dHAyTzR1WS1PcXgxckpFS1RPUlBtZFFSVHhyTW5lX3Fqb0loVFhWU0pOcFJnaHNkU05ZWms?oc=5",
-    "time": "오늘 17:27",
-    "is_today": true,
-    "media": "야후 뉴스",
-    "team": "요미우리 자이언츠",
-    "color": "#F97316",
-    "category": "📰 구단 소식"
   }
 ]
