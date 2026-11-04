@@ -3,26 +3,6 @@
   "days_fwd": 6,
   "days": [
     {
-      "date": "2026-10-12",
-      "display": "10월 12일 (월)",
-      "is_today": false,
-      "games": [
-        {
-          "gid": "2021039479",
-          "home": "세이부 라이온즈",
-          "away": "니혼햄 파이터즈",
-          "score_home": "1",
-          "score_away": "4",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "벨루나 돔",
-          "venue_jp": "ベルーナドーム",
-          "series": "🍁 CS 퍼스트 스테이지"
-        }
-      ]
-    },
-    {
       "date": "2026-10-13",
       "display": "10월 13일 (화)",
       "is_today": false,
@@ -392,7 +372,7 @@
     {
       "date": "2026-11-04",
       "display": "11월 4일 (수)",
-      "is_today": true,
+      "is_today": false,
       "games": [
         {
           "gid": "2021039495",
@@ -412,7 +392,7 @@
     {
       "date": "2026-11-05",
       "display": "11월 5일 (목)",
-      "is_today": false,
+      "is_today": true,
       "games": [
         {
           "gid": "2021039495",
@@ -512,6 +492,26 @@
     {
       "date": "2026-11-10",
       "display": "11월 10일 (화)",
+      "is_today": false,
+      "games": [
+        {
+          "gid": "2021039495",
+          "home": "소프트뱅크 호크스",
+          "away": "요코하마 DeNA 베이스타스",
+          "score_home": "4",
+          "score_away": "2",
+          "status": "경기 종료",
+          "state": "final",
+          "start": "",
+          "venue": "미즈호 PayPay 돔",
+          "venue_jp": "みずほPayPay",
+          "series": "🏆 SMBC 일본시리즈"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "display": "11월 11일 (수)",
       "is_today": false,
       "games": [
         {
