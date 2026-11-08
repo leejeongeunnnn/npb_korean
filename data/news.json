@@ -1,5 +1,49 @@
 [
   {
+    "title": "[프로야구] ■요미우리 내일 오다에 인사",
+    "summary": "요미우리 자이언츠 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1zRjVrWldDWUJqdWZNM3FjcFVtTGUxbUlyNk40WHdzY0hHcUNONEsxbTR0N0wzRmloejdKSFlaVjFKYkU1RWFfeWVmUGVzeHpXNGY4S3hCZ0ZEcDNCY1E?oc=5",
+    "time": "오늘 03:57",
+    "is_today": true,
+    "media": "오키나와 타임스사",
+    "team": "요미우리 자이언츠",
+    "color": "#F97316",
+    "category": "📰 구단 소식"
+  },
+  {
+    "title": "이치로씨 현역시대에 싫었던 타자 밝힌다 “올해의 밀워키, 그러한 선수를 모으고 있다”(스포니치아넥스)",
+    "summary": "일본 프로야구 관련 — 선수·지도자의 인터뷰와 발언을 정리한 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1jbGpHYU1CTHNHTC13aW12Zm9NeVgtQ2ZSNGgzUGI3Q013cV9KZ2tENElvVUQtUENJb2JOckE3Z3BwRGlVbXoxVk9TLWFteld2aEdidks4M2VDTVdXNVF0MEI1T1FWZDJfeklUemM2MnNMNkIyemh0emJoMXlxM2M?oc=5",
+    "time": "오늘 02:18",
+    "is_today": true,
+    "media": "야후 뉴스",
+    "team": "NPB 종합",
+    "color": "#3b82f6",
+    "category": "🎙 인터뷰 & 코멘트"
+  },
+  {
+    "title": "[사무라이 재팬] 4번·야마구치 항휘가 사무라이 첫 안타 & 선제타! 도회의 「걱정하지 마세요」에 감사 신포즈는… (스포니치아넥스)",
+    "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJNmcwY0ppQ1FaQS02RTZPRUY0N241cXIxMG1POTlnbXVTYnkwRHU2dlpNUVlFLW5oX2d3MTlQYUVRWjNpTmlvN3FETmRDUXJTTmFLX2IycHNvemt2VXNzaDN5TWFTaE5UelloU3FBb3hMaXRzRlhabnBuNHMwdGs?oc=5",
+    "time": "오늘 02:11",
+    "is_today": true,
+    "media": "야후 뉴스",
+    "team": "NPB 종합",
+    "color": "#3b82f6",
+    "category": "📰 구단 소식"
+  },
+  {
+    "title": "2026년 프로야구 FA 이적·포스팅 주목 선수 일람 | 야구 정리 - 주간 베이스볼 ONLINE",
+    "summary": "일본 프로야구 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBHb0pmYWYxdlQ5U1E5US0yU0UxSG1BcGRjN1hybVNDRTFFSlJudXZ1Zk1oV1dtQVdYX01KdnJ3d3d4VkdXbTRZdFZsOVdWanNCSmZCSldRN190akFxZ25JUEdCUHhHMnZTUlh6eURrbjZOYUtDVXo4Q0x30gF_QVVfeXFMUFpMejkwdjRDaXphbXhGbmFENTVydFM5M3NIRV9XeVJhVkt6QXdwZUVZRHdsV2c3bFFsbzM0azhQZjdQbHVzeFlDZ1ltLXhWNGNlY2s2a2M0NlV5VThmbnVtM3FGenpPMDlDSTc4emxoenQ2eGhtSW9xVHlyYl9yOA?oc=5",
+    "time": "오늘 01:45",
+    "is_today": true,
+    "media": "주간 베이스볼",
+    "team": "NPB 종합",
+    "color": "#3b82f6",
+    "category": "📋 전력외·은퇴·이적"
+  },
+  {
     "title": "럭셔스 아시아 프로야구 챔피언십 2026 한국 대표",
     "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBDRDQxaG9rcVN1dFN0M3V5a0V2aWEyZFFLSmtxS1NsNnBmMEtkY01nWGhzc1VxeDNyZ05IbnMyelNyWnN2RVZYcWVFQldWS0xOSmNSb0hNWlE2cHMwZEZMb1h4S1dCMmcwRm16WDdad0E?oc=5",
@@ -31,17 +75,6 @@
     "team": "NPB 종합",
     "color": "#3b82f6",
     "category": "📰 구단 소식"
-  },
-  {
-    "title": "2026년 프로야구 FA 이적·포스팅 주목 선수 일람 | 야구 정리 - 주간 베이스볼 ONLINE",
-    "summary": "일본 프로야구 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBHb0pmYWYxdlQ5U1E5US0yU0UxSG1BcGRjN1hybVNDRTFFSlJudXZ1Zk1oV1dtQVdYX01KdnJ3d3d4VkdXbTRZdFZsOVdWanNCSmZCSldRN190akFxZ25JUEdCUHhHMnZTUlh6eURrbjZOYUtDVXo4Q0x30gF_QVVfeXFMUFpMejkwdjRDaXphbXhGbmFENTVydFM5M3NIRV9XeVJhVkt6QXdwZUVZRHdsV2c3bFFsbzM0azhQZjdQbHVzeFlDZ1ltLXhWNGNlY2s2a2M0NlV5VThmbnVtM3FGenpPMDlDSTc4emxoenQ2eGhtSW9xVHlyYl9yOA?oc=5",
-    "time": "어제 22:42",
-    "is_today": false,
-    "media": "주간 베이스볼",
-    "team": "NPB 종합",
-    "color": "#3b82f6",
-    "category": "📋 전력외·은퇴·이적"
   },
   {
     "title": "「선택지가 있다」의 행복――블루 제이즈의 카토 호장이 말하는 18세·오다 쇼키의 미국 도전과 일본 프로야구의 미래",
@@ -85,6 +118,17 @@
     "media": "야후 뉴스",
     "team": "한신 타이거스",
     "color": "#EAB308",
+    "category": "📰 구단 소식"
+  },
+  {
+    "title": "야쿠르트 1위의 도쿄 가스 후지사와 “회사 짊어지는 무게를…” 일본 선수권(매일 신문)",
+    "summary": "야쿠르트 스왈로스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE00MVZTaEs5Q2ZZa3dreVhQSU96aUtfbGdBUkRJQm9MWkZ0QXFJQ3Y2OWVDZXVacF9nUzZhazlONVp1bEJmT3ZwVWJ4alRfVjc3b1MzUC11bHZKWG9IQUF1RDdudWd0YzRBYnVFNUhIVjdacmlIWFZSTmRlemhPdDA?oc=5",
+    "time": "어제 21:13",
+    "is_today": false,
+    "media": "야후 뉴스",
+    "team": "야쿠르트 스왈로스",
+    "color": "#475569",
     "category": "📰 구단 소식"
   },
   {
@@ -143,17 +187,6 @@
     "category": "📰 구단 소식"
   },
   {
-    "title": "[사무라이 재팬] 팀 최연장의 모리타 하야야 \"어디서든 할\" 요미우리는 시즌 종반 승리 패턴 연습 경기에서 불과 9구의 압권 투구",
-    "summary": "요미우리 자이언츠 관련 — 선수단 훈련 상황과 컨디션 조율 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBRYXdvWG82eWVsZFh5cnhpczd2M1hsckdtYnU5MnlRV0JQaDJsX1NheG1KV1NJWmd2b1VhUlk0OTh3S01VNVJPbUFrN3VFQ2RnaTBKX20zZkVZWE00OElaSm9MTnNZaHpjekwteE9wWk52eXB3blVqcUNISHRxbDg?oc=5",
-    "time": "어제 20:45",
-    "is_today": false,
-    "media": "야후 뉴스",
-    "team": "요미우리 자이언츠",
-    "color": "#F97316",
-    "category": "⚾ 선수단 훈련"
-  },
-  {
     "title": "프로야구 : DeNA·도주 쿄 타카, 해외 FA권을 행사 구단은 잔류 협상을 계속",
     "summary": "요코하마 DeNA 베이스타스 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE92VzVzWF9kOVh0cTE2OUxwNG9kQ0FkUDBRSlF1SXpycmdWYmU2LVJQTlduazBBbXd6eFlJZ25YcUxIcmwxdy1KMmZlRVc2R2NObEFUUkdyamdzaG1vNXlzVGt0Um14TkpTTXRtVA?oc=5",
@@ -176,17 +209,6 @@
     "category": "📰 구단 소식"
   },
   {
-    "title": "[사무라이 재팬] 4번·야마구치 항휘가 사무라이 첫 안타 & 선제타! 도회의 「걱정하지 마세요」에 감사 신포즈는… (스포니치아넥스)",
-    "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJNmcwY0ppQ1FaQS02RTZPRUY0N241cXIxMG1POTlnbXVTYnkwRHU2dlpNUVlFLW5oX2d3MTlQYUVRWjNpTmlvN3FETmRDUXJTTmFLX2IycHNvemt2VXNzaDN5TWFTaE5UelloU3FBb3hMaXRzRlhabnBuNHMwdGs?oc=5",
-    "time": "어제 20:26",
-    "is_today": false,
-    "media": "야후 뉴스",
-    "team": "NPB 종합",
-    "color": "#3b82f6",
-    "category": "📰 구단 소식"
-  },
-  {
     "title": "스즈키 세이야를 MLB 공식 사이트 기자가 고평가 “스쿠벌을 제외하면, 지금 오프 최고의 FA일지도 모른다”(THE DIGEST)",
     "summary": "일본 프로야구 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBnVFNENWF0S1RZalh4Qmx3RWNlbl9tNld1ZWh4bGgtOFRTQmx6TlFmR29fNFB1SXcxXzJSYVFQb3hKSi1BSDdFY2oxXzdtRVViX2dTRWhlZHVOYkczM25zODFhT21wNk56R0Y0STZmXzQwTjZhdWhYOUYzV3BWNTA?oc=5",
@@ -196,17 +218,6 @@
     "team": "NPB 종합",
     "color": "#3b82f6",
     "category": "📋 전력외·은퇴·이적"
-  },
-  {
-    "title": "요미우리의 마츠이 감독, 키시다를 지도 프로 야구",
-    "summary": "요미우리 자이언츠 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE93Z3FqLU9tdGp6WWRiMnJyTW9IZTNZZG5QNlJhNWdEUmdHNlk0RWNoV1Nhc1B0T05PWXR5cE92X0tnenh4VC1hb3dDenZXa1hJ?oc=5",
-    "time": "어제 20:10",
-    "is_today": false,
-    "media": "사가 경제 신문",
-    "team": "요미우리 자이언츠",
-    "color": "#F97316",
-    "category": "👔 감독·코치진"
   },
   {
     "title": "사무라이 재팬·이구치 감독, 세이부·시노하라 히비키를 수호신 지명! 가장 빠른 153킬로로 9회의 1이닝 무실점 「이런 순서가 될 것 같다」",
@@ -308,23 +319,12 @@
     "category": "👔 감독·코치진"
   },
   {
-    "title": "이미지・사진：호소카와는 6000만엔 증가 프로야구：시사닷컴",
-    "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9GTDgybHJPT3g5cUstX0ZFTGxYbXVJcERlRzBRREdvUW5jRFJ5RTZvcGw2UEdXbEY1SGNGNVBDbmZwRm92cWdJUE5mTWdSQ2ZGTkZ0VFZBY09pbFlMZmtGYlJIdzI?oc=5",
-    "time": "어제 19:36",
-    "is_today": false,
-    "media": "시사닷컴",
-    "team": "NPB 종합",
-    "color": "#3b82f6",
-    "category": "📰 구단 소식"
-  },
-  {
-    "title": "이미지・사진：요미우리의 마츠이 감독, 키시다를 지도 프로 야구：시사닷컴",
+    "title": "요미우리의 마츠이 감독, 키시다를 지도 프로 야구 (시사 통신)",
     "summary": "요미우리 자이언츠 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE10TmtyVndMaTdBckY5d1Q1cF9ZWE5tSzU3WXg5MzVhZ2lRZHRVSGNLOXZXbzVQQUxmeVA0eHFoRmNtUUFROHp3R3hORTFGSU92VmFkNFJJX1J5eU80RUxDU1EyZ1Q?oc=5",
-    "time": "어제 19:36",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPczdkQkplZExDTnhPUmI2VTJZcV9rRVBhUGU0T3hndjlxLXpFeEdVSm9QTnJ6OGtPQThiVzZfbEdadzdxMmxyOTR2Y0pvX0FUNVRIVVlITUM4Vzg1S0xtbzZXMGRKRERqYlZ1OTFOb2Eza294d081MTM1eW5LQ0xKckplZWxGY19XM0NBWDJn?oc=5",
+    "time": "어제 19:37",
     "is_today": false,
-    "media": "시사닷컴",
+    "media": "야후 뉴스",
     "team": "요미우리 자이언츠",
     "color": "#F97316",
     "category": "👔 감독·코치진"
