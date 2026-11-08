@@ -3,39 +3,6 @@
   "days_fwd": 6,
   "days": [
     {
-      "date": "2026-10-16",
-      "display": "10월 16일 (금)",
-      "is_today": false,
-      "games": [
-        {
-          "gid": "2021039482",
-          "home": "한신 타이거스",
-          "away": "요코하마 DeNA 베이스타스",
-          "score_home": "0",
-          "score_away": "4",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "한신 고시엔 구장",
-          "venue_jp": "甲子園",
-          "series": "🔥 CS 파이널 스테이지"
-        },
-        {
-          "gid": "2021039488",
-          "home": "소프트뱅크 호크스",
-          "away": "니혼햄 파이터즈",
-          "score_home": "6",
-          "score_away": "2",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "미즈호 PayPay 돔",
-          "venue_jp": "みずほPayPay",
-          "series": "🔥 CS 파이널 스테이지"
-        }
-      ]
-    },
-    {
       "date": "2026-10-17",
       "display": "10월 17일 (토)",
       "is_today": false,
@@ -380,7 +347,7 @@
     {
       "date": "2026-11-08",
       "display": "11월 8일 (일)",
-      "is_today": true,
+      "is_today": false,
       "games": [
         {
           "gid": "2021039495",
@@ -400,7 +367,7 @@
     {
       "date": "2026-11-09",
       "display": "11월 9일 (월)",
-      "is_today": false,
+      "is_today": true,
       "games": [
         {
           "gid": "2021039495",
@@ -500,6 +467,26 @@
     {
       "date": "2026-11-14",
       "display": "11월 14일 (토)",
+      "is_today": false,
+      "games": [
+        {
+          "gid": "2021039495",
+          "home": "소프트뱅크 호크스",
+          "away": "요코하마 DeNA 베이스타스",
+          "score_home": "4",
+          "score_away": "2",
+          "status": "경기 종료",
+          "state": "final",
+          "start": "",
+          "venue": "미즈호 PayPay 돔",
+          "venue_jp": "みずほPayPay",
+          "series": "🏆 SMBC 일본시리즈"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "display": "11월 15일 (일)",
       "is_today": false,
       "games": [
         {
