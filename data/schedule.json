@@ -122,321 +122,97 @@
       "date": "2026-10-29",
       "display": "10월 29일 (목)",
       "is_today": false,
-      "games": [
-        {
-          "gid": "2021039495",
-          "home": "소프트뱅크 호크스",
-          "away": "요코하마 DeNA 베이스타스",
-          "score_home": "4",
-          "score_away": "2",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "미즈호 PayPay 돔",
-          "venue_jp": "みずほPayPay",
-          "series": "🏆 SMBC 일본시리즈"
-        }
-      ]
+      "games": []
     },
     {
       "date": "2026-10-30",
       "display": "10월 30일 (금)",
       "is_today": false,
-      "games": [
-        {
-          "gid": "2021039495",
-          "home": "소프트뱅크 호크스",
-          "away": "요코하마 DeNA 베이스타스",
-          "score_home": "4",
-          "score_away": "2",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "미즈호 PayPay 돔",
-          "venue_jp": "みずほPayPay",
-          "series": "🏆 SMBC 일본시리즈"
-        }
-      ]
+      "games": []
     },
     {
       "date": "2026-10-31",
       "display": "10월 31일 (토)",
       "is_today": false,
-      "games": [
-        {
-          "gid": "2021039495",
-          "home": "소프트뱅크 호크스",
-          "away": "요코하마 DeNA 베이스타스",
-          "score_home": "4",
-          "score_away": "2",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "미즈호 PayPay 돔",
-          "venue_jp": "みずほPayPay",
-          "series": "🏆 SMBC 일본시리즈"
-        }
-      ]
+      "games": []
     },
     {
       "date": "2026-11-01",
       "display": "11월 1일 (일)",
       "is_today": false,
-      "games": [
-        {
-          "gid": "2021039495",
-          "home": "소프트뱅크 호크스",
-          "away": "요코하마 DeNA 베이스타스",
-          "score_home": "4",
-          "score_away": "2",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "미즈호 PayPay 돔",
-          "venue_jp": "みずほPayPay",
-          "series": "🏆 SMBC 일본시리즈"
-        }
-      ]
+      "games": []
     },
     {
       "date": "2026-11-02",
       "display": "11월 2일 (월)",
       "is_today": false,
-      "games": [
-        {
-          "gid": "2021039495",
-          "home": "소프트뱅크 호크스",
-          "away": "요코하마 DeNA 베이스타스",
-          "score_home": "4",
-          "score_away": "2",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "미즈호 PayPay 돔",
-          "venue_jp": "みずほPayPay",
-          "series": "🏆 SMBC 일본시리즈"
-        }
-      ]
+      "games": []
     },
     {
       "date": "2026-11-03",
       "display": "11월 3일 (화)",
       "is_today": false,
-      "games": [
-        {
-          "gid": "2021039495",
-          "home": "소프트뱅크 호크스",
-          "away": "요코하마 DeNA 베이스타스",
-          "score_home": "4",
-          "score_away": "2",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "미즈호 PayPay 돔",
-          "venue_jp": "みずほPayPay",
-          "series": "🏆 SMBC 일본시리즈"
-        }
-      ]
+      "games": []
     },
     {
       "date": "2026-11-04",
       "display": "11월 4일 (수)",
       "is_today": false,
-      "games": [
-        {
-          "gid": "2021039495",
-          "home": "소프트뱅크 호크스",
-          "away": "요코하마 DeNA 베이스타스",
-          "score_home": "4",
-          "score_away": "2",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "미즈호 PayPay 돔",
-          "venue_jp": "みずほPayPay",
-          "series": "🏆 SMBC 일본시리즈"
-        }
-      ]
+      "games": []
     },
     {
       "date": "2026-11-05",
       "display": "11월 5일 (목)",
       "is_today": false,
-      "games": [
-        {
-          "gid": "2021039495",
-          "home": "소프트뱅크 호크스",
-          "away": "요코하마 DeNA 베이스타스",
-          "score_home": "4",
-          "score_away": "2",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "미즈호 PayPay 돔",
-          "venue_jp": "みずほPayPay",
-          "series": "🏆 SMBC 일본시리즈"
-        }
-      ]
+      "games": []
     },
     {
       "date": "2026-11-06",
       "display": "11월 6일 (금)",
       "is_today": false,
-      "games": [
-        {
-          "gid": "2021039495",
-          "home": "소프트뱅크 호크스",
-          "away": "요코하마 DeNA 베이스타스",
-          "score_home": "4",
-          "score_away": "2",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "미즈호 PayPay 돔",
-          "venue_jp": "みずほPayPay",
-          "series": "🏆 SMBC 일본시리즈"
-        }
-      ]
+      "games": []
     },
     {
       "date": "2026-11-07",
       "display": "11월 7일 (토)",
       "is_today": false,
-      "games": [
-        {
-          "gid": "2021039495",
-          "home": "소프트뱅크 호크스",
-          "away": "요코하마 DeNA 베이스타스",
-          "score_home": "4",
-          "score_away": "2",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "미즈호 PayPay 돔",
-          "venue_jp": "みずほPayPay",
-          "series": "🏆 SMBC 일본시리즈"
-        }
-      ]
+      "games": []
     },
     {
       "date": "2026-11-08",
       "display": "11월 8일 (일)",
       "is_today": false,
-      "games": [
-        {
-          "gid": "2021039495",
-          "home": "소프트뱅크 호크스",
-          "away": "요코하마 DeNA 베이스타스",
-          "score_home": "4",
-          "score_away": "2",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "미즈호 PayPay 돔",
-          "venue_jp": "みずほPayPay",
-          "series": "🏆 SMBC 일본시리즈"
-        }
-      ]
+      "games": []
     },
     {
       "date": "2026-11-09",
       "display": "11월 9일 (월)",
       "is_today": false,
-      "games": [
-        {
-          "gid": "2021039495",
-          "home": "소프트뱅크 호크스",
-          "away": "요코하마 DeNA 베이스타스",
-          "score_home": "4",
-          "score_away": "2",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "미즈호 PayPay 돔",
-          "venue_jp": "みずほPayPay",
-          "series": "🏆 SMBC 일본시리즈"
-        }
-      ]
+      "games": []
     },
     {
       "date": "2026-11-10",
       "display": "11월 10일 (화)",
       "is_today": false,
-      "games": [
-        {
-          "gid": "2021039495",
-          "home": "소프트뱅크 호크스",
-          "away": "요코하마 DeNA 베이스타스",
-          "score_home": "4",
-          "score_away": "2",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "미즈호 PayPay 돔",
-          "venue_jp": "みずほPayPay",
-          "series": "🏆 SMBC 일본시리즈"
-        }
-      ]
+      "games": []
     },
     {
       "date": "2026-11-11",
       "display": "11월 11일 (수)",
       "is_today": true,
-      "games": [
-        {
-          "gid": "2021039495",
-          "home": "소프트뱅크 호크스",
-          "away": "요코하마 DeNA 베이스타스",
-          "score_home": "4",
-          "score_away": "2",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "미즈호 PayPay 돔",
-          "venue_jp": "みずほPayPay",
-          "series": "🏆 SMBC 일본시리즈"
-        }
-      ]
+      "games": []
     },
     {
       "date": "2026-11-12",
       "display": "11월 12일 (목)",
       "is_today": false,
-      "games": [
-        {
-          "gid": "2021039495",
-          "home": "소프트뱅크 호크스",
-          "away": "요코하마 DeNA 베이스타스",
-          "score_home": "4",
-          "score_away": "2",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "미즈호 PayPay 돔",
-          "venue_jp": "みずほPayPay",
-          "series": "🏆 SMBC 일본시리즈"
-        }
-      ]
+      "games": []
     },
     {
       "date": "2026-11-13",
       "display": "11월 13일 (금)",
       "is_today": false,
-      "games": [
-        {
-          "gid": "2021039495",
-          "home": "소프트뱅크 호크스",
-          "away": "요코하마 DeNA 베이스타스",
-          "score_home": "4",
-          "score_away": "2",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "미즈호 PayPay 돔",
-          "venue_jp": "みずほPayPay",
-          "series": "🏆 SMBC 일본시리즈"
-        }
-      ]
+      "games": []
     },
     {
       "date": "2026-11-14",
@@ -444,17 +220,17 @@
       "is_today": false,
       "games": [
         {
-          "gid": "2021039495",
-          "home": "소프트뱅크 호크스",
-          "away": "요코하마 DeNA 베이스타스",
-          "score_home": "4",
-          "score_away": "2",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "미즈호 PayPay 돔",
-          "venue_jp": "みずほPayPay",
-          "series": "🏆 SMBC 일본시리즈"
+          "gid": "2021052155",
+          "home": "台湾山林",
+          "away": "NPB選抜",
+          "score_home": "",
+          "score_away": "",
+          "status": "19:05 시작",
+          "state": "pre",
+          "start": "19:05",
+          "venue": "아시아 태평양",
+          "venue_jp": "アジア太平洋",
+          "series": ""
         }
       ]
     },
@@ -464,17 +240,17 @@
       "is_today": false,
       "games": [
         {
-          "gid": "2021039495",
-          "home": "소프트뱅크 호크스",
-          "away": "요코하마 DeNA 베이스타스",
-          "score_home": "4",
-          "score_away": "2",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "미즈호 PayPay 돔",
-          "venue_jp": "みずほPayPay",
-          "series": "🏆 SMBC 일본시리즈"
+          "gid": "2021052156",
+          "home": "JABA選抜",
+          "away": "NPB選抜",
+          "score_home": "",
+          "score_away": "",
+          "status": "14:05 시작",
+          "state": "pre",
+          "start": "14:05",
+          "venue": "가요시",
+          "venue_jp": "嘉義市",
+          "series": ""
         }
       ]
     },
@@ -484,17 +260,17 @@
       "is_today": false,
       "games": [
         {
-          "gid": "2021039495",
-          "home": "소프트뱅크 호크스",
-          "away": "요코하마 DeNA 베이스타스",
-          "score_home": "4",
-          "score_away": "2",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "미즈호 PayPay 돔",
-          "venue_jp": "みずほPayPay",
-          "series": "🏆 SMBC 일본시리즈"
+          "gid": "2021052157",
+          "home": "台湾海洋",
+          "away": "NPB選抜",
+          "score_home": "",
+          "score_away": "",
+          "status": "19:05 시작",
+          "state": "pre",
+          "start": "19:05",
+          "venue": "아시아 태평양",
+          "venue_jp": "アジア太平洋",
+          "series": ""
         }
       ]
     },
@@ -502,21 +278,7 @@
       "date": "2026-11-17",
       "display": "11월 17일 (화)",
       "is_today": false,
-      "games": [
-        {
-          "gid": "2021039495",
-          "home": "소프트뱅크 호크스",
-          "away": "요코하마 DeNA 베이스타스",
-          "score_home": "4",
-          "score_away": "2",
-          "status": "경기 종료",
-          "state": "final",
-          "start": "",
-          "venue": "미즈호 PayPay 돔",
-          "venue_jp": "みずほPayPay",
-          "series": "🏆 SMBC 일본시리즈"
-        }
-      ]
+      "games": []
     }
   ]
 }
