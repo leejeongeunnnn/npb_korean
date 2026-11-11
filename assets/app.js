@@ -613,13 +613,23 @@ function renderMyTeam(forcePicker = false) {
   if (psAll.length) {
     const stages = [...new Set(psAll.map(m => m.stage))];
     const known = new Set(games.map(g => g.display));
-    const extra = psAll.filter(m => !known.has(m.date_display));
+    // "10월 14일 (수)" → "2026-10-14" (todayStr() 와 같은 형식으로 비교)
+    const psYear = ((DATA.meta || {}).season || today.slice(0, 4)) + "";
+    const psDate = (s) => {
+      const m = /(\d+)월\s*(\d+)일/.exec(s || "");
+      return m ? `${psYear}-${m[1].padStart(2, "0")}-${m[2].padStart(2, "0")}` : "";
+    };
+    // 이미 지난 날짜는 '미확정'이 아니라 끝났거나 열리지 않은 경기이므로 제외
+    const psUpcoming = psAll.filter(m => psDate(m.date_display) >= today);
+    const extra = psUpcoming.filter(m => !known.has(m.date_display));
     const rule = (stage) => (psAll.find(m => m.stage === stage && /전 \d선승제/.test(m.rules)) || psAll.find(m => m.stage === stage)).rules;
     html += `<h3 class="sched-sub">🍁 포스트시즌</h3><div class="card">
       ${stages.map(sg => `<div class="mt-pl"><span>🏟️ <b>${esc(sg)}</b> 진출</span><span class="num">${esc(rule(sg))}</span></div>`).join("")}
       ${extra.length ? `<div class="hint" style="margin:10px 0 4px">아직 대진이 확정되지 않은 경기</div>${extra.map(m =>
         `<div class="mt-pl"><span>${esc(m.date_display)} · ${esc(m.game_num)}</span><span class="num">${esc(m.time)} · ${esc(m.venue)}</span></div>`).join("")}`
-        : `<div class="hint" style="margin:10px 0 0">경기별 실제 대진은 위의 '다음 경기'와 '이후 일정'에 나와 있어요.</div>`}
+        : psUpcoming.length
+          ? `<div class="hint" style="margin:10px 0 0">경기별 실제 대진은 위의 '다음 경기'와 '이후 일정'에 나와 있어요.</div>`
+          : `<div class="hint" style="margin:10px 0 0">이번 시즌 포스트시즌 일정이 모두 끝났어요. 결과는 위의 '최근 경기 흐름'에서 볼 수 있어요.</div>`}
     </div>`;
   } else if (st && parseInt(st.rank) > 3) {
     html += `<h3 class="sched-sub">🍁 포스트시즌</h3>${emptyBox(`리그 ${st.rank}로 이번 시즌 클라이맥스 시리즈에 진출하지 못했습니다.`)}`;
