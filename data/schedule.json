@@ -3,12 +3,6 @@
   "days_fwd": 6,
   "days": [
     {
-      "date": "2026-10-20",
-      "display": "10월 20일 (화)",
-      "is_today": false,
-      "games": []
-    },
-    {
       "date": "2026-10-21",
       "display": "10월 21일 (수)",
       "is_today": false,
@@ -199,13 +193,13 @@
     {
       "date": "2026-11-12",
       "display": "11월 12일 (목)",
-      "is_today": true,
+      "is_today": false,
       "games": []
     },
     {
       "date": "2026-11-13",
       "display": "11월 13일 (금)",
-      "is_today": false,
+      "is_today": true,
       "games": []
     },
     {
@@ -288,6 +282,26 @@
           "status": "19:05 시작",
           "state": "pre",
           "start": "19:05",
+          "venue": "아시아 태평양",
+          "venue_jp": "アジア太平洋",
+          "series": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "display": "11월 19일 (목)",
+      "is_today": false,
+      "games": [
+        {
+          "gid": "2021052159",
+          "home": "KBO選抜",
+          "away": "NPB選抜",
+          "score_home": "",
+          "score_away": "",
+          "status": "13:05 시작",
+          "state": "pre",
+          "start": "13:05",
           "venue": "아시아 태평양",
           "venue_jp": "アジア太平洋",
           "series": ""
