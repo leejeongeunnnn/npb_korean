@@ -276,5 +276,15 @@
       "rules": "최종 7차전 챔피언 결정전"
     }
   ],
-  "live": []
+  "live": [
+    {
+      "stage": "아시아 윈터리그",
+      "home": "台湾山林",
+      "away": "NPB選抜",
+      "score_home": "",
+      "score_away": "",
+      "status": "선발 예고",
+      "venue": "아시아 태평양"
+    }
+  ]
 }
