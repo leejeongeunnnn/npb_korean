@@ -207,9 +207,9 @@
           "away": "NPB選抜",
           "score_home": "",
           "score_away": "",
-          "status": "19:05 시작 · 선발 예고",
-          "state": "pre",
-          "start": "19:05",
+          "status": "경기 취소(우천 등)",
+          "state": "cancel",
+          "start": "",
           "venue": "아시아 태평양",
           "venue_jp": "アジア太平洋",
           "series": ""
