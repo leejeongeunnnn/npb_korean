@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-15",
+  "updated_at": "2026-11-15 01:08:11",
+  "any_live": false,
+  "games": [
+    {
+      "gid": "2021052156",
+      "home": "JABA選抜",
+      "away": "NPB選抜",
+      "score_home": "",
+      "score_away": "",
+      "status": "14:05 시작 · 선발 예고",
+      "state": "pre",
+      "start": "14:05",
+      "venue": "가요시",
+      "venue_jp": "嘉義市",
+      "series": ""
+    }
+  ],
+  "postseason": [
+    {
+      "stage": "아시아 윈터리그",
+      "home": "JABA選抜",
+      "away": "NPB選抜",
+      "score_home": "",
+      "score_away": "",
+      "status": "선발 예고",
+      "venue": "가요시"
+    }
+  ],
+  "details": {},
+  "note": "다음 경기까지 776분 남음",
+  "notified": {}
+}
