@@ -6,7 +6,7 @@
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9tNTRiaW9EZEw0MWhYVEZ3M1MzTlg0RllsQU5yT0N5NXotUFc5Y2pENXRiekJOTUtfM25yVXpaSy1tbzl4MG92VHVUbmRSWlNRWU9NUHcxSHZVRjdxTDhrQVZhbGRkLXJoZHM4WnRNTlI2RnlNTjNLN1pHUQ?oc=5",
       "time": "오늘 07:00",
       "is_today": true,
-      "media": "일텔레 NEWS NNN",
+      "media": "닛텔레 NEWS NNN",
       "team": "요미우리 자이언츠",
       "color": "#F97316",
       "category": "👔 감독·코치진"
@@ -23,12 +23,12 @@
       "category": "👔 감독·코치진"
     },
     {
-      "title": "「오직 스스로 어리석게 계속한다」요미우리·미야하라 하스케",
+      "title": "「오직 스스로 어리석게 계속한다」요미우리·미야하라 슌스케 2년째는 「후가 없는 1년」도 수확을 내계에 살리고 싶다(2026년 11월 17일 게재)",
       "summary": "요미우리 자이언츠 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1XeW1yMTZzQmFRQjdWT3A5UjhLLXdsaW5QcmloenVrMDdjNkV4TEljYjJlLXhLdkZzYjh1TXktalBBWWtGb0RkVGlCTGtvUWNSQWY1YTJtMWYxMWR2N193UU9XU2NqcHRkZWpHd0RWNmRQVTR3cXlGU2J1RQ?oc=5",
       "time": "오늘 06:32",
       "is_today": true,
-      "media": "일텔레 NEWS NNN",
+      "media": "닛텔레 NEWS NNN",
       "team": "요미우리 자이언츠",
       "color": "#F97316",
       "category": "📰 구단 소식"
@@ -58,10 +58,32 @@
   ],
   "한신 타이거스": [
     {
+      "title": "[호랑이의 쏘나타] 「먹고, 먹어」 기뻤다 「지옥의 강여름 메시」 누가 무엇을 먹는지 잘 보고 있던 관찰력",
+      "summary": "한신 타이거스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9LRFQwN0dNdGIzU2szRWJoRVU5ZzlERFlTQTR5TVdFMldUeXRDWEczeXVLaEtpUC1pQW5HX2NjVDB2UFlRcVBld2NaUGpWdmdiN3hmS095MXJOWmI1TjdMVE02Tk9IY1RKOC1jRGRqVTc2amRKcnfSAYoBQVVfeXFMTW9Sc1lKRnlrTkRYLWx6TGhuTWFoTG9aTDR5YkJPdnhqY2c2V083OWJPcmJHZUs4X1F2ekxFNXRBckt6UHJFb29qT2VGNDMzMnFvLWFCMzVtT016emtnZlFkU1RfWnU5UEJOalZSQUt1NWR1TW1vejc5UUwzVzgwSjE1b2xrSWk5V2xn?oc=5",
+      "time": "오늘 07:30",
+      "is_today": true,
+      "media": "산케이스포츠",
+      "team": "한신 타이거스",
+      "color": "#EAB308",
+      "category": "📰 구단 소식"
+    },
+    {
       "title": "소프트뱅크·왕 회장 에나츠 유타카씨 추도「부럽게 생각한 적도 있었습니다」",
       "summary": "한신 타이거스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Bd1M4YmltTFAzMDN2aFF2eXlaUzNfbkx1czdGOW02QTdkejVtdV8zVXN1bzdRU0JkSE4yOE9WRDVSZzdwZEZSdTdHYjctNVhwRzhka1ZuSDBia2ZmQkEwTGlZVS1rSUgteUE?oc=5",
       "time": "오늘 07:00",
+      "is_today": true,
+      "media": "데일리스포츠",
+      "team": "한신 타이거스",
+      "color": "#EAB308",
+      "category": "📰 구단 소식"
+    },
+    {
+      "title": "일정 및 결과",
+      "summary": "한신 타이거스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBobWJQNm1ZUXhhblpMSEpPMTljMGZla0F0eE5YVjVaZTU1T1RXUWNRYU9YdEY1MXNSNk9mWExnc3V1d0tqSGR6TklxdVhVZDFHRnBIVFBtQVlEWU41cnZTUg?oc=5",
+      "time": "오늘 06:38",
       "is_today": true,
       "media": "데일리스포츠",
       "team": "한신 타이거스",
@@ -89,41 +111,30 @@
       "team": "한신 타이거스",
       "color": "#EAB308",
       "category": "📋 전력외·은퇴·이적"
-    },
-    {
-      "title": "[한신] 후지카와 감독 「정말 꾸짖는 격려를 사랑해…",
-      "summary": "한신 타이거스 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8ybl9rS1c1Z1l5QlRiYnFBd1U1SVd1T1ZTS1JDbzV5TUpsbEZLYUR5UmxNN0poWjdVaW5nSlZZSVVwaE93SWRpUW1xb2xIVy1IM1NDTE1TSTQtRjRfdmw3eXhSU1J2bTc0NFNYa015OFpUUUJ6SHc2bElKNi1HR1U?oc=5",
-      "time": "오늘 06:08",
-      "is_today": true,
-      "media": "야후 뉴스",
-      "team": "한신 타이거스",
-      "color": "#EAB308",
-      "category": "👔 감독·코치진"
-    },
-    {
-      "title": "선발로 억제해, 많은 전설을 남긴 강하 토요 씨",
-      "summary": "한신 타이거스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rN3BKV1NoN0w0RWZxTkt1VF9Vb1NFQXRGMVNSOFN6V3llSkNreWl4UnE0bVhTdHlHQ1hNSC0wbk9OTWpJdEZ5eU5PRndkSTl2clJtdy1XYjZYb0hiczJXMnhsQmRxcU0?oc=5",
-      "time": "오늘 06:00",
-      "is_today": true,
-      "media": "아사히신문",
-      "team": "한신 타이거스",
-      "color": "#EAB308",
-      "category": "📰 구단 소식"
     }
   ],
   "주니치 드래곤즈": [
     {
-      "title": "주니치의 27세 내야수, 트라이아웃 참가도 4타수 노히트…2 삼진과 어필하지 않고(베이스볼 채널)",
-      "summary": "주니치 드래곤즈 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1c3RMWmdSYUR3UDJMV2NOWnBldGhWaW95UU1yZXBnX0FXaEh2ZGFFN25fcDBNSTFUYkFJS2JfUmc2VnlXUWw4WFRtNUp2aHJGRnViVEdXQVdaRUxjcno2RlN5Y1FXMkJsTkxHeWtyRVpfeER3VnZ1R2ZDRE1UNlU?oc=5",
-      "time": "오늘 07:11",
+      "title": "오른팔 메이가 화이트 양말에 브루어스 우승에 기여",
+      "summary": "주니치 드래곤즈 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE15VkF5R1RyZTV6T040cVdZVkRyOWJfakhDVzNjbXZSSXplNUI5RmtGNElvRnBpR01aS3llLUppTFZuNUFBbzFOSjNOTy0wc2RqMVllUA?oc=5",
+      "time": "오늘 07:36",
       "is_today": true,
-      "media": "야후 뉴스",
+      "media": "주니치 신문 웹",
       "team": "주니치 드래곤즈",
       "color": "#3B82F6",
-      "category": "📰 구단 소식"
+      "category": "🏆 포스트시즌 & 경기"
+    },
+    {
+      "title": "스즈키 세이야, 아로자레나 등 5선수가 단년 37억엔 QO 거부 MLB 발표…",
+      "summary": "주니치 드래곤즈 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5rcVhEblAtSGdzakJtV3BWNDAzY0NBRDBLLW14X296VzVDOG81aDdIUnNJRUdxZzVRSGtEU0xLNzRYa0lrSmNCaURaLWd3VUVOY1lyaw?oc=5",
+      "time": "오늘 07:35",
+      "is_today": true,
+      "media": "주니치 신문 웹",
+      "team": "주니치 드래곤즈",
+      "color": "#3B82F6",
+      "category": "📋 전력외·은퇴·이적"
     },
     {
       "title": "“마츠이 요미우리” & “쿠도 주니치” 신감독이 종사하는 내계의 코치진 일람 요미우리는 타카하시 유노부씨를 HC에 맹우 모이는 주니치는 바이오 메카닉스 코디네이터를 신설(2026년 11월 17일 게재)",
@@ -131,7 +142,7 @@
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9tNTRiaW9EZEw0MWhYVEZ3M1MzTlg0RllsQU5yT0N5NXotUFc5Y2pENXRiekJOTUtfM25yVXpaSy1tbzl4MG92VHVUbmRSWlNRWU9NUHcxSHZVRjdxTDhrQVZhbGRkLXJoZHM4WnRNTlI2RnlNTjNLN1pHUQ?oc=5",
       "time": "오늘 07:00",
       "is_today": true,
-      "media": "일텔레 NEWS NNN",
+      "media": "닛텔레 NEWS NNN",
       "team": "주니치 드래곤즈",
       "color": "#3B82F6",
       "category": "👔 감독·코치진"
@@ -148,36 +159,47 @@
       "category": "📋 전력외·은퇴·이적"
     },
     {
-      "title": "주니치·쿠도 감독에게 “조금 기분 나빴다(웃음)”립 나미·이노우에가 갖추어져 밟아 붐비는 “쿠도류에의 본심과 의문”(주간 여성 PRIME)",
-      "summary": "주니치 드래곤즈 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE00clpwcjdQd1JOSDNGSHE5cnMyWXBHYWZHYnYwbEVLZC0zNXFDaDJuR2pLdFcxRW1OOTZBVW1wNGVyaTFmNWhNNjU4NkxaX3hwbWFJRWxHQnNHRWhnMEg0ODN2UjU4WlZNZy11WVo1RzNyeU1US0RpS3pjNVZUQQ?oc=5",
-      "time": "오늘 06:41",
+      "title": "트라이아웃으로 액시던트…주니치의 27세 내야수, 열심히 어필도 4타수 무안타(베이스볼 채널)",
+      "summary": "주니치 드래곤즈 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RajJhNGc3TUZTdnhUVFRkUUxRdXBQbFkxc2w1akZJUkoxRGdlRGRkZ21ZakJZaHF4a2hQZ3Q4VEpDcHcxZ3RVQ2hZaTRRNHdWUlRFTmMzQkZTdExKM2hiTzc4dG9iVFdsRVR5OURmOURCZ1pBUjBPLS0tVHQ0Ykk?oc=5",
+      "time": "오늘 06:42",
       "is_today": true,
-      "media": "d 메뉴 뉴스",
+      "media": "야후 뉴스",
       "team": "주니치 드래곤즈",
       "color": "#3B82F6",
-      "category": "👔 감독·코치진"
-    },
-    {
-      "title": "타치나미 카즈요시·이노우에 카즈키 등 전 주니치 드래곤즈 감독이, 토크 이벤트 갖추어 밟아 붐비는 “쿠도 코야스 감독에의 본심과 의문”",
-      "summary": "주니치 드래곤즈 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1vb192MGktU2QwanQ3SlE0NXg2XzZIWm9tX1pUNWFEYlgwSWoybTdGQ2hrUUdhXzFNVF9HRTBpM1lFMHk2UkdEc3FRN0VMOWc?oc=5",
-      "time": "오늘 06:30",
-      "is_today": true,
-      "media": "주간 여성 PRIME",
-      "team": "주니치 드래곤즈",
-      "color": "#3B82F6",
-      "category": "👔 감독·코치진"
+      "category": "📰 구단 소식"
     }
   ],
   "요코하마 DeNA 베이스타스": [
     {
-      "title": "DeNA 전력 밖의 26세 외야수, 트라이아웃으로 2삼진&병살타… 5타수 무안타로 어필하지 않고",
-      "summary": "요코하마 DeNA 베이스타스 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zM3F5enZub1dKYVhha2ZPdEJkWmFPMmdDYm9uVjU1bGxta3lhdW1zQnY1UFd5aVhsN3lWRTZPdW5hM0NNSFROOFZJUThZc25ZQmhPcQ?oc=5",
-      "time": "오늘 07:00",
+      "title": "DeNA·미야자키 토시로 “팬 여러분의 열기를 느꼈습니다” “B-SIDE HOLIDAYS 2026 YOKOHAMA DeNA BAYSTARS Supported by 요코하마 하버”에 등장",
+      "summary": "요코하마 DeNA 베이스타스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBjZEEyYlotWTBMc3o3UFlqam1FTWEteFNydnFuSlZMcF8wRWdQMFVpSk5NeTU4bGkyWEtZTFphWGlmQnVtSWtGeHhR?oc=5",
+      "time": "오늘 07:49",
       "is_today": true,
-      "media": "베이스볼 채널",
+      "media": "BASEBALL KING",
+      "team": "요코하마 DeNA 베이스타스",
+      "color": "#2563EB",
+      "category": "📰 구단 소식"
+    },
+    {
+      "title": "[야후 쌀로 화제] '전력 밖에서 베이스타스 입단의 키쿠치 투수' '전 도라 1끼리의 환경 변화에 기대' - 트라이아웃 선수 재기",
+      "summary": "요코하마 DeNA 베이스타스 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5LN3hJN04yQ3RBWUFHUXpwdXdPdXVUX3RoaUY4eUg5NGFDUlZ2OXlGMEtnRDV4ZlR2eUp2ajZJdkxHWGJsd0JmTkw1RXJrX1dtYzRwTkt4MzFkSjZQeU14SG9MM1NmdXZtaldJNlVoeEgzSUVGMW8zM3U4a0VpWVE?oc=5",
+      "time": "오늘 07:21",
+      "is_today": true,
+      "media": "야후 뉴스",
+      "team": "요코하마 DeNA 베이스타스",
+      "color": "#2563EB",
+      "category": "📋 전력외·은퇴·이적"
+    },
+    {
+      "title": "DeNA 전력외의 26세 외야수, 트라이아웃으로 2삼진&병살타…5타수 무안타로 어필하지 않고(베이스볼 채널)",
+      "summary": "요코하마 DeNA 베이스타스 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9KQkIwVWFlajJ5d3pQaDZ2bGVwN3I1cnduQzBwOGNOOS1nOW5SY3pSNmxSQW5VR3BpXzBJbm5XN0p3YTdJM0ktWkVFUUhEaHBLZUhrbEtGVkNZbTN2X2Rnam5fbi1odjdnOE81cnlZbU9iWFByUXlDTFpGYmJOVzQ?oc=5",
+      "time": "오늘 07:12",
+      "is_today": true,
+      "media": "야후 뉴스",
       "team": "요코하마 DeNA 베이스타스",
       "color": "#2563EB",
       "category": "📋 전력외·은퇴·이적"
@@ -198,28 +220,6 @@
       "summary": "요코하마 DeNA 베이스타스 관련 — 선수·지도자의 인터뷰와 발언을 정리한 기사입니다.",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBhcllyNEsybzQwSXZMQVlFaDU3eFVGdE83Q0FfNUlBWWJfeDNDWUU0aVNzclFPVFFoU3RDNnJUNGpWZ1A0LS1KS3MyNVBaUkxZdG1HVFVhY0tjYXFHdWJUU181ckRXb0liTXlTNkV4Y1dfNkszZGlIOVVCMA?oc=5",
       "time": "오늘 05:15",
-      "is_today": true,
-      "media": "워커플라스",
-      "team": "요코하마 DeNA 베이스타스",
-      "color": "#2563EB",
-      "category": "🎙 인터뷰 & 코멘트"
-    },
-    {
-      "title": "<이미지 1/7>요코하마 DeNA 베이스타스, 시바타 류타쿠 선수에게 프라이빗에 대해 질문!",
-      "summary": "요코하마 DeNA 베이스타스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5MLW4wZkhrWlM2bVZoZ1VBYzRMbzRNZ2J0dnB4NV9YcGllUmpCOF9pWnNiQ2hjVWNRQmZ4WUpualRBcm5rZjNBZGRyNHQyVzJ4YTRQWUNWenQySnJ5NlZIZVpIaTF0MWJoZGthLWt0QnNsWC1uSFBGcENfZk4?oc=5",
-      "time": "오늘 02:32",
-      "is_today": true,
-      "media": "워커플라스",
-      "team": "요코하마 DeNA 베이스타스",
-      "color": "#2563EB",
-      "category": "📰 구단 소식"
-    },
-    {
-      "title": "[요코하마 DeNA 베이스타스 2018 대특집] 이노 쇼이치 선수가 말하는 이번 시즌의 맹세~동영상 코멘트~",
-      "summary": "요코하마 DeNA 베이스타스 관련 — 선수·지도자의 인터뷰와 발언을 정리한 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE52eXhPZjBtVFVEaE9yZVExWjgzc0VWU3dCV3lvbFJPdlk0S0pIZDVpMFhRVTlQLTdNWUFIMnNRcmRqelNlRDhqaHNvcVVhY1o3Z180d2doVGl3YXl4bUVpcXRrNmYyQTM0Q25RenRjUF90d3pJdDRSbFFGMA?oc=5",
-      "time": "오늘 01:55",
       "is_today": true,
       "media": "워커플라스",
       "team": "요코하마 DeNA 베이스타스",
@@ -253,7 +253,7 @@
     {
       "title": "야쿠르트, 소프트뱅크 전력외의 이와이 슌스케를 획득 조사",
       "summary": "야쿠르트 스왈로스 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE80STV4M0E3VUF1eWc2TjJOcDNPYThZYW13QVBudnVmMGFITkZTeERlN25MMDFHYXNfVTZmY2VKbDNHNGJpNFdzU2Q2YUJsZmJGN05jc3JZVFpHU2JNNnJndGlKU0dZUTh1bGVlVEZsTVBubElBeGfSAYoBQVVfeXFMTWthdlBLaERsYW82ZDVNSGdKaEZzR3ZaWnlkVVd6Yl9DbmpxSVpCeFo0ajR1ZElRRDdyUHgwbFM5RnZiWHNHQzE3SWlzc2QzOUk3TDJ2MVZaVlNWZEo3OWE2TFI5RWEyWDdEbW03UmJCMW5YY0JOemlJam5xWFpacFQtQTFKdWE4WlBR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYTh4VWg4V3ZscjJkTFZfSE5CV1k4cjdpM01hM0ItRTVlLVlpQWNXV3NsMVYzbXJTR3k3R3c0d1h0U0hLRUpXdHdWdXlYRzJqUk92TzNrVFVzenhUbFNsT01vSGxQazBLZ3ZQdWZFTkw4eS1zb3E0czhIcVdibWZUVHRheUhBc1FRbTJsS3U3NDRtQlhhTWw0dtIBigFBVV95cUxNa2F2UEtoRGxhbzZkNU1IZ0poRnNHdlpaeWRVV3piX0NuanFJWkJ4WjRqNHVkSVFEN3JQeDBsUzlGdmJYc0dDMTdJaXNzZDM5STdMMnYxVlpWU1ZkSjc5YTZMUjlFYTJYN0RtbTdSYkIxblhjQk56aUlqbnFYWlpwVC1BMUp1YThaUFE?oc=5",
       "time": "오늘 05:00",
       "is_today": true,
       "media": "산케이스포츠",
@@ -273,15 +273,15 @@
       "category": "📰 구단 소식"
     },
     {
-      "title": "세이부, WBC 브라질 대표 왼팔의 D3위 지명·유우스케와 입단 합의 “신인왕을 목표로 함과 동시에 일본 제일에 공헌하고 싶다”",
-      "summary": "야쿠르트 스왈로스 관련 — 드래프트 지명 후보와 스카우트 동향을 다룬 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPR0ljNWVJQXpjdkp6d2JRNWxwMEg2Zm1SNmNjUU5ITUtHNmR4dllxbFFheE9hMEZueVgxVmV3YWlwQjNNYVNxSDV3bm9XLU1uQ05NMGRPS3pka3VEbUFsQlBHLTFKTnM1SmgtVlV5Y3hQck5hWDdKV2FFMG5IeWF1RzRkaEhjNDlDZ0RSOWZ4YTloc3k10gGKAUFVX3lxTE9XUFlTNTF5dkFsZ3lKcjdQS0JhYUl2WExtLVFOZUp1b1JNb3UzQmtabGlqSTYzdFFFMHNWa2kzX3JCN2p0bUtmR0dkZmoxTkZiTWJBRmxsVkk4ZTV4VnVpNXZDWGNWNFFmNmF0RTd3STFZRGFCTmRaZkppOWZtcTZaaks2QW1YeGF6UQ?oc=5",
-      "time": "어제 19:04",
+      "title": "이미지 6/13＞스누피가 프로야구 12구단의 캡 모습에! 시마무라 온라인 한정 「비닐 우산」이 올해도 등장",
+      "summary": "야쿠르트 스왈로스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB4SVlUdVpWTWFkNVJ2Y2UzWkl0bEtkYms5aklSYm0xTFRGdWxESjRSck14ZG5hX3Btc1FiY1EzWjdnTzJ2djN4LVQ5Y1NyOXE3V0VjSTVES3VVUUp4YXdjMjFLU0MwZXBaTlZMWVVn?oc=5",
+      "time": "어제 22:51",
       "is_today": false,
-      "media": "산케이스포츠",
+      "media": "워커플라스",
       "team": "야쿠르트 스왈로스",
       "color": "#475569",
-      "category": "🎯 드래프트 & 스카우트"
+      "category": "📰 구단 소식"
     }
   ],
   "히로시마 도요 카프": [
@@ -308,7 +308,7 @@
       "category": "📰 구단 소식"
     },
     {
-      "title": "심한 “참회 회견” “정말 아무것도 하지 않는다” 좀비 담배 소동으로 사과도… 이상한 15분간",
+      "title": "괴로운 “참회 회견” “정말 아무것도 하지 않는다” 좀비 담배 소동으로 사과도… 이상한 15분간",
       "summary": "히로시마 도요 카프 관련 — 선수·지도자의 인터뷰와 발언을 정리한 기사입니다.",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE92bEV5RzRkNHF0amVTWkVhbzlBWnpOTVJzZ3JtUWF3N0RyZ04zcEpHNDhIMFhZOU0zeUxZNTA1NXJONUFIUzAwSmh4ZFBLc1o1a0g2dTFfWWk?oc=5",
       "time": "오늘 06:32",
@@ -342,6 +342,17 @@
     }
   ],
   "소프트뱅크 호크스": [
+    {
+      "title": "「쭉 사이 좋다」치카 쓰루다이, 야나기타 유키의 어깨를 안고 웃는 동영상에 팬츠 코미 「이 콤비를 정말 좋아」",
+      "summary": "소프트뱅크 호크스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB4bnFSVmRxRXpEU1VJWHlCaVl2czQyamlKa182djE4ZmpndkpyOUExYWQ2UjdCUF9lX3V3dEQwWEFxbmt4UkxJdGwyV05vd2w2NEZEM1FyRzlMUUIyTUhYM285OVcwblBndkREV2Nn?oc=5",
+      "time": "오늘 07:26",
+      "is_today": true,
+      "media": "au 웹 포털",
+      "team": "소프트뱅크 호크스",
+      "color": "#FBBF24",
+      "category": "📰 구단 소식"
+    },
     {
       "title": "[소프트뱅크] 방어율 1.48의 헤르난데스 등 외국인 5선수가 일제히 자유계약! NPB가 공시(마루스포)",
       "summary": "소프트뱅크 호크스 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
@@ -385,20 +396,20 @@
       "team": "소프트뱅크 호크스",
       "color": "#FBBF24",
       "category": "👔 감독·코치진"
-    },
-    {
-      "title": "소프트뱅크 호크스, 내봄의 캠프 일정 발표 코쿠보 감독은 이례의 제3 쿨 들어가",
-      "summary": "소프트뱅크 호크스 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YdWFkVmpJR0NmUExKcWpoVmE2UWFCdWY5TGNvaDNxX18yLWY5dzR1X2kyNlIyQnFQNEhST1pBWHVMUmRkaWV4bmtyMHRoZWZfY1NsaHlR?oc=5",
-      "time": "오늘 06:00",
-      "is_today": true,
-      "media": "서일본 신문 me",
-      "team": "소프트뱅크 호크스",
-      "color": "#FBBF24",
-      "category": "👔 감독·코치진"
     }
   ],
   "오릭스 버팔로즈": [
+    {
+      "title": "[야후 쌀로 화제] '후지나미 신타로 투수 오릭스 이적' '제구난과 부활 기대'",
+      "summary": "오릭스 버팔로즈 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kckJfN0NiUjBJVWtVSUlzLXEzMzMzejFDVDZvYjJzNTZwZUdQbkllREwtNGk4QzBOWnBGMnR2Q3RWeTRUY3Vialg0d29jM0ZsR1dINkUtUS10MWYzdHBud1NDLXFmQXBSQ3huQ09OUHB6TmRXMGZqbTVvZ3pjMTg?oc=5",
+      "time": "오늘 07:20",
+      "is_today": true,
+      "media": "야후 뉴스",
+      "team": "오릭스 버팔로즈",
+      "color": "#1E293B",
+      "category": "📋 전력외·은퇴·이적"
+    },
     {
       "title": "[Buffaloes Inside] 미야쿠니 료칸, 지배하 2년째를 향해 어깨 팔꿈치에 부담이 적은 폼 변경에 착수. \"어려운 결정이었지만 미래를 바라 보았습니다.\"",
       "summary": "오릭스 버팔로즈 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
@@ -422,34 +433,23 @@
       "category": "📋 전력외·은퇴·이적"
     },
     {
+      "title": "오릭스 후지 나미 신타로의 획득에, 모리 토모야와 오사카 키리 담 배터리 실현도 (2026년 11월 18일 게재)",
+      "summary": "오릭스 버팔로즈 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE15X0F6NGFhRFc2Tko1WXRvd3dxSTRfYlFtVEFiNE5DMktLSlgwTHRlOVZkMzFpM3AyYnJPTXI2a2hGZnZvdUF1eE04Uy1CM1hGN2c1TF9QN0d5Rl9UQlE?oc=5",
+      "time": "오늘 05:01",
+      "is_today": true,
+      "media": "라이브 도어 뉴스",
+      "team": "오릭스 버팔로즈",
+      "color": "#1E293B",
+      "category": "📰 구단 소식"
+    },
+    {
       "title": "에나츠 유타카씨의 모교·대원 오오타카 출신 유일의 현역 선수, 오릭스·이마자카 유키유키는 “우리는 에나츠 씨를 목표로 노력해왔다”",
       "summary": "오릭스 버팔로즈 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9QMXpubmZNWWkyUjFETG9YZGI4RUs3YjEtZEZvQmtpcW1BS1d1R0ZpMnlYRVQ0TklWV2htT2M5a3VEYnRJMGd5azVoc0ZuNkJQWGp1VEctTW8tRmV3UjNjWGt3STg1X1I3REtEaFlHNGF6bElNM3fSAYoBQVVfeXFMTWJlRnR3M1ExVEM4Yks3cnBRMGoyLUU2SFhPdkxrTl82YmxpaWFrT2VjZGVFMGFZdjFrWUJ1N2loQzMzeTZQcVNfX1RUVUhyNnhaZjN0dU9wZzM3Z2lyVklIREFmQS1hQzhkaElkYjlySzByUXpxRWdYYVhSYWpFQktCMXdpdzdYNUhn?oc=5",
       "time": "오늘 05:00",
       "is_today": true,
       "media": "산케이스포츠",
-      "team": "오릭스 버팔로즈",
-      "color": "#1E293B",
-      "category": "📰 구단 소식"
-    },
-    {
-      "title": "10월, 입단회견에서 포즈를 취한다(왼쪽부터) 허신 위위, 키시다 감독, 장을안(오릭스 버팔로스 구단 공식 YouTube로부터)",
-      "summary": "오릭스 버팔로즈 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSFN0S1dvOWpGdmpHd3Fuc2tYb1lIc0h6bjJlWEg5Qzh0SnZQZ212VlF0M1FCM3JYbXdFNDlNdVBjNl9CYUQzd0hoamNFZWRFLTlxZW03cGY0RmNUT1VLQzhlVUl2cEFKSWNrRW5yVFJ4czdyVGx5M2dGRHNRbFdqbFR1dDc2RjhRMVZNUlVLUQ?oc=5",
-      "time": "오늘 03:55",
-      "is_today": true,
-      "media": "스포츠닛폰",
-      "team": "오릭스 버팔로즈",
-      "color": "#1E293B",
-      "category": "👔 감독·코치진"
-    },
-    {
-      "title": "오릭스 버팔로즈 2014년 공식전 예매 티켓 3월부터 발매!",
-      "summary": "오릭스 버팔로즈 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE50QTVLQjRpS0tTRndMNDBCQzdMR2IwbnVPN0JuSmpiMDFHdTAtdmRKVFVfSjlDWUhmbTZFVjV0U2JuWFAyU0JiOThCOGU1d3lEa3ppOGJNWmw3aXpzeFNySzMwXzBZVmZw?oc=5",
-      "time": "어제 23:23",
-      "is_today": false,
-      "media": "워커플라스",
       "team": "오릭스 버팔로즈",
       "color": "#1E293B",
       "category": "📰 구단 소식"
@@ -536,7 +536,7 @@
       "category": "📰 구단 소식"
     },
     {
-      "title": "[라쿠텐] 도라 4 도시바 · 하기와라 요시테루 1000 만엔으로 합의 \"하와라가 아니고, 하기하라\"읽는 방법 어필",
+      "title": "[라쿠텐] 도라 4 도시바 · 하기와라 요시테루 1000 만엔에서 합의 \"하와라가 아니라, 하시하라\"읽는 방법 어필",
       "summary": "라쿠텐 골든이글스 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNLTB0QnJkdG0xZ3NmMkN6SDk0dFRXOEkzUFFxeXAycks5WHpLcVljeHJaUEk1aTVKQ0E0UTU1Z2dWOV9tVk9wbFNFdVp0THcyTldvZ2NGdDBXWDA4WkN4dWdsdnFud0NmRU4tOWM2TnMtZmhKTDdKZjJxVnBwN1FkWVFBXzlnR3RDYlAyRW5xLVNuTlhub3lOeWJISTJsek1iaS1JNktnU0NNRHJjTjl6NQ?oc=5",
       "time": "어제 22:05",
@@ -570,6 +570,17 @@
     }
   ],
   "세이부 라이온즈": [
+    {
+      "title": "세이부 철도, 12월 16일에 「52석의 행복」×세이부 라이온즈~압도적 지근 거리 토크쇼 2026~을 개최(베이스볼 킹)",
+      "summary": "세이부 라이온즈 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5GN08xZk9RbjRUb09nM0NqbGxYWVNGeDV3TVItYjdqRmJxdTc0dkE3dnpMME8xUF9XVW5vQ1JmY001S1FJRDJCdjJYdFJ1UGlKQ2pkcXJEbThIRkRJdGFrWXFEbHRhMEExRzZabklJaDV4VjB6a1cyZkVPTTZDQ00?oc=5",
+      "time": "오늘 07:47",
+      "is_today": true,
+      "media": "야후 뉴스",
+      "team": "세이부 라이온즈",
+      "color": "#2563EB",
+      "category": "📰 구단 소식"
+    },
     {
       "title": "많은 유스케, 세이부와 입단 합의 목표는 1년째 신인왕 WBC 브라질 대표로 8회 무실점의 187㎝ 왼팔",
       "summary": "세이부 라이온즈 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
@@ -613,20 +624,20 @@
       "team": "세이부 라이온즈",
       "color": "#2563EB",
       "category": "📰 구단 소식"
-    },
-    {
-      "title": "에나츠 유타카씨의 모교·대원 오오타카 출신 유일의 현역 선수, 오릭스·이마자카 유키유키는 “우리는 에나츠 씨를 목표로 노력해왔다”",
-      "summary": "세이부 라이온즈 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9QMXpubmZNWWkyUjFETG9YZGI4RUs3YjEtZEZvQmtpcW1BS1d1R0ZpMnlYRVQ0TklWV2htT2M5a3VEYnRJMGd5azVoc0ZuNkJQWGp1VEctTW8tRmV3UjNjWGt3STg1X1I3REtEaFlHNGF6bElNM3fSAYoBQVVfeXFMTWJlRnR3M1ExVEM4Yks3cnBRMGoyLUU2SFhPdkxrTl82YmxpaWFrT2VjZGVFMGFZdjFrWUJ1N2loQzMzeTZQcVNfX1RUVUhyNnhaZjN0dU9wZzM3Z2lyVklIREFmQS1hQzhkaElkYjlySzByUXpxRWdYYVhSYWpFQktCMXdpdzdYNUhn?oc=5",
-      "time": "오늘 05:00",
-      "is_today": true,
-      "media": "산케이스포츠",
-      "team": "세이부 라이온즈",
-      "color": "#2563EB",
-      "category": "📰 구단 소식"
     }
   ],
   "니혼햄 파이터즈": [
+    {
+      "title": "「극복할 수 없는 벽」이었던 일본인 획득, 무라카미 무네 타카의 성공으로 일변! ? 다음…",
+      "summary": "니혼햄 파이터즈 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1xZmxfX3BGbkVZeENJRzdYalpEeGdVQzRhanR6S0x6WEFKakdvUGFBTnI1V2N0Q1U3R1F3T2NsNm90dFllbmFRMHZMNHUwYkF6aHk2ZmVEYTAtRktQ?oc=5",
+      "time": "오늘 07:19",
+      "is_today": true,
+      "media": "마이 네비 뉴스",
+      "team": "니혼햄 파이터즈",
+      "color": "#06B6D4",
+      "category": "📰 구단 소식"
+    },
     {
       "title": "왜 30세 전에 유니폼을 벗었나",
       "summary": "니혼햄 파이터즈 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
@@ -661,23 +672,12 @@
       "category": "🏆 포스트시즌 & 경기"
     },
     {
-      "title": "니혼 ハム 아리 토나 오오카와 등 젊은 선수가 계약 갱신",
+      "title": "니혼 ハム 아리나와 오카와 등 젊은 선수가 계약 갱신",
       "summary": "니혼햄 파이터즈 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wUGlfeWV1WElOT2ppSk5ETnZOamJ2aWlVdDFpZzducUlhVks3MUd6Q0tnS3dsYXlsbGJQeEQxakswaTVmZEZnM3FxQ0VycjJLbzlOeVdiLU5fQQ?oc=5",
       "time": "어제 23:31",
       "is_today": false,
       "media": "홋카이도 신문 디지털",
-      "team": "니혼햄 파이터즈",
-      "color": "#06B6D4",
-      "category": "📋 전력외·은퇴·이적"
-    },
-    {
-      "title": "[한마디 마이크] 계약 갱신을 마친 아리토, 에드폴로 케인, 후지모리",
-      "summary": "니혼햄 파이터즈 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5wUDRsMk42WkoxTTUtMlZCbXY5R2lWWlBWb0FyU3JEWHg2MEJMdU5WTU9MV3ZXZ1dkZlZwZ0hkVEZEYXNDUjdQdGJRQWpqSUVOQUNLcVJ2ZEI1OVZ2N0JFd0N3?oc=5",
-      "time": "어제 22:27",
-      "is_today": false,
-      "media": "도신 스포츠",
       "team": "니혼햄 파이터즈",
       "color": "#06B6D4",
       "category": "📋 전력외·은퇴·이적"
