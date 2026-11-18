@@ -3,12 +3,6 @@
   "days_fwd": 6,
   "days": [
     {
-      "date": "2026-10-26",
-      "display": "10월 26일 (월)",
-      "is_today": false,
-      "games": []
-    },
-    {
       "date": "2026-10-27",
       "display": "10월 27일 (화)",
       "is_today": false,
@@ -199,7 +193,7 @@
     {
       "date": "2026-11-18",
       "display": "11월 18일 (수)",
-      "is_today": true,
+      "is_today": false,
       "games": [
         {
           "gid": "2021052158",
@@ -219,7 +213,7 @@
     {
       "date": "2026-11-19",
       "display": "11월 19일 (목)",
-      "is_today": false,
+      "is_today": true,
       "games": [
         {
           "gid": "2021052159",
@@ -321,6 +315,26 @@
       "display": "11월 24일 (화)",
       "is_today": false,
       "games": []
+    },
+    {
+      "date": "2026-11-25",
+      "display": "11월 25일 (수)",
+      "is_today": false,
+      "games": [
+        {
+          "gid": "2021052164",
+          "home": "NPB選抜",
+          "away": "台湾山林",
+          "score_home": "",
+          "score_away": "",
+          "status": "19:05 시작",
+          "state": "pre",
+          "start": "19:05",
+          "venue": "가요시",
+          "venue_jp": "嘉義市",
+          "series": ""
+        }
+      ]
     }
   ]
 }

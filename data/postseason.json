@@ -279,11 +279,11 @@
   "live": [
     {
       "stage": "아시아 윈터리그",
-      "home": "NPB選抜",
-      "away": "中華民国大学スポーツ総会",
-      "score_home": "17",
-      "score_away": "8",
-      "status": "경기 종료",
+      "home": "KBO選抜",
+      "away": "NPB選抜",
+      "score_home": "",
+      "score_away": "",
+      "status": "선발 예고",
       "venue": "아시아 태평양"
     }
   ]
