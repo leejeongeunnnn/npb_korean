@@ -280,11 +280,11 @@
     {
       "stage": "아시아 윈터리그",
       "home": "NPB選抜",
-      "away": "JABA選抜",
-      "score_home": "1",
-      "score_away": "4",
-      "status": "경기 종료",
-      "venue": "아시아 태평양"
+      "away": "KBO選抜",
+      "score_home": "",
+      "score_away": "",
+      "status": "선발 예고",
+      "venue": "가요시"
     }
   ]
 }
