@@ -281,9 +281,9 @@
       "stage": "아시아 윈터리그",
       "home": "NPB選抜",
       "away": "台湾海洋",
-      "score_home": "",
-      "score_away": "",
-      "status": "선발 예고",
+      "score_home": "10",
+      "score_away": "2",
+      "status": "경기 종료",
       "venue": "가요시"
     }
   ]
