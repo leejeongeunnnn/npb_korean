@@ -1,5 +1,27 @@
 [
   {
+    "title": "<프로야구 닛햄 파이터즈>",
+    "summary": "니혼햄 파이터즈 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9lVkg1UHJFeTU1NEJnTjR2YTQ0MF9UVnl0S3VDRElHbmVQdzZHTmJJRnFxNWJZNnJfZ1MyaXd6dk5xbGFEa2EzbmIxVU1SazBScFNEV2liRlBadw?oc=5",
+    "time": "오늘 04:00",
+    "is_today": true,
+    "media": "홋카이도 신문 디지털",
+    "team": "니혼햄 파이터즈",
+    "color": "#06B6D4",
+    "category": "📰 구단 소식"
+  },
+  {
+    "title": "프로야구 호크스가 우승 퍼레이드",
+    "summary": "소프트뱅크 호크스 관련 — 경기 결과와 주요 선수 활약, 포스트시즌 판도를 다룬 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ONTlNUXdMbHJMMmF2aTJCMmM0em0zQlJLRFZmR2ozcTdnQzUxR01TSElsbzhqRDRpaWc5MkJjVVVuVVp4a29WOWJtdFRablZ1SThfZEtWLS00a3RxRTNXT09oQ0JTbHpC?oc=5",
+    "time": "오늘 02:00",
+    "is_today": true,
+    "media": "마이니치신문",
+    "team": "소프트뱅크 호크스",
+    "color": "#FBBF24",
+    "category": "🏆 포스트시즌 & 경기"
+  },
+  {
     "title": "프로 야구 : 오릭스, 후지 나미 신타로를 획득에 토주 쿄 타카의 획득도 검토",
     "summary": "오릭스 버팔로즈 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96YTM2VHZleEZRMlBQenFqR1Ezc1U0OTlDN1RnSzVjQThTRS1neU5HTXBsT3dibEVvM0s1Vk1GMS1xaGNCaU9nZlBrUXhjc0xhem81VEMxbF8yd2N4T0l1cmRLVldnQml2eTdDeA?oc=5",
@@ -33,6 +55,17 @@
     "category": "📋 전력외·은퇴·이적"
   },
   {
+    "title": "오릭스가 후지나미 투수 획득에",
+    "summary": "오릭스 버팔로즈 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE01TVVkd1E4a2tqNV9aR0lxamZVX1hsMFZjZGhiU2NiLU0yaWhFWWw1aWZNd1JsanNuajFRSk9wS2tscGo0Ym5UWHc0Yzc4V0xQT0E3WTBONTV1bHRfV0JvdnhXR3Z5Uk80dDAtUWhkNFlvQQ?oc=5",
+    "time": "어제 21:23",
+    "is_today": false,
+    "media": "카나로코",
+    "team": "오릭스 버팔로즈",
+    "color": "#1E293B",
+    "category": "📰 구단 소식"
+  },
+  {
     "title": "실은 키치죠지 태생 첫손 탄생의 전 아이돌",
     "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE44dTJyYlJHT3o5aHcyaXkxYlZ0ekNHU3JYbmxGRnB1SzZOYnRmb0xJcEd2TU9HQlRPczZqRW9BUVlnM3ViVlNNYTdFd2IzVmI0?oc=5",
@@ -55,9 +88,9 @@
     "category": "📋 전력외·은퇴·이적"
   },
   {
-    "title": "설마의 “주력 대량 유출”…프로야구, 1년에 복수 선수가 FA 이적한 구단 6선(3페이지째)",
+    "title": "설마의 “주력 대량 유출”…프로야구, 1년에 복수 선수가 FA 이적한 구단 6선",
     "summary": "일본 프로야구 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5tNTQ2VFRaRkRsWnNfU2JhZDc5amgwZlprYnFGN19NeXNlM3hCU1BBaDZLUUZmazlsQm8xLWtsYjR6aERodEdqeFVNaWhSVW93Umg1bzE4QQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9IRHNwelgyRkVrTXlEMFZybDhfMlA4QW96UEtBOHJlV0FycDhHSkFDN09mYlJHTE9aNTJWc1pFZVlmWF90cTNtSDRPcGNZSllFNkNTYg?oc=5",
     "time": "어제 20:15",
     "is_today": false,
     "media": "베이스볼 채널",
@@ -88,7 +121,7 @@
     "category": "📰 구단 소식"
   },
   {
-    "title": "전 프로 야구 선수 한나카 씨가 하루 경찰 서장에게 「일지도 모른다 운전」을 불러 가누마에서 교통 안전 페어",
+    "title": "전 프로 야구 선수 마나카 씨가 하루 경찰 서장에게 「일지도 모른다 운전」을 불러 가누마에서 교통 안전 페어",
     "summary": "일본 프로야구 관련 — 구단 공식 발표와 각종 소식을 전하는 기사입니다.",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1OMDZ0SXQ4Umc3SFFzQlNmWmsxMGlKZ1JKRDJIcXhhcnhDMURjU1Y5TFhJVDVrcU5nVGdSNU8wSWFjbHdrazF6Z3JGMUJ2QU1ORXltanB6dG9fTUk?oc=5",
     "time": "어제 19:00",
@@ -141,17 +174,6 @@
     "team": "요미우리 자이언츠",
     "color": "#F97316",
     "category": "📰 구단 소식"
-  },
-  {
-    "title": "마츠이 감독에게 「기대대」=요미우리 OB가 격려―프로야구",
-    "summary": "요미우리 자이언츠 관련 — 감독·코치진 인사와 선임·퇴임 소식을 전하는 기사입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5sWVZkdDJLRDdDM2h4b3VhZkhfWi15VVhsemZJSGxvUkpnWUlrcmRma3dOeWplYnlLZjF5OHJ3QmhNZFpIQnF5OU1DWW5vSHFPdlRXc1RJWFZlUHUtb2xj?oc=5",
-    "time": "어제 17:56",
-    "is_today": false,
-    "media": "Excite Excite",
-    "team": "요미우리 자이언츠",
-    "color": "#F97316",
-    "category": "👔 감독·코치진"
   },
   {
     "title": "HKT48의 야구를 좋아하는 시무라 아이리, 「(진짜) 와서 위험한 www」프로 야구의 유명 심판이 온라인 이야기회 등장을 보고 팬도 흥분",
@@ -306,27 +328,5 @@
     "team": "한신 타이거스",
     "color": "#EAB308",
     "category": "👔 감독·코치진"
-  },
-  {
-    "title": "《프로야구·계약갱개》소프트뱅크의 주동부경(군마·농대2고 출신)은 현재 유지의 4억엔",
-    "summary": "소프트뱅크 호크스 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDYnY1bnlVdFZKM1BqeURkM2tEeTN0US1lSVVJWmZnOVRTbHZZaEh4NElTMExRemJHQmRCWHF5Q3dhdUF4bzFwblUwd2dlcVlVOGE1VVZHMkkwQQ?oc=5",
-    "time": "어제 12:00",
-    "is_today": false,
-    "media": "우에모 신문 전자판",
-    "team": "소프트뱅크 호크스",
-    "color": "#FBBF24",
-    "category": "📋 전력외·은퇴·이적"
-  },
-  {
-    "title": "라쿠텐이 전 DeNA의 호리오카 하야토를 획득에 NPB로 2번의 전력 외 통고를 받은 고생인(산케이 스포츠)",
-    "summary": "요코하마 DeNA 베이스타스 관련 — 전력외 통고, 은퇴, FA·트레이드 등 선수단 이동 소식입니다.",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5qcHdfN2JQNFRmemNSdzVCaGE2RG9CNWphcGYyNlhXOTc2UXI3N2VDYTBqLXFJQnFKcW5BMmR6bjRMMDFiVG1xdHhjdnFZeHh6aDc1YnhUbldNM05iTVJWeE1NcC1CcWdUQURfSkk0TlROSUQzV2JZQTZYVjdmSFk?oc=5",
-    "time": "어제 11:50",
-    "is_today": false,
-    "media": "야후 뉴스",
-    "team": "요코하마 DeNA 베이스타스",
-    "color": "#2563EB",
-    "category": "📋 전력외·은퇴·이적"
   }
 ]
