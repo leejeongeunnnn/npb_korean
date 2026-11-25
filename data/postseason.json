@@ -278,13 +278,13 @@
   ],
   "live": [
     {
-      "stage": "아시아 윈터 리그",
+      "stage": "아시아 윈터리그",
       "home": "NPB選抜",
       "away": "台湾山林",
-      "score_home": "3",
-      "score_away": "1",
-      "status": "1회말 진행 중",
-      "venue": "자이시"
+      "score_home": "5",
+      "score_away": "2",
+      "status": "경기 종료",
+      "venue": "가요시"
     }
   ]
 }

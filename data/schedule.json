@@ -200,7 +200,7 @@
           "status": "경기 종료",
           "state": "final",
           "start": "",
-          "venue": "자이시",
+          "venue": "가요시",
           "venue_jp": "嘉義市",
           "series": ""
         }
@@ -220,7 +220,7 @@
           "status": "경기 종료",
           "state": "final",
           "start": "",
-          "venue": "자이시",
+          "venue": "가요시",
           "venue_jp": "嘉義市",
           "series": ""
         }
@@ -240,7 +240,7 @@
           "status": "경기 종료",
           "state": "final",
           "start": "",
-          "venue": "자이시",
+          "venue": "가요시",
           "venue_jp": "嘉義市",
           "series": ""
         }
@@ -261,12 +261,12 @@
           "gid": "2021052164",
           "home": "NPB選抜",
           "away": "台湾山林",
-          "score_home": "3",
-          "score_away": "1",
-          "status": "1회말 진행 중",
-          "state": "live",
+          "score_home": "5",
+          "score_away": "2",
+          "status": "경기 종료",
+          "state": "final",
           "start": "",
-          "venue": "자이시",
+          "venue": "가요시",
           "venue_jp": "嘉義市",
           "series": ""
         }
@@ -306,7 +306,7 @@
           "status": "14:05 시작",
           "state": "pre",
           "start": "14:05",
-          "venue": "자이시",
+          "venue": "가요시",
           "venue_jp": "嘉義市",
           "series": ""
         }
