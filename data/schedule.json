@@ -3,12 +3,6 @@
   "days_fwd": 6,
   "days": [
     {
-      "date": "2026-11-02",
-      "display": "11월 2일 (월)",
-      "is_today": false,
-      "games": []
-    },
-    {
       "date": "2026-11-03",
       "display": "11월 3일 (화)",
       "is_today": false,
@@ -200,7 +194,7 @@
           "status": "경기 종료",
           "state": "final",
           "start": "",
-          "venue": "가요시",
+          "venue": "자이시",
           "venue_jp": "嘉義市",
           "series": ""
         }
@@ -220,7 +214,7 @@
           "status": "경기 종료",
           "state": "final",
           "start": "",
-          "venue": "가요시",
+          "venue": "자이시",
           "venue_jp": "嘉義市",
           "series": ""
         }
@@ -240,7 +234,7 @@
           "status": "경기 종료",
           "state": "final",
           "start": "",
-          "venue": "가요시",
+          "venue": "자이시",
           "venue_jp": "嘉義市",
           "series": ""
         }
@@ -255,7 +249,7 @@
     {
       "date": "2026-11-25",
       "display": "11월 25일 (수)",
-      "is_today": true,
+      "is_today": false,
       "games": [
         {
           "gid": "2021052164",
@@ -266,7 +260,7 @@
           "status": "경기 종료",
           "state": "final",
           "start": "",
-          "venue": "가요시",
+          "venue": "자이시",
           "venue_jp": "嘉義市",
           "series": ""
         }
@@ -275,7 +269,7 @@
     {
       "date": "2026-11-26",
       "display": "11월 26일 (목)",
-      "is_today": false,
+      "is_today": true,
       "games": [
         {
           "gid": "2021052165",
@@ -306,7 +300,7 @@
           "status": "14:05 시작",
           "state": "pre",
           "start": "14:05",
-          "venue": "가요시",
+          "venue": "자이시",
           "venue_jp": "嘉義市",
           "series": ""
         }
@@ -374,6 +368,26 @@
           "start": "13:05",
           "venue": "아시아 태평양",
           "venue_jp": "アジア太平洋",
+          "series": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-12-02",
+      "display": "12월 2일 (수)",
+      "is_today": false,
+      "games": [
+        {
+          "gid": "2021052170",
+          "home": "NPB選抜",
+          "away": "中華民国大学スポーツ総会",
+          "score_home": "",
+          "score_away": "",
+          "status": "13:05 시작",
+          "state": "pre",
+          "start": "13:05",
+          "venue": "자이시",
+          "venue_jp": "嘉義市",
           "series": ""
         }
       ]
