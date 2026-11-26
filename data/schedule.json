@@ -194,7 +194,7 @@
           "status": "경기 종료",
           "state": "final",
           "start": "",
-          "venue": "자이시",
+          "venue": "가요시",
           "venue_jp": "嘉義市",
           "series": ""
         }
@@ -214,7 +214,7 @@
           "status": "경기 종료",
           "state": "final",
           "start": "",
-          "venue": "자이시",
+          "venue": "가요시",
           "venue_jp": "嘉義市",
           "series": ""
         }
@@ -234,7 +234,7 @@
           "status": "경기 종료",
           "state": "final",
           "start": "",
-          "venue": "자이시",
+          "venue": "가요시",
           "venue_jp": "嘉義市",
           "series": ""
         }
@@ -260,7 +260,7 @@
           "status": "경기 종료",
           "state": "final",
           "start": "",
-          "venue": "자이시",
+          "venue": "가요시",
           "venue_jp": "嘉義市",
           "series": ""
         }
@@ -290,21 +290,7 @@
       "date": "2026-11-27",
       "display": "11월 27일 (금)",
       "is_today": false,
-      "games": [
-        {
-          "gid": "2021052166",
-          "home": "台湾海洋",
-          "away": "NPB選抜",
-          "score_home": "",
-          "score_away": "",
-          "status": "14:05 시작",
-          "state": "pre",
-          "start": "14:05",
-          "venue": "자이시",
-          "venue_jp": "嘉義市",
-          "series": ""
-        }
-      ]
+      "games": []
     },
     {
       "date": "2026-11-28",
@@ -386,7 +372,7 @@
           "status": "13:05 시작",
           "state": "pre",
           "start": "13:05",
-          "venue": "자이시",
+          "venue": "가요시",
           "venue_jp": "嘉義市",
           "series": ""
         }
