@@ -281,9 +281,9 @@
       "stage": "아시아 윈터리그",
       "home": "NPB選抜",
       "away": "KBO選抜",
-      "score_home": "",
-      "score_away": "",
-      "status": "선발 예고",
+      "score_home": "0",
+      "score_away": "1",
+      "status": "4회초 진행 중",
       "venue": "아시아 태평양"
     }
   ]
